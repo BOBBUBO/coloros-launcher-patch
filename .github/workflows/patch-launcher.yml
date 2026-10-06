@@ -22,7 +22,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-        with:
           persist-credentials: false
 
       - name: Set up Python (for gh CLI)
