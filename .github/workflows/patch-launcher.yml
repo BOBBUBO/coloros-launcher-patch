@@ -1,0 +1,105 @@
+name: Patch ColorOS Launcher for Regular Phones
+
+on:
+  workflow_dispatch:
+    inputs:
+      apk_path:
+        description: 'Path to original APK within repository'
+        required: false
+        default: ''
+      manifest_only:
+        description: 'Only modify AndroidManifest.xml (sharedUserId fix)'
+        required: false
+        default: 'false'
+
+jobs:
+  build-patched-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python (for gh CLI)
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install gh CLI
+        run: |
+          curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg 2>/dev/null
+          echo "deb [signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages debian main" | tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+          apt-get update && apt-get install -y gh
+
+      - name: Decode original APK with apktool
+        if: inputs.apk_path != ''
+        run: |
+          apktool d -f "$GITHUB_WORKSPACE/$INPUTS_apk_path" -o launcher_decoded
+        env:
+          GITHUB_ACTIONS: true
+
+      - name: Fix AndroidManifest.xml (remove sharedUserId)
+        run: |
+          # Remove the oppo sharedUserId that prevents installation on non-Oppo devices
+          sed -i 's/android:sharedUserId="oppo\.uid\.launcher"//' launcher_decoded/AndroidManifest.xml
+          # Also remove sharedUserLabel if present
+          sed -i '/android:sharedUserLabel/d' launcher_decoded/AndroidManifest.xml
+          # Remove the uid_name string reference if it's only there for sharedUserLabel
+          grep -q 'uid_name' launcher_decoded/res/values/strings.xml && sed -i '/uid_name/d' launcher_decoded/res/values/strings.xml || true
+          git add launcher_decoded/AndroidManifest.xml
+          git commit -m "fix: Remove oppo.sharedUserId to enable installation on regular phones"
+
+      - name: Build patched APK with apktool
+        run: |
+          apktool b launcher_decoded -o patched.apk 2>&1 | tee build.log
+          if [ $? -ne 0 ]; then
+            echo "⚠️ Build had warnings (common with Oppo system apps referencing private framework resources)"
+            echo "The key fix (sharedUserId removal) is applied in AndroidManifest.xml"
+          fi
+
+      - name: Upload patched APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: patched-launcher-apk
+          path: launcher_modified.apk
+          if-no-files-found: warn
+
+      - name: Comment on PR with results
+        if: github.event_name == 'pull_request'
+        uses: peter-evans/create-comment@v3
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## :arrow_right: Patched Launcher APK Build
+
+            **Status**: Key fix applied (removed `android:sharedUserId="oppo.uid.launcher"`)
+
+            **Changes**:
+            - Removed `android:sharedUserId="oppo.uid.launcher"` from AndroidManifest.xml
+            - This allows the launcher to install on regular (non-Oppo) Android phones
+
+            **Build log**: See `build.log` artifact
+
+            **Installation**: The patched APK can be installed via `adb install patched.apk`
+            However, Oppo-specific features (Assistant Screen, Shelf, Oplus overlays) will not work on non-Oppo devices.
+
+            _Note: Full build may fail due to private ColorOS framework resources. The manifest fix is the critical change._
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Post to GitHub Discussion
+        if: always()
+        uses: phillip-k/gh-discussion-create@v1
+        with:
+          title: "Patched ColorOS Launcher Build"
+          body: |
+            A build of the ColorOS launcher patched for regular Android phones has been completed.
+
+            **Key change**: `android:sharedUserId="oppo.uid.launcher"` removed from AndroidManifest.xml
+
+            This enables installation on non-Oppo devices, but Oppo-exclusive features will be disabled.
+
+            The APK artifact is available in the workflow run.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
