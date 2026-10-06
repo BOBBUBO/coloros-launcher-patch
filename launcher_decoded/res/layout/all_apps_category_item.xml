@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.OplusCategoryLayout android:orientation="vertical" android:id="@id/category_layout" android:paddingTop="@dimen/category_folder_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.allapps.OplusCategoryIconContainer android:id="@id/category" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" launcher:iconType="category" />
+    <com.android.launcher3.OplusBubbleTextView android:textColor="@color/launcher_all_apps_divider_title_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/category_title" android:padding="@dimen/category_fold_title_margin_top" android:focusable="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.android.launcher3.allapps.OplusCategoryLayout>

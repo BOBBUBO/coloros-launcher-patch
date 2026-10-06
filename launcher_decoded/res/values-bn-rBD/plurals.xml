@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d টির বেশি একইরকম উইজেড যোগ করা যাবে না</item>
+        <item quantity="other">%1$d টির বেশি একইরকম উইজেড যোগ করা যাবে না</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%2$d-এর %1$d পেজ</item>
+        <item quantity="other">%2$d-এর %1$d পেজ</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">এই অ্যাপটি হোম স্ক্রিন থেকে চলে যাবে তবে অ্যাপ ড্রয়ারে রাখা থাকবে।</item>
+        <item quantity="other">নির্বাচিত অ্যাপগুলি হোম স্ক্রিন থেকে চলে যাবে তবে অ্যাপ ড্রয়ারে রাখা থাকবে।</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%dটি অ্যাপকে সরিয়ে ফেলবেন?</item>
+        <item quantity="other">%dটি অ্যাপকে সরিয়ে ফেলবেন?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">নির্বাচিত অ্যাপগুলো হোম স্ক্রিন থেকে চলে যাবে তবে অ্যাপ ড্রয়ারে রাখা থাকবে। নির্বাচিত শর্টকাটগুলো সরিয়ে ফেলা হবে।</item>
+        <item quantity="other">নির্বাচিত অ্যাপগুলো হোম স্ক্রিন থেকে চলে যাবে তবে অ্যাপ ড্রয়ারে রাখা থাকবে। নির্বাচিত শর্টকাটগুলো সরিয়ে ফেলা হবে।</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">নির্বাচিত %dটি অ্যাপ বা শর্টকাট সরিয়ে ফেলবেন?</item>
+        <item quantity="other">নির্বাচিত %dটি অ্যাপ বা শর্টকাট সরিয়ে ফেলবেন?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">নিচের %1$d টি শর্টকাট সরিয়ে ফেলবেন?</item>
+        <item quantity="other">নিচের %1$d টি শর্টকাট সরিয়ে ফেলবেন?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d টি শর্টকাট সরিয়ে ফেলুন</item>
+        <item quantity="other">%1$d টি শর্টকাট সরিয়ে ফেলুন</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d টি নির্বাচিত হয়েছে</item>
+        <item quantity="other">%1$d টি নির্বাচিত হয়েছে</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d দিন</item>
+        <item quantity="other">%1$d দিন</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d নতুন নোটিফিকেশন</item>
+        <item quantity="other">%d নতুন নোটিফিকেশন</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$dটি কলাম</item>
+        <item quantity="other">%1$dটি কলাম</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">নিচের %1$d টি অ্যাপ আনইনস্টল করবেন?</item>
+        <item quantity="other">নিচের %1$d টি অ্যাপ আনইনস্টল করবেন?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d টি অ্যাপ (এর ক্লোনসহ) আনইনস্টল করুন এবং এর ডাটা পরিষ্কার করুন।</item>
+        <item quantity="other">%1$d টি অ্যাপ (সেগুলোর ক্লোনসহ) আনইনস্টল করুন এবং সেগুলোর ডাটা পরিষ্কার করুন।</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d টি অ্যাপ আনইনস্টল করুন এবং এর ডাটা পরিষ্কার করুন।</item>
+        <item quantity="other">%1$d টি অ্যাপ আনইনস্টল করুন এবং সেগুলোর ডাটা পরিষ্কার করুন।</item>
+    </plurals>
+</resources>

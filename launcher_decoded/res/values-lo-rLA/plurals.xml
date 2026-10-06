@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="other">ສາມາດເພີ່ມໄດ້ບໍ່ເກີນ %1$d ວິດເຈັດທີ່ເໝືອນກັນ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">ໜ້າທີ %1$d ຈາກ %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="other">ແອັບທີ່​ເລືອກ​ໄວ້​ຈະ​ຫາຍ​ໄປ​ຈາກໜ້າຈໍຫຼັກ ແຕ່​ຈະ​ຖືກ​ເກັບ​ໄວ້​ໃນແຖບແອັບ.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="other">ເອົາ​ %d ແອັບອອກບໍ?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="other">ແອັບທີ່​ເລືອກ​ໄວ້​ຈະ​ຫາຍ​ໄປ​ຈາກໜ້າຈໍຫຼັກ ແຕ່​ຈະ​ຖືກ​ເກັບ​ໄວ້​ໃນແຖບແອັບ. ທາງ​ລັດ​ທີ່​ເລືອກ​ໄວ້ຈະ​ຖືກ​ເອົາ​ອອກ.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="other">ເອົາ %d ແອັບ ຫຼື ທາງລັດທີ່​ເລືອກ​ໄວ້ອອກບໍ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="other">ເອົາ %1$d ທາງລັດລຸ່ມນີ້ອອກບໍ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="other">​ລຶບ %1$d ທາງລັດ​ອອກ</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="other">ເລືອກແລ້ວ %1$d ລາຍການ</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="other">%1$d ມື້</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d ການແຈ້ງເຕືອນໃໝ່</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="other">%1$d ຖັນ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="other">ຖອນຕິດຕັ້ງ %1$d ແອັບລຸ່ມນີ້ບໍ?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="other">ຖອນ​ຕິດ​ຕັ້ງ %1$d ​ແອັບ (ລວມ​ທັງ ການ​ສຳ​ເນົາ​ຂອງ​ພວກ​ມັນ) ແລະ ລຶບ​ຂໍ້​ມູນ​ຂອງ​ພວກ​ມັນ.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="other">​ຖອນ​ຕິດ​ຕັ້ງ %1$d ແອັບ ແລະ ລຶບລ້າງຂໍ້​ມູນ​ຂອງ​ພວກມັນ.</item>
+    </plurals>
+</resources>

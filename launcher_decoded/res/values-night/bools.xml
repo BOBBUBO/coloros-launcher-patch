@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="is_navigation_night">true</bool>
+    <bool name="is_status_white">true</bool>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app-config>
+    <app-info className="com.heytap.market.activity.MainActivity" enable="true" packageName="com.heytap.market" priority="1" uri="content://com.heytap.market.DesktopCardProvider" />
+</app-config>

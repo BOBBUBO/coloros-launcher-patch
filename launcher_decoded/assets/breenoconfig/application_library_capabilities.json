@@ -1,0 +1,136 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001223",
+      "key": "com.android.launcher.open_taskbar_application_library",
+      "packageName": "com.android.launcher",
+      "name": "打开任务栏应用库",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "应用库"
+      ],
+      "description": "应用库属于开关类设置项，主要功能是是在任务栏增加应用库更加方便用户查找应用。打开任务栏应用库是应用库设置项的一个具体操作指令，主要用于功能开启时会在任务栏增加应用库图标，应用库里会显示全部的系统应用。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "application_library_enable",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "1"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开应用库开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开应用库开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001225",
+      "key": "com.android.launcher.close_taskbar_application_library",
+      "packageName": "com.android.launcher",
+      "name": "关闭任务栏应用库",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "应用库"
+      ],
+      "description": "应用库属于开关类设置项，主要功能是在任务栏关闭应用库开关。关闭任务栏应用库是应用库设置项的一个具体操作指令，主要用于功能关闭时将不会在任务栏增加应用库图标。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "application_library_enable",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "2"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你关闭应用库开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你关闭应用库开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001226",
+      "key": "com.android.launcher.set_taskbar_application_library",
+      "packageName": "com.android.launcher",
+      "name": "设置任务栏应用库",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "应用库"
+      ],
+      "description": "应用库属于页面类设置项，主要功能是在任务栏增加应用库更加方便用户查找应用。设置任务栏应用库是应用库设置项的一个具体操作指令，主要用于帮助用户打开或者关闭任务栏的应用库功能。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "application_library_enable",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "3"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开应用库设置项。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开应用库设置项。"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

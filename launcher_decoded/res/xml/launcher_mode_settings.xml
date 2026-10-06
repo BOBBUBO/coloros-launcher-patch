@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:enabled="true" android:key="category_launcher_mode_introduction" app:isFirstCategory="true">
+        <com.android.launcher.settings.LauncherModelIntroductionPreference android:persistent="false" android:key="key_launcher_mode_introduction" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="category_launcher_mode_standard_selector" app:isFirstCategory="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="category_launcher_mode_selector" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="false" android:title="@string/add_app_to_launcher" android:key="add_app_to_launcher" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="false" android:title="@string/drawer_app_global_search" android:key="drawer_app_global_search" android:summary="@string/drawer_app_global_search_tips_new" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="false" android:title="@string/launcher_is_show_indicated_app" android:key="launcher_is_show_indicated_app" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="false" android:title="@string/drawer_default_page_title" android:key="key_drawer_default_page" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="false" android:title="@string/drawer_layout" android:key="key_drawer_column_switch" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="false" android:title="@string/drawer_show_app_name" android:key="key_drawer_show_app_name" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

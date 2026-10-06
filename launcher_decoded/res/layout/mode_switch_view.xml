@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.scrollview.COUIScrollView android:fadingEdgeLength="@dimen/coui_full_page_statement_scroll_fade_length" android:layout_width="match_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:coui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/coordinator" android:background="?android:listChoiceBackgroundIndicator" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:textColor="@color/coui_color_label_primary" android:gravity="center" android:id="@id/guide_dialog_title" android:paddingTop="24.0dp" android:paddingBottom="6.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/flexible_task_dialog_title" android:layout_alignParentTop="true" android:paddingHorizontal="24.0dp" android:textFontWeight="500" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/coui_color_label_secondary" android:gravity="center_horizontal" android:id="@id/guide_dialog_description" android:paddingBottom="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/flexible_task_dialog_summary" android:paddingHorizontal="48.0dp" android:textFontWeight="400" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/anim_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dp">
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_vertical" android:id="@id/button_mode_anim" android:layout_width="0.0dp" android:layout_height="240.0dp" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="@null" android:layout_marginStart="24.0dp" android:forceDarkAllowed="false" />
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_vertical" android:id="@id/gesture_mode_anim" android:layout_width="0.0dp" android:layout_height="240.0dp" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="@null" android:layout_marginEnd="24.0dp" android:forceDarkAllowed="false" />
+        </LinearLayout>
+        <RadioGroup android:orientation="horizontal" android:id="@id/mode_switch_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dp">
+            <RadioButton android:textColor="@drawable/color_radio_button" android:gravity="center" android:id="@id/button_mode_btn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:checked="false" android:button="@null" android:text="@string/flexible_task_button_mode" android:drawableBottom="@drawable/coui_btn_radio" android:layout_weight="1.0" android:layout_marginStart="24.0dp" />
+            <RadioButton android:textColor="@drawable/color_radio_button" android:gravity="center" android:id="@id/gesture_mode_btn" android:layout_width="0.0dp" android:layout_height="wrap_content" android:checked="true" android:button="@null" android:text="@string/flexible_task_gesture_mode" android:drawableBottom="@drawable/coui_btn_radio" android:layout_weight="1.0" android:layout_marginEnd="24.0dp" />
+        </RadioGroup>
+    </LinearLayout>
+</com.coui.appcompat.scrollview.COUIScrollView>

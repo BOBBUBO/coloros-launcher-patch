@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="other">មិនអាចបញ្ចូលធាតុក្រាហ្វិកដូចគ្នាច្រើនជាង %1$d បានទេ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">ទំព័រទី %1$d នៃ %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="other">កម្មវិធីដែលបានជ្រើសរើសនឹងបាត់ពីអេក្រង់ដើម ប៉ុន្តែនឹងត្រូវបានរក្សាទុកនៅក្នុងថតកម្មវិធី។</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="other">លុបកម្មវិធី %d ឬ?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="other">កម្មវិធីដែលបានជ្រើសរើសនឹងបាត់ពីអេក្រង់ដើម ប៉ុន្តែនឹងត្រូវបានរក្សាទុកនៅក្នុងថតកម្មវិធី។ ផ្លូវកាត់ដែលបានជ្រើសរើសនឹងត្រូវបានលុប។</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="other">លុបផ្លូវកាត់ ឬកម្មវិធីដែលបានជ្រើសរើស %d ឬ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="other">លុបផ្លូវកាត់ %1$d ខាងក្រោមឬ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="other">លុបផ្លូវកាត់ %1$d</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="other">បានជ្រើសរើស %1$d</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="other">%1$d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">ការជូនដំណឹងថ្មីៗ %d</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="other">ជួរឈរ %1$d</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="other">លុបកម្មវិធី %1$d ខាងក្រោមឬ?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="other">លុបកម្មវិធី %1$d (រួមទាំងការក្លូន​របស់វា) និងសម្អាតទិន្នន័យរបស់វា។</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="other">លុបកម្មវិធី %1$d និងសម្អាតទិន្នន័យរបស់វា។</item>
+    </plurals>
+</resources>

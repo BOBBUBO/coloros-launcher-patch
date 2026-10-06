@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d ଠାରୁ ଅଧିକ ସମାନ ୱିଗେଟ୍ ଯୋଗ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+        <item quantity="other">%1$d ଠାରୁ ଅଧିକ ସମାନ ୱିଗେଟ୍ ଯୋଗ କରାଯାଇ ପାରିବ ନାହିଁ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">ପୃଷ୍ଠା %2$d ର %1$d</item>
+        <item quantity="other">ପୃଷ୍ଠା %2$d ର %1$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">ଏହି ଆପ୍ ଟି ହୋମ୍ ସ୍କ୍ରିନ୍ ରୁ ଅଦୃଶ୍ୟ ହୋଇଯିବ କିନ୍ତୁ ଆପ୍ ଡ୍ରୟର୍ ରେ ରଖାଯିବ।</item>
+        <item quantity="other">ଚୟନିତ ଆପ୍ ଗୁଡ଼ିକ ହୋମ୍ ସ୍କ୍ରିନ୍ ରୁ ଅଦୃଶ୍ୟ ହୋଇଯିବ କିନ୍ତୁ ଆପ୍ ଡ୍ରୟର୍ ରେ ରଖାଯିବ।</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d ଆପ୍ ଅପସାରଣ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଆପ୍ ଅପସାରଣ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">ଚୟନିତ ଆପ୍ ଗୁଡ଼ିକ ହୋମ୍ ସ୍କ୍ରିନ୍ ରୁ ଅଦୃଶ୍ୟ ହୋଇଯିବ କିନ୍ତୁ ଆପ୍ ଡ୍ରୟର୍ ରେ ରଖାଯିବ। ଚୟନିତ ସର୍ଟକଟ୍ ଗୁଡ଼ିକ ଅପସାରଣ କରାହୋଇଯିବ।</item>
+        <item quantity="other">ଚୟନିତ ଆପ୍ ଗୁଡ଼ିକ ହୋମ୍ ସ୍କ୍ରିନ୍ ରୁ ଅଦୃଶ୍ୟ ହୋଇଯିବ କିନ୍ତୁ ଆପ୍ ଡ୍ରୟର୍ ରେ ରଖାଯିବ। ଚୟନିତ ସର୍ଟକଟ୍ ଗୁଡ଼ିକ ଅପସାରଣ କରାହୋଇଯିବ।</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d ଚୟନିତ ଆପ୍‌ କିମ୍ୱା ସର୍ଟକଟ୍ ଅପସାରଣ କରିବେ କି?</item>
+        <item quantity="other">%d ଟା ଚୟନିତ ଆପ୍‌ କିମ୍ୱା ସର୍ଟକଟ୍ ଅପସାରଣ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">ନିମ୍ନରୁ %1$d ସର୍ଟକଟ୍ ଅପସାରଣ କରିବେ କି?</item>
+        <item quantity="other">ନିମ୍ନରୁ %1$d ଟା ସର୍ଟକଟ୍ ଅପସାରଣ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d ସର୍ଟକଟ୍ ଅପସାରଣ କରନ୍ତୁ</item>
+        <item quantity="other">%1$d ଟା ସର୍ଟକଟ୍ ଅପସାରଣ କରନ୍ତୁ</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d ଚୟନିତ</item>
+        <item quantity="other">%1$d ଟା ଚୟନିତ</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d ଦିନ</item>
+        <item quantity="other">%1$d ଦିନ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ନୂତନ ବିଜ୍ଞପ୍ତି</item>
+        <item quantity="other">%d ନୂତନ ବିଜ୍ଞପ୍ତିଗୁଡ଼ିକ</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d ସ୍ତମ୍ଭ</item>
+        <item quantity="other">%1$d ଟା ସ୍ତମ୍ଭ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">ନିମ୍ନରୁ %1$d ଆପ୍ ଟି ଅଣସଂସ୍ଥାପିତ କରିବେ କି?</item>
+        <item quantity="other">ନିମ୍ନରୁ %1$d ଟା ଆପ୍ ଅଣସଂସ୍ଥାପିତ କରିବେ କି?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d ଆପ୍ (ଏହାର କ୍ଲୋନ୍ ଅନ୍ତର୍ଭୂକ୍ତ କରି) ଅଣସଂସ୍ଥାପିତ କରନ୍ତୁ ଏବଂ ଏହାର ଡାଟା ଖାଲି କରନ୍ତୁ।</item>
+        <item quantity="other">%1$d ଟା ଆପ୍ ଅଣସଂସ୍ଥାପିତ କରନ୍ତୁ (ତାଙ୍କର କ୍ଲୋନ୍ ଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରି) ଏବଂ ତାଙ୍କର ଡାଟା ଖାଲି କରନ୍ତୁ।</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d ଆପ୍ ଅଣସଂସ୍ଥାପିତ କରନ୍ତୁ ଏବଂ ତାହାର ଡାଟା ଖାଲି କରନ୍ତୁ।</item>
+        <item quantity="other">%1$d ଟା ଆପ୍ ଅଣସଂସ୍ଥାପିତ କରନ୍ତୁ ଏବଂ ତାଙ୍କର ଡାଟା ଖାଲି କରନ୍ତୁ।</item>
+    </plurals>
+</resources>

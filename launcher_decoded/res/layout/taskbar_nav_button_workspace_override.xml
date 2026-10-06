@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.taskbar.navbar.NavBarImageView android:background="@drawable/taskbar_icon_click_feedback_roundrect" android:layout_width="@dimen/taskbar_nav_workspace_buttons_width" android:layout_height="@dimen/taskbar_nav_buttons_height" android:scaleType="center"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,84 @@
+{
+  "version": "2025070500",
+  "enabled": true,
+  "newtasklist": ["com.tencent.mm","com.eg.android.AlipayGphone"],
+  "whitelist": [
+    {
+      "packageName": "com.tencent.mm",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.ss.android.ugc.aweme",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.eg.android.AlipayGphone",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.autonavi.minimap",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.sankuai.meituan",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.android.settings",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.coloros.weather2",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.heytap.market",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.heytap.browser",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.oplus.camera",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.coloros.gallery3d",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.coloros.alarmclock",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.coloros.filemanager",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.coloros.calendar",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    },
+
+    {
+      "packageName": "com.coloros.note",
+      "shortcutIds": ["shortcut1", "shortcut2", "shortcut3"]
+    }
+  ],
+  "blacklist": [
+
+  ]
+}

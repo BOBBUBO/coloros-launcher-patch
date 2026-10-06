@@ -1,0 +1,136 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001288",
+      "key": "com.android.launcher.open_taskbar_recent_and_suggest_apps",
+      "packageName": "com.android.launcher",
+      "name": "打开任务栏最近和建议应用",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "最近和建议应用"
+      ],
+      "description": "最近和建议应用属于开关类设置项，主要功能是在任务栏增加显示最近使用和推荐的应用，方便用户可以通过任务栏快速打开最近使用或者想要使用的应用。打开任务栏最近和建议应用是最近和建议应用设置项的一个具体操作指令，主要用于功能打开后会在任务栏的显示最近使用和建议的应用。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_expand_enable",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "1"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你在任务栏打开最近和建议应用。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你在任务栏打开最近和建议应用。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001290",
+      "key": "com.android.launcher.close_taskbar_recent_and_suggest_apps",
+      "packageName": "com.android.launcher",
+      "name": "关闭任务栏最近和建议应用",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "最近和建议应用"
+      ],
+      "description": "最近和建议应用属于开关类设置项，主要功能是在任务栏增加显示最近使用和推荐的应用。关闭任务栏最近和建议应用是最近和建议应用设置项的一个具体操作指令，主要用于关闭该功能在任务栏不再显示最近使用和建议的应用。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_expand_enable",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "2"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你在任务栏关闭最近和建议应用。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你在任务栏关闭最近和建议应用。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001291",
+      "key": "com.android.launcher.set_taskbar_recent_and_suggest_apps",
+      "packageName": "com.android.launcher",
+      "name": "设置任务栏设最近和建议应用",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "最近和建议应用"
+      ],
+      "description": "最近和建议应用属于页面类设置项，主要功能是在任务栏增加显示最近使用和推荐的应用。设置任务栏设最近和建议应用是最近和建议应用设置项的一个具体操作指令，主要用于方便用户可以通过任务栏快速打开最近使用或者想要使用的应用。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_expand_enable",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "3"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开最近和建议应用设置项。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开最近和建议应用设置项。"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

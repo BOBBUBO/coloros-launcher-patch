@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>2019073018</version>
+    <isOpen>1</isOpen>
+    <filter-name>launcher_list_for_forbidden_deep_shortcut</filter-name>
+</filter-conf>

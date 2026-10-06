@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="other">နောက်ထပ် ဝစ်ဂျက်များ %1$d ထက်ပိုပြီး ထည့်၍မရတော့ပါ။</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">စာမျက်နှာ %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="other">ရွေးချယ်ထားသော အက်ပ်သည် ပင်မစခရင်မှ ပျောက်သွားသော်လည်း ၎င်းတို့ကို အက်ပ်အံဆွဲထဲတွင် ဆက်သိမ်းထားပါမည်။</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="other">အက်ပ် %d ခုကို ဖယ်ရှားမလား။</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="other">ရွေးချယ်ထားသော အက်ပ်များက ပင်မစခရင်မှ ပျောက်သွားသော်လည်း ၎င်းတို့ကို အက်ပ်အံဆွဲထဲတွင် ဆက်သိမ်းထားပါမည်။ ရွေးချယ်ထားသော ရှော့ကတ်များကို ဖယ်ရှားပစ်ပါမည်။</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="other">ရွေးချယ်ထားသည့် အက်ပ်/ရှော့ကတ် %d ခုကို ဖယ်ရှားမလား။</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="other">အောက်ပါ ရှော့ကတ် %1$d ခုကို ဖယ်ရှားမလား။</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="other">ရှော့ကတ် %1$d ခုကို ဖယ်ရှားရန်</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="other">%1$d ဦးရွေးထား</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="other">%1$d ရက်</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">အသိပေးချက်အသစ် %d ခု</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="other">ကော်လံ %1$d ခု</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="other">အောက်ပါ အက်ပ် %1$d ခုကို ဖြုတ်ချမလား။</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="other">အက်ပ် %1$d ခု (၎င်းတို့၏ ကလုန်းများ အပါအဝင်) ကို ဖြုတ်ချပြီး ၎င်းတို့၏ ဒေတာကို ရှင်းလင်းပါ။</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="other">အက်ပ် %1$d ခုကို ဖြုတ်ချ၍ ၎င်း၏ ဒေတာကို ရှင်းလင်းပါ။</item>
+    </plurals>
+</resources>

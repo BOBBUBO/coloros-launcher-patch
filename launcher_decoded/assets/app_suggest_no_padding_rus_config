@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- assets中新增业务，该版本号不能更新，正式推送时，该版本号需要增加 -->
+    <version>20260115</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_suggest_no_padding_rus_config</filter-name>
+
+    <!--
+    用途：该配置文件用于应用建议卡无边框功能的RUS能力配置
+    字段描述：config-list定义功能配置组，config为该功能的一个配置项，支持文本，数字
+    使用方法：assets中该文件——>可包含默认配置信息，后续新增业务后version不能变，避免高版本的默认配置把之前低版本的正式推送覆盖掉
+    正式推送时该文件——>只能包含跟推送目的相关的配置信息，需删除其他配置信息，这样推送时才不会覆盖掉其他配置
+    -->
+
+    <config-list name="launcher_app_suggest_no_padding_config">
+        <!-- 
+        配置值说明：
+        -1: 默认值（未配置过），认为开启状态
+        0: 关闭无边框功能
+        1: 开启无边框功能
+        -->
+        <config name="launcher_app_suggest_no_padding_enable">-1</config>
+    </config-list>
+</filter-conf>

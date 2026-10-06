@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.popup.pendingcard.PendingCardView android:theme="@style/PopupItem" android:id="@id/card_shortcut_view" android:background="@color/pending_card_transparent_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:forceDarkAllowed="false" android:clipToOutline="true" app:couiBorderRadius="@dimen/coui_round_corner_xl" app:couiHasBorder="false" app:couiType="round" />
+</com.android.launcher3.popup.pendingcard.PendingCardView>

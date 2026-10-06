@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="6.0dp" android:width="@dimen/deep_shortcut_icon_text_width" android:viewportWidth="237.0" android:viewportHeight="6.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0 0H237V6H0V0Z" />
+        <path android:fillColor="@color/coui_color_divider" android:pathData="M0 0V6H237V0" />
+    </group>
+</vector>

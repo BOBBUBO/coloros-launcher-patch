@@ -1,0 +1,165 @@
+.class public final Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;
+.super Lcom/google/protobuf/GeneratedMessageLite$Builder;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/android/launcher3/tracing/OverviewComponentObserverProtoOrBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/protobuf/GeneratedMessageLite$Builder<",
+        "Lcom/android/launcher3/tracing/OverviewComponentObserverProto;",
+        "Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;",
+        ">;",
+        "Lcom/android/launcher3/tracing/OverviewComponentObserverProtoOrBuilder;"
+    }
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 1
+
+    .line 2
+    invoke-static {}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->e()Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;-><init>(Lcom/google/protobuf/GeneratedMessageLite;)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public clearOverviewActivityResumed()Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-static {v0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->a(Lcom/android/launcher3/tracing/OverviewComponentObserverProto;)V
+
+    return-object p0
+.end method
+
+.method public clearOverviewActivityStarted()Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-static {v0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->b(Lcom/android/launcher3/tracing/OverviewComponentObserverProto;)V
+
+    return-object p0
+.end method
+
+.method public getOverviewActivityResumed()Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast p0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-virtual {p0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->getOverviewActivityResumed()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public getOverviewActivityStarted()Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast p0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-virtual {p0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->getOverviewActivityStarted()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public hasOverviewActivityResumed()Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast p0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-virtual {p0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->hasOverviewActivityResumed()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public hasOverviewActivityStarted()Z
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast p0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-virtual {p0}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->hasOverviewActivityStarted()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public setOverviewActivityResumed(Z)Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-static {v0, p1}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->c(Lcom/android/launcher3/tracing/OverviewComponentObserverProto;Z)V
+
+    return-object p0
+.end method
+
+.method public setOverviewActivityStarted(Z)Lcom/android/launcher3/tracing/OverviewComponentObserverProto$Builder;
+    .locals 1
+
+    invoke-virtual {p0}, Lcom/google/protobuf/GeneratedMessageLite$Builder;->copyOnWrite()V
+
+    iget-object v0, p0, Lcom/google/protobuf/GeneratedMessageLite$Builder;->instance:Lcom/google/protobuf/GeneratedMessageLite;
+
+    check-cast v0, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;
+
+    invoke-static {v0, p1}, Lcom/android/launcher3/tracing/OverviewComponentObserverProto;->d(Lcom/android/launcher3/tracing/OverviewComponentObserverProto;Z)V
+
+    return-object p0
+.end method

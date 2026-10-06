@@ -1,0 +1,34 @@
+.class Lcom/android/launcher3/graphics/LauncherPreviewRenderer$3;
+.super Lcom/android/launcher3/widget/NavigableAppWidgetHostView;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/android/launcher3/graphics/LauncherPreviewRenderer;->inflateAndAddWidgets(Lcom/android/launcher3/model/data/LauncherAppWidgetInfo;Lcom/android/launcher3/widget/LauncherAppWidgetProviderInfo;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/launcher3/graphics/LauncherPreviewRenderer;Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0, p2}, Lcom/android/launcher3/widget/NavigableAppWidgetHostView;-><init>(Landroid/content/Context;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public shouldAllowDirectClick()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method

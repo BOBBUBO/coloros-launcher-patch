@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.OplusDropTargetBar android:layout_gravity="center_horizontal" android:background="@color/drop_bar_transparent" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/cancel_bar_height" android:alpha="0.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher.OplusDeleteDropTarget android:textSize="@dimen/dp_12" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/delete_target_text" android:paddingTop="@dimen/cancel_bar_padding_top" android:layout_width="wrap_content" android:layout_height="match_parent" android:drawableTop="@drawable/grop_point" android:drawablePadding="0.0dp" />
+</com.android.launcher.OplusDropTargetBar>

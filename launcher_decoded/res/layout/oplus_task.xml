@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.OplusStackTaskView android:focusable="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.quickstep.views.FakeTaskIconView android:id="@id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/oplus_task_header_override" />
+    <com.android.quickstep.views.OplusTaskThumbnailViewImpl android:id="@id/snapshot" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/color_task_thumbnail_top_margin" android:forceDarkAllowed="false" />
+    <ImageButton android:id="@id/oplus_task_header_menu_button_stack" android:background="@null" android:visibility="gone" android:layout_width="@dimen/color_task_header_menu_icon_size_stack_width" android:layout_height="@dimen/color_task_header_menu_icon_size_stack" android:layout_marginTop="@dimen/color_task_thumbnail_top_margin" android:src="@drawable/oplus_task_stack_pop_menu_default_icon" android:scaleType="center" android:contentDescription="@string/oplus_talkback_more" />
+</com.android.quickstep.views.OplusStackTaskView>

@@ -1,0 +1,18 @@
+{
+  "identifier": {
+    "url": "com.android.launcher.536877874",
+    "id": "536877874",
+    "type": "apk",
+    "name": "通过长按隐藏或显示任务栏",
+    "version": "1.0.2",
+    "versionCode": 1000002,
+    "description": "我是一个APK软件包，提供不可见的服务。包含通过长按隐藏或显示任务栏的能力，适用于语音类的入口。"
+  },
+  "intent": {},
+  "runtime": {
+    "type": "background"
+  },
+  "meta-data": {
+    "capabilities": "breenoconfig/long_press_set_taksbar_display_or_hide_capabilities.json"
+  }
+}

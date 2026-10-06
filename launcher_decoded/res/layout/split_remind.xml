@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/layout_inner" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/left_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" android:layout_marginStart="16.0dp" />
+        <View android:id="@id/divider" android:background="@drawable/split_remind_divider" android:layout_width="1.0dp" android:layout_height="12.0dp" android:layout_marginStart="4.0dp" android:layout_marginEnd="4.0dp" />
+        <ImageView android:id="@id/right_icon" android:layout_width="20.0dp" android:layout_height="20.0dp" />
+        <TextView android:textAppearance="?couiTextButtonM" android:textColor="?couiColorLabelPrimary" android:id="@id/remind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginBottom="12.0dp" android:text="@string/caption_menu_text_split" android:layout_marginStart="8.0dp" android:layout_marginEnd="16.0dp" />
+    </LinearLayout>
+</LinearLayout>

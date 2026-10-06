@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/guide_dialog_animate" android:layout_width="328.0dp" android:layout_height="263.0dp" android:layout_marginTop="24.0dp" android:layout_marginBottom="24.0dp" android:scaleType="centerInside" android:contentDescription="@null" android:forceDarkAllowed="false" />
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+        <TextView android:textAppearance="?couiTextAppearanceHeadline6" android:textColor="?couiColorPrimaryNeutral" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/split_screen_finger_guide_dialog_title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dp" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp">
+        <TextView android:textAppearance="?couiTextAppearanceDescription" android:textColor="?couiColorSecondNeutral" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/split_screen_finger_guide_dialog_text" />
+    </LinearLayout>
+    <com.coui.appcompat.button.COUIButton android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/guide_dialog_button" android:layout_width="220.0dp" android:layout_height="wrap_content" android:layout_marginTop="52.0dp" android:layout_marginBottom="24.0dp" android:text="@string/split_screen_finger_guide_dialog_button_confirm_text" style="?couiButtonColorfulDefaultStyle" />
+</LinearLayout>

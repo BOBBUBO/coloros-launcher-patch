@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/dp_19" />
+    <solid android:color="@color/hotseat_bg_color_bright" />
+    <stroke android:width="@dimen/hotseat_bg_stroke_width" android:color="@color/hotseat_bg_stroke_color" />
+    <smooth-weight android:gradientRadius="@dimen/radius_weight" />
+</shape>

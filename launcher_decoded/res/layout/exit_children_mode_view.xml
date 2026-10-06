@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/exit_children_mode_text_size" android:textColor="@color/exit_children_mode_text_color" android:gravity="center|bottom" android:layout_gravity="center|bottom" android:id="@id/exit_children_mode" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/exit_children_mode_height" android:text="@string/exit_children_mode" android:drawableTop="@drawable/ic_exit_children_mode_btn" android:drawablePadding="@dimen/exit_children_mode_text_margin_top" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

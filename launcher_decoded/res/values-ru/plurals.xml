@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d дн. назад</item>
+        <item quantity="few">%d дн. назад</item>
+        <item quantity="many">%d дн. назад</item>
+        <item quantity="other">%d дн. назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d мин. назад</item>
+        <item quantity="few">%d мин. назад</item>
+        <item quantity="many">%d мин. назад</item>
+        <item quantity="other">%d мин. назад</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d г. назад</item>
+        <item quantity="few">%d г. назад</item>
+        <item quantity="many">%d лет назад</item>
+        <item quantity="other">%d г. назад</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Можно добавить не более %1$d идентичного виджета</item>
+        <item quantity="few">Можно добавить не более %1$d идентичных виджетов</item>
+        <item quantity="many">Можно добавить не более %1$d идентичных виджетов</item>
+        <item quantity="other">Можно добавить не более %1$d идентичных виджетов</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Стр. %1$d из %2$d</item>
+        <item quantity="few">Стр. %1$d из %2$d</item>
+        <item quantity="many">Стр. %1$d из %2$d</item>
+        <item quantity="other">Стр. %1$d из %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Выбранное приложение будет удалено с главного экрана, однако останется в панели приложений.</item>
+        <item quantity="few">Выбранные приложения будут удалены с главного экрана, однако останутся в панели приложений.</item>
+        <item quantity="many">Выбранные приложения будут удалены с главного экрана, однако останутся в панели приложений.</item>
+        <item quantity="other">Выбранные приложения будут удалены с главного экрана, однако останутся в панели приложений.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Удалить %d приложение?</item>
+        <item quantity="few">Удалить %d приложения?</item>
+        <item quantity="many">Удалить %d приложений?</item>
+        <item quantity="other">Удалить %d приложения?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Выбранные приложения будут удалены с главного экрана, однако останутся в панели приложений. Выбранные ярлыки будут удалены.</item>
+        <item quantity="few">Приложения не будут отображаться на главном экране, однако останутся в панели приложений. Ярлыки будут удалены.</item>
+        <item quantity="many">Приложения не будут отображаться на главном экране, однако останутся в панели приложений. Ярлыки будут удалены.</item>
+        <item quantity="other">Выбранные приложения будут удалены с главного экрана, однако останутся в панели приложений. Выбранные ярлыки будут удалены.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Удалить %d выбранное приложение или ярлык?</item>
+        <item quantity="few">Удалить %d выбранных приложения или ярлыка?</item>
+        <item quantity="many">Удалить %d выбранных приложений или ярлыков?</item>
+        <item quantity="other">Удалить %d выбранного приложения или ярлыка?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Удалить этот %1$d ярлык?</item>
+        <item quantity="few">Удалить эти %1$d ярлыка?</item>
+        <item quantity="many">Удалить эти %1$d ярлыка?</item>
+        <item quantity="other">Удалить эти %1$d ярлыка?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Удалить %1$d ярлык</item>
+        <item quantity="few">Удалить %1$d ярлыка</item>
+        <item quantity="many">Удалить %1$d ярлыков</item>
+        <item quantity="other">Удалить %1$d ярлыка(-ов)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+        <item quantity="other">%d нового уведомления</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">Выбрано: %1$d</item>
+        <item quantity="few">Выбрано %1$d элемента</item>
+        <item quantity="many">Выбрано %1$d элементов</item>
+        <item quantity="other">Выбрано: %1$d</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d день</item>
+        <item quantity="few">%1$d дня</item>
+        <item quantity="many">%1$d дней</item>
+        <item quantity="other">%1$d дня</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">Новых уведомлений: %d</item>
+        <item quantity="many">Новых уведомлений: %d</item>
+        <item quantity="other">Новых уведомлений: %d</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d столбец</item>
+        <item quantity="few">%1$d столбца</item>
+        <item quantity="many">%1$d столбцов</item>
+        <item quantity="other">%1$d столбцов</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Удалить это %1$d приложение?</item>
+        <item quantity="few">Удалить эти %1$d приложения?</item>
+        <item quantity="many">Удалить эти %1$d приложения?</item>
+        <item quantity="other">Удалить эти %1$d приложения?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Удалить %1$d приложение (со всеми клонами) и их данные.</item>
+        <item quantity="few">Удалить %1$d приложения (со всеми клонами) и их данные.</item>
+        <item quantity="many">Удалить %1$d приложения (со всеми клонами) и их данные.</item>
+        <item quantity="other">Удалить %1$d приложения (со всеми клонами) и их данные.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Удалить %1$d приложение и его данные.</item>
+        <item quantity="few">Удалить %1$d приложения и их данные.</item>
+        <item quantity="many">Удалить %1$d приложений и их данные.</item>
+        <item quantity="other">Удалить %1$d приложения(-ий) и их данные.</item>
+    </plurals>
+</resources>

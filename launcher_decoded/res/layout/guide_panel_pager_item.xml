@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingHorizontal="@dimen/panel_guide_view_pager_margin_left_right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/guide_tips_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/panel_guide_title_text_size" android:textColor="@color/panel_guide_tips_title_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/guide_tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/panel_guide_title_margin_top" android:layout_marginBottom="@dimen/panel_guide_title_margin_bottom" android:fontFamily="OPPOSans 2.14 NoVF" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/panel_guide_description_text_size" android:textColor="@color/panel_guide_tips_description_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/guide_tips_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="OPPOSans 2.14 NoVF" />
+        <ImageView android:id="@id/guide_pager_image" android:layout_width="@dimen/panel_guide_image_width" android:layout_height="@dimen/panel_guide_image_height" android:layout_marginTop="@dimen/panel_guide_image_margin_top" android:scaleType="fitXY" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Naujieji metai</item>
+        <item>Valentino diena</item>
+        <item>Moters diena</item>
+        <item>Tarptautinė darbo diena</item>
+        <item>Motinos diena</item>
+        <item>Vaikų diena</item>
+        <item>Tėvo diena</item>
+        <item>Mokytojų diena</item>
+        <item>Nacionalinė šventė</item>
+        <item>Padėkos diena</item>
+        <item>Kalėdos</item>
+    </string-array>
+</resources>

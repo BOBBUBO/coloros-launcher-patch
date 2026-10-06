@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">‫‏%1$d‬ سے زیادہ مماثل وجٹس شامل نہیں کیے جا سکتے</item>
+        <item quantity="other">‫‏%1$d‬ سے زیادہ مماثل وجٹس شامل نہیں کیے جا سکتے</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">صفحہ %1$d از %2$d</item>
+        <item quantity="other">صفحہ %1$d از %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">یہ ایپ ابتدائی اسکرین سے غائب ہو جائے گی لیکن ایپ دراز میں رکھی جائے گی۔</item>
+        <item quantity="other">منتخب ایپس ابتدائی اسکرین سے غائب ہو جائیں گی لیکن ایپ دراز میں رکھی جائیں گی۔</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d ایپ ہٹائیں؟</item>
+        <item quantity="other">%d ایپس ہٹائیں؟</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">منتخب ایپس ابتدائی اسکرین سے غائب ہو جائیں گی لیکن ایپ دراز میں رکھی جائیں گی۔ منتخب شارٹ کٹس ہٹا دیے جائیں گے۔</item>
+        <item quantity="other">منتخب ایپس ابتدائی اسکرین سے غائب ہو جائیں گی لیکن ایپ دراز میں رکھی جائیں گی۔ منتخب شارٹ کٹس ہٹا دیے جائیں گے۔</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d منتخب ایپ یا شارٹ کٹ ہٹائیں؟</item>
+        <item quantity="other">%d منتخب ایپس یا شارٹ کٹس ہٹائیں؟</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">نیچے %1$d شارٹ کٹ ہٹائیں</item>
+        <item quantity="other">نیچے %1$d شارٹ کٹس ہٹائیں</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d شارٹ کٹ ہٹائیں</item>
+        <item quantity="other">%1$d شارٹ کٹس ہٹائیں</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d منتخب شدہ</item>
+        <item quantity="other">%1$d منتخب شدہ</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">‫‏%1$d‬ دن</item>
+        <item quantity="other">‫‏%1$d‬ دن</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d نئی اطلاع</item>
+        <item quantity="other">%d نئے اعلانات</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d کالم</item>
+        <item quantity="other">%1$d کالمز</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">نیچے %1$d ایپ کی انسٹالیشن ختم کریں؟</item>
+        <item quantity="other">نیچے %1$d ایپس کی انسٹالیشن ختم کریں؟</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">‫‏%1$d‬ ایپ (بشمول اس کی نقل) کی انسٹالیشن ختم کریں اور اس کا ڈیٹا صاف کریں۔</item>
+        <item quantity="other">‫‏%1$d‬ ایپس (بشمول ان کی نقول) کی انسٹالیشن ختم کریں اور ان کا ڈیٹا صاف کریں۔</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d انسٹالیشن ختم کریں اور اس کا ڈیٹا مٹائیں۔</item>
+        <item quantity="other">%1$d ایپس کی انسٹالیشن ختم کریں اور ان کا ڈیٹا مٹائیں۔</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/launcher_setting_background" android:paddingTop="@dimen/dp_32" android:paddingBottom="@dimen/common_margin" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/color_ep_guide_animation" android:layout_width="match_parent" android:layout_height="@dimen/launcher_model_anim_height" android:scaleType="fitCenter" android:adjustViewBounds="true" android:forceDarkAllowed="false" />
+    <TextView android:textSize="@dimen/mode_common_tips_size" android:textColor="@color/mode_common_description" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24" android:text="@string/launcher_icon_fallen_tip" android:lineSpacingMultiplier="1.2" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+syntax = "proto2";
+
+package com.oplus.card.config.domain.model;
+
+option java_multiple_files = true;
+
+message OperatingRecommendInfoListProto{
+  repeated OperatingRecommendInfo list = 1;
+
+  message OperatingRecommendInfo {
+    required int32 groupId   = 1;
+    required int32 type   = 2;
+    required int32 order   = 3;
+    required int32 weight   = 4;
+    required int32 recommendType   = 5;
+  }
+}
+

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Galima pridėti ne daugiau nei %1$d identišką valdiklį</item>
+        <item quantity="few">Galima pridėti ne daugiau nei %1$d identiškus valdiklius</item>
+        <item quantity="many">Galima pridėti ne daugiau nei %1$d identiško valdiklio</item>
+        <item quantity="other">Galima pridėti ne daugiau nei %1$d identiškų valdiklių</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d psl. iš %2$d</item>
+        <item quantity="few">%1$d psl. iš %2$d</item>
+        <item quantity="many">%1$d psl. iš %2$d</item>
+        <item quantity="other">%1$d psl. iš %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Ši programa išnyks iš pradžios ekrano, bet liks programų skydelyje.</item>
+        <item quantity="few">Pasirinktos programos išnyks iš pradžios ekrano, bet liks programų skydelyje.</item>
+        <item quantity="many">Pasirinktos programos išnyks iš pradžios ekrano, bet liks programų skydelyje.</item>
+        <item quantity="other">Pasirinktos programos išnyks iš pradžios ekrano, bet liks programų skydelyje.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Ar pašalinti %d programą?</item>
+        <item quantity="few">Ar pašalinti %d programas?</item>
+        <item quantity="many">Ar pašalinti %d programos?</item>
+        <item quantity="other">Ar pašalinti %d programų?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Pasirinktos programos išnyks iš pradžios ekrano, bet liks programų skydelyje. Pasirinktos nuorodos bus pašalintos.</item>
+        <item quantity="few">Programos išnyks iš pradžios ekrano, bet liks programų skydelyje. Nuorodos bus pašalintos.</item>
+        <item quantity="many">Programos išnyks iš pradžios ekrano, bet liks programų skydelyje. Nuorodos bus pašalintos.</item>
+        <item quantity="other">Pasirinktos programos išnyks iš pradžios ekrano, bet liks programų skydelyje. Pasirinktos nuorodos bus pašalintos.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Ar pašalinti %d pasirinktą programą arba nuorodą?</item>
+        <item quantity="few">Ar pašalinti %d pasirinktas programas arba nuorodas?</item>
+        <item quantity="many">Ar pašalinti %d pasirinktos programos arba nuorodos?</item>
+        <item quantity="other">Ar pašalinti %d pasirinktų programų arba nuorodų?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Pašalinti toliau esančią %1$d nuorodą?</item>
+        <item quantity="few">Pašalinti toliau esančias %1$d nuorodas?</item>
+        <item quantity="many">Pašalinti toliau esančios %1$d nuorodos?</item>
+        <item quantity="other">Pašalinti toliau esančias %1$d nuorodų?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Pašalinti %1$d nuorodą</item>
+        <item quantity="few">Pašalinti %1$d nuorodas</item>
+        <item quantity="many">Pašalinti %1$d nuorodos</item>
+        <item quantity="other">Pašalinti %1$d nuorodas (-ų)</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d pasirinktas</item>
+        <item quantity="few">Pasirinkti %1$d elementai</item>
+        <item quantity="many">Pasirinkta %1$d elemento</item>
+        <item quantity="other">%1$d pasirinkt.</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d diena</item>
+        <item quantity="few">%1$d dienos (-ų)</item>
+        <item quantity="many">%1$d dienos (-ų)</item>
+        <item quantity="other">%1$d dienos (-ų)</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d naujas pranešimas</item>
+        <item quantity="few">%d nauji pranešimai</item>
+        <item quantity="many">%d naujo pranešimo</item>
+        <item quantity="other">Naujų pranešimų: %d</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d stulpelis</item>
+        <item quantity="few">%1$d stulpeliai</item>
+        <item quantity="many">%1$d stulpelio</item>
+        <item quantity="other">%1$d stulpelių</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Išdiegti toliau esančią %1$d programą?</item>
+        <item quantity="few">Išdiegti toliau esančias %1$d programas?</item>
+        <item quantity="many">Išdiegti toliau esančios %1$d programos?</item>
+        <item quantity="other">Išdiegti toliau esančias %1$d programų?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Išdiegti %1$d programą (įskaitant jos klonus) ir išvalyti jos duomenis.</item>
+        <item quantity="few">Išdiegti %1$d programas (įskaitant jų klonus) ir išvalyti jų duomenis.</item>
+        <item quantity="many">Išdiegti %1$d programų (įskaitant jų klonus) ir išvalyti jų duomenis.</item>
+        <item quantity="other">Išdiegti %1$d programas (-ų) (įskaitant jų klonus) ir išvalyti jų duomenis.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Išdiegti %1$d programą ir išvalyti jos duomenis.</item>
+        <item quantity="few">Išdiegti %1$d programas ir išvalyti jų duomenis.</item>
+        <item quantity="many">Išdiegti %1$d programos ir išvalyti jų duomenis.</item>
+        <item quantity="other">Išdiegti %1$d programas (-ų) ir išvalyti jų duomenis.</item>
+    </plurals>
+</resources>

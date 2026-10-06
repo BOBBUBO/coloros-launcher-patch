@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">Il y a %d jour</item>
+        <item quantity="many">%d days ago</item>
+        <item quantity="other">Il y a %d jours</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">Il y a %d minute</item>
+        <item quantity="many">%d min ago</item>
+        <item quantity="other">Il y a %d minutes</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">Il y a %d an</item>
+        <item quantity="many">%d yr ago</item>
+        <item quantity="other">Il y a %d ans</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Vous ne pouvez pas ajouter plus de %1$d widget identique</item>
+        <item quantity="many">Vous ne pouvez pas ajouter plus de %1$d widgets identiques</item>
+        <item quantity="other">Vous ne pouvez pas ajouter plus de %1$d widgets identiques</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Page %1$d sur %2$d</item>
+        <item quantity="many">Page %1$d sur %2$d</item>
+        <item quantity="other">Page %1$d sur %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">"Cette appli disparaîtra de l'écran d'accueil mais sera conservée dans le tiroir d'applis."</item>
+        <item quantity="many">"Les applis sélectionnées disparaîtront de l'écran d'accueil mais seront conservées dans le tiroir d'applis."</item>
+        <item quantity="other">"Les applis sélectionnées disparaîtront de l'écran d'accueil, mais seront conservées dans le tiroir d'applis."</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Supprimer %d appli ?</item>
+        <item quantity="many">Supprimer %d applis ?</item>
+        <item quantity="other">Supprimer %d applis ?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">"Les applis sélectionnées disparaîtront de l'écran d'accueil, mais seront conservées dans le tiroir d'applis. Les raccourcis sélectionnés seront supprimés."</item>
+        <item quantity="many">"Les applis disparaîtront de l'écran d'accueil mais seront conservées dans le tiroir d'applis. Les raccourcis seront supprimés."</item>
+        <item quantity="other">"Les applis sélectionnées disparaîtront de l'écran d'accueil, mais seront conservées dans le tiroir d'applis. Les raccourcis sélectionnés seront supprimés."</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Supprimer %d appli ou raccourci sélectionné ?</item>
+        <item quantity="many">Supprimer %d applis ou raccourcis sélectionnés ?</item>
+        <item quantity="other">Supprimer %d applis ou raccourcis sélectionnés ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Supprimer %1$d raccourci ci-dessous ?</item>
+        <item quantity="many">Supprimer les raccourcis %1$d ci-dessous ?</item>
+        <item quantity="other">Suprr. les %1$d raccourcis ci-dessous ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Supprimer %1$d raccourci</item>
+        <item quantity="many">Supprimer %1$d raccourcis</item>
+        <item quantity="other">Supprimer %1$d raccourcis</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d sélectionné(e)</item>
+        <item quantity="many">%1$d éléments sélectionnés</item>
+        <item quantity="other">%1$d sélectionné(e)s</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d jour</item>
+        <item quantity="many">%1$d jours</item>
+        <item quantity="other">%1$d jours</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nouvelle notification</item>
+        <item quantity="many">%d nouvelles notifications</item>
+        <item quantity="other">%d nouvelles notifications</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d colonne</item>
+        <item quantity="many">%1$d colonnes</item>
+        <item quantity="other">%1$d colonnes</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Désinstaller %1$d appli ci-dessous ?</item>
+        <item quantity="many">Désinstaller les applis %1$d ci-dessous ?</item>
+        <item quantity="other">Désinstaller les %1$d applis ci-dessous ?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Désinstallez %1$d appli (y compris son clone) et supprimez ses données.</item>
+        <item quantity="many">Désinstallez %1$d applis (y compris leurs clones) et supprimez leurs données.</item>
+        <item quantity="other">Désinstallez %1$d applis (y compris leurs clones) et supprimez leurs données.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Désinstallez %1$d appli et supprimez ses données.</item>
+        <item quantity="many">Désinstallez %1$d applis et supprimez leurs données.</item>
+        <item quantity="other">Désinstallez %1$d applis et supprimez leurs données.</item>
+    </plurals>
+</resources>

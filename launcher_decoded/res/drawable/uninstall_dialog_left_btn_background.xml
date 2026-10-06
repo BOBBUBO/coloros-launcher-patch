@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:enterFadeDuration="100" android:exitFadeDuration="360"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/coui_list_selector_color_disabled" />
+            <corners android:topLeftRadius="0.0dp" android:topRightRadius="0.0dp" android:bottomLeftRadius="@dimen/alert_panel_background_radius" android:bottomRightRadius="0.0dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="?couiColorPressBackground" />
+            <corners android:topLeftRadius="0.0dp" android:topRightRadius="0.0dp" android:bottomLeftRadius="@dimen/alert_panel_background_radius" android:bottomRightRadius="0.0dp" />
+        </shape>
+    </item>
+    <item>
+        <color android:color="@null" />
+    </item>
+</selector>

@@ -1,0 +1,112 @@
+.class public interface abstract annotation Lpantanal/annotaions/EntranceType;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/annotation/Annotation;
+
+
+# annotations
+.annotation build Landroid/annotation/SuppressLint;
+    value = {
+        "WrongConstant"
+    }
+.end annotation
+
+.annotation build Landroidx/annotation/Keep;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lpantanal/annotaions/EntranceType$Companion;
+    }
+.end annotation
+
+.annotation runtime Ljava/lang/annotation/Retention;
+    value = .enum Ljava/lang/annotation/RetentionPolicy;->SOURCE:Ljava/lang/annotation/RetentionPolicy;
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0002\u0008\u0002\u0008\u0087\u0002\u0018\u0000 \u00022\u00020\u0001:\u0001\u0002B\u0000\u00a8\u0006\u0003"
+    }
+    d2 = {
+        "Lpantanal/annotaions/EntranceType;",
+        "",
+        "Companion",
+        "pantanal-interface_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+.annotation runtime Lkotlin/annotation/Retention;
+    value = .enum Lkotlin/annotation/AnnotationRetention;->SOURCE:Lkotlin/annotation/AnnotationRetention;
+.end annotation
+
+
+# static fields
+.field public static final ALL:I = 0x0
+
+.field public static final AOD:I = 0x4
+
+.field public static final ASSISTANT:I = 0x1
+
+.field public static final CALENDAR:I = 0x2000
+
+.field public static final CAPSULE:I = 0x20
+
+.field public static final CAR_LAUNCHER:I = 0x1000
+
+.field public static final Companion:Lpantanal/annotaions/EntranceType$Companion;
+
+.field public static final FULL_SEARCH:I = 0x8000
+
+.field public static final HEADSET:I = 0x80
+
+.field public static final LAUNCHER:I = 0x2
+
+.field public static final LOCK_SCREEN:I = 0x40
+
+.field public static final NOTIFICATION:I = 0x10
+
+.field public static final PERSISTENT_CONTAINER:I = 0x20000
+
+.field public static final POI:I = 0x40000
+
+.field public static final SECONDARY_LOCKSCREEN:I = 0x100
+
+.field public static final SECONDARY_NOTIFICATION:I = 0x200
+
+.field public static final SECONDARY_SECONDARY_LAUNCHER:I = 0x400
+
+.field public static final SEEDING_HOST_APP:I = 0x40000000
+
+.field public static final SPEECH_ASSISTANT:I = 0x4000
+
+.field public static final STATUS_BAR:I = 0x8
+
+.field public static final TAG:Ljava/lang/String; = "EntranceType"
+
+.field public static final UMS_AI_FLOW:I = 0x10000
+
+.field public static final UNDEFINED:I = -0x1
+
+.field public static final WATCH:I = 0x800
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    sget-object v0, Lpantanal/annotaions/EntranceType$Companion;->$$INSTANCE:Lpantanal/annotaions/EntranceType$Companion;
+
+    sput-object v0, Lpantanal/annotaions/EntranceType;->Companion:Lpantanal/annotaions/EntranceType$Companion;
+
+    return-void
+.end method

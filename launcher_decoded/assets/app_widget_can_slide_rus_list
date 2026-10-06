@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- 每次推送时需要增加这个版本号才会有效 -->
+    <version>20250903</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_widget_can_slide_rus_list</filter-name>
+
+    <string-array name="widget_can_slide_component">
+        <!-- activityName为空则整个package 都可以滑动 -->
+        <ComponentInfo packageName = "com.baidu.BaiduMap" activityName = "com.baidu.baidumaps.desktopwidget.MapWidgetProvider"/>
+    </string-array>
+
+</filter-conf>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>2025083001</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_launcher_pre_start_app_black_rus_list</filter-name>
+
+    <string-array name="pre_start_black_pkg_lst">
+         <!--<package>com.heytap.themestore</package> -->
+         <package>com.oplus.camera</package>
+    </string-array>
+
+</filter-conf>

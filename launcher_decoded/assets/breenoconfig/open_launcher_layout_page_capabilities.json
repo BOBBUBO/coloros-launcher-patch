@@ -1,0 +1,28 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1000963",
+      "key": "com.android.launcher.set_launcher_layout",
+      "name": "设置桌面布局",
+      "version": "1.0.1",
+      "versionCode": "1000001",
+      "tags": [
+        "设置",
+        "桌面布局"
+      ],
+      "description": "桌面布局属于页面类设置项，主要功能是帮助用户去修改桌面布局排布，可以调整桌面是四列布局还是五列布局。设置桌面布局是桌面布局设置项的一个具体操作指令，主要用于跳转到桌面布局帮助用户去调整目前桌面布局的排列。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "start_layout_page",
+            "permission": "com.oplus.permission.safe.ASSISTANT"
+          }
+        }
+      }
+    }
+  ]
+}

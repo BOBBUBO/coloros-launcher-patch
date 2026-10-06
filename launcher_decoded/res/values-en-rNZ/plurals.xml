@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">No more than %1$d identical widget can be added</item>
+        <item quantity="other">No more than %1$d identical widgets can be added</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Page %1$d of %2$d</item>
+        <item quantity="other">Page %1$d of %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">This app will disappear from the Home screen but will be kept in the app drawer.</item>
+        <item quantity="other">The selected apps will disappear from the Home screen but will be kept in the app drawer.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Remove %d app?</item>
+        <item quantity="other">Remove %d apps?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Selected apps will disappear from the Home screen but will be kept in the app drawer. Selected shortcuts will be removed.</item>
+        <item quantity="other">Selected apps will disappear from the Home screen but will be kept in the app drawer. Selected shortcuts will be removed.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Remove %d selected app or shortcut?</item>
+        <item quantity="other">Remove %d selected apps or shortcuts?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Remove the %1$d shortcut below?</item>
+        <item quantity="other">Remove the %1$d shortcuts below?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Remove %1$d shortcut</item>
+        <item quantity="other">Remove %1$d shortcuts</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d selected</item>
+        <item quantity="other">%1$d selected</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d day</item>
+        <item quantity="other">%1$d days</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d new notification</item>
+        <item quantity="other">%d new notifications</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d column</item>
+        <item quantity="other">%1$d columns</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Uninstall the %1$d app below?</item>
+        <item quantity="other">Uninstall the %1$d apps below?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Uninstall %1$d app (including its clone) and clear its data.</item>
+        <item quantity="other">Uninstall %1$d apps (including their clones) and clear their data.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Uninstall %1$d app and clear its data.</item>
+        <item quantity="other">Uninstall %1$d apps and clear their data.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,150 @@
+// todo convert to half precision
+uniform float bar_alpha;
+uniform float glow_alpha;
+uniform float gradient_alpha;
+uniform vec4 offsets_bar_gradient;
+uniform vec2 viewport;
+uniform vec2 texIn_dims;
+uniform float bend;
+uniform shader texIn;
+
+// non-animated params
+
+// {width, height (bend), thickness}
+uniform vec3 paraboladims;
+// {chromaticoffset, glow intensity}
+uniform vec2 glowparams;
+uniform vec2 center;
+uniform vec4 glowcolor;
+uniform vec4 upShiftColor;
+uniform vec4 downShiftColor;
+
+// https://www.shadertoy.com/view/3lSczz
+// The MIT License
+// Copyright © 2020 Inigo Quilez
+const float FLT_MAX = 3.402823466e+38;
+// uv position (relative to parabola origin), parabola segment width, parabola segment height
+float sdParabola( in vec2 pos, in float wi, in float he )
+{
+    pos.x = abs(pos.x);
+    float ik = wi*wi/he;
+    float p = ik*(he-pos.y-0.5*ik)/3.0;
+    float q = pos.x*ik*ik*0.25;
+    float h = q*q - p*p*p;
+    float r = sqrt(abs(h));
+    float x = (h>0.0) ?
+        pow(q+r,1.0/3.0) - pow(abs(q-r),1.0/3.0)*sign(r-q) :
+        2.0*cos(atan(r/q)/3.0)*sqrt(p);
+    x = min(x,wi);
+    return length(pos-vec2(x,he-x*x/ik)) *
+        sign(ik*(pos.y-he)+pos.x*pos.x);
+}
+
+// we want negative values within thickness of the parabola to have distance of 0,
+// but negative values outside of that thickness to have a a distance of abs(d).
+float udParabola(vec2 pos, float wi, float he) {
+    float d = sdParabola(pos, wi, he);
+    // the udSegment is twice as thick as the parabola- this is a bandaid,
+    // but there's probably a better way of fixing this
+    if (abs(d) <= paraboladims.z * 2.0) d = 0.0;
+    else d = abs(d);
+    return d;
+}
+
+// unsigned distance to a line segment
+float udSegment( in vec2 p, in vec2 a, in vec2 b )
+{
+    vec2 ba = b-a;
+    vec2 pa = p-a;
+    float h =clamp( dot(pa,ba)/dot(ba,ba), 0.0, 1.0 );
+    return length(pa-h*ba);
+}
+
+vec4 glow(vec4 glowColor, float d) {
+    // Compute glow using IQ's smooth union
+    float sd = FLT_MAX;
+    const float k = 0.3; // expose as parameter?
+    vec4 cL = vec4(0.0);
+
+    float d2 = abs(d);// - paraboladims.z; // subtract parabola thickness
+    float hi = clamp(0.5 + 0.5*(d2-sd)/k, 0.0, 1.0);
+    sd = mix(d2, sd, hi) - k*hi*(1.0-hi);
+    cL = mix(glowColor, cL, hi);
+    float glowblur = (1.0 - glowparams.y) * 50.0; // convert intensity to blur value
+    return cL * min(1.0, exp(-sd*glowblur));
+}
+
+// shader-specific params: glowcolor, paraboladims
+vec4 evalSample(vec2 uv_pos, vec2 parabola_w_h) {
+    float d = 0.0;
+    if (abs(parabola_w_h.y) > 0.001) d = udParabola(uv_pos, parabola_w_h.x, parabola_w_h.y);
+    else d = udSegment(uv_pos, -vec2(parabola_w_h.x, 0.0), vec2(parabola_w_h.x, 0.0)) - paraboladims.z;
+    return glow(glowcolor, d);
+}
+
+/// Chromatic aberration - copied from chromatic.agsl
+// modified sample_chromatic to evaluate glow using parameter glowcolor instead of sampling texIn
+bool sample_chromatic(vec2 uv_pos, vec2 parabola_w_h, vec2 offset, out vec4 posSample, out vec4 centerSample, out vec4 negSample) {
+    if (length(offset) == 0.0) return false;
+    else {
+        centerSample = evalSample(uv_pos, parabola_w_h);
+        posSample = evalSample(uv_pos + offset, parabola_w_h);
+        negSample = evalSample(uv_pos - offset, parabola_w_h);
+        return true;
+    }
+}
+
+vec4 combine_chromatic(vec4 posSample, vec4 centerSample, vec4 negSample, vec4 posColor, vec4 negColor) {
+    vec4 upShift = posSample * posColor;
+    vec4 downShift = negSample * negColor;
+    vec4 centerColor = centerSample * (vec4(1.0) - posColor - negColor);
+
+    vec4 result = upShift + downShift + centerColor;
+    return result;
+}
+/// End chromatic aberration
+
+vec4 main(vec2 fragCoord) {
+    vec2 animatedCenter = center + offsets_bar_gradient.xy;
+    vec2 uv_pos = fragCoord / viewport - animatedCenter;
+
+    /// Render solid bar
+    float pwidth = paraboladims.x;
+    float pheight = -(paraboladims.y + bend); // bend is additional height from animation
+    float d = 0.0;
+    if (abs(pheight) > 0.001) d = udParabola(uv_pos, pwidth, pheight); // parabola width, parabola height
+    // draw a line instead of a parabola if height is below threshold
+    else d = max(udSegment(uv_pos, -vec2(pwidth, 0.0), vec2(pwidth, 0.0)) - paraboladims.z, 0.0);
+    vec4 barColor = vec4(1.0, 1.0, 1.0, 1.0);
+    // lazy anti-aliasing by adding a small linear gradient around the bar
+    float barFalloffRadius = paraboladims.z / 2.0;
+    barColor.a *= mix(1.0, 0.0, min(max((abs(d) - paraboladims.z), 0.0) / barFalloffRadius, 1.0));
+
+    /// Render chromatic aberration on bar glow
+    vec4 coreColor = vec4(0.0, 0.0, 0.0, 0.0);
+    vec4 posSample, negSample;
+    vec4 outGlow;
+
+    if (sample_chromatic(uv_pos, vec2(pwidth, pheight), vec2(0.0, glowparams.x), posSample, coreColor, negSample)) {
+        outGlow = combine_chromatic(posSample, coreColor, negSample, downShiftColor, upShiftColor);
+    } else {
+        outGlow = coreColor;
+    }
+
+    /// Load gradient from texture input
+    vec2 gradientFrag = texIn_dims * ((fragCoord / viewport) - offsets_bar_gradient.zw);
+    vec4 gradientColor = texIn.eval(gradientFrag);
+
+    /// Composite bar + bar glow + gradient
+    // multiply in animated glow alpha
+    outGlow *= glow_alpha;
+    gradientColor *= gradient_alpha;
+    barColor *= bar_alpha;
+
+    // multliply rgb by alpha transparency
+    barColor *= barColor.a;
+    outGlow *= outGlow.a;
+
+    // not needed for gradient loaded from texture gradientColor *= gradientColor.a;
+    return barColor + outGlow + gradientColor;
+}

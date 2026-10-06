@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">אין אפשרות להוסיף מעל %1$d רכיב גרפי זהה</item>
+        <item quantity="two">אין אפשרות להוסיף מעל %1$d רכיבים גרפיים זהים</item>
+        <item quantity="many">אין אפשרות להוסיף מעל %1$d רכיבים גרפיים זהים</item>
+        <item quantity="other">אין אפשרות להוסיף מעל %1$d רכיבים גרפיים זהים</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">דף %1$d מתוך %2$d</item>
+        <item quantity="two">דף %1$d מתוך %2$d</item>
+        <item quantity="many">דף %1$d מתוך %2$d</item>
+        <item quantity="other">דף %1$d מתוך %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">אפליקציה זו תיעלם ממסך הבית אך תישמר במגירת האפליקציות.</item>
+        <item quantity="two">האפליקציות שנבחרו ייעלמו ממסך הבית אך יישמרו במגירת האפליקציות.</item>
+        <item quantity="many">האפליקציות שנבחרו ייעלמו ממסך הבית אך יישמרו במגירת האפליקציות.</item>
+        <item quantity="other">האפליקציות שנבחרו ייעלמו ממסך הבית אך יישמרו במגירת האפליקציות.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">האם להסיר אפליקציה %d?</item>
+        <item quantity="two">האם להסיר %d אפליקציות?</item>
+        <item quantity="many">האם להסיר %d אפליקציות?</item>
+        <item quantity="other">האם להסיר %d אפליקציות?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">אפליקציות נבחרות ייעלמו ממסך הבית אך ישמרו במגירת האפליקציות. קיצורי דרך נבחרים יוסרו.</item>
+        <item quantity="two">"אפליקציות ייעלמו מ'מסך הבית' אך ישמרו במגירת האפליקציות. קיצורי דרך יוסרו."</item>
+        <item quantity="many">"אפליקציות ייעלמו מ'מסך הבית' אך ישמרו במגירת האפליקציות. קיצורי דרך יוסרו."</item>
+        <item quantity="other">אפליקציות נבחרות ייעלמו ממסך הבית אך ישמרו במגירת האפליקציות. קיצורי דרך נבחרים יוסרו.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">האם להסיר אפליקציה או קיצור דרך %d שנבחרו?</item>
+        <item quantity="two">האם להסיר %d אפליקציות או קיצורי דרך שנבחרו?</item>
+        <item quantity="many">האם להסיר %d אפליקציות או קיצורי דרך שנבחרו?</item>
+        <item quantity="other">האם להסיר %d אפליקציות או קיצורי דרך שנבחרו?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">האם להסיר את קיצור הדרך הבא?</item>
+        <item quantity="two">האם להסיר את %1$d קיצורי הדרך הבאים?</item>
+        <item quantity="many">האם להסיר את %1$d קיצורי הדרך הבאים?</item>
+        <item quantity="other">האם להסיר את %1$d קיצורי הדרך הבאים?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">הסר %1$d קיצור דרך</item>
+        <item quantity="two">הסר %1$d קיצורי דרך</item>
+        <item quantity="many">הסר %1$d קיצורי דרך</item>
+        <item quantity="other">הסר %1$d קיצורי דרך</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d נבחרה</item>
+        <item quantity="two">%1$d פריטים נבחרו</item>
+        <item quantity="many">%1$d פריטים נבחרו</item>
+        <item quantity="other">%1$d נבחרו</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">יום %1$d</item>
+        <item quantity="two">%1$d ימים</item>
+        <item quantity="many">%1$d ימים</item>
+        <item quantity="other">%1$d ימים</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d הודעות חדשות</item>
+        <item quantity="two">%d הודעות חדשות</item>
+        <item quantity="many">%d הודעות חדשות</item>
+        <item quantity="other">%d הודעות חדשות</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">עמודה %1$d</item>
+        <item quantity="two">%1$d עמודות</item>
+        <item quantity="many">%1$d עמודות</item>
+        <item quantity="other">%1$d עמודות</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">האם לבטל את הסרת ההתקנה של האפליקציה הבאה?</item>
+        <item quantity="two">האם לבטל את הסרת ההתקנות של %1$d אפליקציות הבאות?</item>
+        <item quantity="many">האם לבטל את הסרת ההתקנות של %1$d אפליקציות הבאות?</item>
+        <item quantity="other">האם לבטל את הסרת ההתקנות של %1$d אפליקציות הבאות?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">הסר התקנה של אפליקציה %1$d (כולל השיבוט שלה) ונקה את הנתונים שלה.</item>
+        <item quantity="two">הסר התקנה של %1$d אפליקציות (כולל השיבוטים שלהן) ונקה את הנתונים שלהן.</item>
+        <item quantity="many">הסר התקנה של %1$d אפליקציות (כולל השיבוטים שלהן) ונקה את הנתונים שלהן.</item>
+        <item quantity="other">הסר התקנה של %1$d אפליקציות (כולל השיבוטים שלהן) ונקה את הנתונים שלהן.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">הסר התקנה של %1$d אפליקציה ונקה את הנתונים שלה.</item>
+        <item quantity="two">הסר התקנה של %1$d אפליקציות ונקה את הנתונים שלהן.</item>
+        <item quantity="many">הסר התקנה של %1$d אפליקציות ונקה את הנתונים שלהן.</item>
+        <item quantity="other">הסר התקנה של %1$d אפליקציות ונקה את הנתונים שלהן.</item>
+    </plurals>
+</resources>

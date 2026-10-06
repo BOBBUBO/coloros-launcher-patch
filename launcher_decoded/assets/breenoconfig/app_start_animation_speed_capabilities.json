@@ -1,0 +1,44 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001077",
+      "key": "com.android.launcher.set_app_start_animation_speed",
+      "name": "设置应用启动动画速度",
+      "version": "1.0.0",
+      "versionCode": "1000000",
+      "tags": [
+        "设置",
+        "应用启动动画速度"
+      ],
+      "description": "应用启动动画速度属于选择类设置项，主要功能是帮助用户调整应用启动和关闭动画速度的快慢。设置应用启动动画速度是应用启动动画速度设置项的一个具体操作指令，主要用于帮助用户调整动画启动和关闭速度，可以帮助用户调整至增强、适中速度，也可以帮助用户跳转到对应设置页，帮助用户去调整应用启动和关闭的动画速度。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "set_app_start_animation_speed",
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "deep_link",
+                "type": "string",
+                "value": "launcher://StartUpSpeed"
+              }
+            ]
+          }
+        },
+        "inputParams": [
+          {
+            "key": "select_action_value",
+            "type": "string",
+            "required": false,
+            "description": "应用启动动画速度类型，取值范围不定，可能为[适中;增强]，可缺失",
+            "name": "选项"
+          }
+        ]
+      }
+    }
+  ]
+}

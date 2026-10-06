@@ -1,0 +1,16 @@
+.class public final synthetic Lcom/oplus/basecommon/thread/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# virtual methods
+.method public final run()V
+    .locals 0
+
+    invoke-static {}, Lcom/oplus/basecommon/thread/OplusExecutors$UX_TASK_EXECUTOR$2;->a()V
+
+    return-void
+.end method

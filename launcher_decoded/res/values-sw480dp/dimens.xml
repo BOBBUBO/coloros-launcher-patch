@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_theme_margin">123.32999dp</dimen>
+    <dimen name="first_shape_margin">80.0dp</dimen>
+    <dimen name="first_theme_margin">67.0dp</dimen>
+    <dimen name="icon_sample_size">60.0dp</dimen>
+    <dimen name="round_corner_max_width">280.0dp</dimen>
+    <dimen name="shape_margin">70.0dp</dimen>
+    <dimen name="ux_panel_margin_horizontal_in_edit_mode">24.0dp</dimen>
+    <dimen name="ux_theme_rv_margin_left">46.0dp</dimen>
+    <dimen name="ux_theme_rv_margin_right">46.0dp</dimen>
+</resources>

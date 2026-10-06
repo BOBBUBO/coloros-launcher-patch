@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.workprofile.OplusPersonalWorkSlidingTabStrip android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tabs" android:layout_width="wrap_content" android:layout_height="@dimen/tablayout_small_layout_height" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/all_apps_label_text_size" android:textColor="@color/all_apps_tab_text" android:id="@id/tab_personal" android:background="@drawable/personal_work_ripple" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/all_apps_personal_tab" android:layout_weight="1.0" />
+    <Button android:textSize="@dimen/all_apps_label_text_size" android:textColor="@color/all_apps_tab_text" android:id="@id/tab_work" android:background="@drawable/personal_work_ripple" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/all_apps_work_tab" android:layout_weight="1.0" />
+</com.android.launcher3.workprofile.OplusPersonalWorkSlidingTabStrip>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="zero">Var pievienot ne vairāk kā %1$d identiskus logrīkus</item>
+        <item quantity="one">Var pievienot ne vairāk kā %1$d identisku logrīku</item>
+        <item quantity="other">Var pievienot ne vairāk kā %1$d identiskus logrīkus</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">%1$d. no %2$d lapas(-ām)</item>
+        <item quantity="one">%1$d. no %2$d lapas(-ām)</item>
+        <item quantity="other">%1$d. no %2$d lapas(-ām)</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="zero">Atlasītās lietotnes vairs netiks rādītas sākuma ekrānā, bet būs pieejamas lietotņu panelī.</item>
+        <item quantity="one">Šī lietotne vairs netiks rādīta sākuma ekrānā, bet būs pieejama lietotņu panelī.</item>
+        <item quantity="other">Atlasītās lietotnes vairs netiks rādītas sākuma ekrānā, bet būs pieejamas lietotņu panelī.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="zero">Vai noņemt %d lietotnes?</item>
+        <item quantity="one">Vai noņemt %d lietotni?</item>
+        <item quantity="other">Vai noņemt %d lietotnes?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="zero">Lietotnes vairs netiks rādītas sākuma ekrānā, bet būs pieejamas lietotņu panelī. Saīsnes tiks noņemtas.</item>
+        <item quantity="one">Atlasītās lietotnes vairs netiks rādītas sākuma ekrānā, bet būs pieejamas lietotņu panelī. Atlasītās saīsnes tiks noņemtas.</item>
+        <item quantity="other">Atlasītās lietotnes vairs netiks rādītas sākuma ekrānā, bet būs pieejamas lietotņu panelī. Atlasītās saīsnes tiks noņemtas.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="zero">Vai noņemt %d atlasīto lietotņu vai saīšņu?</item>
+        <item quantity="one">Vai noņemt %d atlasīto lietotni vai saīsni?</item>
+        <item quantity="other">Vai noņemt %d atlasītās lietotnes vai saīsnes?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="zero">Vai noņemt %1$d saīsnes tālāk?</item>
+        <item quantity="one">Vai noņemt %1$d saīsni tālāk?</item>
+        <item quantity="other">Vai noņemt %1$d saīsnes tālāk?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="zero">Noņemt %1$d saīsnes</item>
+        <item quantity="one">Noņemt %1$d saīsni</item>
+        <item quantity="other">Noņemt %1$d saīsnes</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="zero">Atlasīti %1$d vienumi</item>
+        <item quantity="one">%1$d atlasīts</item>
+        <item quantity="other">%1$d atlasīti</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="zero">%1$d dienu</item>
+        <item quantity="one">%1$d diena</item>
+        <item quantity="other">%1$d dienas</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d jauni paziņojumi</item>
+        <item quantity="one">Jauns %d paziņojums</item>
+        <item quantity="other">Jauni %d paziņojumi</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="zero">%1$d kolonnas</item>
+        <item quantity="one">%1$d kolonna</item>
+        <item quantity="other">%1$d kolonnas</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="zero">Vai atinstalēt %1$d lietotnes tālāk?</item>
+        <item quantity="one">Vai atinstalēt %1$d lietotni tālāk?</item>
+        <item quantity="other">Vai atinstalēt %1$d lietotnes tālāk?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="zero">Atinstalēt %1$d lietotnes (tostarp tās klonus) un notīrīt to datus.</item>
+        <item quantity="one">Atinstalēt %1$d lietotni (tostarp tās klonu) un notīrīt tās datus.</item>
+        <item quantity="other">Atinstalēt %1$d lietotnes (tostarp tās klonus) un notīrīt to datus.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="zero">Atinstalēt %1$d lietojumprogrammas un notīrīt to datus.</item>
+        <item quantity="one">Atinstalēt %1$d lietotni un notīrīt tās datus.</item>
+        <item quantity="other">Atinstalēt %1$d lietotnes un notīrīt to datus.</item>
+    </plurals>
+</resources>

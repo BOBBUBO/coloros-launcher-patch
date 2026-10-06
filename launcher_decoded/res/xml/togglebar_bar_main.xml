@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items
+  xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <item launcher:id="@id/toggle_item_card" launcher:name="@string/toggle_bar_title_card" launcher:previewThumb="@drawable/ic_togglebar_widget_item" />
+    <item launcher:id="@id/toggle_item_personalization" launcher:name="@string/toggle_bar_title_personalization" launcher:previewThumb="@drawable/ic_togglebar_wallpaper_item" />
+    <item launcher:id="@id/toggle_item_layout" launcher:name="@string/toggle_bar_title_layout" launcher:previewThumb="@drawable/ic_togglebar_layout_item" />
+    <item launcher:id="@id/toggle_item_settings" launcher:name="@string/launcher_setting" launcher:previewThumb="@drawable/ic_togglebar_settings_item" />
+</items>

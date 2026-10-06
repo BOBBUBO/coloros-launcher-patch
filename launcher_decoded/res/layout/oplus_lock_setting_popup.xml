@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/lock_setting_popup_rectangle" android:padding="@dimen/color_lock_setting_popup_padding" android:layout_width="@dimen/color_lock_setting_popup_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/color_lock_setting_popup_text_size" android:textColor="@color/coui_color_white" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/oplus_lock_too_much" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/color_lock_setting_popup_text_size" android:textColor="@color/color_lock_setting_popup_text_color" android:id="@id/tv_manage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/color_lock_setting_popup_padding" android:text="@string/oplus_shortcut_lock_setting" />
+</LinearLayout>

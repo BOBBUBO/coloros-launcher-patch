@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Lisada saab kuni %1$d sarnase vidina</item>
+        <item quantity="other">Lisada saab kuni %1$d sarnast vidinat</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Leht %1$d/%2$d</item>
+        <item quantity="other">Leht %1$d/%2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">See rakendus kaob avakuvalt, kuid jääb alles rakenduste sahtlisse.</item>
+        <item quantity="other">Valitud rakendused kaovad avakuvalt, kuid jäävad alles rakenduste sahtlisse.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Kas eemaldada %d rakendus?</item>
+        <item quantity="other">Kas eemaldada %d rakendust?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Valitud rakendused kaovad avakuvalt, kuid jäävad alles rakenduste sahtlisse. Valitud otseteed eemaldatakse.</item>
+        <item quantity="other">Valitud rakendused kaovad avakuvalt, kuid jäävad alles rakenduste sahtlisse. Valitud otseteed eemaldatakse.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Kas eemaldada %d valitud rakendus ja otsetee?</item>
+        <item quantity="other">Kas eemaldada %d valitud rakendust ja otseteed?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Kas eemaldada %1$d järgmine otsetee?</item>
+        <item quantity="other">Kas eemaldada %1$d järgmist otseteed?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Eemalda %1$d otsetee</item>
+        <item quantity="other">Eemalda %1$d otseteed</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d on valitud</item>
+        <item quantity="other">%1$d on valitud</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d päev</item>
+        <item quantity="other">%1$d päeva</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d uus teavitus</item>
+        <item quantity="other">%d uut teavitust</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d veerg</item>
+        <item quantity="other">%1$d veergu</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Kas desinstallida %1$d järgmine rakendus?</item>
+        <item quantity="other">Kas desinstallida %1$d järgmist rakendust?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Desinstalli %1$d rakendus (sh selle kloon) ja kustuta selle andmed.</item>
+        <item quantity="other">Desinstalli %1$d rakendust (sh nende kloonid) ja kustuta nende andmed.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Desinstalli %1$d rakendus ja kustuta selle andmed.</item>
+        <item quantity="other">Desinstalli %1$d rakendust ja kustuta nende andmed.</item>
+    </plurals>
+</resources>

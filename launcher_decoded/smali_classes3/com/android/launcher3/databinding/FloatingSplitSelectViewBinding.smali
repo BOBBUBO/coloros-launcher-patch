@@ -1,0 +1,193 @@
+.class public final Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroidx/viewbinding/ViewBinding;
+
+
+# instance fields
+.field private final rootView:Lcom/android/quickstep/views/FloatingTaskView;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+.field public final splitPlaceholder:Lcom/android/quickstep/views/SplitPlaceholderView;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+.field public final thumbnail:Lcom/android/quickstep/views/FloatingTaskThumbnailView;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method private constructor <init>(Lcom/android/quickstep/views/FloatingTaskView;Lcom/android/quickstep/views/SplitPlaceholderView;Lcom/android/quickstep/views/FloatingTaskThumbnailView;)V
+    .locals 0
+    .param p1    # Lcom/android/quickstep/views/FloatingTaskView;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p2    # Lcom/android/quickstep/views/SplitPlaceholderView;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p3    # Lcom/android/quickstep/views/FloatingTaskThumbnailView;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->rootView:Lcom/android/quickstep/views/FloatingTaskView;
+
+    iput-object p2, p0, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->splitPlaceholder:Lcom/android/quickstep/views/SplitPlaceholderView;
+
+    iput-object p3, p0, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->thumbnail:Lcom/android/quickstep/views/FloatingTaskThumbnailView;
+
+    return-void
+.end method
+
+.method public static bind(Landroid/view/View;)Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+    .locals 3
+    .param p0    # Landroid/view/View;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    sget v0, Lcom/android/launcher3/R$id;->split_placeholder:I
+
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Lcom/android/quickstep/views/SplitPlaceholderView;
+
+    if-eqz v1, :cond_0
+
+    sget v0, Lcom/android/launcher3/R$id;->thumbnail:I
+
+    invoke-static {p0, v0}, Landroidx/viewbinding/ViewBindings;->findChildViewById(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Lcom/android/quickstep/views/FloatingTaskThumbnailView;
+
+    if-eqz v2, :cond_0
+
+    new-instance v0, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+
+    check-cast p0, Lcom/android/quickstep/views/FloatingTaskView;
+
+    invoke-direct {v0, p0, v1, v2}, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;-><init>(Lcom/android/quickstep/views/FloatingTaskView;Lcom/android/quickstep/views/SplitPlaceholderView;Lcom/android/quickstep/views/FloatingTaskThumbnailView;)V
+
+    return-object v0
+
+    :cond_0
+    invoke-virtual {p0}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    new-instance v0, Ljava/lang/NullPointerException;
+
+    const-string v1, "Missing required view with ID: "
+
+    invoke-virtual {v1, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw v0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;)Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+    .locals 2
+    .param p0    # Landroid/view/LayoutInflater;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    const/4 v0, 0x0
+
+    const/4 v1, 0x0
+
+    .line 1
+    invoke-static {p0, v0, v1}, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static inflate(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Z)Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+    .locals 2
+    .param p0    # Landroid/view/LayoutInflater;
+        .annotation build Landroidx/annotation/NonNull;
+        .end annotation
+    .end param
+    .param p1    # Landroid/view/ViewGroup;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 2
+    sget v0, Lcom/android/launcher3/R$layout;->floating_split_select_view:I
+
+    const/4 v1, 0x0
+
+    invoke-virtual {p0, v0, p1, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p0
+
+    if-eqz p2, :cond_0
+
+    .line 3
+    invoke-virtual {p1, p0}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    .line 4
+    :cond_0
+    invoke-static {p0}, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->bind(Landroid/view/View;)Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public bridge synthetic getRoot()Landroid/view/View;
+    .locals 0
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->getRoot()Lcom/android/quickstep/views/FloatingTaskView;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public getRoot()Lcom/android/quickstep/views/FloatingTaskView;
+    .locals 0
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    .line 2
+    iget-object p0, p0, Lcom/android/launcher3/databinding/FloatingSplitSelectViewBinding;->rootView:Lcom/android/quickstep/views/FloatingTaskView;
+
+    return-object p0
+.end method

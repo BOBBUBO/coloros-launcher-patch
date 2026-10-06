@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@drawable/$fullscreen_caption_handle_split_strong_hint_enter__5" android:duration="417" android:startOffset="0" android:valueFrom="1" android:valueTo="5.2" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$fullscreen_caption_handle_split_strong_hint_enter__6" android:duration="417" android:startOffset="0" android:valueFrom="1" android:valueTo="5.2" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$fullscreen_caption_handle_split_strong_hint_enter__7" android:duration="133" android:startOffset="417" android:valueFrom="5.2" android:valueTo="5" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$fullscreen_caption_handle_split_strong_hint_enter__8" android:duration="133" android:startOffset="417" android:valueFrom="5.2" android:valueTo="5" android:valueType="floatType" android:propertyName="scaleY" />
+    <objectAnimator android:interpolator="@drawable/$fullscreen_caption_handle_split_strong_hint_enter__9" android:duration="250" android:startOffset="550" android:valueFrom="5" android:valueTo="5.2" android:valueType="floatType" android:propertyName="scaleX" />
+    <objectAnimator android:interpolator="@drawable/$fullscreen_caption_handle_split_strong_hint_enter__10" android:duration="250" android:startOffset="550" android:valueFrom="5" android:valueTo="5.2" android:valueType="floatType" android:propertyName="scaleY" />
+</set>

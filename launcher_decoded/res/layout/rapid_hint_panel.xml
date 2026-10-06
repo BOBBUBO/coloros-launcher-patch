@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.quickstep.rapidreaction.widget.RapidIconView android:layout_gravity="center_horizontal" android:id="@id/rapid_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:forceDarkAllowed="false" app:icon_height="@dimen/icon_content_size" app:icon_width="@dimen/icon_content_size" />
+    <TextView android:textAppearance="@style/RapidReaction.Text" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rapid_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/rapid_reaction_text_content_normal_width" android:text="@string/oplus_rapid_reach_float_window" android:maxLines="1" android:layout_below="@id/rapid_icon" android:importantForAccessibility="no" android:forceDarkAllowed="false" />
+</LinearLayout>

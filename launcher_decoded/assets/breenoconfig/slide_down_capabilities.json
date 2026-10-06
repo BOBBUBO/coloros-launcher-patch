@@ -1,0 +1,54 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001031",
+      "key": "com.android.launcher.set_launcher_slide_down",
+      "name": "设置桌面下滑",
+      "version": "1.0.0",
+      "versionCode": "1000000",
+      "tags": [
+        "设置",
+        "桌面下滑"
+      ],
+      "description": "桌面下滑属于选择类设置项，主要功能是调整桌面下滑可以快速进入的页面。设置桌面下滑是桌面下滑设置项的一个具体操作指令，主要用于桌面下滑切换至全局搜索就可以下滑进入全局搜索页面。桌面下滑切换至通知中心就可以下滑进入通知中心页面。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_slide_down",
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，以打开桌面下滑设置项。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，以打开桌面下滑设置项。"
+              },
+              {
+                "key": "deep_link",
+                "type": "string",
+                "value": "launcher://LauncherSettings"
+              }
+            ]
+          }
+        },
+        "inputParams": [
+          {
+            "key": "select_action_value",
+            "type": "string",
+            "required": false,
+            "description": "桌面下滑类型，取值范围不定，可能为[全局搜索;通知中心]，可缺失",
+            "name": "切换状态"
+          }
+        ]
+      }
+    }
+  ]
+}

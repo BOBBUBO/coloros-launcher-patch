@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.taskbar.allapps.search.TaskbarAppsSearchContainerLayout android:id="@id/search_container_all_apps" android:saveEnabled="false" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="@dimen/all_apps_search_bar_field_height" android:layout_marginTop="@dimen/oplus_taskbar_allapps_search_container_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/search_view_stub" android:layout="@layout/search_container_all_apps_search_view_animate" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</com.android.launcher3.taskbar.allapps.search.TaskbarAppsSearchContainerLayout>

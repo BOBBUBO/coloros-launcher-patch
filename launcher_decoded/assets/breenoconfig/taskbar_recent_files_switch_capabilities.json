@@ -1,0 +1,136 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001273",
+      "key": "com.android.launcher.open_taskbar_recent_files_switch",
+      "packageName": "com.android.launcher",
+      "name": "打开任务栏最近文件",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "最近文件"
+      ],
+      "description": "最近文件属于开关类设置项，主要功能是在任务栏增加显示最近添加的图片，文档或其他文件，方便用户可以通过任务栏快速找到和查看需要的文档或图片。打开任务栏最近文件是最近文件设置项的一个具体操作指令，主要用于功能打开后会在任务栏的显示最近使用的文件。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_tools_filemanager",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "1"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开最近文件开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开最近文件开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001275",
+      "key": "com.android.launcher.close_taskbar_recent_files_switch",
+      "packageName": "com.android.launcher",
+      "name": "关闭任务栏最近文件",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "最近文件"
+      ],
+      "description": "最近文件属于开关类设置项，主要功能是在任务栏增加显示最近添加的图片，文档或其他文件，方便用户可以通过任务栏快速找到和查看需要的文档或图片。关闭任务栏最近文件是最近文件设置项的一个具体操作指令，主要用于功能关闭后不会在任务栏上再显示最近文件图标。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_tools_filemanager",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "2"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你关闭最近文件开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你关闭最近文件开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001276",
+      "key": "com.android.launcher.set_taskbar_recent_files",
+      "packageName": "com.android.launcher",
+      "name": "设置任务栏最近文件",
+      "version": "1.0.3",
+      "versionCode": "1000003",
+      "tags": [
+        "折叠屏专区",
+        "最近文件"
+      ],
+      "description": "最近文件属于页面类设置项，主要功能是在任务栏增加显示最近添加的图片，文档或其他文件。设置任务栏最近文件是最近文件设置项的一个具体操作指令，主要用于方便用户可以通过任务栏快速找到和查看需要的文档或图片。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_tools_filemanager",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "3"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开最近文件设置项。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开最近文件设置项。"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

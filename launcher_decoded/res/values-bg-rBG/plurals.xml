@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Не може да се добави повече от %1$d идентична притурка</item>
+        <item quantity="other">Не могат да се добавят повече от %1$d идентични притурки</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Страница %1$d от %2$d</item>
+        <item quantity="other">Страница %1$d от %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Това приложение ще изчезне от началния екран, но ще се запази в чекмеджето за приложението.</item>
+        <item quantity="other">Избраните приложения ще изчезнат от началния екран, но ще бъдат запазени в чекмеджето за приложения.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Премахване на %d приложение?</item>
+        <item quantity="other">Премахване на %d приложения?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Избраните приложения ще изчезнат от началния екран, но ще бъдат запазени в чекмеджето за приложения. Избраните преки пътища ще бъдат премахнати.</item>
+        <item quantity="other">Избраните приложения ще изчезнат от началния екран, но ще бъдат запазени в чекмеджето за приложения. Избраните преки пътища ще бъдат премахнати.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Премахване на %d избрано приложение или пряк път?</item>
+        <item quantity="other">Премахване на %d избрани приложения или преки пътища?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Премахване на прекия път за %1$d по-долу?</item>
+        <item quantity="other">Премахване на преките пътища за %1$d по-долу?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Премахване на %1$d пряк път</item>
+        <item quantity="other">Премахване на %1$d преки пътя</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d избран</item>
+        <item quantity="other">%1$d избрани</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d ден</item>
+        <item quantity="other">%1$d дни</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ново известие</item>
+        <item quantity="other">%d нови известия</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d колона</item>
+        <item quantity="other">%1$d колони</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Деинсталиране на приложението %1$d по-долу?</item>
+        <item quantity="other">Деинсталиране на приложенията %1$d по-долу?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Деинсталиране на %1$d приложение (включително клонираното му копие) и изчистване на данните от него.</item>
+        <item quantity="other">Деинсталиране на %1$d приложения (включително клонираните им копия) и изчистване на данните от тях.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Деинсталиране на %1$d приложение и изчистване на данните от него.</item>
+        <item quantity="other">Деинсталиране на %1$d приложения и изчистване на данните от тях.</item>
+    </plurals>
+</resources>

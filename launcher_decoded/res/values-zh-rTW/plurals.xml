@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d 天前</item>
+        <item quantity="other">%d 天前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d 分鐘前</item>
+        <item quantity="other">%d 分鐘前</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d 年前</item>
+        <item quantity="other">%d 年前</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">桌面最多放置 %1$d 張相同卡片</item>
+        <item quantity="other">桌面最多放置 %1$d 張相同卡片</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">第 %1$d 頁，共 %2$d 頁</item>
+        <item quantity="other">第 %1$d 頁，共 %2$d 頁</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">應用程式將不顯示在桌面，會保留在抽屜中</item>
+        <item quantity="other">應用程式將不顯示在桌面，會保留在抽屜中</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">是否移除以下 %d 個應用程式？</item>
+        <item quantity="other">是否移除以下 %d 個應用程式？</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">應用程式不顯示在桌面，將會保留在抽屜中，捷徑將被移除</item>
+        <item quantity="other">應用程式不顯示在桌面，將會保留在抽屜中，捷徑將被移除</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">是否移除以下 %d 個應用程式及捷徑？</item>
+        <item quantity="other">是否移除以下 %d 個應用程式及捷徑？</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">要移除下列 %1$d 個桌面捷徑嗎?</item>
+        <item quantity="other">要移除以下 %1$d 個桌面捷徑嗎?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">移除 %1$d 個快捷方式</item>
+        <item quantity="other">移除 %1$d 個快捷方式</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d 則新通知</item>
+        <item quantity="other">%d 則新通知</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">已選擇 %1$d 項</item>
+        <item quantity="other">已選擇 %1$d 項</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d 天</item>
+        <item quantity="other">%1$d 天</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">有 %d 條新通知</item>
+        <item quantity="other">有 %d 條新通知</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d 列佈局</item>
+        <item quantity="other">%1$d 列佈局</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">要解除安裝下列 %1$d 個應用程式嗎？</item>
+        <item quantity="other">要解除安裝下列 %1$d 個應用程式嗎？</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">解除安裝 %1$d 個應用程式 (及其分身)，同時清空資料。</item>
+        <item quantity="other">解除安裝 %1$d 個應用程式 (及其分身)，同時清空資料。</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">解除安裝 %1$d 個應用程式，同時清空資料。</item>
+        <item quantity="other">解除安裝 %1$d 個應用程式，同時清空資料。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.quickstep.views.OplusGroupedTaskView android:focusable="true" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.quickstep.views.FakeTaskIconView android:id="@id/bottomRight_icon" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="1.0dp" android:layout_height="1.0dp" android:importantForAccessibility="no" />
+    <com.oplus.quickstep.views.FakeTaskIconView android:id="@id/icon" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include layout="@layout/oplus_task_header_override" />
+    <com.android.quickstep.views.OplusTaskThumbnailViewImpl android:id="@id/snapshot" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/color_task_thumbnail_top_margin" android:forceDarkAllowed="false" />
+    <com.android.quickstep.views.OplusTaskThumbnailViewImpl android:id="@id/bottomright_snapshot" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false" />
+</com.android.quickstep.views.OplusGroupedTaskView>

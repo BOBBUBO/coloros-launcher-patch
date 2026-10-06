@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.guide.SlideSlipGuidePage android:orientation="vertical" android:background="@color/guide_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/guide_skip_text_size" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="end" android:id="@id/close_text" android:layout_width="wrap_content" android:layout_height="@dimen/slidslip_guide_close_button_height" android:layout_marginTop="@dimen/slidslip_guide_close_button_margin_top" android:text="@string/guide_skip_desc" android:paddingStart="@dimen/slidslip_guide_close_button_padding" android:paddingEnd="@dimen/slidslip_guide_close_button_padding" />
+    <com.oplus.widget.OplusViewPager android:id="@id/view_pager" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_marginTop="@dimen/slidslip_page_view_margin_top" android:layout_weight="1.0" android:layout_below="@id/close_text" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/indicator_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/guide_indicator_container_margin_bottom">
+        <ImageView android:id="@id/indicator1" android:src="@drawable/guide_page_indicator_focused" android:layout_marginStart="0.0dp" style="@style/GuidePageIndicator" />
+        <ImageView android:id="@id/indicator2" style="@style/GuidePageIndicator" />
+        <ImageView android:id="@id/indicator3" style="@style/GuidePageIndicator" />
+        <ImageView android:id="@id/indicator4" style="@style/GuidePageIndicator" />
+    </LinearLayout>
+</com.android.launcher.guide.SlideSlipGuidePage>

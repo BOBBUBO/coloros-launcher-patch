@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Nova godina</item>
+        <item>Valentinovo</item>
+        <item>Dan žena</item>
+        <item>Međunarodni praznik rada</item>
+        <item>Majčin dan</item>
+        <item>Dan djece</item>
+        <item>Dan očeva</item>
+        <item>Dan pedagoga</item>
+        <item>Dan državnosti</item>
+        <item>Dan zahvalnosti</item>
+        <item>Božić</item>
+    </string-array>
+</resources>

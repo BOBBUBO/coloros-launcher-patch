@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/oplus_lock_setting_title" android:key="color_lock_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="" android:key="title_recent_layout_fold" app:isFirstCategory="true" app:isPreferenceVisible="true" />
+    <com.oplus.quickstep.locksetting.ui.RecentStyleLayoutPreference android:persistent="false" android:key="key_recent_style_select" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:enabled="true" android:key="category_display_information_recent_task">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/oplus_lock_setting_menory_info_title" android:key="display_memory_information_recent_task" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/oplus_lock_setting_phone_manager_entrance" android:key="display_phone_manager_entrance" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/oplus_lock_setting_locked_app" android:key="category_locked_apps" />
+    <com.oplus.quickstep.locksetting.ui.UnlockTitlePreferenceCategory android:layout="@layout/unlock_title_preference_category_layout" android:title="@string/oplus_lock_setting_unlocked_app" android:key="category_unlock_apps" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title=" " android:key="category_bottom_divider" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:persistent="false" android:enabled="false" android:key="category_power_save_mode_notice">
+        <com.oplus.quickstep.locksetting.ui.NoticePreference android:layout="@layout/lock_setting_preference_notice" android:key="preference_power_save_mode_notice" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

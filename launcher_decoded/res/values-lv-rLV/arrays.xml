@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Jaunais gads</item>
+        <item>Valentīna diena</item>
+        <item>Sieviešu diena</item>
+        <item>Starptautiskā strādnieku diena</item>
+        <item>Mātes diena</item>
+        <item>Bērnu diena</item>
+        <item>Tēva diena</item>
+        <item>Skolotāju diena</item>
+        <item>Valsts svētki</item>
+        <item>Pateicības diena</item>
+        <item>Ziemassvētki</item>
+    </string-array>
+</resources>

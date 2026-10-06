@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="27.0dp" android:width="100.0dp" android:viewportWidth="100.0" android:viewportHeight="27.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="leftDot">
+        <path android:fillColor="#000000" android:pathData="M41,11C41.66,11 42.3,11.26 42.77,11.73C43.24,12.2 43.5,12.84 43.5,13.5C43.5,14.16 43.24,14.8 42.77,15.27C42.3,15.74 41.66,16 41,16C40.34,16 39.7,15.74 39.23,15.27C38.76,14.8 38.5,14.16 38.5,13.5C38.5,12.84 38.76,12.2 39.23,11.73C39.7,11.26 40.34,11 41,11Z" />
+    </group>
+    <group android:name="middleDot" android:pivotX="50.0" android:pivotY="13.5">
+        <path android:fillColor="#000000" android:pathData="M50,11C50.66,11 51.3,11.26 51.77,11.73C52.24,12.2 52.5,12.84 52.5,13.5C52.5,14.16 52.24,14.8 51.77,15.27C51.3,15.74 50.66,16 50,16C49.34,16 48.7,15.74 48.23,15.27C47.76,14.8 47.5,14.16 47.5,13.5C47.5,12.84 47.76,12.2 48.23,11.73C48.7,11.26 49.34,11 50,11Z" />
+    </group>
+    <group android:name="rightDot">
+        <path android:fillColor="#000000" android:pathData="M59,11C59.66,11 60.3,11.26 60.77,11.73C61.24,12.2 61.5,12.84 61.5,13.5C61.5,14.16 61.24,14.8 60.77,15.27C60.3,15.74 59.66,16 59,16C58.34,16 57.7,15.74 57.23,15.27C56.76,14.8 56.5,14.16 56.5,13.5C56.5,12.84 56.76,12.2 57.23,11.73C57.7,11.26 58.34,11 59,11Z" />
+    </group>
+</vector>

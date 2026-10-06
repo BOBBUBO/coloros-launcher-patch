@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_permission_card" android:background="@color/card_no_permission_view_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/card_permission_image" android:layout_width="@dimen/card_no_perission_tip_image_size_land" android:layout_height="@dimen/card_no_perission_tip_image_size_land" android:src="@drawable/card_no_permission" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/card_no_perission_tip_text_size_land" android:textColor="@color/card_no_permission_tip_text_color" android:gravity="center" android:id="@id/card_permission_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/card_permission_deny" android:singleLine="true" android:layout_centerInParent="true" android:layout_centerHorizontal="true" android:paddingHorizontal="@dimen/card_no_perission_tip_padding_horizontal" />
+    <TextView android:textSize="@dimen/card_no_perission_setting_text_size_land" android:textStyle="bold" android:textColor="@color/card_no_permission_tip_setting_text_color" android:id="@id/card_permission_setting" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_no_perission_setting_text_margin_top_land" android:text="@string/card_setting" android:layout_centerHorizontal="true" />
+</LinearLayout>

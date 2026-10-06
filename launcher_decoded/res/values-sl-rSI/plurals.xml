@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Dodate lahko največ %1$d enak pripomoček.</item>
+        <item quantity="two">Dodate lahko največ %1$d enaka pripomočka.</item>
+        <item quantity="few">Dodate lahko največ %1$d enake pripomočke.</item>
+        <item quantity="other">Dodate lahko največ %1$d enakih pripomočkov.</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Stran %1$d od %2$d</item>
+        <item quantity="two">Stran %1$d od %2$d</item>
+        <item quantity="few">Stran %1$d od %2$d</item>
+        <item quantity="other">Stran %1$d od %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Ta aplikacija bo izginila z začetnega zaslona, vendar bo ostala na seznamu aplikacij.</item>
+        <item quantity="two">Izbrane aplikacije bodo izginile z začetnega zaslona, vendar bodo ostale na seznamu aplikacij.</item>
+        <item quantity="few">Izbrane aplikacije bodo izginile z začetnega zaslona, vendar bodo ostale na seznamu aplikacij.</item>
+        <item quantity="other">Izbrane aplikacije bodo izginile z začetnega zaslona, vendar bodo ostale na seznamu aplikacij.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Ali želite odstraniti toliko aplikacij: %d?</item>
+        <item quantity="two">Ali želite odstraniti %d aplikaciji?</item>
+        <item quantity="few">Ali želite odstraniti %d aplikacije?</item>
+        <item quantity="other">Ali želite odstraniti toliko aplikacij: %d?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Izbrane aplikacije bodo izginile z začetnega zaslona, vendar bodo ostale na seznamu aplikacij. Izbrane bližnjice bodo odstranjene.</item>
+        <item quantity="two">Aplikacije bodo izginile z začetnega zaslona, vendar bo ostala na seznamu aplikacij. Bližnjice bodo odstranjene.</item>
+        <item quantity="few">Aplikacije bodo izginile z začetnega zaslona, vendar bo ostala na seznamu aplikacij. Bližnjice bodo odstranjene.</item>
+        <item quantity="other">Izbrane aplikacije bodo izginile z začetnega zaslona, vendar bodo ostale na seznamu aplikacij. Izbrane bližnjice bodo odstranjene.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Ali želite odstraniti toliko izbranih aplikacij ali bližnjic: %d?</item>
+        <item quantity="two">Ali želite odstraniti %d izbrani aplikaciji ali bližnjici?</item>
+        <item quantity="few">Ali želite odstraniti %d izbrane aplikacije ali bližnjice?</item>
+        <item quantity="other">Ali želite odstraniti toliko izbranih aplikacij ali bližnjic: %d?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Ali želite odstraniti %1$d spodnjo bližnjico?</item>
+        <item quantity="two">Ali želite odstraniti %1$d spodnji bližnjici?</item>
+        <item quantity="few">Ali želite odstraniti %1$d spodnje bližnjice?</item>
+        <item quantity="other">Ali želite odstraniti %1$d spodnjih bližnjic?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Odstrani %1$d bližnjico</item>
+        <item quantity="two">Odstrani %1$d bližnjici</item>
+        <item quantity="few">Odstrani %1$d bližnjice</item>
+        <item quantity="other">Odstrani toliko bližnjic: %1$d</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d izbran</item>
+        <item quantity="two">Izbrana sta %1$d elementa</item>
+        <item quantity="few">Izbrani so %1$d elementi</item>
+        <item quantity="other">%1$d izbranih</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d dan</item>
+        <item quantity="two">%1$d dneva</item>
+        <item quantity="few">%1$d dni</item>
+        <item quantity="other">%1$d dni</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d novo obvestilo</item>
+        <item quantity="two">%d novi obvestili</item>
+        <item quantity="few">%d nova obvestila</item>
+        <item quantity="other">Št. novih obvestil: %d</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">Toliko stolpcev: %1$d</item>
+        <item quantity="two">Toliko stolpcev: %1$d</item>
+        <item quantity="few">Toliko stolpcev: %1$d</item>
+        <item quantity="other">Toliko stolpcev: %1$d</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Ali želite odstraniti %1$d spodnjo aplikacijo?</item>
+        <item quantity="two">Ali želite odstraniti %1$d spodnji aplikaciji?</item>
+        <item quantity="few">Ali želite odstraniti %1$d spodnje aplikacije?</item>
+        <item quantity="other">Ali želite odstraniti %1$d spodnjih aplikacij?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Odstranite %1$d aplikacijo (vključno z dvojnikom) in počistite njene podatke.</item>
+        <item quantity="two">Odstranite %1$d aplikaciji (vključno z dvojniki) in počistite njihove podatke.</item>
+        <item quantity="few">Odstranite %1$d aplikacije (vključno z dvojniki) in počistite njihove podatke.</item>
+        <item quantity="other">Odstranite %1$d aplikacij (vključno z dvojniki) in počistite njihove podatke.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Odstranite %1$d aplikacijo in počistite njene podatke.</item>
+        <item quantity="two">Odstranite %1$d aplikaciji in počistite njune podatke.</item>
+        <item quantity="few">Odstranite %1$d aplikacije in počistite njihove podatke.</item>
+        <item quantity="other">Odstranite aplikacije (%1$d) in počistite njihove podatke.</item>
+    </plurals>
+</resources>

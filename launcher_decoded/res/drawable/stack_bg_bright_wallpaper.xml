@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid android:color="@color/stack_bg_bright_wallpaper" />
+    <corners android:radius="@dimen/big_folder_bg_radius" />
+    <smooth-weight android:gradientRadius="@dimen/radius_weight" />
+</shape>

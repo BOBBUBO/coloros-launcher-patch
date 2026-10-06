@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="system_shortcut_item_bg_pressed">#1affffff</drawable>
+    <drawable name="system_shortcut_item_bg_unpress">#404040</drawable>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">"No es pot afegir més d'%1$d giny idèntic"</item>
+        <item quantity="other">No es poden afegir més de %1$d ginys idèntics</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Pàgina %1$d de %2$d</item>
+        <item quantity="other">Pàgina %1$d de %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">"Aquesta aplicació desapareixerà de la pantalla d'inici, però es desarà al calaix d'aplicacions."</item>
+        <item quantity="other">"Les aplicacions seleccionades desapareixeran de la pantalla d'inici, però es desaran al calaix d'aplicacions."</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Vols treure %d aplicació?</item>
+        <item quantity="other">Vols treure %d aplicacions?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">"Les aplicacions seleccionades desapareixeran de la pantalla d'inici, però es desaran al calaix d'aplicacions. Les dreceres seleccionades s'eliminaran."</item>
+        <item quantity="other">"Les aplicacions seleccionades desapareixeran de la pantalla d'inici, però es desaran al calaix d'aplicacions. Les dreceres seleccionades s'eliminaran."</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Vols eliminar %d aplicació o drecera seleccionada?</item>
+        <item quantity="other">Vols eliminar %d aplicacions o dreceres seleccionades?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Voleu suprimir la drecera de %1$d següent?</item>
+        <item quantity="other">Voleu suprimir les dreceres de %1$d següents?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Suprimeix %1$d drecera</item>
+        <item quantity="other">Suprimeix %1$d dreceres</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d seleccionada</item>
+        <item quantity="other">%1$d seleccionades</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d dia</item>
+        <item quantity="other">%1$d dies</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova notificació</item>
+        <item quantity="other">%d noves notificacions</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d columna</item>
+        <item quantity="other">%1$d columnes</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">"Voleu desinstal·lar l'aplicació %1$d següent?"</item>
+        <item quantity="other">Voleu desinstal·lar les aplicacions %1$d següents?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Desinstal·leu %1$d aplicació (incloent-hi el seu clon) i esborreu les seves dades.</item>
+        <item quantity="other">Desinstal·leu %1$d aplicacions (incloent-hi els seus clons) i esborreu les seves dades.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Desinstal·la %1$d aplicació i esborra les seves dades.</item>
+        <item quantity="other">Desinstal·la %1$d aplicacions i esborra les seves dades.</item>
+    </plurals>
+</resources>

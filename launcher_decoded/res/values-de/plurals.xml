@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">vor %d Tag</item>
+        <item quantity="other">vor %d Tagen</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">vor %d Min.</item>
+        <item quantity="other">vor %d Min.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">vor %d Jahr</item>
+        <item quantity="other">vor %d Jahren</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Es können nicht mehr als %1$d identisches Widget hinzugefügt werden</item>
+        <item quantity="other">Es können nicht mehr als %1$d identische Widgets hinzugefügt werden</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Seite %1$d von %2$d</item>
+        <item quantity="other">Seite %1$d von %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Diese App wird vom Startbildschirm gelöscht, bleibt aber im App-Drawer erhalten.</item>
+        <item quantity="other">Die ausgewählten Apps werden vom Startbildschirm gelöscht, bleiben aber im App-Drawer erhalten.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d App entfernen?</item>
+        <item quantity="other">%d Apps entfernen?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Die ausgewählten Apps werden vom Startbildschirm entfernt, bleiben aber im App-Drawer erhalten. Die ausgewählten Verknüpfungen werden entfernt.</item>
+        <item quantity="other">Die ausgewählten Apps werden vom Startbildschirm entfernt, bleiben aber im App-Drawer erhalten. Die ausgewählten Verknüpfungen werden entfernt.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d ausgewählte App oder Verknüpfung entfernen?</item>
+        <item quantity="other">%d ausgewählte Apps oder Verknüpfungen entfernen?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Die %1$d-Verknüpfung unten entfernen?</item>
+        <item quantity="other">Die %1$d-Verknüpfungen unten entfernen?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d Verknüpfung entfernen</item>
+        <item quantity="other">%1$d Verknüpfungen entfernen</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d neue Benachrichtigung</item>
+        <item quantity="other">%d neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d ausgewählt</item>
+        <item quantity="other">%1$d ausgewählt</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d Tag</item>
+        <item quantity="other">%1$d Tage</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d neue Benachrichtigung</item>
+        <item quantity="other">%d neue Benachrichtigungen</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d Spalte</item>
+        <item quantity="other">%1$d Spalten</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Die %1$d-App unten deinstallieren?</item>
+        <item quantity="other">Die %1$d-Apps unten deinstallieren?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d App (einschließlich des Klons) deinstallieren und die zugehörigen Daten löschen.</item>
+        <item quantity="other">%1$d Apps deinstallieren (einschließlich der Klone) und die zugehörigen Daten löschen.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d App deinstallieren und die zugehörigen Daten löschen.</item>
+        <item quantity="other">%1$d Apps deinstallieren und die zugehörigen Daten löschen.</item>
+    </plurals>
+</resources>

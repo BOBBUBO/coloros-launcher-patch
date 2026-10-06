@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/oplus_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:enabled="false" android:key="category_launcher_dock_expand" app:isFirstCategory="true">
+        <com.android.launcher.settings.LauncherDockExpandPreference android:persistent="false" android:key="key_launcher_dock_expand" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="key_category_launcher_dock_expand_switch" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/launcher_dock_expand_switch_title" android:key="key_launcher_dock_expand_switch" android:summary="@string/launcher_dock_expand_switch_tip" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

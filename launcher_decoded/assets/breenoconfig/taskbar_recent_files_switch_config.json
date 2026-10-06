@@ -1,0 +1,18 @@
+{
+  "identifier": {
+    "url": "com.android.launcher.536877853",
+    "id": "536877853",
+    "type": "apk",
+    "name": "最近文件",
+    "version": "1.0.3",
+    "versionCode": 1000003,
+    "description": "我是一个APK软件包，提供不可见的服务。包含最近文件的能力，适用于语音类的入口。"
+  },
+  "intent": {},
+  "runtime": {
+    "type": "background"
+  },
+  "meta-data": {
+    "capabilities": "breenoconfig/taskbar_recent_files_switch_capabilities.json"
+  }
+}

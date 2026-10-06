@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.OplusBubbleTextViewSubscribe android:textColor="@color/oplus_launcher_mainmenu_default_text_color" launcher:iconDisplay="workspace" launcher:isNeedDoubleShadow="true" launcher:isTextColorByWallpaper="true" style="@style/BaseIcon"
+  xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />

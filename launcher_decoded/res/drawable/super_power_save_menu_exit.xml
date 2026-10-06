@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="24.0dp" android:width="24.0dp" android:autoMirrored="true" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="group">
+        <path android:name="path_width" android:pathData="M 17 25.101 L 7.101 35 L 17 44.899 M 40 35 L 7.5 35 M 24 20.791 L 24 16 C 24 14.895 24.895 14 26 14 L 54 14 C 55.105 14 56 14.895 56 16 L 56 54 C 56 55.105 55.105 56 54 56 L 26 56 C 24.895 56 24 55.105 24 54 L 24 50.186" android:strokeColor="#ffffff" android:strokeWidth="4.0" />
+    </group>
+</vector>

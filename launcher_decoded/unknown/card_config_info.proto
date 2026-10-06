@@ -1,0 +1,129 @@
+syntax = "proto2";
+
+package com.oplus.cardservice.valueobject.model;
+
+option java_multiple_files = true;
+
+message CardConfigInfoListProto{
+  repeated CardConfigInfoProto list = 1;
+
+  message CardConfigInfoProto {
+    // 卡片组Id
+    required int32     groupId       = 1;
+    // 卡片组标题
+    required string    groupTitle    = 2;
+    // 卡片组图标uri。
+    /**
+     * 如果是应用内部图标资源的id，以前缀@进行区分，如@drawable_widget。使用方法：
+     * val remoteContext = context.createPackageContext(packageName, Context.CONTEXT_INCLUDE_CODE or Context.CONTEXT_IGNORE_SECURITY)
+     * val id = remoteContext.resources.getIdentifier(name.replace("@", ""), "drawable", packageName)
+     * remoteContext.getDrawable(id)
+     */
+    required string    groupIcon     = 3;
+    // 卡片类型。每种卡片具有唯一的一个type
+    required int32     type          = 4;
+    // 卡片名称
+    required string    name          = 5;
+    // 卡片描述
+    required string    desc          = 6;
+    // 卡片预览图uri。如果是应用内部图片资源的id，以前缀@进行区分，如@drawable_review。使用方法同groupIcon。
+    required string    preview       = 7;
+    // 卡片尺寸。
+    /**
+     * TWO_PLUS_TWO = 1
+     * TWO_PLUS_FOUR = 2
+     * FOUR_PLUS_FOUR = 3
+     * N_PLUS_FOUR = 4
+     */
+    required SIZE      size          = 8;
+    // 该卡片在卡片组里的顺序
+    optional int32     orderInGroup  = 9 [default = 0];
+    // 卡片所在业务方包名
+    required string    packageName   = 10;
+    // 卡片用于和卡片服务进行通信的ContentProvider name
+    required string    componentName = 11;
+    // 卡片种类
+    /**
+     * INSTANT = 1 快应用卡片
+     * APP = 2 普通应用卡片
+     * CONTENT_OPERATION = 3 内容运营卡片
+     * SERVICE = 4 动态建议卡片
+     */
+    required int32     category      = 12;
+    // 卡片是否支持拉伸。
+    required bool      resizable     = 13;
+    // 卡片运营图标
+    /**
+     * NONE = 1 无
+     * NEW = 2  新卡片
+     * HOT = 3  热门卡片
+     */
+    required OPERATION operatingIcon = 14;
+    // 卡片的设置页action
+    required string    settingUrl    = 15;
+    // 卡片可显示的区域
+    /**
+     * ASSISTANT_LAUNCHER = 1 在负一屏和桌面显示
+     * ASSISTANT_ONLY = 2     只在负一屏显示
+     * LAUNCHER_ONLY = 3      只在桌面显示
+     */
+    optional int32     displayArea   = 16 [default = 0];
+    // 卡片的最小宽度
+    optional int32     minWidth      = 17 [default = 0];
+    // 卡片的最小高度
+    optional int32     minHeight     = 18 [default = 0];
+    // 添加卡片时的加载前景图。业务方本地配置，以@作为前缀。
+    optional string    loadingIcon   = 19 [default = ""];
+    // 添加卡片时的加载背景图。业务方本地配置，以@作为前缀。
+    optional string    loadingBgIcon   = 20 [default = ""];
+    // 预留Flag
+    /**
+      卡片不在负一屏卡片商店显示
+      FLAG_DISABLE_ASSISTANT_CARD_SHOP = 0x00000001
+
+      卡片不在桌面卡片商店显示
+      FLAG_DISABLE_LAUNCHER_CARD_SHOP = 0x00000002
+
+      卡片不允许在负一屏拖拽和换位
+      FLAG_DISABLE_ASSISTANT_DRAG = 0x00000004
+
+      卡片不允许在负一屏编辑，包括删除和进入编辑状态
+      FLAG_DISABLE_ASSISTANT_EDIT = 0x00000008
+     */
+    optional int32     reservedFlag  = 21 [default = 0];
+    // 卡片是否默认订阅
+    optional int32     defaultSubscribed  = 22 [default = 0];
+
+    // 卡片组在卡片商店的顺序,桌面没有使用
+    optional int32     groupOrder = 23 [default = -1];
+    // 宽屏项目上卡片的预览图,桌面没有使用
+    optional string    previewSw480 = 24 [default = ""];
+
+    // 可被泛在卡片推荐的id
+    required string    serviceId    = 25 [default = ""];
+
+    enum               SIZE {
+      TWO_PLUS_TWO   = 1;
+      TWO_PLUS_FOUR  = 2;
+      FOUR_PLUS_FOUR = 3;
+      N_PLUS_FOUR = 4;
+      ONE_PLUS_TWO = 5;
+    }
+
+    enum               CATEGORY {
+      INSTANT   = 1;
+      APP  = 2;
+      CONTENT_OPERATION = 3;
+      SERVICE = 4;
+      SEEDING = 100;
+    }
+
+    enum               OPERATION {
+      NONE = 1;
+      NEW  = 2;
+      HOT  = 3;
+    }
+
+  }
+
+}

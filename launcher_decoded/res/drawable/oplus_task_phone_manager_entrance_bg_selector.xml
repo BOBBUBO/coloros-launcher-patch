@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/oplus_task_phone_manager_entrance_light_bg" android:left="2.0dp" android:top="2.0dp" android:right="2.0dp" android:bottom="2.0dp" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:drawable="@drawable/oplus_task_phone_manager_entrance_bg" />
+        </layer-list>
+    </item>
+</selector>

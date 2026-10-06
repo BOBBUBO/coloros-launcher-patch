@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.togglebar.views.ToggleBarEffectItemContainer android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/togglebar_effect_item_width" android:layout_height="@dimen/togglebar_effect_item_width" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/toggle_bar_normal_color_dark" android:ellipsize="end" android:gravity="center" android:id="@id/title" android:paddingLeft="2.0dp" android:paddingRight="2.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</com.android.launcher.togglebar.views.ToggleBarEffectItemContainer>

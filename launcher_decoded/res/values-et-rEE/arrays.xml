@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Uus aasta</item>
+        <item>Valentinipäev</item>
+        <item>Naistepäev</item>
+        <item>Rahvusvaheline tööliste päev</item>
+        <item>Emadepäev</item>
+        <item>Lastepäev</item>
+        <item>Isadepäev</item>
+        <item>Õpetajate päev</item>
+        <item>Rahvusvaheline päev</item>
+        <item>Tänupühad</item>
+        <item>Jõulud</item>
+    </string-array>
+</resources>

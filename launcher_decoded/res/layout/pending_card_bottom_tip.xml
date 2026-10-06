@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.popup.pendingcard.PendingCardView android:id="@id/pending_card_bottom_tip" android:layout_width="match_parent" android:layout_height="@dimen/pending_card_bottom_tip_height" android:backgroundTint="@color/pending_card_transparent_bg_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/pending_card_tip_arrow" android:background="@drawable/pending_card_more_content_arrow" android:layout_width="@dimen/pending_card_tip_arrow_width" android:layout_height="@dimen/pending_card_tip_arrow_height" android:layout_marginTop="@dimen/pending_card_tip_arrow_margin_top" />
+    <TextView android:textSize="@dimen/pending_card_tip_text_size" android:gravity="center|top" android:layout_gravity="center|top" android:id="@id/swipe_to_see_more_tip" android:layout_width="wrap_content" android:layout_height="@dimen/pending_card_bottom_tip_height" android:layout_marginTop="@dimen/pending_card_tip_text_margin_top" android:text="@string/pending_card_tip_swipe_for_more_card" android:forceDarkAllowed="false" />
+    <com.coui.appcompat.imageview.COUIRoundImageView android:id="@id/icon" android:visibility="invisible" android:layout_width="0.0dp" android:layout_height="0.0dp" android:forceDarkAllowed="false" android:clipToOutline="true" />
+</com.android.launcher3.popup.pendingcard.PendingCardView>

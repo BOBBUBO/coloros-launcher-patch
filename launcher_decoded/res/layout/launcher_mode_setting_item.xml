@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/mode_common_margin_start" android:paddingEnd="@dimen/mode_common_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/header" android:layout_width="match_parent" android:layout_height="@dimen/launcher_model_item_height">
+        <TextView android:textSize="@dimen/mode_common_title_size" android:textColor="@color/mode_common_title" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/launcher_mode_simple" android:layout_alignParentStart="true" />
+        <RadioButton android:gravity="center_vertical" android:id="@id/check_box" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/mode_common_tips_size" android:textColor="@color/mode_common_tips" android:id="@id/tips" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/drawer_mode_tips" android:layout_below="@id/header" android:layout_alignParentStart="true" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tips">
+        <ImageView android:id="@id/preview_image_start" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/mode_image_height" android:layout_marginTop="@dimen/mode_common_preview_margin_top" android:layout_marginBottom="@dimen/mode_common_preview_margin_bottom" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="@dimen/mode_common_preview_margin_start" android:layout_marginEnd="@dimen/mode_common_preview_margin_end" />
+        <ImageView android:id="@id/preview_image_end" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/mode_image_height" android:layout_marginTop="@dimen/mode_common_preview_margin_top" android:layout_marginBottom="@dimen/mode_common_preview_margin_bottom" android:scaleType="centerCrop" android:layout_weight="1.0" android:layout_marginStart="@dimen/mode_common_preview_margin_end" android:layout_marginEnd="@dimen/mode_common_preview_margin_start" />
+    </LinearLayout>
+</RelativeLayout>

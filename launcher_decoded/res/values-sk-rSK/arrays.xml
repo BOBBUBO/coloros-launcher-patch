@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Nový rok</item>
+        <item>Deň svätého Valentína</item>
+        <item>Medzinárodný deň žien</item>
+        <item>Sviatok práce</item>
+        <item>Deň matiek</item>
+        <item>Medzinárodný deň detí</item>
+        <item>Deň otcov</item>
+        <item>Deň učiteľov</item>
+        <item>Deň ústavy</item>
+        <item>Deň vďakyvzdania</item>
+        <item>Vianoce</item>
+    </string-array>
+</resources>

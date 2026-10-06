@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:background="@color/coui_color_background_with_card" android:paddingTop="@dimen/large_button_margin_top" android:paddingBottom="@dimen/dp_24" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/common_margin" android:paddingEnd="@dimen/common_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.button.COUIButton android:id="@id/btn_apply" android:background="@drawable/oplus_large_main_button_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8" android:layout_marginRight="@dimen/dp_8" android:text="@string/apply" android:contentDescription="@string/apply" style="?couiButtonColorfulDefaultStyle" />
+</LinearLayout>

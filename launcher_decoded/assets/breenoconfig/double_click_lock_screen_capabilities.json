@@ -1,0 +1,131 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001020",
+      "key": "com.android.launcher.open_launcher_double_click_lock_screen",
+      "name": "打开双击桌面锁屏",
+      "version": "1.0.0",
+      "versionCode": "1000000",
+      "tags": [
+        "设置",
+        "双击桌面锁屏"
+      ],
+      "description": "双击桌面锁屏属于开关类设置项，主要功能是用户可以通过双击桌面空白区域快速锁屏。打开双击桌面锁屏是双击桌面锁屏设置项的一个具体操作指令，主要用于打开双击桌面锁屏功能后，用户可以通过双击桌面快速锁屏。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_double_click_lock",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "1"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开双击桌面锁定的开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开双击桌面锁定的开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001021",
+      "key": "com.android.launcher.close_launcher_double_click_lock_screen",
+      "name": "关闭双击桌面锁屏",
+      "version": "1.0.0",
+      "versionCode": "1000000",
+      "tags": [
+        "设置",
+        "双击桌面锁屏"
+      ],
+      "description": "双击桌面锁屏属于开关类设置项，主要功能是帮助用户快速通过双击进行锁屏。关闭双击桌面锁屏是双击桌面锁屏设置项的一个具体操作指令，主要用于用户关闭该功能时无法通过双击进入桌面锁屏状态。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "launcher_double_click_lock",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "2"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你关闭锁定桌面的开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你关闭锁定桌面的开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001022",
+      "key": "com.android.launcher.set_launcher_double_click_lock_screen",
+      "name": "设置双击桌面锁屏",
+      "version": "1.0.0",
+      "versionCode": "1000000",
+      "tags": [
+        "设置",
+        "双击桌面锁屏"
+      ],
+      "description": "双击桌面锁屏属于页面类设置项，主要功能是用户可以通过双击桌面空白区域快速锁屏。设置双击桌面锁屏是双击桌面锁屏设置项的一个具体操作指令，主要用于跳转到双击桌面锁屏设置页面可以帮助用户开启或关闭该功能。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_START_ACTIVITY",
+          "attributes": {
+            "packageName": "com.android.launcher",
+            "className": "com.android.launcher.settings.LauncherSettingsActivity",
+            "action": "com.android.launcher.action.settings.LAUNCHER_SETTINGS",
+            "permission": "com.oplus.permission.safe.SETTINGS",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你跳转双击桌面锁屏设置项。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你跳转双击桌面锁屏设置项。"
+              },
+              {
+                "key": "deep_link",
+                "type": "string",
+                "value": "launcher://LauncherSettings"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

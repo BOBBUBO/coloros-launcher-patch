@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView android:id="@id/widgets_scroll_container" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/widget_popup_row_section_scroller_margin_top" android:paddingHorizontal="@dimen/widget_popup_list_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

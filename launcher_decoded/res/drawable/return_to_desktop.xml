@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_0" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_1" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_2" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_3" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_4" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_5" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_6" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_7" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_8" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_9" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_10" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_11" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_12" />
+    <item android:duration="75" android:drawable="@drawable/return_to_desktop_13" />
+    <item android:duration="700" android:drawable="@drawable/return_to_desktop_14" />
+</animation-list>

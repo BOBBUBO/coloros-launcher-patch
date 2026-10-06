@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">For %d dag siden</item>
+        <item quantity="other">For %d dager siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">For %d min. siden</item>
+        <item quantity="other">For %d min. siden</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">For %d år siden</item>
+        <item quantity="other">For %d år siden</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Du kan ikke legge til flere enn %1$d identisk widget</item>
+        <item quantity="other">Du kan ikke legge til flere enn %1$d identiske widgeter.</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Side %1$d av %2$d</item>
+        <item quantity="other">Sidene %1$d av %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Denne appen vil bli borte fra startskjermen, men vil bli beholdt i appskuffen.</item>
+        <item quantity="other">De valgte appene vil bli borte fra startskjermen, men vil bli beholdt i appskuffen.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Fjerne %d app?</item>
+        <item quantity="other">Fjerne %d apper?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Valgte apper vil bli borte fra startskjermen, men vil bli beholdt i appskuffen. Valgte snarveier vil bli fjernet.</item>
+        <item quantity="other">Valgte apper vil bli borte fra startskjermen, men vil bli beholdt i appskuffen. Valgte snarveier vil bli fjernet.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Fjerne %d valgt app eller snarvei?</item>
+        <item quantity="other">Fjerne %d valgte apper eller snarveier?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Vil du fjerne %1$d-snarveien nedenfor?</item>
+        <item quantity="other">Vil du fjerne %1$d-snarveiene nedenfor?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Fjern snarveien for %1$d</item>
+        <item quantity="other">Fjern snarveiene for %1$d</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d valgt</item>
+        <item quantity="other">%1$d valgt</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dager</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nytt varsel</item>
+        <item quantity="other">%d nye varsler</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d kolonne</item>
+        <item quantity="other">%1$d kolonner</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Vil du avinstallere %1$d-appen nedenfor?</item>
+        <item quantity="other">Vil du avinstallere %1$d-appene nedenfor?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Avinstaller %1$d app (inkludert klonen av den), og slett alle tilhørende data.</item>
+        <item quantity="other">Avinstaller %1$d apper (inkludert klonene av dem), og slett alle tilhørende data.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Avinstaller %1$d app og slett de tilhørende data.</item>
+        <item quantity="other">Avinstaller %1$d apper og slett de tilhørende data.</item>
+    </plurals>
+</resources>

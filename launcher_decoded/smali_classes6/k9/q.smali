@@ -1,0 +1,165 @@
+.class public final Lk9/q;
+.super Lk9/y1;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lk9/y1<",
+        "Ljava/lang/Character;",
+        "[C",
+        "Lk9/p;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final c:Lk9/q;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Lk9/q;
+
+    sget-object v1, Lkotlin/jvm/internal/CharCompanionObject;->INSTANCE:Lkotlin/jvm/internal/CharCompanionObject;
+
+    const-string v2, "<this>"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object v1, Lk9/r;->a:Lk9/r;
+
+    invoke-direct {v0, v1}, Lk9/y1;-><init>(Lg9/b;)V
+
+    sput-object v0, Lk9/q;->c:Lk9/q;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final h(Ljava/lang/Object;)I
+    .locals 0
+
+    check-cast p1, [C
+
+    const-string p0, "<this>"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    array-length p0, p1
+
+    return p0
+.end method
+
+.method public final k(Lj9/c;ILjava/lang/Object;Z)V
+    .locals 0
+
+    check-cast p3, Lk9/p;
+
+    const-string p4, "decoder"
+
+    invoke-static {p1, p4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p4, "builder"
+
+    invoke-static {p3, p4}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lk9/y1;->b:Lk9/x1;
+
+    invoke-interface {p1, p0, p2}, Lj9/c;->decodeCharElement(Li9/e;I)C
+
+    move-result p0
+
+    invoke-virtual {p3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p3}, Lk9/w1;->c(Lk9/w1;)V
+
+    iget-object p1, p3, Lk9/p;->a:[C
+
+    iget p2, p3, Lk9/p;->b:I
+
+    add-int/lit8 p4, p2, 0x1
+
+    iput p4, p3, Lk9/p;->b:I
+
+    aput-char p0, p1, p2
+
+    return-void
+.end method
+
+.method public final l(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, [C
+
+    const-string p0, "<this>"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance p0, Lk9/p;
+
+    const-string v0, "bufferWithData"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Lk9/w1;-><init>()V
+
+    iput-object p1, p0, Lk9/p;->a:[C
+
+    array-length p1, p1
+
+    iput p1, p0, Lk9/p;->b:I
+
+    const/16 p1, 0xa
+
+    invoke-virtual {p0, p1}, Lk9/p;->b(I)V
+
+    return-object p0
+.end method
+
+.method public final o()Ljava/lang/Object;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    new-array p0, p0, [C
+
+    return-object p0
+.end method
+
+.method public final p(Lj9/d;Ljava/lang/Object;I)V
+    .locals 3
+
+    check-cast p2, [C
+
+    const-string v0, "encoder"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "content"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v0, 0x0
+
+    :goto_0
+    if-ge v0, p3, :cond_0
+
+    aget-char v1, p2, v0
+
+    iget-object v2, p0, Lk9/y1;->b:Lk9/x1;
+
+    invoke-interface {p1, v2, v0, v1}, Lj9/d;->encodeCharElement(Li9/e;IC)V
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method

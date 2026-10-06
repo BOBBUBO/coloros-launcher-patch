@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <smooth-rect />
+    <corners android:radius="@dimen/alert_panel_background_radius" />
+    <solid android:color="@color/alert_panel_background_color" />
+</shape>

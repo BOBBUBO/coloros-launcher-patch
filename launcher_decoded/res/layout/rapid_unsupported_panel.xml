@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textAppearance="@style/couiTextButtonS" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/rapid_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/rapid_reaction_double_rect_background_not_support_width" android:text="@string/oplus_rapid_reach_not_support_split_or_float_window" android:maxLines="3" android:importantForAccessibility="no" android:forceDarkAllowed="false" />
+</LinearLayout>

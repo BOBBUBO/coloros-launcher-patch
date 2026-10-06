@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/bubble_flyout_text_container" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/bubble_flyout_width" android:layout_height="@dimen/bubble_flyout_height" android:translationZ="@dimen/bubble_flyout_elevation">
+        <ImageView android:id="@id/bubble_flyout_avatar" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/bubble_ic_create_bubble" android:scaleType="centerInside" android:layout_marginEnd="@dimen/bubble_flyout_avatar_message_space" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/bubble_flyout_padding" android:paddingTop="@dimen/bubble_flyout_padding" android:paddingRight="@dimen/bubble_flyout_padding" android:paddingBottom="@dimen/bubble_flyout_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:ellipsize="end" android:id="@id/bubble_flyout_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/bubble_flyout_name_margin_bottom" android:maxLines="1" android:fontFamily="sans-serif-medium" />
+            <TextView android:textSize="13.0sp" android:textStyle="normal" android:ellipsize="end" android:id="@id/bubble_flyout_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

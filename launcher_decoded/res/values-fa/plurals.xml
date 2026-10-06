@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d روز قبل</item>
+        <item quantity="other">%d روز قبل</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d دقیقه قبل</item>
+        <item quantity="other">%d دقیقه قبل</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d سال قبل</item>
+        <item quantity="other">%d سال قبل</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">نمی‌توان بیشتر از %1$d ویجت یکسان اضافه کرد</item>
+        <item quantity="other">نمی‌توان بیشتر از %1$d ویجت یکسان اضافه کرد</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">صفحه %1$d از %2$d</item>
+        <item quantity="other">صفحه %1$d از %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">این برنامه از صفحه اصلی ناپدید می‌شود اما در کشوی برنامه نگهداری خواهد شد.</item>
+        <item quantity="other">برنامه‌های انتخاب‌شده از صفحه اصلی ناپدید خواهند شد، اما در کشوی برنامه نگهداری خواهند شد.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d برنامه حذف شود؟</item>
+        <item quantity="other">%d برنامه حذف شود؟</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">برنامه‌های انتخاب‌شده از صفحه اصلی ناپدید خواهند شد، اما در کشوی برنامه نگهداری خواهند شد. میانبرهای انتخاب‌شده حذف خواهند شد.</item>
+        <item quantity="other">برنامه‌های انتخاب‌شده از صفحه اصلی ناپدید خواهند شد، اما در کشوی برنامه نگهداری خواهند شد. میانبرهای انتخاب‌شده حذف خواهند شد.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d برنامه یا میانبر انتخاب شده حذف شود؟</item>
+        <item quantity="other">%d برنامه یا میانبر انتخاب شده حذف شوند؟</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">%1$d میان‌بر در زیر حذف شود؟</item>
+        <item quantity="other">%1$d میان‌بر در زیر حذف شوند؟</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">حذف %1$d میان‌بر</item>
+        <item quantity="other">حذف %1$d میان‌بر</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d اعلان جدید</item>
+        <item quantity="other">%d اعلان جدید</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d مورد انتخاب شد</item>
+        <item quantity="other">%1$d مورد انتخاب شد</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d روز</item>
+        <item quantity="other">%1$d روز</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d اعلان‌ جدید</item>
+        <item quantity="other">%d اعلان‌ جدید</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d ستون</item>
+        <item quantity="other">%1$d ستون</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">%1$d برنامک زیر حذف نصب شود؟</item>
+        <item quantity="other">%1$d برنامک زیر حذف نصب شوند؟</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d برنامک (ازجمله همسان آن) را حذف نصب کنید و داده‌های آن را پاک کنید.</item>
+        <item quantity="other">%1$d برنامک (ازجمله همسان‌های آن‌ها) را حذف نصب کنید و داده‌های آن‌ها را پاک کنید.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d برنامک را حذف نصب کنید و داده‌های آن را پاک کنید.</item>
+        <item quantity="other">%1$d برنامک را حذف نصب کنید و داده‌های آن‌ها را پاک کنید.</item>
+    </plurals>
+</resources>

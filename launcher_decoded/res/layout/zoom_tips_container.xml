@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="start" android:id="@id/tips_base_pixel" android:layout_width="1.0dp" android:layout_height="1.0dp" />
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="start" android:id="@id/animate_drag_right" android:visibility="invisible" android:layout_width="40.0dp" android:layout_height="110.0dp" android:scaleType="centerInside" app:anim_loop="true" />
+</FrameLayout>

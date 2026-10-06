@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Der kan ikke tilføjes mere end %1$d identisk widget</item>
+        <item quantity="other">Der kan ikke tilføjes mere end %1$d identiske widgets</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Side %1$d af %2$d</item>
+        <item quantity="other">Side %1$d af %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Denne app forsvinder fra startskærmen, men den vil stadigvæk være tilgængelig i appskuffen.</item>
+        <item quantity="other">De valgte apps forsvinder fra startskærmen, men de vil stadigvæk være tilgængelige i appskuffen.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Fjern %d app?</item>
+        <item quantity="other">Fjern %d apps?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">De valgte apps forsvinder fra startskærmen, men de vil stadigvæk være tilgængelige i appskuffen. De valgte genveje bliver fjernet.</item>
+        <item quantity="other">De valgte apps forsvinder fra startskærmen, men de vil stadigvæk være tilgængelige i appskuffen. De valgte genveje bliver fjernet.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Vil du fjerne %d valgt app eller genvej?</item>
+        <item quantity="other">Vil du fjerne %d valgte apps eller genveje?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Fjern %1$d genvej nedenfor?</item>
+        <item quantity="other">Fjern %1$d genveje nedenfor?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Fjern %1$d genvej</item>
+        <item quantity="other">Fjern %1$d genveje</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d valgt</item>
+        <item quantity="other">%1$d valgt</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d dag</item>
+        <item quantity="other">%1$d dage</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ny meddelelse</item>
+        <item quantity="other">%d nye meddelelser</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d kolonne</item>
+        <item quantity="other">%1$d kolonner</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Afinstaller %1$d app nedenfor?</item>
+        <item quantity="other">Afinstaller %1$d apps nedenfor?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Afinstaller %1$d app (inklusive dens klon), og ryd dens data.</item>
+        <item quantity="other">Afinstaller %1$d apps (inklusive deres kloner), og ryd deres data.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Afinstaller %1$d app, og ryd dens data.</item>
+        <item quantity="other">Afinstaller %1$d apps, og ryd deres data.</item>
+    </plurals>
+</resources>

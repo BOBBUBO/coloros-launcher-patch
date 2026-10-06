@@ -1,0 +1,134 @@
+.class Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;
+.super Lcom/android/launcher3/allapps/OplusItemTouchHelper$RecoverAnimation;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/android/launcher3/allapps/OplusItemTouchHelper;->isRecoverAnimationsStarted(I)Z
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/android/launcher3/allapps/OplusItemTouchHelper;
+
+.field final synthetic val$prevSelected:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+.field final synthetic val$swipeDir:I
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/launcher3/allapps/OplusItemTouchHelper;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;IIFFFFILandroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+    .locals 8
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    iput-object v1, v0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->this$0:Lcom/android/launcher3/allapps/OplusItemTouchHelper;
+
+    move/from16 v1, p9
+
+    iput v1, v0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$swipeDir:I
+
+    move-object/from16 v1, p10
+
+    iput-object v1, v0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$prevSelected:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    move-object v1, p2
+
+    move v2, p3
+
+    move v3, p4
+
+    move v4, p5
+
+    move v5, p6
+
+    move v6, p7
+
+    move/from16 v7, p8
+
+    invoke-direct/range {v0 .. v7}, Lcom/android/launcher3/allapps/OplusItemTouchHelper$RecoverAnimation;-><init>(Landroidx/recyclerview/widget/RecyclerView$ViewHolder;IIFFFF)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAnimationEnd(Lcom/coui/appcompat/animation/dynamicanimation/COUIDynamicAnimation;ZFF)V
+    .locals 0
+
+    invoke-super {p0, p1, p2, p3, p4}, Lcom/android/launcher3/allapps/OplusItemTouchHelper$RecoverAnimation;->onAnimationEnd(Lcom/coui/appcompat/animation/dynamicanimation/COUIDynamicAnimation;ZFF)V
+
+    if-nez p2, :cond_3
+
+    iget-boolean p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$RecoverAnimation;->mOverridden:Z
+
+    if-eqz p1, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    iget p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$swipeDir:I
+
+    if-gtz p1, :cond_1
+
+    iget-object p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->this$0:Lcom/android/launcher3/allapps/OplusItemTouchHelper;
+
+    iget-object p2, p1, Lcom/android/launcher3/allapps/OplusItemTouchHelper;->mCallback:Lcom/android/launcher3/allapps/OplusItemTouchHelper$Callback;
+
+    iget-object p1, p1, Lcom/android/launcher3/allapps/OplusItemTouchHelper;->mRecyclerView:Landroidx/recyclerview/widget/RecyclerView;
+
+    iget-object p3, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$prevSelected:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    invoke-virtual {p2, p1, p3}, Lcom/android/launcher3/allapps/OplusItemTouchHelper$Callback;->clearView(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$ViewHolder;)V
+
+    goto :goto_0
+
+    :cond_1
+    iget-object p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->this$0:Lcom/android/launcher3/allapps/OplusItemTouchHelper;
+
+    iget-object p1, p1, Lcom/android/launcher3/allapps/OplusItemTouchHelper;->mPendingCleanup:Ljava/util/List;
+
+    iget-object p2, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$prevSelected:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    iget-object p2, p2, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$RecoverAnimation;->mIsPendingCleanup:Z
+
+    iget p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$swipeDir:I
+
+    if-lez p1, :cond_2
+
+    iget-object p2, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->this$0:Lcom/android/launcher3/allapps/OplusItemTouchHelper;
+
+    invoke-virtual {p2, p0, p1}, Lcom/android/launcher3/allapps/OplusItemTouchHelper;->postDispatchSwipe(Lcom/android/launcher3/allapps/OplusItemTouchHelper$RecoverAnimation;I)V
+
+    :cond_2
+    :goto_0
+    iget-object p1, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->this$0:Lcom/android/launcher3/allapps/OplusItemTouchHelper;
+
+    iget-object p2, p1, Lcom/android/launcher3/allapps/OplusItemTouchHelper;->mOverdrawChild:Landroid/view/View;
+
+    iget-object p0, p0, Lcom/android/launcher3/allapps/OplusItemTouchHelper$3;->val$prevSelected:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
+
+    iget-object p0, p0, Landroidx/recyclerview/widget/RecyclerView$ViewHolder;->itemView:Landroid/view/View;
+
+    if-ne p2, p0, :cond_3
+
+    invoke-virtual {p1, p0}, Lcom/android/launcher3/allapps/OplusItemTouchHelper;->removeChildDrawingOrderCallbackIfNecessary(Landroid/view/View;)V
+
+    :cond_3
+    :goto_1
+    return-void
+.end method

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/panel_background" android:background="@drawable/ux_panel_bg_with_shadow" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.coui.appcompat.textview.COUITextView android:textSize="18.0sp" android:textColor="@color/coui_color_label_primary" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/tv_icon_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dp" android:text="@string/ux_icon_more" android:fontFamily="sans-serif-medium" android:textDirection="locale" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/panel_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/panel_margin_top">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:visibility="invisible" layout="@layout/ux_item_recycler" />
+            <com.oplus.uxicon.ui.ui.UxNestedRecyclerView android:layout_gravity="center_horizontal" android:id="@id/recycler_theme" android:fadingEdge="horizontal" android:fadingEdgeLength="@dimen/icon_style_scroll_fading_edge_length" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:requiresFadingEdge="horizontal" android:nestedScrollingEnabled="false" />
+        </FrameLayout>
+        <View android:layout_gravity="center_horizontal" android:id="@id/scroll_view_divider_line" android:background="@color/ux_oplus_preference_divider" android:layout_width="match_parent" android:layout_height="0.33000004dp" android:layout_marginTop="@dimen/ux_panel_icon_style_margin_bottom" android:layout_marginHorizontal="@dimen/ux_panel_margin_horizontal" android:forceDarkAllowed="false" />
+    </LinearLayout>
+    <androidx.core.widget.NestedScrollView android:id="@id/scroll_view" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.oplus.uxicon.ui.ui.MyLinearLayout android:orientation="vertical" android:id="@id/scroll_layout" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/ux_dark_icon_layout" />
+                <include layout="@layout/ux_art_description_layout" />
+                <include layout="@layout/ux_mono_color_layout" />
+                <include layout="@layout/ux_custom_shape_layout" />
+                <include layout="@layout/ux_seekbar_layout" />
+            </com.oplus.uxicon.ui.ui.MyLinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

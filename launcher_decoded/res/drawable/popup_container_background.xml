@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <smooth-rect />
+    <corners android:radius="@dimen/coui_round_corner_s" />
+    <solid android:color="@color/launcher_deep_shortcut_bg_color" />
+    <smooth-weight android:gradientRadius="@dimen/radius_weight" />
+</shape>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- 每次推送时需要增加这个版本号才会有效 -->
+    <version>2024011020</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_dynamic_shortcut_support_rus_list</filter-name>
+
+    <string-array name="shortcut_key">
+           <!-- 这个RUS名单只能屏蔽动态快捷方式，因此只能填动态快捷方式，如果填了静态快捷方式，该静态快捷方式无法被屏蔽 -->
+           <!-- <ShortcutKey packageName = "com.jingdong.app.mall" userId = "0" shortcutId = "orderlist"/> -->
+           <!-- <ShortcutKey packageName = "com.sina.weibo" userId = "0" shortcutId = "hot"/> -->
+    </string-array>
+
+    <disable_all_dynamic_shortcut>0</disable_all_dynamic_shortcut>
+</filter-conf>

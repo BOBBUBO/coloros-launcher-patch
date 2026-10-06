@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Urteberri Eguna</item>
+        <item>San Valentin eguna</item>
+        <item>Emakumeen eguna</item>
+        <item>Maiatzaren Lehena</item>
+        <item>Amaren eguna</item>
+        <item>Haurren eguna</item>
+        <item>Aitaren eguna</item>
+        <item>Irakasleen eguna</item>
+        <item>Egun nazionala</item>
+        <item>Esker-emate eguna</item>
+        <item>Eguberriak</item>
+    </string-array>
+</resources>

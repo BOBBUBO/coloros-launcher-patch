@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">Prije %d dan</item>
+        <item quantity="few">Prije %d dana</item>
+        <item quantity="other">Prije %d dana</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">Prije %d min</item>
+        <item quantity="few">Prije %d min</item>
+        <item quantity="other">Prije %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">Prije %d god.</item>
+        <item quantity="few">Prije %d god.</item>
+        <item quantity="other">Prije %d god.</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Nije moguće dodati više od %1$d istog vidžeta</item>
+        <item quantity="few">Ne može se dodati više od %1$d identična vidžeta</item>
+        <item quantity="other">Ne može se dodati više od %1$d istovjetna/ih vidžeta</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Stranica %1$d od %2$d</item>
+        <item quantity="few">Stranica %1$d od %2$d</item>
+        <item quantity="other">Stranica %1$d od %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Ova aplikacija će nestati s početnog ekrana, ali će ostati u panelu s aplikacijama.</item>
+        <item quantity="few">Odabrane aplikacije će nestati sa početnog ekrana ali će ostati u panelu s aplikacijama.</item>
+        <item quantity="other">Odabrane aplikacije će nestati s početnog ekrana, ali će ostati u panelu s aplikacijama.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Ukloniti aplikaciju %d?</item>
+        <item quantity="few">Ukloniti %d aplikacije?</item>
+        <item quantity="other">Ukloniti %d aplikacije/a?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Odabrane aplikacije će nestati s početnog ekrana, ali će ostati u panelu s aplikacijama. Odabrane prečice će biti uklonjene.</item>
+        <item quantity="few">Aplikacije će nestati s početnog ekrana ali će ostati u panelu s aplikacijama. Prečice će biti uklonjene.</item>
+        <item quantity="other">Odabrane aplikacije će nestati s početnog ekrana, ali će ostati u panelu s aplikacijama. Odabrane prečice će biti uklonjene.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Ukloniti odabranu aplikaciju ili prečicu %d?</item>
+        <item quantity="few">Ukloniti %d odabrane aplikacije ili prečice?</item>
+        <item quantity="other">Ukloniti %d odabrane/ih aplikacija ili prečica?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Ukloniti prečicu %1$d ispod?</item>
+        <item quantity="few">Ukloniti %1$d prečice ispod?</item>
+        <item quantity="other">Ukloniti %1$d prečice/a ispod?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Ukloni %1$d prečicu</item>
+        <item quantity="few">Ukloniti %1$d prečice</item>
+        <item quantity="other">Ukloni %1$d prečice/a</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d nova obavještenja</item>
+        <item quantity="other">%d novih obavještenja</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d odabrano</item>
+        <item quantity="few">Odabranih stavki: %1$d</item>
+        <item quantity="other">%1$d odabrano</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d dan</item>
+        <item quantity="few">%1$d dana</item>
+        <item quantity="other">%1$d dana</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d novo obavještenje</item>
+        <item quantity="few">%d novih obavještenja</item>
+        <item quantity="other">%d novih obavještenja</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d kolona</item>
+        <item quantity="few">%1$d kolone</item>
+        <item quantity="other">%1$d kolona</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Deinstalirati aplikaciju %1$d ispod?</item>
+        <item quantity="few">Deinstalirati %1$d aplikacije ispod?</item>
+        <item quantity="other">Deinstalirati %1$d aplikacije/a ispod?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Deinstalirajte %1$d aplikaciju (uključujući njen klon) i obrišite njene podatke.</item>
+        <item quantity="few">Deinstalirati %1$d aplikacije (uključujući njihove klonove) i izbriši njihove podatke.</item>
+        <item quantity="other">Deinstalirajte %1$d aplikacije/a (uključujući njihove klonove) i obrišite njihove podatke.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Deinstaliraj %1$d aplikaciju i obriši njene podatke.</item>
+        <item quantity="few">Deinstalirati %1$d aplikacije i izbriši njihove podatke.</item>
+        <item quantity="other">Deinstaliraj %1$d aplikacije/a i obriši njihove podatke.</item>
+    </plurals>
+</resources>

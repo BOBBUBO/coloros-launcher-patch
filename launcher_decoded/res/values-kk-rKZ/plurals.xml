@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Ең көбі %1$d бірдей виджетті қосуға болады</item>
+        <item quantity="other">Ең көбі %1$d бірдей виджетті қосуға болады</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Бет: %1$d / %2$d</item>
+        <item quantity="other">Бет: %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Бұл қолданба басты экраннан жойылады, бірақ қолданба тартпасында сақталады.</item>
+        <item quantity="other">Таңдалған қолданбалар басты экраннан жойылады, бірақ қолданба тартпасында сақталады.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d қолданбаны алып тастау керек пе?</item>
+        <item quantity="other">%d қолданбаны алып тастау керек пе?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Таңдалған қолданбалар басты экраннан жойылады, бірақ қолданба тартпасында сақталады. Таңдалған төте жолдар алынып тастайды.</item>
+        <item quantity="other">Таңдалған қолданбалар басты экраннан жойылады, бірақ қолданба тартпасында сақталады. Таңдалған төте жолдар алынып тастайды.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Таңдалған %d қолданбаны немесе төте жолды алып тастау керек пе?</item>
+        <item quantity="other">Таңдалған %d қолданбаны немесе төте жолды алып тастау керек пе?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Төмендегі %1$d төте жолды алып тастау керек пе?</item>
+        <item quantity="other">Төмендегі %1$d төте жолды алып тастау керек пе?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d төте жолды алып тастаңыз</item>
+        <item quantity="other">%1$d төте жолды алып тастаңыз</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d таңдалды</item>
+        <item quantity="other">%1$d таңдалды</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d күн</item>
+        <item quantity="other">%1$d күн</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d жаңа хабарландыру</item>
+        <item quantity="other">%d жаңа хабарландырулар</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d баған</item>
+        <item quantity="other">%1$d баған</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Төмендегі %1$d қолданба жойылсын ба?</item>
+        <item quantity="other">Төмендегі %1$d қолданба жойылсын ба?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d қолданбаны (соның ішінде онын клонын) жойып, оның деректерін өшіріңіз.</item>
+        <item quantity="other">%1$d қолданбаны (соның ішінде олардың клондарын) жойып, олардың деректерін өшіріңіз.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d қолданбаны жойыңыз және оның деректерін өшіріңіз.</item>
+        <item quantity="other">%1$d қолданбаны жойыңыз және олардың деректерін өшіріңіз.</item>
+    </plurals>
+</resources>

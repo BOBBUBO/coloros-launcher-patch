@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.guide.side.SideSlipGesturesGuideBackActionPage android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher.views.RoundImageView android:id="@id/side_slip_guide_back_success" android:layout_width="match_parent" android:layout_height="match_parent" android:foreground="#26000000" android:scaleType="centerCrop" launcher:couiHasDefaultPic="false" launcher:couiType="round" />
+    <ImageView android:id="@id/side_gestures_guide_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" launcher:couiHasDefaultPic="false" launcher:couiType="round" />
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/actionGuideAnimation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:forceDarkAllowed="false" />
+</com.android.launcher.guide.side.SideSlipGesturesGuideBackActionPage>

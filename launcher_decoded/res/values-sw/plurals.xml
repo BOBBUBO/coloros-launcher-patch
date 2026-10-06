@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">Siku %d iliyopita</item>
+        <item quantity="other">Siku %d zilizopita</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">Dakika %d iliyopita</item>
+        <item quantity="other">Dakika %d zilizopita</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">Mwaka %d uliopita</item>
+        <item quantity="other">Miaka %d iliyopita</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Huwezi kuongeza zaidi ya wijeti %1$d zinazofanana</item>
+        <item quantity="other">Huwezi kuongeza zaidi ya wiji %1$d zinazofanana</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Ukurasa wa %1$d kati ya %2$d</item>
+        <item quantity="other">Ukurasa wa %1$d kati ya %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Programu hii itapotea kutoka kwenye Skrini ya mwanzo lakini itawekwa kwenye droo ya programu.</item>
+        <item quantity="other">Programu zilizochaguliwa zitapotea kutoka kwenye Skrini ya mwanzo lakini zitawekwa kwenye droo ya programu.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Ungependa kuondoa programu %d?</item>
+        <item quantity="other">Ungependa kuondoa programu %d?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Programu zilizochaguliwa zitapotea kutoka kwenye Skrini ya mwanzo lakini zitawekwa kwenye droo ya programu. Njia za mkato zilizochaguliwa zitaondolewa.</item>
+        <item quantity="other">Programu zilizochaguliwa zitapotea kutoka kwenye Skrini ya mwanzo lakini zitawekwa kwenye droo ya programu. Njia za mkato zilizochaguliwa zitaondolewa.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Ungependa kuondoa programu %d iliyochaguliwa au njia ya mkato?</item>
+        <item quantity="other">Ungependa kuondoa programu %d zilizochaguliwa au njia za mkato?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Ungependa kuondoa njia ya mkato %1$d hapa chini?</item>
+        <item quantity="other">Ungependa kuondoa njia za mkato %1$d hapa chini?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Ondoa %1$d njia ya mkato</item>
+        <item quantity="other">Ondoa %1$d njia za mkato</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">Arifa %d mpya</item>
+        <item quantity="other">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d imechaguliwa</item>
+        <item quantity="other">%1$d zimechaguliwa</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">Siku %1$d</item>
+        <item quantity="other">Siku %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">Arifu %d mpya</item>
+        <item quantity="other">%d arifa mpya</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">Safu %1$d</item>
+        <item quantity="other">Safu %1$d</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Ungependa kusakinusha programu %1$d hapa chini?</item>
+        <item quantity="other">Ungependa kusakinusha programu %1$d hapa chini?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Sakinusha programu %1$d (ikiwemo pachishi yake) na ufute data yake.</item>
+        <item quantity="other">Sakinusha programu %1$d (ikiwemo pachishi zake) na ufute data yake.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Sanidua programu %1$d na uondoe data yake.</item>
+        <item quantity="other">Sanidua programu %1$d na uondoe data yake.</item>
+    </plurals>
+</resources>

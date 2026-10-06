@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/compact_info_detail" android:id="@id/compact_alert_detail_description_h" android:background="@drawable/compact_info_detail_background" android:padding="16.0dp" android:layout_width="wrap_content" android:layout_height="0.0dp" android:text="@string/switch_scale_popup_info_content" android:layout_weight="1.0" android:layout_centerVertical="true" android:lineSpacingExtra="2.0sp" />
+    <ImageView android:layout_gravity="right|bottom" android:id="@id/compact_alert_detail_tips_h" android:background="@drawable/ic_arrow_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="26.0dp" />
+</LinearLayout>

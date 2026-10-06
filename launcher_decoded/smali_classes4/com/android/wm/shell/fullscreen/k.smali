@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/android/wm/shell/fullscreen/k;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/oplus/animation/DynamicAnimation$OnAnimationEndListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/android/wm/shell/fullscreen/OplusDragTaskAnimationController;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/android/wm/shell/fullscreen/OplusDragTaskAnimationController;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/android/wm/shell/fullscreen/k;->a:Lcom/android/wm/shell/fullscreen/OplusDragTaskAnimationController;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onAnimationEnd(Lcom/oplus/animation/DynamicAnimation;ZFF)V
+    .locals 0
+
+    iget-object p0, p0, Lcom/android/wm/shell/fullscreen/k;->a:Lcom/android/wm/shell/fullscreen/OplusDragTaskAnimationController;
+
+    invoke-static {p0, p1, p2, p3, p4}, Lcom/android/wm/shell/fullscreen/OplusDragTaskAnimationController;->c(Lcom/android/wm/shell/fullscreen/OplusDragTaskAnimationController;Lcom/oplus/animation/DynamicAnimation;ZFF)V
+
+    return-void
+.end method

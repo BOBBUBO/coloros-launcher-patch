@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/content_panel" android:layout_width="match_parent" android:layout_height="@dimen/support_preference_min_height" android:paddingStart="@dimen/support_preference_focus_title_padding" android:paddingEnd="@dimen/support_preference_focus_title_padding" style="@style/PreferenceContent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@id/content_recommend_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/recommend_app_content_setting_title" android:layout_marginEnd="@dimen/recommend_panel_title_margin" style="@style/COUIPreferenceTitleStyle" />
+        </LinearLayout>
+        <com.coui.appcompat.couiswitch.COUISwitch android:layout_gravity="end|center" android:id="@id/content_recommend_switch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+    </FrameLayout>
+    <ImageView android:id="@id/divider_content" android:background="@color/coui_color_disabled_neutral" android:layout_width="match_parent" android:layout_height="0.33000004dp" android:layout_marginLeft="@dimen/support_preference_focus_title_padding" android:layout_marginRight="@dimen/support_preference_focus_title_padding" android:layout_alignParentBottom="true" />
+    <FrameLayout android:id="@id/footer_panel" android:layout_width="match_parent" android:layout_height="@dimen/support_preference_min_height" android:paddingStart="@dimen/support_preference_focus_title_padding" android:paddingEnd="@dimen/support_preference_focus_title_padding" style="@style/PreferenceContent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/recommend_more" android:layout_marginEnd="@dimen/recommend_panel_title_margin" style="@style/COUIPreferenceTitleStyle" />
+        </LinearLayout>
+        <com.coui.appcompat.couiswitch.COUISwitch android:layout_gravity="end|center" android:id="@id/footer_recommend_switch" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/android_preference_switch_margin_left" android:layout_alignParentEnd="true" />
+    </FrameLayout>
+    <ImageView android:id="@id/divider_footer" android:background="@color/coui_color_disabled_neutral" android:layout_width="match_parent" android:layout_height="0.33000004dp" android:layout_marginLeft="@dimen/support_preference_focus_title_padding" android:layout_marginRight="@dimen/support_preference_focus_title_padding" />
+</LinearLayout>

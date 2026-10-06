@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/guide_panel_title_text_size" android:textStyle="bold" android:textColor="@color/guide_panel_title_text_color" android:layout_gravity="center_horizontal" android:id="@id/guide_tips_tv" android:paddingTop="@dimen/guide_panel_title_layout_padding_top" android:paddingBottom="@dimen/guide_panel_title_layout_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/multipoint_operation_desc" android:paddingStart="@dimen/guide_panel_title_layout_padding_start" android:paddingEnd="@dimen/guide_panel_title_layout_padding_end" />
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center|bottom" android:id="@id/animation_view" android:layout_width="wrap_content" android:layout_height="@dimen/panel_guide_image_height" android:scaleType="centerCrop" android:forceDarkAllowed="false" />
+</androidx.appcompat.widget.LinearLayoutCompat>

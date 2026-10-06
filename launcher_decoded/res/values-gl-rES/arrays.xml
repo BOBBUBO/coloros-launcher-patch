@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Aninovo</item>
+        <item>Día de San Valentín</item>
+        <item>Día da Muller</item>
+        <item>Día Internacional do Traballo</item>
+        <item>Día da Nai</item>
+        <item>Día dos Nenos</item>
+        <item>Día do Pai</item>
+        <item>Día do Profesor</item>
+        <item>Día da Patria Galega</item>
+        <item>Día de Acción de Grazas</item>
+        <item>Nadal</item>
+    </string-array>
+</resources>

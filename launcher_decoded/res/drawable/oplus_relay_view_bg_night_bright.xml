@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <smooth-rect />
+    <size android:height="@dimen/relay_view_height" android:width="@dimen/relay_view_width" />
+    <corners android:radius="12.0dp" />
+    <solid android:color="@color/oplus_relay_view_bg_night_bright" />
+    <smooth-weight android:gradientRadius="0.99" />
+</shape>

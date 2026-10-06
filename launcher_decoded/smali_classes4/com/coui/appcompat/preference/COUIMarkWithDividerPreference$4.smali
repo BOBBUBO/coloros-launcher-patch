@@ -1,0 +1,16 @@
+.class Lcom/coui/appcompat/preference/COUIMarkWithDividerPreference$4;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# virtual methods
+.method public onClick(Landroid/view/View;)V
+    .locals 0
+
+    const/4 p0, 0x0
+
+    throw p0
+.end method

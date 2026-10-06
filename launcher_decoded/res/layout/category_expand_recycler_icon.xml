@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.categoryfolder.CategoryFolderRecyclerView android:id="@id/category_app_list_view" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

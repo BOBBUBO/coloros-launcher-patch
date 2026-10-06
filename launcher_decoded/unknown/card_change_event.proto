@@ -1,0 +1,31 @@
+
+syntax = "proto2";
+
+package com.oplus.card.manager.domain.model;
+
+option java_multiple_files = true;
+
+message ChangeCardEventProto {
+  required ACTION action = 1;
+  required int32 type = 2;
+  optional int32 cardId = 3 [default = -1];
+  optional LOCATION location = 4 [default = ASSISTANT];
+  optional POSITION position = 5 [default = TAIL];
+  optional int32 index = 6 [default = 0];
+
+
+  enum ACTION {
+    ADD = 1;
+    REMOVE = 2;
+  }
+
+  enum POSITION {
+    HEAD = 1;
+    TAIL = 2;
+  }
+
+  enum LOCATION {
+    LAUNCHER = 1;
+    ASSISTANT = 2;
+  }
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- assets中新增业务，该版本号不能更新，正式推送时，该版本号需要增加 -->
+    <version>2023092915</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_launcher_common_rus_list</filter-name>
+
+    <!--
+    用途：该配置文件用于桌面通用列表和功能可控制项的RUS能力配置，现包含（图标丢失、动效专项）
+    字段描述1：每个string-array可单独定义一个列表，列表下每行为该列表的一个条目，支持文本，数字（可查看RusBaseXmlType1ConfigManager）
+    字段描述2：每个config-list可单独定义一个功能，每个config为该功能的一个配置项，支持文本，数字（可查看RusBaseXmlType1ConfigManager）
+    使用方法：assets中该文件——>可包含所有新增列表和功能的默认配置信息，后续新增业务后version不能变，避免高版本的默认配置把之前低版本的正式推送覆盖掉
+    正式推送时该文件——>只能包含跟推送目的相关的配置信息，需删除其他列表和功能的配置信息，这样推送时才不会覆盖掉其他列表和功能
+    -->
+
+    <config-list name="launcher_exception_icon_lost_detect">
+            <config name="launcher_exception_icon_lost_detect_interval_time">3600000</config>
+            <config name="launcher_exception_icon_lost_detect_max_count">5</config>
+    </config-list>
+
+    <config-list name="launcher_anim_prj_feature_config">
+            <config name="launcher_anim_prj_feature_async_enable">-1</config>
+            <config name="launcher_anim_prj_feature_rt_unlock_enable">-1</config>
+            <config name="launcher_anim_prj_feature_multi_app_block_enable">-1</config>
+            <config name="launcher_anim_prj_feature_icon_blur_enable">-1</config>
+            <config name="launcher_anim_interrupt_threshold">0.98</config>
+            <config name="launcher_trigger_pre_boot_limit_size">-1</config>
+            <config name="launcher_anim_pre_start_enable">1</config>
+            <config name="launcher_anim_swipe_up_pending_enable">1</config>
+    </config-list>
+    <!--
+        用途：用于RUS动态 开启/关闭  黑屏定屏埋点上报功能
+        -->
+    <config-list name="launcher_exception_norespon_detect">
+            <config name="launcher_exception_norespon_detect_enable">1</config>
+    </config-list>
+
+    <config-list name="launcher_browser_news_config">
+            <config name="launcher_browser_news_open">-1</config>
+    </config-list>
+</filter-conf>

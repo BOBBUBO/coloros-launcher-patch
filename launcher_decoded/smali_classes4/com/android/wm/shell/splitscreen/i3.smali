@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/android/wm/shell/splitscreen/i3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/android/wm/shell/splitscreen/StageCoordinatorExt$6;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/android/wm/shell/splitscreen/StageCoordinatorExt$6;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/android/wm/shell/splitscreen/i3;->a:Lcom/android/wm/shell/splitscreen/StageCoordinatorExt$6;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 0
+
+    iget-object p0, p0, Lcom/android/wm/shell/splitscreen/i3;->a:Lcom/android/wm/shell/splitscreen/StageCoordinatorExt$6;
+
+    invoke-static {p0}, Lcom/android/wm/shell/splitscreen/StageCoordinatorExt$6;->a(Lcom/android/wm/shell/splitscreen/StageCoordinatorExt$6;)V
+
+    return-void
+.end method

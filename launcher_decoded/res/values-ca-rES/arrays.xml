@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>"Cap d'any"</item>
+        <item>Dia de Sant Valentí</item>
+        <item>Dia de la dona</item>
+        <item>Festa del treball</item>
+        <item>Dia de la mare</item>
+        <item>Dia de la infància</item>
+        <item>Dia del pare</item>
+        <item>Dia del mestre</item>
+        <item>Diada nacional</item>
+        <item>"Dia d'acció de gràcies"</item>
+        <item>Nadal</item>
+    </string-array>
+</resources>

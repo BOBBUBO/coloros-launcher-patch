@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grid-settings
+  xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <item launcher:maxValue="5" launcher:minValue="3" launcher:name="@string/toggle_bar_settings_column" />
+    <item launcher:maxValue="6" launcher:minValue="5" launcher:name="@string/toggle_bar_settings_line" />
+</grid-settings>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d ஒத்த விட்ஜெட்டுக்கும் மேல் சேர்க்க முடியாது</item>
+        <item quantity="other">%1$d ஒத்த விட்ஜெட்களுக்கும் மேல் சேர்க்க முடியாது</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">பக்கம் %1$d / %2$d</item>
+        <item quantity="other">பக்கம் %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">இந்தச் செயலி முகப்புத் திரையிலிருந்து மறைந்துவிடும் எனினும் செயலி டிராயரில் வைக்கப்படும்.</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட செயலிகள் முகப்புத் திரையிலிருந்து மறைந்துவிடும் எனினும் செயலி டிராயரில் வைக்கப்படும்.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d செயலியை அகற்றவா?</item>
+        <item quantity="other">%d செயலிகளை அகற்றவா?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">தேர்ந்தெடுக்கப்பட்ட செயலிகள் முகப்புத் திரையிலிருந்து மறைந்துவிடும் எனினும் செயலி டிராயரில் வைக்கப்படும். தேர்ந்தெடுக்கப்பட்ட குறுக்குவழிகள் அகற்றப்படும்.</item>
+        <item quantity="other">தேர்ந்தெடுக்கப்பட்ட செயலிகள் முகப்புத் திரையிலிருந்து மறைந்துவிடும் எனினும் செயலி டிராயரில் வைக்கப்படும். தேர்ந்தெடுக்கப்பட்ட குறுக்குவழிகள் அகற்றப்படும்.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">தேர்ந்தெடுத்த %d செயலி அல்லது குறுக்குவழியை அகற்றவா?</item>
+        <item quantity="other">தேர்ந்தெடுத்த %d செயலிகள் அல்லது குறுக்குவழிகளை அகற்றவா?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">கீழேயுள்ள %1$d குறுக்குவழியை அகற்றவா?</item>
+        <item quantity="other">கீழேயுள்ள %1$d குறுக்குவழிகளை அகற்றவா?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d குறுக்குவழியை அகற்று</item>
+        <item quantity="other">%1$d குறுக்குவழிகளை அகற்று</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d தேர்வில்</item>
+        <item quantity="other">%1$d தேர்வில்</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d நாள்</item>
+        <item quantity="other">%1$d நாட்கள்</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">புதிய அறிவிப்பு: %d</item>
+        <item quantity="other">புதிய அறிவிப்புகள்: %d</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d நெடுவரிசை</item>
+        <item quantity="other">%1$d நெடுவரிசைகள்</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">கீழேயுள்ள %1$d செயலியை நிறுவல்நீக்கவா?</item>
+        <item quantity="other">கீழேயுள்ள %1$d செயலிகளை நிறுவல்நீக்கவா?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d செயலியை (அதன் குளோனையும்) நிறுவல்நீக்கி, அதன் தரவை அழிக்கவும்.</item>
+        <item quantity="other">%1$d செயலிகளை (அவற்றின் குளோன்களையும்) நிறுவல்நீக்கி, அவற்றின் தரவை அழிக்கவும்.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d செயலியை நிறுவல்நீக்கி, அதன் தரவை அழிக்கவும்.</item>
+        <item quantity="other">%1$d செயலிகளை நிறுவல்நீக்கி, அவற்றின் தரவை அழிக்கவும்.</item>
+    </plurals>
+</resources>

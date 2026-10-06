@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.shortcuts.DeepSystemShortcutView android:theme="@style/PopupItem" android:gravity="center" android:orientation="vertical" android:id="@id/icon_text" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="@dimen/system_shortcut_icon_text_item_height" android:maxWidth="@dimen/deep_shortcut_icon_text_item_width" android:minWidth="@dimen/system_shortcut_single_item_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:layout_width="@dimen/color_system_shortcut_icon_size" android:layout_height="@dimen/color_system_shortcut_icon_size" android:src="@drawable/ic_deepshortcut_placeholder" android:translationY="@dimen/system_shortcut_icon_translation_y" />
+    <TextView android:textSize="@dimen/system_shortcut_icon_text_size" android:textColor="@color/launcher_deep_shortcut_item_text_color" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/system_shortcut_icon_text_margin_top" android:lines="1" android:fontFamily="sans-serif-medium" />
+</com.android.launcher3.shortcuts.DeepSystemShortcutView>

@@ -1,0 +1,163 @@
+.class public final Lcom/facebook/rebound/ui/SpringConfiguratorView$e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/widget/AdapterView$OnItemSelectedListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/facebook/rebound/ui/SpringConfiguratorView;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "e"
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/facebook/rebound/ui/SpringConfiguratorView;
+
+
+# direct methods
+.method public constructor <init>(Lcom/facebook/rebound/ui/SpringConfiguratorView;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/facebook/rebound/ui/SpringConfiguratorView$e;->a:Lcom/facebook/rebound/ui/SpringConfiguratorView;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onItemSelected(Landroid/widget/AdapterView;Landroid/view/View;IJ)V
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView<",
+            "*>;",
+            "Landroid/view/View;",
+            "IJ)V"
+        }
+    .end annotation
+
+    iget-object p0, p0, Lcom/facebook/rebound/ui/SpringConfiguratorView$e;->a:Lcom/facebook/rebound/ui/SpringConfiguratorView;
+
+    iget-object p1, p0, Lcom/facebook/rebound/ui/SpringConfiguratorView;->b:Ljava/util/ArrayList;
+
+    invoke-virtual {p1, p3}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lg2/d;
+
+    iput-object p1, p0, Lcom/facebook/rebound/ui/SpringConfiguratorView;->m:Lg2/d;
+
+    iget-wide p2, p1, Lg2/d;->b:D
+
+    const-wide/16 p4, 0x0
+
+    cmpl-double v0, p2, p4
+
+    if-nez v0, :cond_0
+
+    move-wide p2, p4
+
+    goto :goto_0
+
+    :cond_0
+    const-wide v0, 0x4068400000000000L    # 194.0
+
+    sub-double/2addr p2, v0
+
+    const-wide v0, 0x400cf5c28f5c28f6L    # 3.62
+
+    div-double/2addr p2, v0
+
+    const-wide/high16 v0, 0x403e000000000000L    # 30.0
+
+    add-double/2addr p2, v0
+
+    :goto_0
+    double-to-float p2, p2
+
+    const/4 p3, 0x0
+
+    sub-float/2addr p2, p3
+
+    const v0, 0x47c35000    # 100000.0f
+
+    mul-float/2addr p2, v0
+
+    const/high16 v1, 0x43480000    # 200.0f
+
+    div-float/2addr p2, v1
+
+    invoke-static {p2}, Ljava/lang/Math;->round(F)I
+
+    move-result p2
+
+    iget-wide v1, p1, Lg2/d;->a:D
+
+    cmpl-double p1, v1, p4
+
+    if-nez p1, :cond_1
+
+    goto :goto_1
+
+    :cond_1
+    const-wide/high16 p4, 0x4039000000000000L    # 25.0
+
+    sub-double/2addr v1, p4
+
+    const-wide/high16 p4, 0x4008000000000000L    # 3.0
+
+    div-double/2addr v1, p4
+
+    const-wide/high16 p4, 0x4020000000000000L    # 8.0
+
+    add-double/2addr p4, v1
+
+    :goto_1
+    double-to-float p1, p4
+
+    sub-float/2addr p1, p3
+
+    mul-float/2addr p1, v0
+
+    const/high16 p3, 0x42480000    # 50.0f
+
+    div-float/2addr p1, p3
+
+    invoke-static {p1}, Ljava/lang/Math;->round(F)I
+
+    move-result p1
+
+    iget-object p3, p0, Lcom/facebook/rebound/ui/SpringConfiguratorView;->h:Landroid/widget/SeekBar;
+
+    invoke-virtual {p3, p2}, Landroid/widget/ProgressBar;->setProgress(I)V
+
+    iget-object p0, p0, Lcom/facebook/rebound/ui/SpringConfiguratorView;->i:Landroid/widget/SeekBar;
+
+    invoke-virtual {p0, p1}, Landroid/widget/ProgressBar;->setProgress(I)V
+
+    return-void
+.end method
+
+.method public final onNothingSelected(Landroid/widget/AdapterView;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/widget/AdapterView<",
+            "*>;)V"
+        }
+    .end annotation
+
+    return-void
+.end method

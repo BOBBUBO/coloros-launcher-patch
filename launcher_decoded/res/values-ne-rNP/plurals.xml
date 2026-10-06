@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">एउटै किसिमको %1$d भन्दा बढी विजेट थप्न सकिँदैन</item>
+        <item quantity="other">एउटै किसिमका %1$d भन्दा बढी विजेटहरू थप्न सकिँदैन</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">पेज %2$d मध्ये %1$d</item>
+        <item quantity="other">पेज %2$d मध्ये %1$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">यो एप होम स्क्रिनमा देखिने छैन तर एप ड्रअरमा रहिरहने छ।</item>
+        <item quantity="other">चयन गरिएका एपहरू होम स्क्रिनमा देखिन छैनन् तर एप ड्रअरमा रहिरहने छन्।</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d एप हटाउने हो?</item>
+        <item quantity="other">%d वटा एप हटाउने हो?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">चयन गरिएका एपहरू होम स्क्रिनमा देखिने छैनन् तर एप ड्रअरमा रहिरहने छन्। चयन गरिएका सर्टकटहरू हटाइने छन्।</item>
+        <item quantity="other">चयन गरिएका एपहरू होम स्क्रिनमा देखिने छैनन् तर एप ड्रअरमा रहिरहने छन्। चयन गरिएका सर्टकटहरू हटाइने छन्।</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">चयन गरिएको %d एप वा सर्टकट हटाउने हो?</item>
+        <item quantity="other">चयन गरिएका %d वटा एप वा सर्टकटहरू हटाउने हो?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">तलको %1$d सर्टकट हटाउने हो?</item>
+        <item quantity="other">तलका %1$d वटा सर्टकट हटाउने हो?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d सर्टकट हटाउनुहोस्</item>
+        <item quantity="other">%1$d वटा सर्टकट हटाउनुहोस्</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d चयन गरियो</item>
+        <item quantity="other">%1$d चयन गरियो</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d दिन</item>
+        <item quantity="other">%1$d दिन</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d नयाँ सूचना</item>
+        <item quantity="other">%d नयाँ सूचनाहरू</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d वटा कोलम</item>
+        <item quantity="other">%1$d वटा कोलमहरू</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">तलको %1$d एप अनइन्स्टल गर्ने हो?</item>
+        <item quantity="other">तलका %1$d वटा एप अनइन्स्टल गर्ने हो?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d एप (यसको क्लोनसहित) अनइन्स्टल गर्नुहोस् र डेटा हटाउनुहोस्।</item>
+        <item quantity="other">%1$d वटा एप (तिनका क्लोनसहित) अनइन्स्टल गर्नुहोस् र डेटा हटाउनुहोस्।</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d एप अनइन्स्टल गर्नुहोस् र यसको डेटा पनि हटाउनुहोस्।</item>
+        <item quantity="other">%1$d वटा एप अनइन्स्टल गर्नुहोस् र यिनीहरूको डेटा पनि हटाउनुहोस्।</item>
+    </plurals>
+</resources>

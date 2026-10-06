@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.widget.RemoveWidgetDialog android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/alert_panel_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/custom_dialog_bottom_margin_start_or_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/coui_bottom_alert_dialog_msg_text_color" android:gravity="center" android:id="@id/message" android:paddingTop="@dimen/bottom_dialog_scroll_padding_top" android:paddingBottom="@dimen/bottom_dialog_scroll_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/remove_card_panel_sub_title" android:lineSpacingMultiplier="1.2" android:layout_marginStart="@dimen/coui_alert_dialog_message_padding_left" android:layout_marginEnd="@dimen/coui_alert_dialog_message_padding_left" />
+    <Button android:textColor="@color/custom_dialog_neutral_button_text_color" android:id="@id/neutral_button" style="@style/CustomDialogVerticalButton" />
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/coui_delete_alert_dialog_divider_height" android:src="?couiColorDivider" android:layout_marginHorizontal="@dimen/coui_alert_dialog_horizontal_button_divider_vertical_margin" android:forceDarkAllowed="false" />
+    <Button android:textColor="@color/custom_dialog_negative_button_text_color" android:id="@id/negative_button" android:text="@string/cancel_action" style="@style/CustomDialogVerticalButton" />
+</com.android.launcher.widget.RemoveWidgetDialog>

@@ -1,0 +1,943 @@
+syntax = "proto2";
+
+package android.os.statsd;
+
+option optimize_for = CODE_SIZE;
+option java_package = "com.oplus.ocenter.proto";
+option java_outer_classname = "AtomsProto";
+option java_multiple_files = true;
+
+message Atom {
+  // Pushed atoms start at 2.
+  oneof pushed {
+    // chenxinkai@oppo.com 2024/04/11 Add for gaia generic fault
+    GeneralFault general_fault = 101000;
+
+    /*--- Launcher 101001-101050 ---*/
+
+    /*--- WMS 101051-101070 ---*/
+    //Youyao.Hu@ANDROID.WMS, 2024/05/08, Add for WMS black window
+    WMSSurfaceNotDrawn wms_surface_not_drawn = 101051;
+    WMSSurfaceInvisible wms_surface_invisible = 101052;
+    WMSTransparentWindow wms_transparent_window = 101053;
+    WMSNoFocusWindow wms_no_focus_window = 101054;
+
+    /*--- ATHENA 101071-101105 ---*/
+    MemoryLeakEvent memory_leak_event = 101071;
+
+    /*--- Display Framework 101106-101146 ---*/
+    OplusNoBufferCommit oplus_no_buffer_commit = 101106 ;
+    OplusLayerNumExceed oplus_layer_num_exceed = 101107 ;
+    OplusDetectedBlankScreen oplus_detected_blank_screen = 101108 ;
+    OplusSFHang oplus_sf_hang = 101109 ;
+
+    /*--- Camera 101147-101156 ---*/
+    OplusCameraException oplus_camera_exception_msg = 101147;
+    // zhengqiong@oppo.com, 2024/05/07, Add for: camera hal dark screen exception.
+    OplusCamHalException oplus_camera_softimeout_msg = 101148;
+    OplusCamHalException oplus_camera_frameseletimeout_msg = 101149;
+    OplusCamHalException oplus_camera_reqtimeout_msg = 101150;
+    OplusCamHalException oplus_camera_aedark_msg = 101151;
+
+    /*--- TP 101157-101176 ---*/
+
+    /*--- Theia Resolver 101177-101208 ---*/
+    TheiaResolverHungtask theia_resolver_hungtask = 101178;
+    TheiaResolverSoftLockup theia_resolver_soft_lockup = 101179;
+    TheiaResolverHardLockup theia_resolver_hard_lockup = 101180;
+    TheiaResolverLcd theia_resolver_lcd = 101181;
+    TheiaResolverGpu theia_resolver_gpu = 101182;
+    TheiaResolverPwkLightUpMonitor theia_resolver_pwk_light_up_monitor = 101183;
+    TheiaResolverPwkShutDownMonitor theia_resolver_pwk_shut_down_monitor = 101184;
+    TheiaResolverUiTimeOut theia_resolver_ui_timeout = 101185;
+    TheiaResolverNoFocusWindow theia_resolver_no_focus_window = 101186;
+    TheiaResolverTransparentWindow theia_resolver_transparent_window = 101187;
+    TheiaResolverFrameworkBlock theia_resolver_framework_block = 101188;
+    TheiaResolverLauncherAnr theia_resolver_launcher_anr = 101189;
+    TheiaResolverSystemuiAnr theia_resolver_systemui_anr = 101190;
+    TheiaResolverOplusSFHang theia_resolver_oplus_sf_hang = 101191;
+
+    /*--- Lower Level Stability 101209-101225 ---*/
+
+    /*--- Upper Level Stability 101226-101245 ---*/
+    SystemServerHalfWatchdog oplus_system_server_half_watchdog = 101226;
+    TheiaEventFrameworkBlock oplus_theia_event_framework_block = 101228;
+
+    /*--- Input 101246-101285 ---*/
+
+    /*--- Graphics 101286-101300 ---*/
+    //caoyang@MULTIMEDIA.DISPLAY.GPU, 2024/5/7, add for renderthreadNoDraw
+    OplusRenderthreadInfo oplus_renderthread_info = 101286;
+    //caoyang@MULTIMEDIA.DISPLAY.GPU, 2024/5/7, add for gpu fence timeout
+    OplusGpuFenceTimeout oplus_gpu_fence_timeout = 101287;
+
+    /*--- P sensor 101301-101310 ---*/
+    PSensorScreenEvent psensor_screen_event = 101301;
+
+    /*--- Systemui 101311-101360 ---*/
+    //yaoyanbing@oppo.com, 2024/05/21 add for SystemUI render thread block monitor
+    OplusRenderThreadBlockedEvent OPLUS_RENDER_THREAD_BLOCKED = 101311;
+
+    /*--- UI Framework 101361-101370 ---*/
+    //Bard.Zhang@oppo.com, 2024/04/22 add for barrier_monitor
+    OplusBarrierTimeoutFault oplus_barrier_timeout_atom_fault = 101361;
+    //Bard.Zhang@oppo.com, 2024/04/22 add for transaction_monitor
+    OplusTransactionTimeoutFault oplus_transaction_timeout_atom_fault = 101362;
+
+    /*--- Phenomenon Monitor 101371-101380 ---*/
+
+    /*--- Game 101381-101390 ---*/
+
+    /*--- Multimedia 101391-101400 ---*/
+
+    /*--- Display 101401-101440 ---*/
+
+    // Add more...
+    /*--- domain name + start field index-end field index ---*/
+  }
+}
+
+
+/**
+ * chenxinkai@oppo.com 2024/04/11 Add for gaia generic fault
+ *
+ * Logged from ：
+ *   Not specifically use in a code file, maybe in anywhere
+ *
+ * GeneralFault represents a generic fault message,
+ * including information about the fault such as its name,
+ * type, trigger, reason, and any extra information.
+ *
+*/
+message GeneralFault {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The name of the fault.
+  optional string fault_name = 5;
+  // The type of the fault.
+  optional int32 fault_type = 6;
+  // Represents what triggered the fault.
+  optional string fault_trigger = 7;
+  // The reason of the fault.
+  optional string fault_reason = 8;
+  // Contains any extra information related to the fault.
+  optional string extra_info = 9;
+}
+
+/*--- Launcher 101001-101050 ---*/
+
+/*--- Launcher 101001-101050 end ---*/
+
+/*--- WMS 101051-101070 ---*/
+
+/**
+ * Youyao.Hu@ANDROID.WMS, 2024/05/08, Add for WMS surface not drawn
+ *
+ * Logs when WMS surface not drawn
+ *
+ * Logged from:
+ *   frameworks/base/proprietary/common/services/core/java/com/android/server/wm/OplusWmBlackDetector.java
+ *
+*/
+message WMSSurfaceNotDrawn{
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The fault package_name
+  optional string package_name = 5;
+  // The fault activity_name
+  optional string activity_name = 6;
+}
+/**
+ * Youyao.Hu@ANDROID.WMS, 2024/05/08, Add for WMS surface invisible
+ *
+ * Logs when WMS surface invisible
+ *
+ * Logged from:
+ *   frameworks/base/proprietary/common/services/core/java/com/android/server/wm/OplusWmBlackDetector.java
+ *
+*/
+message WMSSurfaceInvisible{
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The fault package_name
+  optional string package_name = 5;
+  // The fault activity_name
+  optional string activity_name = 6;
+}
+/**
+ * Youyao.Hu@ANDROID.WMS, 2024/05/08, Add for WMS transparent window
+ *
+ * Logs when WMS transparent window
+ *
+ * Logged from:
+ *   frameworks/base_common/proprietary/common/core/java/android/view/TransparentWindowDetector.java
+ *
+*/
+message WMSTransparentWindow{
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The fault package_name
+  optional string package_name = 5;
+  // The fault activity_name
+  optional string activity_name = 6;
+}
+/**
+ * Youyao.Hu@ANDROID.WMS, 2024/05/08, Add for WMS no focus window
+ *
+ * Logs when WMS no focus window
+ *
+ * Logged from:
+ *   frameworks/base/proprietary/common/services/core/java/com/android/server/theia/NoFocusWindow.java
+ *
+*/
+message WMSNoFocusWindow{
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The fault package_name
+  optional string package_name = 5;
+  // The fault activity_name
+  optional string activity_name = 6;
+}
+
+/*--- WMS 101051-101070 end ---*/
+
+/*--- ATHENA 101071-101105 ---*/
+
+/*
+ *   WangMin@ANDROID.RESCONTROL, 2023/05/11, Add for Athena memory leak event
+ *
+ *   Logged from:
+ *         com.oplus.athena
+*/
+message MemoryLeakEvent {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // Action
+  enum Action {
+    ADD = 1;
+    UPDATE = 2;
+    REMOVE = 3;
+  }
+  optional Action action = 5;
+  // Leak event id
+  optional int64 ab_id = 6;
+  // Event type
+  enum EventType {
+    PROCESS_LEAK = 1;
+    PACKAGE_LEAK = 2;
+    KERNEL_LEAK = 3;
+    ATHENA_FORCEKILL_TIP = 4;
+    LMKD_FORCEKILL_TIP = 5;
+  }
+  optional EventType event_type = 7;
+  // Leak type
+  enum LeakType {
+    RSS_TREND = 1;
+    PSS_LIMIT = 2;
+    ION_LIMIT = 3;
+    GPU_LIMIT = 4;
+    ASHMEM_LIMIT = 5;
+    DALVIK_LIMIT = 6;
+    VSS32_LIMIT = 7;
+    KERNEL_STACK_LIMIT = 8;
+    KERNEL_SUNRECLAIM_LIMIT = 9;
+    KERNEL_KMALLOC_LIMIT = 10;
+    KERNEL_VMALLOC_LIMIT = 11;
+    KERNEL_UNACCOUNT_LIMIT = 12;
+  }
+  optional LeakType leak_type = 8;
+  // Leak package name
+  optional string pkg_name = 9;
+  // Leak process name
+  optional string proc_name = 10;
+  // Current memory in MB
+  optional int32 mem = 11;
+  // Leak threshold in MB
+  optional int32 threshold = 12;
+  // Contains any extra information related to the event.
+  optional string extra_info = 13;
+}
+
+/*--- ATHENA 101071-101105 end ---*/
+
+/*--- Display Framework 101106-101146 ---*/
+
+/**
+ * guoqiuyang1@oppo.com 2024-05-17 Add for: surface view didn't commit
+ *
+ * Logs when the front app using surface view didn't commit any buffer during a period.
+ *
+ * Logged from:
+ *   vendor/oplus/multimedia/display/feature/hecate/OplusHecate.cpp
+ */
+message OplusNoBufferCommit {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The owner pid of surface view
+  optional int32 owner_pid = 5;
+  // The owner uid of surface view
+  optional int32 owner_uid = 6;
+  // The layer id of surface view
+  optional int32 layer_id = 7;
+}
+
+/**
+ * guoqiuyang1@oppo.com 2024-05-17 Add for: too many layers in surfaceflinger
+ *
+ * Logs when the upper system/app create too many layers in surfaceflinger.
+ *
+ * Logged from:
+ *   vendor/oplus/multimedia/display/displayutils/infomonitor/OplusOvermuchLayers.cpp
+ */
+message OplusLayerNumExceed {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The num of layer.
+  optional int32 total_layer_num = 5;
+  // The top process id.
+  optional int32 top_pid = 6;
+  // The top layer num.
+  optional int32 top_layer_num = 7;
+}
+
+/**
+ * guoqiuyang1@oppo.com 2024-05-17 Add for: blank screen
+ *
+ * Logs when the intersection of all visible layers' display frame can not cover the half of full screen.
+ *
+ * Logged from:
+ *   vendor/oplus/multimedia/display/feature/hecate/OplusHecate.cpp
+ */
+message OplusDetectedBlankScreen {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+}
+
+/**
+ * guoqiuyang1@oppo.com 2024-05-17 Add for: surfaceflinger hang
+ *
+ * Logs when surfaceflinger hang.
+ *
+ * Logged from:
+ *   vendor/oplus/multimedia/display/displayutils/watchcall/OplusNativeWatchCall.cpp
+ */
+message OplusSFHang {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // Is main thread hang.
+  optional bool main_thread_hang = 5;
+  // Is virtual display hang.
+  optional bool virtual_display_hang = 6;
+  // The hang type e.g. "handleMessage"
+  optional string hang_type = 7;
+}
+
+/*--- Display Framework 101106-101146 end ---*/
+
+/*--- Camera 101147-101156 ---*/
+
+/**
+ * lijingwei@oppo.com, 2024/04/27, Add for: system camera preview exception
+ * Logs when system camera preview exception
+ *
+ * Logged from：
+ *    com.oplus.camera.olc.PreviewExceptionProcessor.java
+ */
+message OplusCameraException {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // level one exception name, e.g. "abnormal_preview"
+  optional string exception_level_one = 5;
+  // level one exception reason
+  optional int32 reason_one = 6;
+  // level two exception name, e.g. "trigger_scene"
+  optional string exception_level_two = 7;
+  // level two exception reason
+  optional int32 reason_two = 8;
+  // camera app version, e.g. "PHB110_11.F.01_2010_202405110408"
+  optional string app_version = 9;
+}
+
+/*
+  *  zhengqiong@oppo.com, 2024/05/07, Add for: camera hal dark screen exception.
+  *  OplusCamHalException represents a generic fault message,
+  *  including information about the fault such as its name,
+  *  type, trigger, reason, and any extra information.
+*/
+message OplusCamHalException {
+  optional string reverse_domain_name = 1 [default = "com.oplus.mobile"];
+  // The DCS application id.
+  optional int32 dcs_app_id = 2;
+  // The DCS log tag.
+  optional string dcs_log_tag = 3;
+  // The DCS event id.
+  optional string dcs_event_id = 4;
+  // The camera id for open.
+  optional int32 cmaera_id = 5;
+  // The name of package name.
+  optional string package_name = 6;
+  // The type of the operation mode.
+  optional int32 operation_mode = 7;
+  // Dark screen for other data.
+  optional string extra_info = 8;
+}
+
+/*--- Camera 101147-101156 end ---*/
+
+/*--- TP 101157-101176 ---*/
+
+/*--- TP 101157-101176 end ---*/
+
+/*--- Theia Resolver 101177-101208 ---*/
+
+/**
+ * zhangzhibin2@oppo.com, 2024/05/14, Add for: theia resolver fault
+ * Logs when there is theia resolver fault
+ *
+ * Logged from：
+ *   oplus/system/core_sys/ oplus_theia/FaultResolverHandler.cpp
+ */
+message TheiaResolverHungtask {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverHungtask", length < 50
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101211, 101209", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverSoftLockup {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverSoftLockup", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101210, 101209", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverHardLockup {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverHardLockup", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "100138, 101287", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverLcd {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverLcd", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "100138, 101209, 101450", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverGpu {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverGpu", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101211, 101287", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverPwkLightUpMonitor {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverPwkLightUpMonitor", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101447, 101209, 101450", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverPwkShutDownMonitor {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverPwkShutDownMonitor", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101446, 101287", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverUiTimeOut {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverUiTimeOut", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101448, 101054, 101228", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverNoFocusWindow {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverNoFocusWindow", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101228, 101448", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverTransparentWindow {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverTransparentWindow", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101228, 101053", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverFrameworkBlock {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverFrameworkBlock", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101448, 101053", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverLauncherAnr {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverLauncherAnr", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101228, 101445", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverSystemuiAnr {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverSystemuiAnr", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101228, 101445, 101228", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+message TheiaResolverOplusSFHang {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The log_type which is the fault type of theia, e.g. "TheiaResolverOplusSFHang", length < 50.
+  optional string log_type = 5;
+  // The resolver_link information which is the list of atom id in the time win of trigger event, e.g. "101109", length < 50
+  optional string resolver_link = 6;
+  // The log id which is bitmap info for copying other field's log for gaia
+  optional int32 log_id= 7;
+}
+
+/*--- Theia Resolver 101177-101208 end ---*/
+
+/*--- Lower Level Stability 101209-101225 ---*/
+
+/*--- Lower Level Stability 101209-101225 end---*/
+
+/*--- Upper Level Stability 101226-101245 ---*/
+
+/**
+ * ShuangPeng.Yang@ANDROID.STABILITY, 2024/05/06, add for ss_half_watchdog
+ * Logs when System_server half_watchdog
+ *
+ * Logged from:
+ *   oplus/frameworks/base_sys / proprietary/common/services/core/java/com/android/server/WatchdogExtImpl.java
+ *
+*/
+message SystemServerHalfWatchdog {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The DCS log type
+  optional string log_type = 5;
+  // The process pid
+  optional int32 process_pid = 6;
+  // The process uid
+  optional int32 process_uid = 7;
+}
+
+/**
+ * Zemin.Liu@ANDROID.STABILITY, 2024/05/11, Add for theia framework block
+ * Logs when ams thread is blocked over 6 seconds.
+ *
+ * Logged from:
+ *   oplus/frameworks/base_sys / proprietary/common/services/core/java/com/android/server/theia/TheiaEyeFwkBlock.java
+ *
+ */
+message  TheiaEventFrameworkBlock {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The DCS log type, e.g. "TheiaFrameworkBlock"
+  optional string log_type = 5;
+  // The process pid
+  optional int32 process_pid = 6;
+  // The process uid
+  optional int32 process_uid = 7;
+}
+
+/*--- Upper Level Stability 101226-101245 end ---*/
+
+/*--- Input 101246-101285 ---*/
+
+/*--- Input 101246-101285 end ---*/
+
+/*--- Graphics 101286-101300 ---*/
+
+/**
+ * caoyang@MULTIMEDIA.DISPLAY.GPU, 2024/5/7, add for renderthreadNoDraw
+ * Logs when RenderThread doesn't draw due to DirtyIsEmpty or MakeCurrentFailed.
+ *
+ * Logged from:
+ *   sys/vendor/oplus/frameworks/base/libs/hwui/renderthread/CanvasContextExtImpl.cpp
+ */
+message OplusRenderthreadInfo {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // Skip frame duration
+  optional int32 skip_frame_duration = 5;
+  // Skip frame reason
+  optional int32 skip_frame_reason = 6;
+  // Current package name
+  optional string package_name = 7;
+}
+
+/*--- Graphics 101286-101300 end ---*/
+
+/*--- P sensor 101301-101310 ---*/
+
+/**
+ * Logs when PSensor change screen off
+ * Xinyu.Cen@ANDROID.POWER, 2024/04/24, Add for psensor screen off
+ *
+ * Logged from:
+ *   frameworks/base/proprietary/common/core/service/core/java/com/android/server/display/OplusProximitySensorScreenOnOff.java
+ *
+ */
+message PSensorScreenEvent{
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // screen state
+  optional string screen_state = 5;
+}
+
+/*--- P sensor 101301-101310 end ---*/
+
+/*--- Systemui 101311-101360 ---*/
+
+/*
+ * yaoyanbing@ANDROID.SYSTEMUI, 2024/04/28, Add for SystemUI render blocked
+ * Logged when SystemUI render thread is blocked over 3 seconds.
+ *
+ * Logged from:
+ *   vendor/oplus/frameworks/base_common/proprietary/common/core/java/android/os/OplusAppWatchdog.java
+ *
+ */
+message OplusRenderThreadBlockedEvent {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // The latest draw start time, in uptime milliseconds.
+  optional int64 latest_draw_start_time = 5;
+  // The latest destroy start time, in uptime milliseconds.
+  optional int64 latest_destroy_start_time = 6;
+  // The monitor time, used to compare with latest_draw_start_time and latest_destroy_start_time, in uptime milliseconds.
+  optional int64 monitor_time = 7;
+  // The fault report, in uptime milliseconds.
+  optional int64 fault_report_time = 8;
+}
+
+/*--- Systemui 101311-101360 end ---*/
+
+/*--- UI Framework 101361-101370 ---*/
+
+/**
+ * caoyang@MULTIMEDIA.DISPLAY.GPU, 2024/5/7, add for gpu fence timeout
+ * Logs when gpu fence timeout happened.
+ *
+ * Logged from:
+ *   sys/vendor/oplus/stats_sources/ostats_tpd/StatsdWriter.cpp
+ */
+message OplusGpuFenceTimeout {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+
+  // pid_info of fence timeout. e.g. kgsl-3d0_3-surfaceflinger(1754)
+  optional string pid_info = 5;
+  // type of fence timeout. e.g. kgsl_fence_timeout/kcpu_queue_fence_timeout
+  optional string timeout_type = 6;
+  // time of fence timeout
+  optional int32 timeout = 7;
+}
+
+/**
+ *  Bard.Zhang@Android 2024-04-22 Add for : barrier time out event
+ *
+ *  Logs when a sync barrier is not released in a timely manner
+ *
+ *  Logged from ：
+ *    /sys/vendor/oplus/frameworks/base_common/proprietary/common/core/java/android/view/debug/OplusViewDebugManager.java
+ */
+message OplusBarrierTimeoutFault {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // package name of app
+  optional string package_name = 5;
+  // barrier id
+  optional int32 barrier_id = 6;
+}
+
+/**
+ *  Bard.Zhang@Android 2024-04-22 Add for : transaction time out event
+ *
+ *  Logs when a transaction is not committed in a timely manner
+ *
+ *  Logged from ：
+ *    /sys/vendor/oplus/frameworks/base_common/proprietary/common/core/java/android/view/TransactionExtImpl.java
+ */
+message OplusTransactionTimeoutFault {
+  // The DCS application id.
+  optional int32 dcs_app_id = 1;
+  // The DCS log tag.
+  optional string dcs_log_tag = 2;
+  // The DCS event id.
+  optional string dcs_event_id = 3;
+  // The fault timestamp, in milliseconds.
+  optional int64 fault_timestamp_ms = 4;
+  // package name of app
+  optional string package_name = 5;
+  // transaction id
+  optional int64 transaction_id = 6;
+}
+
+
+/*--- UI Framework 101361-101370 end ---*/
+
+/*--- Phenomenon Monitor 101371-101380 ---*/
+
+/*--- Phenomenon Monitor 101371-101380 end ---*/
+
+/*--- Game 101381-101390 ---*/
+
+/*--- Game 101381-101390 end ---*/
+
+/*--- Multimedia 101391-101400 ---*/
+
+/*--- Multimedia 101391-101400 end ---*/
+
+/*--- Display 101401-101440 ---*/
+
+/*--- Display 101401-101440 end ---*/
+

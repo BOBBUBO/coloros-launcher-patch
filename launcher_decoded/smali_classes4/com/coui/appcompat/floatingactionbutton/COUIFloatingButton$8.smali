@@ -1,0 +1,97 @@
+.class Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$8;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/animation/Animator$AnimatorListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->e()Landroid/animation/ValueAnimator;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;
+
+
+# direct methods
+.method public constructor <init>(Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$8;->a:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onAnimationCancel(Landroid/animation/Animator;)V
+    .locals 0
+
+    iget-object p0, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$8;->a:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;
+
+    iget-object p1, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->r:Ljava/lang/Runnable;
+
+    invoke-virtual {p0, p1}, Landroid/view/View;->removeCallbacks(Ljava/lang/Runnable;)Z
+
+    iget-object p0, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->o:Landroidx/appcompat/widget/AppCompatImageView;
+
+    const/16 p1, 0x8
+
+    invoke-virtual {p0, p1}, Landroid/view/View;->setVisibility(I)V
+
+    return-void
+.end method
+
+.method public final onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 1
+
+    iget-object p0, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$8;->a:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;
+
+    iget-object p1, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->o:Landroidx/appcompat/widget/AppCompatImageView;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object p0, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->j:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$InstanceState;
+
+    iput-boolean v0, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$InstanceState;->b:Z
+
+    return-void
+.end method
+
+.method public final onAnimationRepeat(Landroid/animation/Animator;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final onAnimationStart(Landroid/animation/Animator;)V
+    .locals 2
+
+    iget-object p0, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$8;->a:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;
+
+    iget-object p1, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->j:Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$InstanceState;
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p1, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton$InstanceState;->b:Z
+
+    iget-object p1, p0, Lcom/coui/appcompat/floatingactionbutton/COUIFloatingButton;->r:Ljava/lang/Runnable;
+
+    const-wide/16 v0, 0x1388
+
+    invoke-virtual {p0, p1, v0, v1}, Landroid/view/View;->postDelayed(Ljava/lang/Runnable;J)Z
+
+    return-void
+.end method

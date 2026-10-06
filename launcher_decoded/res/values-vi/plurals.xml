@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d ngày trước</item>
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d phút trước</item>
+        <item quantity="other">%d phút trước</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d năm trước</item>
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Không thể thêm quá %1$d tiện ích giống nhau</item>
+        <item quantity="other">Không thể thêm quá %1$d tiện ích giống nhau</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Trang %1$d/%2$d</item>
+        <item quantity="other">Trang %1$d/%2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Ứng dụng này sẽ biến mất khỏi Màn hình chính nhưng sẽ được giữ lại trong ngăn ứng dụng.</item>
+        <item quantity="other">Các ứng dụng đã chọn sẽ biến mất khỏi Màn hình chính nhưng sẽ được giữ lại trong ngăn ứng dụng.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Xóa %d ứng dụng?</item>
+        <item quantity="other">Xóa %d ứng dụng?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Ứng dụng đã chọn sẽ biến mất khỏi Màn hình chính nhưng sẽ được giữ lại trong ngăn ứng dụng. Lối tắt đã chọn sẽ bị xóa.</item>
+        <item quantity="other">Ứng dụng đã chọn sẽ biến mất khỏi Màn hình chính nhưng sẽ được giữ lại trong ngăn ứng dụng. Lối tắt đã chọn sẽ bị xóa.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Xóa %d ứng dụng hoặc lối tắt được chọn?</item>
+        <item quantity="other">Xóa %d ứng dụng hoặc lối tắt được chọn?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Xóa %1$d lối tắt dưới đây?</item>
+        <item quantity="other">Xóa %1$d lối tắt dưới đây?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Xóa %1$d lối tắt</item>
+        <item quantity="other">Xóa %1$d lối tắt</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">Đã chọn %1$d</item>
+        <item quantity="other">Đã chọn %1$d</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d ngày</item>
+        <item quantity="other">%1$d ngày</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d thông báo mới</item>
+        <item quantity="other">%d thông báo mới</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d cột</item>
+        <item quantity="other">%1$d cột</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Gỡ cài đặt %1$d ứng dụng dưới đây?</item>
+        <item quantity="other">Gỡ cài đặt %1$d ứng dụng dưới đây?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Gỡ cài đặt %1$d ứng dụng (bao gồm bản sao) và xóa dữ liệu của ứng dụng đó.</item>
+        <item quantity="other">Gỡ cài đặt %1$d ứng dụng (bao gồm bản sao) và xóa dữ liệu của các ứng dụng đó.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Gỡ cài đặt %1$d ứng dụng và xóa dữ liệu của ứng dụng đó.</item>
+        <item quantity="other">Gỡ cài đặt %1$d ứng dụng và xóa dữ liệu của các ứng dụng đó.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
+    <solid android:color="@color/pointer_icon_anim_background" />
+    <stroke android:width="@dimen/icon_pointer_anim_stroke_width" android:color="@color/pointer_icon_anim_stroke" />
+    <corners android:radius="@dimen/icon_pointer_anim_radius" />
+</shape>

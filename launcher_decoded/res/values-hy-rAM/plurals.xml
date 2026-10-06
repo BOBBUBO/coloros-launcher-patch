@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Կարող է ավելացվել ոչ ավելի, քան %1$d նույնական վիդջեթ</item>
+        <item quantity="other">Կարող է ավելացվել ոչ ավելի, քան %1$d նույնական վիդջեթ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Էջ %1$d՝ %2$d-ից</item>
+        <item quantity="other">Էջ %1$d՝ %2$d-ից</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Այս հավելվածը կանհետանա Գլխավոր էկրանից, բայց կպահպանվի հավելվածների դարակում:</item>
+        <item quantity="other">Ընտրված հավելվածները կանհետանան Գլխավոր էկրանից, բայց կպահպանվեն հավելվածների դարակում:</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Հեռացնե՞լ %d հավելվածը։</item>
+        <item quantity="other">Հեռացնե՞լ %d հավելվածները։</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Ընտրված հավելվածները կանհետանան Գլխավոր էկրանից, բայց կպահպանվեն հավելվածների դարակում: Ընտրված դյուրանցումները կհեռացվեն:</item>
+        <item quantity="other">Ընտրված հավելվածները կանհետանան Գլխավոր էկրանից, բայց կպահպանվեն հավելվածների դարակում: Ընտրված դյուրանցումները կհեռացվեն:</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Հեռացնե՞լ %d ընտրված հավելվածը կամ դյուրանցումը։</item>
+        <item quantity="other">Հեռացնե՞լ %d ընտրված հավելվածները կամ դյուրանցումները։</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Հեռացնե՞լ %1$d ստորև բերված դյուրանցումը։</item>
+        <item quantity="other">Հեռացնե՞լ %1$d ստորև բերված դյուրանցումները։</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Հեռացնել %1$d դյուրանցումը</item>
+        <item quantity="other">Հեռացնել %1$d դյուրանցումները</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d ընտրվել է</item>
+        <item quantity="other">%1$d ընտրվել է</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d օր</item>
+        <item quantity="other">%1$d օր</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d նոր ծանուցում</item>
+        <item quantity="other">%d նոր ծանուցում</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d սյունակ</item>
+        <item quantity="other">%1$d սյունակներ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Հեռացնե՞լ %1$d ստորև բերված հավելվածը։</item>
+        <item quantity="other">Հեռացնե՞լ %1$d ստորև բերված հավելվածները։</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Հեռացնել %1$d հավելվածը (այդ թվում՝ դրա կլոնը) և մաքրել դրա տվյալները։</item>
+        <item quantity="other">Հեռացնել %1$d հավելվածները (այդ թվում՝ դրանց կլոնները) և մաքրել դրանց տվյալները։</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Հեռացնել %1$d հավելվածը և մաքրել դրա տվյալները։</item>
+        <item quantity="other">Հեռացնել %1$d հավելվածներ և մաքրել դրանց տվյալները։</item>
+    </plurals>
+</resources>

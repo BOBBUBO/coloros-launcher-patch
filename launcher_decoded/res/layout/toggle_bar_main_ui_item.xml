@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.togglebar.views.PressFeedbackLinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="80.0dp" android:layout_height="wrap_content" android:forceDarkAllowed="false" app:normal_color="@color/launcher_toggle_bar_main_ui_item_bg"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <view android:id="@id/item_icon" android:layout_width="@dimen/launcher_toggle_bar_main_ui_item_width" android:layout_height="@dimen/launcher_toggle_bar_main_ui_item_width" android:scaleType="centerInside" class="com.android.launcher.togglebar.views.PressFeedbackLinearLayout$PressFeedbackCircleImageView" />
+    <com.android.launcher.togglebar.views.SelectedAppTextView android:textStyle="bold" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/togglebar_main_ui_list_item_title_margin_top" android:maxLines="2" android:lineSpacingMultiplier="1.0" android:paddingHorizontal="4.0dp" app:max_textsize="@integer/toggle_bar_item_max_text_size" style="@style/ToggleBarItemTitleTextAppearance" />
+</com.android.launcher.togglebar.views.PressFeedbackLinearLayout>

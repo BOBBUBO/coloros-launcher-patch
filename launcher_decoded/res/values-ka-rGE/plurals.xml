@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">შეუძლებელია %1$d ერთნაირ ვიჯეტზე მეტის დამატება</item>
+        <item quantity="other">შეუძლებელია %1$d ერთნაირ ვიჯეტზე მეტის დამატება</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">გვერდი %1$d / %2$d</item>
+        <item quantity="other">გვერდი %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">ეს აპი გაქრება საწყისი ეკრანიდან, მაგრამ აპების უჯრაში დარჩება.</item>
+        <item quantity="other">არჩეული აპები საწყისი ეკრანიდან გაქრება, მაგრამ აპების უჯრაში დარჩება.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">ნამდვილად გსურთ %d აპის ამოშლა?</item>
+        <item quantity="other">ნამდვილად გსურთ %d აპის ამოშლა?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">არჩეული აპები საწყისი ეკრანიდან გაქრება, მაგრამ აპების უჯრაში დარჩება. არჩეული მალსახმობები წაიშლება.</item>
+        <item quantity="other">არჩეული აპები საწყისი ეკრანიდან გაქრება, მაგრამ აპების უჯრაში დარჩება. არჩეული მალსახმობები წაიშლება.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">ნამდვილად გსურთ %d არჩეული აპის ან მალსახმობის ამოშლა?</item>
+        <item quantity="other">ნამდვილად გსურთ %d არჩეული აპის ან მალსახმობის ამოშლა?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">ნამდვილად გსურთ ქვემოთ მოცემული %1$d მალსახმობის ამოშლა?</item>
+        <item quantity="other">ნამდვილად გსურთ ქვემოთ მოცემული %1$d მალსახმობის ამოშლა?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d მალსახმობის ამოშლა</item>
+        <item quantity="other">%1$d მალსახმობის ამოშლა</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d არჩეულია</item>
+        <item quantity="other">%1$d არჩეულია</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d დღე</item>
+        <item quantity="other">%1$d დღეები</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ახალი შეტყობინება</item>
+        <item quantity="other">%d ახალი შეტყობინებები</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d სვეტი</item>
+        <item quantity="other">%1$d სვეტი</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">ნამდვილად გსურთ ქვემოთ მოცემული %1$d აპის წაშლა?</item>
+        <item quantity="other">ნამდვილად გსურთ ქვემოთ მოცემული %1$d აპის წაშლა?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d აპის (კლონის ჩათვლით) წაშლა და მისი მონაცემების გასუფთავება.</item>
+        <item quantity="other">%1$d აპის (კლონების ჩათვლით) წაშლა და მათი მონაცემების გასუფთავება.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d აპის წაშლა და მისი მონაცემების გასუფთავება.</item>
+        <item quantity="other">%1$d აპის წაშლა და მათი მონაცემების გასუფთავება.</item>
+    </plurals>
+</resources>

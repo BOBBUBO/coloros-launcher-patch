@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen android:title="@string/shortcut_menu_switch"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:selectable="false" android:key="shortcut_menu_switch" android:summary="@string/shortcut_menu_switch_summary" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="category_shortcut_apps" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:key="dummy_switch_preference" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</androidx.preference.PreferenceScreen>

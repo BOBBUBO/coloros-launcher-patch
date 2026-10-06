@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/sub_container" android:paddingTop="@dimen/coui_popup_list_window_item_padding_top_and_bottom" android:paddingBottom="@dimen/coui_popup_list_window_item_padding_top_and_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:minWidth="@dimen/coui_popup_list_window_min_width" android:minHeight="@dimen/coui_popup_list_window_item_min_height" android:paddingStart="@dimen/coui_popup_list_window_item_icon_margin_left" android:paddingEnd="@dimen/coui_popup_list_window_item_icon_margin_left">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/popup_list_window_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textAppearance="@style/couiTextAppearanceBodyL" android:layout_gravity="center_vertical" android:id="@id/popup_list_window_item_title" android:layout_width="0.0dp" android:layout_height="wrap_content" android:maxWidth="@dimen/coui_popup_list_window_item_max_width" android:layout_weight="1.0" android:fontFamily="sans-serif-regular" android:textAlignment="viewStart" android:hyphenationFrequency="normal" android:textFontWeight="400" />
+    </LinearLayout>
+    <ImageView android:id="@id/divider" android:background="@color/coui_color_disabled_neutral" android:layout_width="match_parent" android:layout_height="0.33000004dp" android:layout_marginStart="@dimen/dp_50" android:layout_marginEnd="@dimen/coui_popup_list_window_item_icon_margin_left" />
+</LinearLayout>

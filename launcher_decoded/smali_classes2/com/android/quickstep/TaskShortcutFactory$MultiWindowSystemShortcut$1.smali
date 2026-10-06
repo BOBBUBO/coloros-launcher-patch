@@ -1,0 +1,88 @@
+.class Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnLayoutChangeListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;->onClick(Landroid/view/View;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;
+
+.field final synthetic val$taskId:I
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;I)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->this$0:Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;
+
+    iput p2, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->val$taskId:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onLayoutChange(Landroid/view/View;IIIIIIII)V
+    .locals 0
+
+    iget-object p1, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->this$0:Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;
+
+    invoke-static {p1}, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;->m(Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;)Lcom/android/quickstep/views/TaskView;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Landroid/view/View;->getRootView()Landroid/view/View;
+
+    move-result-object p1
+
+    invoke-virtual {p1, p0}, Landroid/view/View;->removeOnLayoutChangeListener(Landroid/view/View$OnLayoutChangeListener;)V
+
+    iget-object p1, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->this$0:Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;
+
+    invoke-static {p1}, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;->l(Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;)Lcom/android/quickstep/views/RecentsView;
+
+    move-result-object p1
+
+    iget p2, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->val$taskId:I
+
+    invoke-virtual {p1, p2}, Lcom/android/quickstep/views/RecentsView;->clearIgnoreResetTask(I)V
+
+    iget-object p1, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->this$0:Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;
+
+    invoke-static {p1}, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;->l(Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;)Lcom/android/quickstep/views/RecentsView;
+
+    move-result-object p1
+
+    iget-object p0, p0, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut$1;->this$0:Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;
+
+    invoke-static {p0}, Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;->m(Lcom/android/quickstep/TaskShortcutFactory$MultiWindowSystemShortcut;)Lcom/android/quickstep/views/TaskView;
+
+    move-result-object p0
+
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p0, p2, p2}, Lcom/android/quickstep/views/RecentsView;->dismissTask(Lcom/android/quickstep/views/TaskView;ZZ)V
+
+    return-void
+.end method

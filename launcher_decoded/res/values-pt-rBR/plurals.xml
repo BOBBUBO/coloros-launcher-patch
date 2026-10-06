@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d dia atrás</item>
+        <item quantity="other">%d dias atrás</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d min atrás</item>
+        <item quantity="other">%d min atrás</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d ano atrás</item>
+        <item quantity="other">%d anos atrás</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Só é possível adicionar até %1$d widget idêntico</item>
+        <item quantity="other">Só é possível adicionar até %1$d widgets idênticos</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Página %1$d de %2$d</item>
+        <item quantity="other">Página %1$d de %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Este aplicativo desaparecerá da Tela inicial, mas será mantido na gaveta de aplicativos.</item>
+        <item quantity="other">Os aplicativos selecionados desaparecerão da Tela inicial, mas serão mantidos na gaveta de aplicativos.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Remover %d aplicativo?</item>
+        <item quantity="other">Remover %d aplicativos?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Os aplicativos selecionados desaparecerão da Tela inicial, mas serão mantidos na gaveta de aplicativos. Os atalhos selecionados serão removidos.</item>
+        <item quantity="other">Os aplicativos selecionados desaparecerão da Tela inicial, mas serão mantidos na gaveta de aplicativos. Os atalhos selecionados serão removidos.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Remover %d aplicativo ou atalho selecionado?</item>
+        <item quantity="other">Remover %d aplicativos ou atalhos selecionados?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Remover %1$d atalho abaixo?</item>
+        <item quantity="other">Remover %1$d atalhos abaixo?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Remover %1$d atalho</item>
+        <item quantity="other">Remover %1$d atalhos</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d selecionado</item>
+        <item quantity="other">%1$d selecionados</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d dia</item>
+        <item quantity="other">%1$d dias</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nova notificação</item>
+        <item quantity="other">%d novas notificações</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d coluna</item>
+        <item quantity="other">%1$d colunas</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Desinstalar %1$d aplicativo abaixo?</item>
+        <item quantity="other">Desinstalar %1$d aplicativos abaixo?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Desinstalar %1$d aplicativo (incluindo seu clone) e apagar seus dados.</item>
+        <item quantity="other">Desinstalar %1$d aplicativos (incluindo seus clones) e apagar seus dados.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Desinstale %1$d aplicativo e limpe os respectivos dados.</item>
+        <item quantity="other">Desinstale %1$d aplicativos e limpe os respectivos dados.</item>
+    </plurals>
+</resources>

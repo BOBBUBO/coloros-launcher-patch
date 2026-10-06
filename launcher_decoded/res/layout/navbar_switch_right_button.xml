@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.taskbar.navbar.TaskbarNavbarPositionSwitchView android:layout_gravity="end" android:id="@id/switch_position_right" android:visibility="gone" android:layout_width="@dimen/taskbar_nav_workspace_left_right_buttons_width" android:layout_height="match_parent" android:scaleType="center" android:contentDescription="@string/navigation_buttons_position_switch" android:rotation="180.0" android:layout_marginEnd="@dimen/taskbar_navbar_left_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

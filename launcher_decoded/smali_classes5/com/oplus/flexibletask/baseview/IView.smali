@@ -1,0 +1,39 @@
+.class public interface abstract Lcom/oplus/flexibletask/baseview/IView;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final FLOAT_HANDLE_VIEW_TITLE:Ljava/lang/String; = "OplusOSZoomFloatHandleView"
+
+
+# virtual methods
+.method public animAdd(Landroid/animation/AnimatorListenerAdapter;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public animRemove(Landroid/animation/AnimatorListenerAdapter;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public abstract getView()Landroid/view/View;
+.end method
+
+.method public abstract getWindowParams()Landroid/view/WindowManager$LayoutParams;
+.end method
+
+.method public onCreate()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setHook(Lcom/oplus/flexibletask/baseview/ViewHook;)V
+    .locals 0
+
+    return-void
+.end method

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Ən çox %1$d eyni vidcet əlavə edilə bilər</item>
+        <item quantity="other">Ən çox %1$d eyni vidcet əlavə edilə bilər</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Səhifə %1$d/%2$d</item>
+        <item quantity="other">Səhifə %1$d/%2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Bu tətbiq Əsas ekrandan yoxa çıxacaq, lakin tətbiq siyirməsində saxlanılacaq.</item>
+        <item quantity="other">Seçilmiş tətbiqlər Əsas ekrandan yox olacaq, lakin tətbiq siyirməsində saxlanılacaq.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d tətbiq silinsin?</item>
+        <item quantity="other">%d tətbiq silinsin?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Seçilmiş tətbiqlər Əsas ekrandan yox olacaq, lakin tətbiq siyirməsində saxlanılacaq. Seçilmiş qısayollar silinəcək.</item>
+        <item quantity="other">Seçilmiş tətbiqlər Əsas ekrandan yox olacaq, lakin tətbiq siyirməsində saxlanılacaq. Seçilmiş qısayollar silinəcək.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Seçilmiş %d tətbiq və ya qısayol silinsin?</item>
+        <item quantity="other">Seçilmiş %d tətbiq və ya qısayol silinsin?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Aşağıdakı %1$d qısayol silinsin?</item>
+        <item quantity="other">Aşağıdakı %1$d qısayol silinsin?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d qısayolu sil</item>
+        <item quantity="other">%1$d qısayolu sil</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">Seçilib: %1$d</item>
+        <item quantity="other">%1$d seçilib</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d yeni bildiriş</item>
+        <item quantity="other">%d yeni bildiriş</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d sütun</item>
+        <item quantity="other">%1$d sütun</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Aşağıdakı %1$d tətbiqin quraşdırılmışı ləğv edilsin?</item>
+        <item quantity="other">Aşağıdakı %1$d tətbiqin quraşdırılmışı ləğv edilsin?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d tətbiqin (o cümlədən onun klonunun) quraşdırılmışını ləğv edin və onların verilənlərini təmizləyin.</item>
+        <item quantity="other">%1$d tətbiqin (o cümlədən onların klonlarının) quraşdırılmışını ləğv edin və onların verilənlərini təmizləyin.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d tətbiqin quraşdırılmışını ləğv edin və onların verilənlərini təmizləyin.</item>
+        <item quantity="other">%1$d tətbiqin quraşdırılmışını ləğv edin və onların verilənlərini təmizləyin.</item>
+    </plurals>
+</resources>

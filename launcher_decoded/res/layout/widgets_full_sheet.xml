@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.views.OplusCoordinatorLayout android:id="@id/widget_sheet_container" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.views.OplusWidgetsFullSheet android:theme="?widgetsTheme" android:orientation="vertical" android:id="@id/widget_full_sheet" android:background="@drawable/background_widget_sheet" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/widget_sheet_behavior">
+        <com.android.launcher3.views.TopRoundedCornerView android:gravity="top" android:id="@id/container" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="34.0dp" android:layout_height="4.0dp" android:layout_marginTop="10.0dp" android:src="@drawable/drag_bar_common" android:layout_centerHorizontal="true" />
+            <include android:id="@id/tool_bar_container" layout="@layout/widget_panel_toolbar_with_divider" />
+            <include android:id="@id/widgets_empty_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tool_bar_container" layout="@layout/widgets_list_empty" />
+            <com.android.launcher.widget.OplusWidgetsRecyclerView android:id="@id/search_widgets_list_view" android:paddingTop="20.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/tool_bar_container" />
+            <TextView android:id="@id/fast_scroller_popup" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/fastscroll_popup_margin" android:layout_alignParentEnd="true" style="@style/FastScrollerPopup" />
+            <com.android.launcher3.views.OplusRecyclerViewFastScroller android:id="@id/fast_scroller" android:visibility="gone" android:layout_width="0.0dp" android:layout_height="0.0dp" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/fastscroll_end_margin" android:layout_alignParentEnd="true" android:forceDarkAllowed="false" />
+        </com.android.launcher3.views.TopRoundedCornerView>
+    </com.android.launcher3.views.OplusWidgetsFullSheet>
+</com.android.launcher3.views.OplusCoordinatorLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- 每次推送时需要增加这个版本号才会有效 -->
+    <version>2024121402</version>
+    <isOpen>1</isOpen>
+    <filter-name>app_widget_optimize_disable_rus_list</filter-name>
+
+    <string-array name="widget_align_disable_component">
+        <!-- activityName为空则屏蔽整个package -->
+        <!-- <ComponentInfo packageName = "com.growing.topwidgets" activityName = "com.growing.topwidgets.widgets.MediumWidget"/> -->
+        <ComponentInfo packageName = "com.coloros.alarmclock" activityName = ""/>
+        <ComponentInfo packageName = "com.heytap.quicksearchbox" activityName = ""/>
+        <ComponentInfo packageName = "com.heytap.browser" activityName = ""/>
+        <ComponentInfo packageName = "com.svw.sc.mos" activityName = ""/>
+        <ComponentInfo packageName = "com.baidu.searchbox" activityName = "com.baidu.searchbox.widget.ClockWidgetProvider"/>
+        <ComponentInfo packageName = "com.baidu.BaiduMap" activityName = "com.baidu.baidumaps.desktopwidget.advert.MapAdvertWidgetProvider"/>
+        <ComponentInfo packageName = "com.jd.jrapp" activityName = "com.jd.jrapp.bm.sh.widget.ui.Sign2AppWidget"/>
+        <ComponentInfo packageName = "com.jd.jrapp" activityName = "com.jd.jrapp.bm.sh.widget.ui.BaiTiaoAppWidget"/>
+        <ComponentInfo packageName = "com.jd.jrapp" activityName = "com.jd.jrapp.bm.sh.widget.ui.UserRightsAppWidget"/>
+        <ComponentInfo packageName = "com.sankuai.meituan" activityName = "com.meituan.android.walmai.widget.CoopWidget22EX"/>
+        <ComponentInfo packageName = "com.cat.readall" activityName = "com.bytedance.news.ug.impl.widget.functions.ScanFunctionWidgetProvider"/>
+        <ComponentInfo packageName = "com.cat.readall" activityName = "com.bytedance.news.ug.impl.widget.novel.NovelRecoverWidgetProvider"/>
+        <ComponentInfo packageName = "com.cat.readall" activityName = "com.bytedance.news.ug.impl.widget.functions.NetdiskFunctionWidgetProvider"/>
+        <ComponentInfo packageName = "com.google.android.youtube" activityName = "com.google.android.apps.youtube.app.widget.YtQuickActionsWidgetProvider"/>
+        <ComponentInfo packageName = "com.google.android.googlequicksearchbox" activityName = ""/>
+        <ComponentInfo packageName = "net.oneplus.widget" activityName = ""/>
+        <ComponentInfo packageName = "com.oneplus.deskclock" activityName = ""/>
+        <ComponentInfo packageName = "com.android.chrome" activityName = ""/>
+        <ComponentInfo packageName = "com.coloros.scenemode" activityName = "com.coloros.widget.OldPeopleFriendlyWidgetProvider"/>
+        <ComponentInfo packageName = "com.android.contacts" activityName = "com.android.contacts.speeddialwidget.SpeedDialWidgetTitle"/>
+        <ComponentInfo packageName = "com.orange.update" activityName = "com.orange.update.widget.ComboFolderWidgetProvider"/>
+        <ComponentInfo packageName = "com.handmark.expressweather" activityName = "com.handmark.expressweather.widgets.Widget4x1_Clock"/>
+        <ComponentInfo packageName = "com.claroColombia.contenedor" activityName = "com.speedymovil.widget.AppWidget"/>
+        <ComponentInfo packageName = "com.telcel.contenedor" activityName = "com.speedymovil.widget.AppWidgetMedium"/>
+        <ComponentInfo packageName = "com.telcel.contenedor" activityName = "com.speedymovil.widget.AppWidget"/>
+        <ComponentInfo packageName = "com.gameloft.android.gdc" activityName = "com.gameloft.android.gdc.GDCWidgetProvider"/>
+        <ComponentInfo packageName = "com.xunmeng.merchant" activityName = "com.xunmeng.merchant.data.ui.app_widget.ShopInfoWidgetProvider"/>
+        <ComponentInfo packageName = "com.baidu.netdisk" activityName = "com.baidu.netdisk.appwidget.novel.NovelAppWidgetProvider"/>
+        <ComponentInfo packageName = "com.baidu.netdisk" activityName = "com.baidu.netdisk.newstory.widget.SmallStoryDetailJumpWidgetProvider"/>
+        <ComponentInfo packageName = "com.quark.browser" activityName = "com.ucpro.feature.appwidget.search.SearchToolAppWidgetProvider"/>
+        <ComponentInfo packageName = "com.google.android.deskclock" activityName = "com.android.alarmclock.AnalogAppWidgetProvider"/>
+        <ComponentInfo packageName = "com.google.android.apps.maps" activityName = "com.google.android.apps.gmm.widget.SearchWidgetProvider"/>
+        <ComponentInfo packageName = "com.hustzp.com.xichuangzhu" activityName = "com.hustzp.com.xichuangzhu.widget.XCZAppWidgetT"/>
+        <ComponentInfo packageName = "com.alibaba.android.rimet" activityName = "com.alibaba.android.smallwidgetsdk.todo.TodoWidgetProvider"/>
+        <ComponentInfo packageName = "com.alibaba.android.rimet" activityName = "com.alibaba.android.smallwidgetsdk.general.GeneralDynamicWidgetProvider"/>
+        <ComponentInfo packageName = "com.dudu.calendar" activityName = "com.dudu.calendar.widget.WidgetMonth4x2"/>
+        <ComponentInfo packageName = "com.linkedin.android" activityName = "com.linkedin.android.profile.components.games.widget.GamesWidget"/>
+        <ComponentInfo packageName = "com.google.android.apps.youtube.music" activityName = "com.google.android.apps.youtube.music.player.widget.gm3.NowPlayingWidgetProvider"/>
+        <ComponentInfo packageName = "com.jio.media.jiobeats" activityName = "com.jio.media.jiobeats.SaavnAppWidget"/>
+        <ComponentInfo packageName = "au.com.optus.selfservice" activityName = "au.com.optus.selfservice.ui.widget.MyOptusWidgetProvider"/>
+        <ComponentInfo packageName = "com.openai.chatgpt" activityName = "com.openai.feature.widget.WidgetReceiver"/>
+        <ComponentInfo packageName = "com.ruguoapp.jike" activityName = "com.ruguoapp.jike.bu.widget.provider.FridaySmallWidgetProvider"/>
+    </string-array>
+
+    <string-array name="widget_density_unresponsive_disable_component">
+        <!-- activityName为空则屏蔽整个package -->
+        <!-- <ComponentInfo packageName = "com.growing.topwidgets" activityName = "com.growing.topwidgets.widgets.MediumWidget"/> -->
+    </string-array>
+
+    <string-array name="widget_font_scale_unresponsive_disable_component">
+        <!-- activityName为空则屏蔽整个package -->
+        <!-- <ComponentInfo packageName = "com.growing.topwidgets" activityName = "com.growing.topwidgets.widgets.MediumWidget"/> -->
+    </string-array>
+
+    <disable_all_widget_density_unresponsive>0</disable_all_widget_density_unresponsive>
+    <disable_all_widget_font_scale_unresponsive>0</disable_all_widget_font_scale_unresponsive>
+</filter-conf>

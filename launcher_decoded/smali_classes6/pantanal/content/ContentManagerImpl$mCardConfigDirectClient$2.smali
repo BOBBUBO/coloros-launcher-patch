@@ -1,0 +1,98 @@
+.class final Lpantanal/content/ContentManagerImpl$mCardConfigDirectClient$2;
+.super Lkotlin/jvm/internal/Lambda;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lpantanal/content/ContentManagerImpl;-><init>(Lg4/b;Lpantanal/app/bean/Entrance;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/Lambda;",
+        "Lkotlin/jvm/functions/Function0<",
+        "Lpantanal/content/CardConfigDirectClient;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n\u00a2\u0006\u0002\u0008\u0002"
+    }
+    d2 = {
+        "<anonymous>",
+        "Lpantanal/content/CardConfigDirectClient;",
+        "invoke"
+    }
+    k = 0x3
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lpantanal/content/ContentManagerImpl;
+
+
+# direct methods
+.method public constructor <init>(Lpantanal/content/ContentManagerImpl;)V
+    .locals 0
+
+    iput-object p1, p0, Lpantanal/content/ContentManagerImpl$mCardConfigDirectClient$2;->this$0:Lpantanal/content/ContentManagerImpl;
+
+    const/4 p1, 0x0
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/Lambda;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke()Ljava/lang/Object;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0}, Lpantanal/content/ContentManagerImpl$mCardConfigDirectClient$2;->invoke()Lpantanal/content/CardConfigDirectClient;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invoke()Lpantanal/content/CardConfigDirectClient;
+    .locals 2
+
+    .line 2
+    new-instance v0, Lpantanal/content/CardConfigDirectClient;
+
+    iget-object v1, p0, Lpantanal/content/ContentManagerImpl$mCardConfigDirectClient$2;->this$0:Lpantanal/content/ContentManagerImpl;
+
+    invoke-static {v1}, Lpantanal/content/ContentManagerImpl;->access$getContextProxy$p(Lpantanal/content/ContentManagerImpl;)Lg4/b;
+
+    move-result-object v1
+
+    iget-object p0, p0, Lpantanal/content/ContentManagerImpl$mCardConfigDirectClient$2;->this$0:Lpantanal/content/ContentManagerImpl;
+
+    invoke-static {p0}, Lpantanal/content/ContentManagerImpl;->access$getEntrance$p(Lpantanal/content/ContentManagerImpl;)Lpantanal/app/bean/Entrance;
+
+    move-result-object p0
+
+    invoke-direct {v0, v1, p0}, Lpantanal/content/CardConfigDirectClient;-><init>(Lg4/b;Lpantanal/app/bean/Entrance;)V
+
+    return-object v0
+.end method

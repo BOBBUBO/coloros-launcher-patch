@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/launcher_all_apps_popup_text_color" android:id="@id/fast_scroller_popup" android:background="?couiColorPrimary" android:includeFontPadding="false" android:layout_below="@id/search_container_all_apps" android:layout_marginEnd="@dimen/fastscroll_popup_margin" android:layout_alignParentEnd="true" android:paddingHorizontal="@dimen/fastscroll_popup_padding_hor" android:forceDarkAllowed="false" style="@style/FastScrollerPopup" />
+    <com.android.launcher3.views.OplusRecyclerViewFastScroller android:id="@id/fast_scroller" android:visibility="gone" android:layout_width="@dimen/fastscroll_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fastscroll_margin_bottom" android:layout_below="@id/search_container_all_apps" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" launcher:canThumbDetach="true" />
+    <com.android.launcher3.allapps.OplusFastScrollLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/coui_fast_scroller_layout" android:layout_width="23.0dp" android:layout_height="match_parent" android:layout_marginBottom="@dimen/scroll_margin_bottom" android:layout_alignParentEnd="true">
+        <com.coui.appcompat.touchsearchview.COUITouchSearchView android:layout_gravity="center_vertical" android:id="@id/coui_fast_scroller" android:paddingRight="5.0dp" android:layout_width="match_parent" android:layout_height="440.0dp" android:paddingEnd="2.0dp" launcher:couiFirstIsCharacter="true" launcher:couiPopupWinFirstTextColor="@color/all_apps_popup_text_color" />
+    </com.android.launcher3.allapps.OplusFastScrollLayout>
+</merge>

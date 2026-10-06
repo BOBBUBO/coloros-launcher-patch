@@ -1,0 +1,361 @@
+{
+  "properties": [
+    {
+      "format": 1,
+      "handle": 12970367460978956000,
+      "meta": "{\"min\":-0.10000000149011612,\"max\":0.10000000149011612,\"step\":0.0020000000949949026,\"desc\":\"导航栏在第二阶段结束时在基础弯曲程度上增加的弯曲程度\"}",
+      "name": "uv_bendTargetEnd",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452956754000,
+      "meta": "{\"min\":-0.10000000149011612,\"max\":0.10000000149011612,\"step\":0.0020000000949949026,\"desc\":\"导航栏在第二阶段开始时在基础弯曲程度上增加的弯曲程度\"}",
+      "name": "uv_bendTargetStart",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959060000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"背景光晕在第二阶段中间的透明度\"}",
+      "name": "gradientActivationAlphaMid",
+      "value": [
+        0.800000011920929
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959060000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第二阶段中间的透明度\"}",
+      "name": "barGlowActivationAlphaMid",
+      "value": [
+        0.800000011920929
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第二阶段开始时的透明度\"}",
+      "name": "barActivationAlphaStart",
+      "value": [
+        0.8999999761581421
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第二阶段开始时的透明度\"}",
+      "name": "barGlowActivationAlphaStart",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":2000,\"step\":10,\"desc\":\"第二阶段后半部分动效时长\"}",
+      "name": "barDeactivationDuration",
+      "value": [
+        1000
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":2000,\"step\":10,\"desc\":\"第一阶段后半部分动效时长\"}",
+      "name": "fadeOutDuration",
+      "value": [
+        800
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第一阶段开始时的透明度\"}",
+      "name": "barGlowEntranceAlphaStart",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959060000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第二阶段结束时的透明度\"}",
+      "name": "barGlowActivationAlphaEnd",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454557368000,
+      "meta": "{\"min\":-0.10000000149011612,\"max\":0.10000000149011612,\"step\":0.0020000000949949026,\"desc\":\"导航栏基础弯曲程度\"}",
+      "name": "uv_baseBend",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959056000,
+      "meta": "{\"type\":\"Boolean\",\"desc\":\"背景光晕色散开关\"}",
+      "name": "textureEnableChromaticAberration",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959056000,
+      "meta": "{\"min\":-0.10000000149011612,\"max\":0.10000000149011612,\"step\":0.004999999888241291,\"desc\":\"背景光晕色散偏移距离\"}",
+      "name": "uv_textureChromaticAberrationAmount",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏在第一阶段结束时的透明度\"}",
+      "name": "barEntranceAlphaEnd",
+      "value": [
+        0.8999999761581421
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454556742000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏在第一阶段开始时的透明度\"}",
+      "name": "barEntranceAlphaStart",
+      "value": [
+        0.8999999761581421
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.0010000000474974513,\"desc\":\"引导栏在第二阶段开始时的纵向位置偏移\"}",
+      "name": "uv_barActivationTransformYStart",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第一阶段结束时的透明度\"}",
+      "name": "barGlowEntranceAlphaEnd",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959056000,
+      "meta": "{\"min\":0,\"max\":2000,\"step\":10,\"desc\":\"第一阶段前半部分动效时长\"}",
+      "name": "fadeInDuration",
+      "value": [
+        650
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454777936000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏在第一阶段开始时的纵向位置偏移\"}",
+      "name": "uv_barEntranceTransformYStart",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454556744000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏在第一阶段中间的透明度\"}",
+      "name": "barEntranceAlphaMid",
+      "value": [
+        1
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452956754000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.0010000000474974513,\"desc\":\"背景光晕在第二阶段结束时的纵向位置偏移\"}",
+      "name": "uv_gradientTransformYEnd",
+      "value": [
+        0.3059999942779541
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959056000,
+      "meta": "{\"type\":\"Enum\",\"values\":[\"RedAndBlue\",\"GreenAndBlue\",\"RedAndGreen\"],\"desc\":\"背景光晕色散颜色选项\"}",
+      "name": "textureChromaticAberrationChannels",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452956754000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.0010000000474974513,\"desc\":\"背景光晕在第二阶段开始时的纵向位置偏移\"}",
+      "name": "uv_gradientTransformYStart",
+      "value": [
+        0.014999999664723873
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452956754000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"背景光晕在第二阶段结束时的透明度\"}",
+      "name": "gradientActivationAlphaEnd",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.0010000000474974513,\"desc\":\"引导栏在第二阶段结束时的纵向位置偏移\"}",
+      "name": "uv_barActivationTransformYEnd",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":2000,\"step\":10,\"desc\":\"第二阶段前半部分动效时长\"}",
+      "name": "barActivationDuration",
+      "value": [
+        800
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454777938000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏在第一阶段结束时的纵向位置偏移\"}",
+      "name": "uv_barEntranceTransformYEnd",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第二阶段中间的透明度\"}",
+      "name": "barActivationAlphaMid",
+      "value": [
+        1
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452961444000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光强度\"}",
+      "name": "glowIntensity",
+      "value": [
+        0.6
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第二阶段结束时的透明度\"}",
+      "name": "barActivationAlphaEnd",
+      "value": [
+        0.8999999761581421
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454558054000,
+      "meta": "{\"type\":\"Enum\",\"values\":[\"RedAndBlue\",\"GreenAndBlue\",\"RedAndGreen\"],\"desc\":\"引导栏发光色散颜色选项\"}",
+      "name": "barGlowChromaticAberrationChannels",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454558054000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.05000000074505806,\"type\":\"Number\",\"desc\":\"导航栏发光中心的x,y位置\"}",
+      "name": "uv_glowCenter",
+      "value": [
+        0.5,
+        0.3313000002384186
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454557370000,
+      "meta": "{\"type\":\"Color\",\"desc\":\"引导栏发光颜色\"}",
+      "name": "glowColor",
+      "value": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454558054000,
+      "meta": "{\"type\":\"Boolean\",\"desc\":\"引导栏发光色散开关\"}",
+      "name": "barGlowChromaticAberrationEnable",
+      "value": [
+        1
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454887418000,
+      "meta": "{\"min\":0,\"max\":0.20000000298023224,\"step\":5.000000237487257E-4,\"desc\":\"导航栏发光的厚度(上下厚度)\"}",
+      "name": "uv_glowThickness",
+      "value": [
+        0.0024999999441206455
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959060000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"背景光晕在第二阶段开始时的透明度\"}",
+      "name": "gradientActivationAlphaStart",
+      "value": [
+        0
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367452959058000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.009999999776482582,\"desc\":\"引导栏发光在第一阶段中间的透明度\"}",
+      "name": "barGlowEntranceAlphaMid",
+      "value": [
+        0.699999988079071
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367454558382000,
+      "meta": "{\"min\":-0.10000000149011612,\"max\":0.10000000149011612,\"step\":0.004999999888241291,\"desc\":\"引导栏发光色散偏移距离\"}",
+      "name": "uv_barGlowChromaticAberrationAmount",
+      "value": [
+        0.01
+      ]
+    },
+    {
+      "format": 1,
+      "handle": 12970367460211724000,
+      "meta": "{\"min\":0,\"max\":1,\"step\":0.05000000074505806,\"desc\":\"导航栏发光的宽度(左右宽度)\"}",
+      "name": "uv_glowWidth",
+      "value": [
+        0.16200000047683716
+      ]
+    }
+  ],
+  "timestamp": 1737546911,
+  "version": "1.1.0"
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="230.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_empty" android:layout_width="@dimen/color_lock_setting_preference_notice_image_size" android:layout_height="@dimen/color_lock_setting_preference_notice_image_size" android:src="@drawable/lock_setting_no_content" android:layout_centerInParent="true" />
+    <TextView android:textSize="@dimen/color_lock_setting_preference_notice_text_size" android:textColor="@color/lock_setting_notice" android:gravity="center" android:id="@id/tv_power_save_mode_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/color_lock_setting_preference_notice_padding" android:layout_marginRight="@dimen/color_lock_setting_preference_notice_padding" android:text="@string/oplus_smart_enable_forbid_lock_message" android:layout_below="@id/iv_empty" android:layout_centerHorizontal="true" />
+</RelativeLayout>

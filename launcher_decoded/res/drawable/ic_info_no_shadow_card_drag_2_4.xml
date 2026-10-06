@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/ic_system_shortcut_card_drag_2_4" android:tint="?couiColorLabelQuaternary"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

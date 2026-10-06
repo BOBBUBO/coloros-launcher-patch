@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<effcets
+  xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <effect launcher:clsName="@string/stackEffectCls" launcher:name="@string/Normal" launcher:previewThumb="@drawable/ic_toggle_bar_stack_effect_thumbnail" />
+    <effect launcher:clsName="@string/CylinderEffectCls" launcher:name="@string/CylinderEffect" launcher:previewThumb="@drawable/ic_toggle_bar_cylinder_effect_thumbnail" />
+    <effect launcher:clsName="@string/NormalCls" launcher:name="@string/SlideEffect" launcher:previewThumb="@drawable/ic_toggle_bar_default_effect_thumbnail" />
+    <effect launcher:clsName="@string/CubeEffectCls" launcher:name="@string/CubeEffect" launcher:previewThumb="@drawable/ic_toggle_bar_cube_effect_thumbnail" />
+    <effect launcher:clsName="@string/RotationEffectCls" launcher:name="@string/RotationEffect" launcher:previewThumb="@drawable/ic_toggle_bar_slant_effect_thumbnail" />
+    <effect launcher:clsName="@string/slantEffectCls" launcher:name="@string/SlantEffect" launcher:previewThumb="@drawable/ic_toggle_bar_slant_effect_thumbnail" />
+</effcets>

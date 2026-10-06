@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/fullscreen_caption_handle_icon_split"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="root" android:animation="@drawable/fullscreen_caption_handle_split_strong_hint_icon_exit__0" />
+    <target android:name="splitIcon" android:animation="@drawable/fullscreen_caption_handle_split_strong_hint_icon_exit__2" />
+</animated-vector>

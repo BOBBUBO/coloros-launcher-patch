@@ -1,0 +1,112 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001366",
+      "key": "com.android.launcher.open_long_press_set_taksbar_display_or_hide",
+      "packageName": "com.android.launcher",
+      "name": "打开通过长按隐藏或显示任务栏",
+      "version": "1.0.2",
+      "versionCode": "1000002",
+      "tags": [
+        "折叠屏专区",
+        "通过长按隐藏或显示任务栏"
+      ],
+      "description": "通过长按隐藏或显示任务栏属于开关类设置项，主要功能是在应用里并且在使用手势导航时，长按任务栏空白区域可隐藏，再次长按屏幕底部可重新显示。打开通过长按隐藏或显示任务栏是通过长按隐藏或显示任务栏设置项的一个具体操作指令，主要用于开启该功能可以快速在应用里长按显示或隐藏任务栏。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "hide_or_show_task",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "1"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT"
+          }
+        }
+      }
+    },
+    {
+      "id": "1001368",
+      "key": "com.android.launcher.close_long_press_set_taksbar_display_or_hide",
+      "packageName": "com.android.launcher",
+      "name": "关闭通过长按隐藏或显示任务栏",
+      "version": "1.0.2",
+      "versionCode": "1000002",
+      "tags": [
+        "折叠屏专区",
+        "通过长按隐藏或显示任务栏"
+      ],
+      "description": "通过长按隐藏或显示任务栏属于开关类设置项，主要功能是在应用里并且在使用手势导航时，长按任务栏空白区域可隐藏，再次长按屏幕底部可重新显示。关闭通过长按隐藏或显示任务栏是通过长按隐藏或显示任务栏设置项的一个具体操作指令，主要用于关闭该功能则不可以快速在应用里长按显示或隐藏任务栏。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "hide_or_show_task",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "2"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT"
+          }
+        }
+      }
+    },
+    {
+      "id": "1001369",
+      "key": "com.android.launcher.set_long_press_set_taksbar_display_or_hide",
+      "packageName": "com.android.launcher",
+      "name": "设置通过长按隐藏或显示任务栏",
+      "version": "1.0.2",
+      "versionCode": "1000002",
+      "tags": [
+        "折叠屏专区",
+        "通过长按隐藏或显示任务栏"
+      ],
+      "description": "通过长按隐藏或显示任务栏属于页面类设置项，主要功能是在应用里并且在使用手势导航时，长按任务栏空白区域可隐藏，再次长按屏幕底部可重新显示。设置通过长按隐藏或显示任务栏是通过长按隐藏或显示任务栏设置项的一个具体操作指令，主要用于通过设置长按隐藏或显示任务栏开关，可以帮助用户调整在应用中是否用长按来控制任务栏。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_CONTENT_PROVIDER",
+          "attributes": {
+            "authority": "com.android.launcher.LauncherBreenoProvider",
+            "type": "CALL",
+            "method": "hide_or_show_task",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "3"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你跳转到任务栏设置页。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你跳转到任务栏设置页。"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

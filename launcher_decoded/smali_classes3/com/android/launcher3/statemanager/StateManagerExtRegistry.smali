@@ -1,0 +1,114 @@
+.class public final Lcom/android/launcher3/statemanager/StateManagerExtRegistry;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u000f\u0010\u0005\u001a\u00020\u0004H\u0007\u00a2\u0006\u0004\u0008\u0005\u0010\u0003J\u000f\u0010\u0006\u001a\u00020\u0004H\u0007\u00a2\u0006\u0004\u0008\u0006\u0010\u0003\u00a8\u0006\u0007"
+    }
+    d2 = {
+        "Lcom/android/launcher3/statemanager/StateManagerExtRegistry;",
+        "",
+        "<init>",
+        "()V",
+        "Lr5/b0;",
+        "registerExt",
+        "registerObj",
+        "OplusLauncher_OPPOPallExportAallRelease"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final INSTANCE:Lcom/android/launcher3/statemanager/StateManagerExtRegistry;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/android/launcher3/statemanager/StateManagerExtRegistry;
+
+    invoke-direct {v0}, Lcom/android/launcher3/statemanager/StateManagerExtRegistry;-><init>()V
+
+    sput-object v0, Lcom/android/launcher3/statemanager/StateManagerExtRegistry;->INSTANCE:Lcom/android/launcher3/statemanager/StateManagerExtRegistry;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static final registerExt()V
+    .locals 2
+    .annotation runtime Lkotlin/jvm/JvmStatic;
+    .end annotation
+
+    invoke-static {}, Lcom/android/common/util/AppFeatureUtils;->isFoldScreen()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-static {}, Lcom/android/common/util/AppFeatureUtils;->isTablet()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    const-class v0, Lcom/android/launcher3/statemanager/IStateManagerExt;
+
+    const-class v1, Lcom/android/launcher3/statemanager/StateManagerExtFoldScreenImpl;
+
+    invoke-static {v0, v1}, Lcom/oplus/ext/registry/ExtRegistry;->registerExt(Ljava/lang/Class;Ljava/lang/Class;)V
+
+    :cond_1
+    return-void
+.end method
+
+.method public static final registerObj()V
+    .locals 2
+    .annotation runtime Lkotlin/jvm/JvmStatic;
+    .end annotation
+
+    invoke-static {}, Lcom/android/common/util/AppFeatureUtils;->isFoldScreen()Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    invoke-static {}, Lcom/android/common/util/AppFeatureUtils;->isTablet()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    :cond_0
+    new-instance v0, Lcom/android/launcher3/statemanager/b;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/android/launcher3/statemanager/b;-><init>(I)V
+
+    const-class v1, Lcom/android/launcher3/statemanager/IStateManagerExt;
+
+    invoke-static {v1, v0}, Lcom/oplus/ext/registry/ExtRegistry;->registerObj(Ljava/lang/Class;Lcom/oplus/ext/registry/IExtCreatorObjGetter;)V
+
+    :cond_1
+    return-void
+.end method

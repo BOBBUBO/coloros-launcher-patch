@@ -1,0 +1,105 @@
+.class public final Lpantanal/annotaions/EntranceTypeKt;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\n\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u001b\"\u000e\u0010\u0000\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0002\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0003\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0004\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0005\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0006\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0007\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0008\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\t\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\n\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000b\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000c\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\r\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000e\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u000f\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0010\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0011\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0012\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0013\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0014\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0015\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0016\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0017\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0018\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u0019\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u001a\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\"\u000e\u0010\u001b\u001a\u00020\u0001X\u0086T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u001c"
+    }
+    d2 = {
+        "ENTRANCE_HOST_ID_AOD",
+        "",
+        "ENTRANCE_HOST_ID_ASSISTANT",
+        "ENTRANCE_HOST_ID_ASSISTANT_SEEDLING_CONTAINER",
+        "ENTRANCE_HOST_ID_CALENDAR",
+        "ENTRANCE_HOST_ID_CAPSULE",
+        "ENTRANCE_HOST_ID_CAR_LAUNCHER",
+        "ENTRANCE_HOST_ID_FULL_SEARCH",
+        "ENTRANCE_HOST_ID_HEADSET",
+        "ENTRANCE_HOST_ID_LAUNCHER",
+        "ENTRANCE_HOST_ID_LAUNCHER_SEEDLING_CONTAINER",
+        "ENTRANCE_HOST_ID_LOCK_SCREEN",
+        "ENTRANCE_HOST_ID_NOTIFICATION",
+        "ENTRANCE_HOST_ID_PERSISTENT_CONTAINER",
+        "ENTRANCE_HOST_ID_POI",
+        "ENTRANCE_HOST_ID_SECONDARY_LOCKSCREEN",
+        "ENTRANCE_HOST_ID_SECONDARY_NOTIFICATION",
+        "ENTRANCE_HOST_ID_SEEDLING_HOST_APP",
+        "ENTRANCE_HOST_ID_SPEECH_ASSISTANT",
+        "ENTRANCE_HOST_ID_STATUS_BAR",
+        "ENTRANCE_HOST_ID_UMS_AI_FLOW",
+        "ENTRANCE_HOST_ID_UNDEFINED",
+        "ENTRANCE_HOST_ID_WATCH",
+        "IMPORTANCE_1_SHOW_IN_LAUNCHER_ASSISTANT",
+        "IMPORTANCE_2_RESERVED",
+        "IMPORTANCE_3_NORMAL",
+        "IMPORTANCE_4_IMPOTANT",
+        "IMPORTANCE_5_VERY_IMPORTTANT",
+        "pantanal-interface_release"
+    }
+    k = 0x2
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final ENTRANCE_HOST_ID_AOD:I = 0x28
+
+.field public static final ENTRANCE_HOST_ID_ASSISTANT:I = 0x0
+
+.field public static final ENTRANCE_HOST_ID_ASSISTANT_SEEDLING_CONTAINER:I = 0x2
+
+.field public static final ENTRANCE_HOST_ID_CALENDAR:I = 0x6e
+
+.field public static final ENTRANCE_HOST_ID_CAPSULE:I = 0x6
+
+.field public static final ENTRANCE_HOST_ID_CAR_LAUNCHER:I = 0x50
+
+.field public static final ENTRANCE_HOST_ID_FULL_SEARCH:I = 0x82
+
+.field public static final ENTRANCE_HOST_ID_HEADSET:I = 0x32
+
+.field public static final ENTRANCE_HOST_ID_LAUNCHER:I = 0x1
+
+.field public static final ENTRANCE_HOST_ID_LAUNCHER_SEEDLING_CONTAINER:I = 0x3
+
+.field public static final ENTRANCE_HOST_ID_LOCK_SCREEN:I = 0x5
+
+.field public static final ENTRANCE_HOST_ID_NOTIFICATION:I = 0x1e
+
+.field public static final ENTRANCE_HOST_ID_PERSISTENT_CONTAINER:I = 0x4
+
+.field public static final ENTRANCE_HOST_ID_POI:I = 0x96
+
+.field public static final ENTRANCE_HOST_ID_SECONDARY_LOCKSCREEN:I = 0x3c
+
+.field public static final ENTRANCE_HOST_ID_SECONDARY_NOTIFICATION:I = 0x46
+
+.field public static final ENTRANCE_HOST_ID_SEEDLING_HOST_APP:I = 0x64
+
+.field public static final ENTRANCE_HOST_ID_SPEECH_ASSISTANT:I = 0x78
+
+.field public static final ENTRANCE_HOST_ID_STATUS_BAR:I = 0x14
+
+.field public static final ENTRANCE_HOST_ID_UMS_AI_FLOW:I = 0x8c
+
+.field public static final ENTRANCE_HOST_ID_UNDEFINED:I = -0x1
+
+.field public static final ENTRANCE_HOST_ID_WATCH:I = 0x5a
+
+.field public static final IMPORTANCE_1_SHOW_IN_LAUNCHER_ASSISTANT:I = 0x1
+
+.field public static final IMPORTANCE_2_RESERVED:I = 0x2
+
+.field public static final IMPORTANCE_3_NORMAL:I = 0x3
+
+.field public static final IMPORTANCE_4_IMPOTANT:I = 0x4
+
+.field public static final IMPORTANCE_5_VERY_IMPORTTANT:I = 0x5

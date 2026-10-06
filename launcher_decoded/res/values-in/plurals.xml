@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d hari lalu</item>
+        <item quantity="other">%d hari lalu</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d menit lalu</item>
+        <item quantity="other">%d menit lalu</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d tahun lalu</item>
+        <item quantity="other">%d tahun lalu</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Maksimal %1$d widget identik yang dapat ditambahkan</item>
+        <item quantity="other">Maksimal %1$d widget identik yang dapat ditambahkan</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Halaman %1$d dari %2$d</item>
+        <item quantity="other">Halaman %1$d dari %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Aplikasi ini akan hilang dari layar Awal tetapi akan disimpan di laci aplikasi.</item>
+        <item quantity="other">Aplikasi yang dipilih akan hilang dari layar Awal tetapi akan disimpan di laci aplikasi.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Hapus %d aplikasi?</item>
+        <item quantity="other">Hapus %d aplikasi?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Aplikasi yang dipilih akan hilang dari layar Awal tetapi akan disimpan di laci aplikasi. Pintasan yang dipilih akan dihapus.</item>
+        <item quantity="other">Aplikasi yang dipilih akan hilang dari layar Awal tetapi akan disimpan di laci aplikasi. Pintasan yang dipilih akan dihapus.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Hapus %d aplikasi atau pintasan yang dipilih?</item>
+        <item quantity="other">Hapus %d aplikasi atau pintasan yang dipilih?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Hapus %1$d pintasan di bawah ini?</item>
+        <item quantity="other">Hapus %1$d pintasan di bawah ini?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Hapus %1$d pintasan</item>
+        <item quantity="other">Hapus %1$d pintasan</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d telah dipilih</item>
+        <item quantity="other">%1$d telah dipilih</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d hari</item>
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d notifikasi baru</item>
+        <item quantity="other">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d kolom</item>
+        <item quantity="other">%1$d kolom</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Hapus instalasi %1$d aplikasi di bawah ini?</item>
+        <item quantity="other">Hapus instalasi %1$d aplikasi di bawah ini?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Hapus instalasi %1$d aplikasi (termasuk klonnya) dan hapus datanya.</item>
+        <item quantity="other">Hapus instalasi %1$d aplikasi (termasuk klonnya) dan hapus datanya.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Hapus instalasi %1$d aplikasi dan hapus datanya.</item>
+        <item quantity="other">Hapus instalasi %1$d aplikasi dan hapus datanya.</item>
+    </plurals>
+</resources>

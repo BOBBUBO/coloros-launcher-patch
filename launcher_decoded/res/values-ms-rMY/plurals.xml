@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Tidak melebihi %1$d widget serupa yang boleh ditambah</item>
+        <item quantity="other">Tidak melebihi %1$d widget serupa yang boleh ditambah</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Halaman %1$d daripada %2$d</item>
+        <item quantity="other">Halaman %1$d daripada %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Aplikasi ini akan hilang daripada Skrin utama tetapi akan disimpan dalam laci aplikasi.</item>
+        <item quantity="other">Aplikasi yang dipilih akan hilang daripada Skrin utama tetapi akan disimpan dalam laci aplikasi.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Alih keluar %d aplikasi?</item>
+        <item quantity="other">Alih keluar %d aplikasi?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Aplikasi yang dipilih akan hilang daripada Skrin utama tetapi akan disimpan dalam laci aplikasi. Pintasan yang dipilih akan dialih keluar.</item>
+        <item quantity="other">Aplikasi yang dipilih akan hilang daripada Skrin utama tetapi akan disimpan dalam laci aplikasi. Pintasan yang dipilih akan dialih keluar.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Alih keluar %d aplikasi atau pintasan yang dipilih?</item>
+        <item quantity="other">Alih keluar %d aplikasi atau pintasan yang dipilih?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Alih keluar %1$d pintasan di bawah?</item>
+        <item quantity="other">Alih keluar %1$d pintasan di bawah?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Alih keluar %1$d pintasan</item>
+        <item quantity="other">Alih keluar %1$d pintasan</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d dipilih</item>
+        <item quantity="other">%1$d dipilih</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d hari</item>
+        <item quantity="other">%1$d hari</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d pemberitahuan baharu</item>
+        <item quantity="other">%d pemberitahuan baharu</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d lajur</item>
+        <item quantity="other">%1$d lajur</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Nyahpasang %1$d aplikasi di bawah?</item>
+        <item quantity="other">Nyahpasang %1$d aplikasi di bawah?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Nyahpasang %1$d aplikasi (termasuk klon) dan kosongkan datanya.</item>
+        <item quantity="other">Nyahpasang %1$d aplikasi (termasuk klon) dan kosongkan datanya.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Nyahpasang %1$d aplikasi dan kosongkan datanya.</item>
+        <item quantity="other">Nyahpasang %1$d aplikasi dan kosongkan datanya.</item>
+    </plurals>
+</resources>

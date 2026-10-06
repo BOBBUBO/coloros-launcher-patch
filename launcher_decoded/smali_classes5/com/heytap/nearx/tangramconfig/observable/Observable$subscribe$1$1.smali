@@ -1,0 +1,145 @@
+.class public final Lcom/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/heytap/nearx/tangramconfig/observable/Disposable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/heytap/nearx/tangramconfig/observable/Observable;->subscribe(Lcom/heytap/nearx/tangramconfig/observable/Subscriber;Z)Lcom/heytap/nearx/tangramconfig/observable/Disposable;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0011\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003*\u0001\u0000\u0008\n\u0018\u00002\u00020\u0001J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0005"
+    }
+    d2 = {
+        "com/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1",
+        "Lcom/heytap/nearx/tangramconfig/observable/Disposable;",
+        "Lr5/b0;",
+        "dispose",
+        "()V",
+        "com.heytap.nearx.tangramconfig"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x7,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field final synthetic $it:Lcom/heytap/nearx/tangramconfig/observable/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/heytap/nearx/tangramconfig/observable/Observable<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+.field final synthetic $subscriber:Lcom/heytap/nearx/tangramconfig/observable/Subscriber;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/heytap/nearx/tangramconfig/observable/Subscriber<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/heytap/nearx/tangramconfig/observable/Observable;Lcom/heytap/nearx/tangramconfig/observable/Subscriber;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/heytap/nearx/tangramconfig/observable/Observable<",
+            "TT;>;",
+            "Lcom/heytap/nearx/tangramconfig/observable/Subscriber<",
+            "TT;>;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1;->$it:Lcom/heytap/nearx/tangramconfig/observable/Observable;
+
+    iput-object p2, p0, Lcom/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1;->$subscriber:Lcom/heytap/nearx/tangramconfig/observable/Subscriber;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public dispose()V
+    .locals 3
+
+    iget-object v0, p0, Lcom/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1;->$it:Lcom/heytap/nearx/tangramconfig/observable/Observable;
+
+    invoke-static {v0}, Lcom/heytap/nearx/tangramconfig/observable/Observable;->access$getInnerSubscribers$p(Lcom/heytap/nearx/tangramconfig/observable/Observable;)Ljava/util/List;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1;->$it:Lcom/heytap/nearx/tangramconfig/observable/Observable;
+
+    iget-object p0, p0, Lcom/heytap/nearx/tangramconfig/observable/Observable$subscribe$1$1;->$subscriber:Lcom/heytap/nearx/tangramconfig/observable/Subscriber;
+
+    monitor-enter v0
+
+    :try_start_0
+    invoke-interface {v0, p0}, Ljava/util/List;->contains(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-eqz v2, :cond_0
+
+    invoke-interface {v0, p0}, Ljava/util/List;->remove(Ljava/lang/Object;)Z
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p0
+
+    goto :goto_1
+
+    :cond_0
+    :goto_0
+    sget-object p0, Lr5/b0;->a:Lr5/b0;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    monitor-exit v0
+
+    invoke-interface {v0}, Ljava/util/List;->isEmpty()Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    invoke-static {v1}, Lcom/heytap/nearx/tangramconfig/observable/Observable;->access$getOnDispose$p(Lcom/heytap/nearx/tangramconfig/observable/Observable;)Lkotlin/jvm/functions/Function0;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_1
+
+    invoke-interface {p0}, Lkotlin/jvm/functions/Function0;->invoke()Ljava/lang/Object;
+
+    :cond_1
+    return-void
+
+    :goto_1
+    monitor-exit v0
+
+    throw p0
+.end method

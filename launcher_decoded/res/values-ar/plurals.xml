@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="zero">قبل %d يوم</item>
+        <item quantity="one">قبل %d يوم</item>
+        <item quantity="two">قبل يومين (%d)</item>
+        <item quantity="few">قبل %d أيام</item>
+        <item quantity="many">قبل %d يومًا</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="zero">قبل %d دقيقة</item>
+        <item quantity="one">قبل %d دقيقة</item>
+        <item quantity="two">قبل دقيقتين (%d)</item>
+        <item quantity="few">قبل %d دقائق</item>
+        <item quantity="many">قبل %d دقيقة</item>
+        <item quantity="other">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="zero">قبل %d سنة</item>
+        <item quantity="one">قبل %d سنة</item>
+        <item quantity="two">قبل سنتين (%d)</item>
+        <item quantity="few">قبل %d سنوات</item>
+        <item quantity="many">قبل %d سنة</item>
+        <item quantity="other">قبل %d سنة</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="zero">لا يمكن إضافة أكثر من %1$d عنصر واجهة مستخدم متطابق</item>
+        <item quantity="one">لا يمكن إضافة أكثر من عنصر واجهة مستخدم واحد متطابق</item>
+        <item quantity="two">لا يمكن إضافة أكثر من عنصري واجهة مستخدم متطابقين</item>
+        <item quantity="few">لا يمكن إضافة أكثر من %1$d عناصر واجهة مستخدم متطابقة</item>
+        <item quantity="many">لا يمكن إضافة أكثر من %1$d عنصر واجهة مستخدم متطابقًا</item>
+        <item quantity="other">لا يمكن إضافة أكثر من %1$d عنصر واجهة مستخدم متطابق</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">صفحة %1$d من %2$d</item>
+        <item quantity="one">صفحة %1$d من %2$d</item>
+        <item quantity="two">صفحة %1$d من %2$d</item>
+        <item quantity="few">صفحة %1$d من %2$d</item>
+        <item quantity="many">صفحة %1$d من %2$d</item>
+        <item quantity="other">صفحة %1$d من %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="zero">ستختفي التطبيقات المحددة من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات.</item>
+        <item quantity="one">سيختفي التطبيق من الشاشة الرئيسية ولكن سيتم الاحتفاظ به في درج التطبيقات.</item>
+        <item quantity="two">سيختفي التطبيقان المحددان من الشاشة الرئيسية ولكن سيتم الاحتفاظ بهما في درج التطبيقات.</item>
+        <item quantity="few">ستختفي التطبيقات المحددة من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات.</item>
+        <item quantity="many">ستختفي التطبيقات المحددة من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات.</item>
+        <item quantity="other">ستختفي التطبيقات المحددة من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="zero">هل تريد إزالة %d تطبيق؟</item>
+        <item quantity="one">هل تريد إزالة تطبيق واحد؟</item>
+        <item quantity="two">هل تريد إزالة تطبيقين؟</item>
+        <item quantity="few">هل تريد إزالة %d تطبيقات؟</item>
+        <item quantity="many">هل تريد إزالة %d تطبيقًا؟</item>
+        <item quantity="other">هل تريد إزالة %d تطبيق؟</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="zero">ستختفي التطبيقات من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات. ستتم إزالة الاختصارات.</item>
+        <item quantity="one">ستختفي التطبيقات المحددة من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات. ستتم إزالة الاختصارات المحددة.</item>
+        <item quantity="two">ستختفي التطبيقات من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات. ستتم إزالة الاختصارات.</item>
+        <item quantity="few">ستختفي التطبيقات من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات. ستتم إزالة الاختصارات.</item>
+        <item quantity="many">ستختفي التطبيقات من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات. ستتم إزالة الاختصارات.</item>
+        <item quantity="other">ستختفي التطبيقات المحددة من الشاشة الرئيسية ولكن سيتم الاحتفاظ بها في درج التطبيقات. ستتم إزالة الاختصارات المحددة.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="zero">هل تريد إزالة %d تطبيق أو اختصار محدد؟</item>
+        <item quantity="one">هل تريد إزالة تطبيق أو اختصار واحد محدد؟</item>
+        <item quantity="two">هل تريد إزالة تطبيقين أو اختصارين محددين؟</item>
+        <item quantity="few">هل تريد إزالة %d تطبيقات أو اختصارات محددة؟</item>
+        <item quantity="many">هل تريد إزالة %d تطبيقًا أو اختصارًا محددًا؟</item>
+        <item quantity="other">هل تريد إزالة %d تطبيق أو اختصار محدد؟</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="zero">هل تريد إزالة الـ %1$d اختصار أدناه؟</item>
+        <item quantity="one">هل تريد إزالة الاختصار أدناه؟</item>
+        <item quantity="two">هل تريد إزالة الاختصارين أدناه؟</item>
+        <item quantity="few">هل تريد إزالة الـ %1$d اختصارات أدناه؟</item>
+        <item quantity="many">هل تريد إزالة الـ %1$d اختصارًا أدناه؟</item>
+        <item quantity="other">هل تريد إزالة الـ %1$d اختصار أدناه؟</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="zero">إزالة %1$d اختصار</item>
+        <item quantity="one">إزالة %1$d من الاختصارات</item>
+        <item quantity="two">إزالة اختصارين</item>
+        <item quantity="few">إزالة %1$d اختصارات</item>
+        <item quantity="many">إزالة %1$d اختصارًا</item>
+        <item quantity="other">إزالة %1$d من الاختصارات</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="zero">%d إشعار جديد</item>
+        <item quantity="one">إشعار جديد واحد (%d)</item>
+        <item quantity="two">إشعاران جديدان (%d)</item>
+        <item quantity="few">%d إشعارات جديدة</item>
+        <item quantity="many">%d إشعارًا جديدًا</item>
+        <item quantity="other">%d إشعار جديد</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="zero">تم تحديد %1$d عنصر</item>
+        <item quantity="one">تم تحديد %1$d</item>
+        <item quantity="two">تم تحديد عنصرين</item>
+        <item quantity="few">تم تحديد %1$d عناصر</item>
+        <item quantity="many">تم تحديد %1$d عنصرًا</item>
+        <item quantity="other">تم تحديد %1$d</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="zero">%1$d يوم</item>
+        <item quantity="one">يوم واحد</item>
+        <item quantity="two">يومان</item>
+        <item quantity="few">%1$d أيام</item>
+        <item quantity="many">%1$d يومًا</item>
+        <item quantity="other">%1$d يوم</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">%d من الإشعارات الجديدة</item>
+        <item quantity="one">إشعار جديد %d</item>
+        <item quantity="two">%d من الإشعارات الجديدة</item>
+        <item quantity="few">%d من الإشعارات الجديدة</item>
+        <item quantity="many">%d من الإشعارات الجديدة</item>
+        <item quantity="other">%d من الإشعارات الجديدة</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="zero">%1$d من الأعمدة</item>
+        <item quantity="one">%1$d من الأعمدة</item>
+        <item quantity="two">%1$d من الأعمدة</item>
+        <item quantity="few">%1$d من الأعمدة</item>
+        <item quantity="many">%1$d من الأعمدة</item>
+        <item quantity="other">%1$d من الأعمدة</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="zero">هل تريد إلغاء تثبيت الـ %1$d تطبيق أدناه؟</item>
+        <item quantity="one">هل تريد إلغاء تثبيت التطبيق أدناه؟</item>
+        <item quantity="two">هل تريد إلغاء تثبيت التطبيقين أدناه؟</item>
+        <item quantity="few">هل تريد إلغاء تثبيت الـ %1$d تطبيقات أدناه؟</item>
+        <item quantity="many">هل تريد إلغاء تثبيت الـ %1$d تطبيقًا أدناه؟</item>
+        <item quantity="other">هل تريد إلغاء تثبيت الـ %1$d تطبيق أدناه؟</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="zero">إلغاء تثبيت %1$d تطبيق (بما في ذلك نُسخه) ومسح بياناته.</item>
+        <item quantity="one">إلغاء تثبيت تطبيق واحد (بما في ذلك نسخته) ومسح بياناته.</item>
+        <item quantity="two">إلغاء تثبيت تطبيقين (بما في ذلك النسخ المأخوذة منهما) ومسح بياناتهما.</item>
+        <item quantity="few">إلغاء تثبيت %1$d تطبيقات (بما في ذلك النُسخ المأخوذة منها) ومسح بياناتها.</item>
+        <item quantity="many">إلغاء تثبيت %1$d تطبيقًا (بما في ذلك النُسخ المأخوذة منها) ومسح بياناتها.</item>
+        <item quantity="other">إلغاء تثبيت %1$d تطبيق (بما في ذلك النسخ المأخوذة منها) ومسح بياناتها.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="zero">إلغاء تثبيت %1$d تطبيق ومسح بياناته.</item>
+        <item quantity="one">إلغاء تثبيت %1$d من التطبيقات ومسح بياناتها.</item>
+        <item quantity="two">إلغاء تثبيت تطبيقين ومسح بياناتهما.</item>
+        <item quantity="few">إلغاء تثبيت %1$d تطبيقات ومسح بياناتها.</item>
+        <item quantity="many">إلغاء تثبيت %1$d تطبيقًا ومسح بياناتها.</item>
+        <item quantity="other">إلغاء تثبيت %1$d من التطبيقات ومسح بياناتها.</item>
+    </plurals>
+</resources>

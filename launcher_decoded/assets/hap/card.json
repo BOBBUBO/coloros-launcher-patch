@@ -1,0 +1,187 @@
+{
+  "platform": "com.nearme.instant.platform",
+  "featureBlacklist": [
+    {
+      "name": "system.router",
+      "methods": [
+        "replace",
+        "back",
+        "clear",
+        "getLength",
+        "getState"
+      ]
+    },
+    {
+      "name": "system.notification"
+    },
+    {
+      "name": "system.prompt"
+    },
+    {
+      "name": "system.webview"
+    },
+    {
+      "name": "system.request"
+    },
+    {
+      "name": "system.file"
+    },
+    {
+      "name": "system.barcode"
+    },
+    {
+      "name": "system.vibrator"
+    },
+    {
+      "name": "system.sensor"
+    },
+    {
+      "name": "system.geolocation",
+      "methods": [
+        "subscribe",
+        "unsubscribe",
+        "openLocation",
+        "chooseLocation",
+        "getLocationType",
+        "getSupportedCoordTypes",
+        "geocodeQuery",
+        "reverseGeocodeQuery"
+      ]
+    },
+    {
+      "name": "system.shortcut"
+    },
+    {
+      "name": "system.device",
+      "methods": [
+        "getAdvertisingId",
+        "getUserId",
+        "getDeviceId",
+        "getId",
+        "getCpuInfo",
+        "getTotalStorage",
+        "getAvailableStorage",
+        "getSerial"
+      ]
+    },
+    {
+      "name": "system.brightness"
+    },
+    {
+      "name": "system.volume"
+    },
+    {
+      "name": "system.package",
+      "methods": [
+        "install"
+      ]
+    },
+    {
+      "name": "system.record"
+    },
+    {
+      "name": "system.media"
+    },
+    {
+      "name": "system.image"
+    },
+    {
+      "name": "system.audio"
+    },
+    {
+      "name": "service.texttoaudio"
+    },
+    {
+      "name": "service.pay"
+    },
+    {
+      "name": "service.account",
+      "methods": [
+        "getPhoneNumber"
+      ]
+    },
+    {
+      "name": "service.stats"
+    },
+    {
+      "name": "service.share"
+    },
+    {
+      "name": "service.wxpay"
+    },
+    {
+      "name": "service.qqaccount"
+    },
+    {
+      "name": "service.wxaccount"
+    },
+    {
+      "name": "service.wbaccount"
+    },
+    {
+      "name": "service.alipay"
+    },
+    {
+      "name": "system.sms"
+    },
+    {
+      "name": "system.contact"
+    },
+    {
+      "name": "system.wifi"
+    },
+    {
+      "name": "system.websocketfactory"
+    },
+    {
+      "name": "system.share"
+    },
+    {
+      "name": "system.bluetooth"
+    },
+    {
+      "name": "system.telecom"
+    },
+    {
+      "name": "system.alarm"
+    },
+    {
+      "name": "system.zip"
+    },
+    {
+      "name": "system.keyguard"
+    },
+    {
+      "name": "hap.io.Video"
+    },
+    {
+      "name": "service.health"
+    }
+  ],
+  "componentBlacklist": [
+    {
+      "name": "refresh"
+    },
+    {
+      "name": "richtext"
+    },
+    {
+      "name": "tabs"
+    },
+    {
+      "name": "tab-bar"
+    },
+    {
+      "name": "tab-content"
+    },
+    {
+      "name": "web"
+    },
+    {
+      "name": "canvas"
+    },
+    {
+      "name": "map"
+    }
+  ]
+}

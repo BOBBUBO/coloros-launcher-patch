@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d একে ৱিজেটতকৈ অধিক যোগ কৰিব নোৱাৰি</item>
+        <item quantity="other">%1$d একে ৱিজেটসমূহতকৈ অধিক যোগ কৰিব নোৱাৰি</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">পৃষ্ঠা %2$d-ৰ %1$d</item>
+        <item quantity="other">পৃষ্ঠা %2$d-ৰ %1$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">এই এপ্প্‌টো হোম স্ক্ৰীণৰ পৰা নোহোৱা হ’ব কিন্তু এপ্প্‌ ড্ৰয়াৰত ৰখা হ’ব।</item>
+        <item quantity="other">বাছনি কৰা এপ্প্‌সমূহ হোম স্ক্ৰীণৰ পৰা নোহোৱা হ’ব কিন্তু এপ্প্‌ ড্ৰয়াৰত ৰখা হ’ব।</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d টা এপ্প্‌ আঁতৰাবনে?</item>
+        <item quantity="other">%d টা এপ্প্‌ আঁতৰাবনে?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">নিৰ্বাচন কৰা এপ্প্‌সমূহ হোম স্ক্ৰীণৰ পৰা নোহোৱা হ’ব কিন্তু এপ্প্‌ ড্ৰয়াৰত ৰখা হ’ব। নিৰ্বাচন কৰা চৰ্টকাটসমূহ আঁতৰোৱা হ’ব।</item>
+        <item quantity="other">নিৰ্বাচন কৰা এপ্প্‌সমূহ হোম স্ক্ৰীণৰ পৰা নোহোৱা হ’ব কিন্তু এপ্প্‌ ড্ৰয়াৰত ৰখা হ’ব। নিৰ্বাচন কৰা চৰ্টকাটসমূহ আঁতৰোৱা হ’ব।</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d টা বাছনি কৰা এপ্প্‌ বা চৰ্টকাট আঁতৰাবনে?</item>
+        <item quantity="other">%d টা বাছনি কৰা এপ্প্‌ বা চৰ্টকাট আঁতৰাবনে?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">তলত %1$d চমুপথ আঁতৰাবনে?</item>
+        <item quantity="other">তলত %1$d চমুপথসমূহ আঁতৰাবনে?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d চৰ্টকাট আঁতৰাওক</item>
+        <item quantity="other">%1$d চৰ্টকাটসমূহ আঁতৰাওক</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d টা বাছনি কৰিছে</item>
+        <item quantity="other">%1$d টা বাছনি কৰিছে</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d দিন</item>
+        <item quantity="other">%1$d দিন</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d নতুন জাননী</item>
+        <item quantity="other">%d নতুন জাননীসমূহ</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d-টা স্তম্ভ</item>
+        <item quantity="other">%1$d-টা স্তম্ভ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">তলত %1$d এপ্প্‌টো আনইনষ্টল কৰিবনে?</item>
+        <item quantity="other">তলত %1$d এপ্প্‌সমূহ আনইনষ্টল কৰিবনে?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d এপ্প্‌ আনইনষ্টল কৰক (ইয়াৰ ক্ল’ন অন্তৰ্ভুক্ত) আৰু ইয়াৰ ডাটা পৰিষ্কাৰ কৰক।</item>
+        <item quantity="other">%1$d এপ্প্‌সমূহ আনইনষ্টল কৰক (সেইবোৰৰ ক্ল’ন অন্তৰ্ভুক্ত) আৰু সেইবোৰৰ ডাটা পৰিষ্কাৰ কৰক।</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d এপ্প্‌ আনইনষ্টল আৰু ইয়াৰ ডাটা পৰিষ্কাৰ কৰক।</item>
+        <item quantity="other">%1$d এপ্প্‌সমূহ আনইনষ্টল আৰু সেইবোৰৰ ডাটা পৰিষ্কাৰ কৰক।</item>
+    </plurals>
+</resources>

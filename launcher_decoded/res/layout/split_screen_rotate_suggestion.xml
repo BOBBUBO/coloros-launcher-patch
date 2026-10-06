@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/split_screen_rotate_suggestion_bg" android:layout_width="48.0dp" android:layout_height="48.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:gravity="center" android:layout_gravity="center" android:id="@id/split_screen_rotate_suggestion" android:layout_width="24.0dp" android:layout_height="24.0dp" android:scaleType="fitCenter" android:contentDescription="@string/oplus_toggle_split_screen_orientation_hint" app:anim_autoPlay="true" app:anim_loop="false" app:anim_rawRes="@raw/split_screen_rotate_suggestion_lottie" />
+</FrameLayout>

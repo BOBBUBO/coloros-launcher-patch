@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/layout_upgrade_guide_layout" android:background="@color/coui_color_mask" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/layout_upgrade_guide_container" android:padding="@dimen/dp_24" android:layout_width="@dimen/layout_upgrade_guide_container_width" android:layout_height="@dimen/layout_upgrade_guide_container_height" android:alpha="0.0" style="@style/LayoutUpgradeGuideContainerStyle">
+        <ScrollView android:id="@id/layout_upgrade_scrollview" android:layout_width="wrap_content" android:layout_height="@dimen/layout_upgrade_guide_container_scroll_height">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.oplus.anim.EffectiveAnimationView android:id="@id/layout_upgrade_animation_view" android:layout_width="wrap_content" android:layout_height="@dimen/layout_upgrade_guide_container_animation_height" android:scaleType="centerInside" android:forceDarkAllowed="false" />
+                <TextView android:textSize="24.0sp" android:textStyle="bold" android:textColor="@color/panel_guide_tips_title_color" android:id="@id/two_panel_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_24" android:text="@string/two_panel_guide_title" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/layout_upgrade_guide_message_text_color" android:gravity="center" android:id="@id/two_panel_guide_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:text="@string/two_panel_guide_message" />
+            </LinearLayout>
+        </ScrollView>
+        <com.coui.appcompat.button.COUIButton android:id="@id/layout_upgrade_guide_button" android:layout_width="280.0dp" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:text="@string/two_panel_guide_upgrade" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/layout_upgrade_scrollview" style="?couiButtonColorfulDefaultStyle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.shortcuts.DeepShortcutView android:theme="@style/PopupItem" android:layout_width="0.0dp" android:layout_height="wrap_content" android:minHeight="64.0dp" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_gravity="center|top" android:id="@id/icon" android:background="@drawable/ic_deepshortcut_placeholder" android:layout_width="@dimen/icon_size_in_feature_edit_popupcontainer" android:layout_height="@dimen/icon_size_in_feature_edit_popupcontainer" android:layout_marginBottom="8.0dp" android:forceDarkAllowed="false" />
+        <com.android.launcher3.shortcuts.DeepShortcutTextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/coui_color_primary_neutral" android:ellipsize="end" android:gravity="center|bottom" android:layout_gravity="center" android:id="@id/bubble_text" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="false" android:fontFamily="sans-serif" android:textDirection="locale" android:elegantTextHeight="@bool/coui_support_elegant_text_height" android:defaultFocusHighlightEnabled="false" launcher:iconDisplay="shortcut_popup" launcher:iconSizeOverride="@dimen/icon_size_in_feature_edit_popupcontainer" launcher:layoutHorizontal="true" />
+    </LinearLayout>
+</com.android.launcher3.shortcuts.DeepShortcutView>

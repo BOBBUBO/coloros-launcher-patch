@@ -1,0 +1,77 @@
+.class public final Lt9/a$a;
+.super Lt9/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lt9/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lt9/a<",
+        "[B",
+        "Lt9/a$a;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final a()[B
+    .locals 0
+
+    iget-object p0, p0, Lt9/a;->a:Ljava/lang/Object;
+
+    check-cast p0, [B
+
+    return-object p0
+.end method
+
+.method public final varargs c([Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    new-instance p1, Ljava/io/ByteArrayInputStream;
+
+    iget-object p0, p0, Lt9/a;->a:Ljava/lang/Object;
+
+    check-cast p0, [B
+
+    invoke-direct {p1, p0}, Ljava/io/ByteArrayInputStream;-><init>([B)V
+
+    return-object p1
+.end method
+
+.method public final e(Ljava/nio/charset/Charset;)Ljava/io/Reader;
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    new-instance v0, Ljava/io/InputStreamReader;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/nio/file/OpenOption;
+
+    invoke-virtual {p0, v1}, Lt9/a$a;->c([Ljava/nio/file/OpenOption;)Ljava/io/InputStream;
+
+    move-result-object p0
+
+    invoke-direct {v0, p0, p1}, Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;Ljava/nio/charset/Charset;)V
+
+    return-object v0
+.end method

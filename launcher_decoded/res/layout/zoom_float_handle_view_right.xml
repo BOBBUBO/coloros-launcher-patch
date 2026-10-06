@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/zoom_float_handle_view_container_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/zoom_float_handle_view_right" android:background="@drawable/zoom_float_handle_view_right_selector" android:layout_width="@dimen/zoom_float_handle_view_width" android:layout_height="@dimen/zoom_float_handle_view_height" android:contentDescription="@null" />
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/zoom_float_handle_arrow_right" android:visibility="visible" android:layout_width="@dimen/zoom_float_handle_arrow_width" android:layout_height="@dimen/zoom_float_handle_arrow_height" android:layout_marginTop="@dimen/zoom_arrow_to_top" android:scaleType="center" android:layout_marginStart="@dimen/zoom_arrow_to_start_right" />
+    <FrameLayout android:layout_width="@dimen/zoom_app_icon_width" android:layout_height="@dimen/zoom_app_icon_height" android:layout_marginTop="@dimen/zoom_app_icon_to_top" android:layout_marginStart="@dimen/zoom_app_icon_to_inner">
+        <ImageView android:layout_gravity="center" android:id="@id/zoom_app_icon_swap_right" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ImageView android:layout_gravity="center" android:id="@id/zoom_app_icon_right" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</FrameLayout>

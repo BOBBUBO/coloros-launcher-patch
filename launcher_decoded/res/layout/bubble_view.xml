@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.bubbles.BadgedImageView android:id="@id/bubble_view" android:layout_width="@dimen/bubble_icon_size" android:layout_height="@dimen/bubble_icon_size" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

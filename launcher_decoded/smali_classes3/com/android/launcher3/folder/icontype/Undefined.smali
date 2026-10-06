@@ -1,0 +1,13 @@
+.class public Lcom/android/launcher3/folder/icontype/Undefined;
+.super Lcom/android/launcher3/folder/icontype/BaseFolderIconType;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Lcom/android/launcher3/folder/icontype/BaseFolderIconType;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

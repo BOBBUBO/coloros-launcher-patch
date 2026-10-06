@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/apps_list_view_search_animate_frame" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.0">
+        <com.android.launcher3.allapps.OplusAllAppsRecyclerView android:id="@id/apps_list_view_search_animate" android:focusable="true" android:fadingEdge="vertical" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:requiresFadingEdge="vertical" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/apps_list_view_search_frame" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.launcher3.allapps.OplusAllAppsRecyclerView android:id="@id/apps_list_view_search" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="afterDescendants" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </FrameLayout>
+</RelativeLayout>

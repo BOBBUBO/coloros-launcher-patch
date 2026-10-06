@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oplus.flexibletask.seekbar.SeekBarView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/seekbar_content" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="36.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp">
+        <com.coui.appcompat.seekbar.COUISeekBar android:layout_gravity="center_vertical" android:id="@id/seek_bar" android:layout_width="wrap_content" android:layout_height="match_parent" android:progress="100" app:couiSeekBarShowProgress="true" />
+    </FrameLayout>
+</com.oplus.flexibletask.seekbar.SeekBarView>

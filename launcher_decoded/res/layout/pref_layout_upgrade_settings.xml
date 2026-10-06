@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:paddingTop="16.0dp" android:paddingBottom="16.0dp" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dp" android:paddingStart="32.0dp" android:paddingEnd="32.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_upgrade_settings_ll" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/layout_upgrade_settings_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_layout_upgrade_guide_settings_icon" />
+        <TextView android:id="@android:id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/two_panel_guide_settings_message" android:layout_marginStart="12.0dp" style="@style/COUIPreferenceSummaryStyle" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="?couiColorPrimary" android:layout_gravity="end" android:id="@id/layout_upgrade_settings_update" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:text="@string/two_panel_guide_upgrade" />
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

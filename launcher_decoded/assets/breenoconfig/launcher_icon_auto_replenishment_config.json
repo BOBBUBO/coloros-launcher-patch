@@ -1,0 +1,18 @@
+{
+  "identifier": {
+    "url": "com.android.launcher.536877764",
+    "id": "536877764",
+    "type": "apk",
+    "name": "图标自动补位",
+    "version": "1.0.2",
+    "versionCode": 1000002,
+    "description": "我是一个APK软件包，提供不可见的服务。包含【图标自动补位】属于【开关】类设置项，当开关开启时桌面有空白区域时，桌面不会自动填充空缺位置，维持原样。的能力，适用于语音类的入口。"
+  },
+  "intent": {},
+  "runtime": {
+    "type": "background"
+  },
+  "meta-data": {
+    "capabilities": "breenoconfig/launcher_icon_auto_replenishment_capabilities.json"
+  }
+}

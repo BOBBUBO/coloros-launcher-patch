@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="solar_feast">
+        <item>Nytår</item>
+        <item>Valentins dag</item>
+        <item>Kvinders dag</item>
+        <item>Internationale arbejdsdag</item>
+        <item>Mors dag</item>
+        <item>Børns dag</item>
+        <item>Fars dag</item>
+        <item>Lærerens dag</item>
+        <item>Nationaldag</item>
+        <item>Thanksgiving dag</item>
+        <item>Jul</item>
+    </string-array>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.searchview.COUISearchBar android:id="@id/search_box_input" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/all_apps_search_content_height" app:couiSearchIcon="@drawable/launcher_drawer_mode_search_icon" app:functionalButtonTextColor="@color/all_app_search_cancel_text_color" app:normalBackground="@drawable/launcher_drawer_mode_search_bg" app:normalHintColor="@color/all_app_search_input_hint_text_color" app:searchHint="@string/all_apps_search_bar_hint_domestic"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

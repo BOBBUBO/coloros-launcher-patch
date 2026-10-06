@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/alert_dialog_uninstall_background_end" android:endColor="@color/alert_dialog_uninstall_background_start" android:angle="270.0" android:type="linear" android:centerColor="@color/alert_dialog_uninstall_background_center" />
+</shape>

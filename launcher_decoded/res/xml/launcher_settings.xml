@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:oplus="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/oplus_preference_header" android:selectable="false" android:order="0" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/launcher_layout" android:key="category_launcher_layout" android:order="2" oplus:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/launcher_mode" android:key="launcher_mode" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/tog_title_layout" android:key="launcher_layout" android:summary="@string/tog_title_layout_summary" android:order="10">
+            <intent android:targetPackage="com.android.launcher" android:targetClass="com.android.launcher.Launcher">
+                <extra android:name="state" android:value="ToggleBar_layout" />
+                <extra android:name="back_action" android:value="com.android.launcher.action.WALLPAPER_CATEGORY_SETTINGS" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="false" android:title="@string/launcher_locked" android:key="launcher_locked" android:summary="@string/launcher_locked_description" android:order="30" />
+        <com.coui.appcompat.preference.COUISwitchLoadingPreference android:persistent="false" android:title="@string/launcher_is_compact_arrangement_title" android:key="launcher_is_compact_arrangement" android:order="40" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="true" android:title="@string/search_entry_switch_tips_new" android:key="launcher_search_entry_enable" android:order="62" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="true" android:title="@string/breeno_entry_switch_tips_new" android:key="launcher_breeno_entry_enable" android:order="66" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="true" android:title="@string/launcher_bottom_button_tips_new" android:key="launcher_indicator_entry" android:order="67" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="true" android:title="@string/launcher_dock_bottom_search_entry" android:key="launcher_search_style_setting_entry" android:order="61" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/launcher_dock_expand_title" android:key="key_dock_expand" android:order="65" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/launcher_gesture" android:key="category_launcher_gesture" android:order="10">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/launcher_icon_fallen_title" android:key="key_icon_fallen" android:order="20" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="false" android:title="@string/browser_news_switch_title" android:key="browser_news_switch" android:order="55" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:persistent="true" android:title="@string/launcher_slide_down" android:key="launcher_slide_down" android:order="49" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="false" android:title="@string/launcher_double_click_lock_new" android:key="launcher_double_click_lock" android:order="60" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/launcher_vfx" android:key="category_launcher_vfx" android:order="20">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="true" android:title="@string/material_blur_switch_title" android:key="system_material_blur_jump" android:order="64" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="true" android:title="@string/page_turn_title" android:key="page_turn_jump" android:order="65">
+            <intent android:targetPackage="com.android.launcher" android:targetClass="com.android.launcher.Launcher">
+                <extra android:name="state" android:value="ToggleBar_effect" />
+                <extra android:name="back_action" android:value="com.android.launcher.action.WALLPAPER_CATEGORY_SETTINGS" />
+            </intent>
+        </com.coui.appcompat.preference.COUIJumpPreference>
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:entries="@array/app_startup_anim_speed_settings" android:title="@string/app_startup_anim_speed" android:key="app_startup_anim_speed" android:summary="@string/app_startup_anim_speed_tips" android:order="63" android:entryValues="@array/app_startup_anim_speed_settings_value" />
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:key="key_docker_bg_switch" android:order="66" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:persistent="true" android:title="@string/launcher_widget_optimize_switch" android:key="launcher_widget_optimize_setting_entry" android:order="70" android:defaultValue="true" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/recent_tasks" android:key="launcher_recent" android:order="99">
+        <com.coui.appcompat.preference.COUIJumpPreference android:persistent="false" android:title="@string/recent_tasks_management" android:key="launcher_recent_manage">
+            <intent android:targetPackage="com.android.launcher" android:targetClass="com.oplus.quickstep.locksetting.ui.LockSettingActivity" />
+        </com.coui.appcompat.preference.COUIJumpPreference>
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <androidx.preference.Preference android:layout="@layout/pref_launcher_setting_space" android:selectable="false" android:order="100" />
+    <com.coui.appcompat.preference.COUIRecommendedPreference android:selectable="false" android:key="bottom_recommended" android:order="101" oplus:recommendedHeaderTitle="@string/bottom_recommended_header_title" />
+    <androidx.preference.Preference android:layout="@layout/oplus_preference_bottom" android:selectable="false" android:order="102" />
+</androidx.preference.PreferenceScreen>

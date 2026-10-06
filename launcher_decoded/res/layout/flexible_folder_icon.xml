@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.folder.FlexibleFolderIcon android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.android.launcher3.OplusBubbleTextView android:textColor="@color/oplus_launcher_mainmenu_default_text_color" android:layout_gravity="bottom" android:id="@id/folder_icon_name" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:isTextColorByWallpaper="true" style="@style/BaseIcon" />
+    <com.coui.appcompat.indicator.COUIPageIndicator2 android:layout_gravity="center|bottom" android:id="@id/folder_icon_indicator" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:dotClickable="false" app:dotSize="@dimen/big_folder_indicator_dot_size" />
+</com.android.launcher3.folder.FlexibleFolderIcon>

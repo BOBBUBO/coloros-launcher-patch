@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="icon_fallen_scaley_center">35.0dp</dimen>
+    <dimen name="icon_fallen_workspace_translation_y">210.0dp</dimen>
+</resources>

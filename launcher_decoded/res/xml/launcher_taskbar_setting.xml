@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.Preference android:layout="@layout/oplus_preference_header" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:enabled="true" android:key="category_taskbar_introduction_preference" app:isFirstCategory="true">
+        <com.android.launcher.settings.TaskbarIntroductionPreference android:persistent="false" android:key="key_taskbar_introduction_preference" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="category_key_show_taskbar" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/show_taskbar_bottom_title" android:key="key_show_taskbar" />
+        <com.coui.appcompat.preference.COUIMenuPreference android:title="@string/taskbar_show_type" android:key="key_taskbar_transient_state" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:title="@string/taskbar_showing_content" android:key="key_category_launcher_dock_expand_switch" app:isFirstCategory="true">
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/taskbar_subscribe_breeno" android:key="key_show_breeno" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/all_apps" android:key="key_show_allApps" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/global_search" android:key="key_show_globalSearch" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/taskbar_subscribe_file_bag" android:key="key_show_fileManager" />
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="@string/expand_apps" android:key="key_launcher_dock_expand_switch" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+    <androidx.preference.Preference android:layout="@layout/pref_launcher_setting_space" android:selectable="false" />
+    <com.coui.appcompat.preference.COUIRecommendedPreference android:selectable="false" android:key="bottom_recommended_taskbar" />
+    <androidx.preference.Preference android:layout="@layout/oplus_preference_bottom" android:selectable="false" />
+</PreferenceScreen>

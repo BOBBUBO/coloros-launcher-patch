@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d napja</item>
+        <item quantity="other">%d napja</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d perce</item>
+        <item quantity="other">%d perce</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d éve</item>
+        <item quantity="other">%d éve</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Legfeljebb %1$d egyező widget adható hozzá</item>
+        <item quantity="other">Legfeljebb %1$d egyező widget adható hozzá</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d/%2$d. oldal</item>
+        <item quantity="other">%1$d/%2$d. oldal</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Ez az alkalmazás eltűnik a főképernyőről, de az alkalmazásfiókban marad.</item>
+        <item quantity="other">A kiválasztott alkalmazások eltűnnek a főképernyőről, de az alkalmazásfiókban maradnak.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Eltávolít %d alkalmazást?</item>
+        <item quantity="other">Eltávolít %d alkalmazást?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">A kiválasztott alkalmazások eltűnnek a főképernyőről, de az alkalmazásfiókban maradnak. A kiválasztott parancsikonok el lesznek távolítva.</item>
+        <item quantity="other">A kiválasztott alkalmazások eltűnnek a főképernyőről, de az alkalmazásfiókban maradnak. A kiválasztott parancsikonok el lesznek távolítva.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d kiválasztott alkalmazás vagy parancsikon eltávolítása?</item>
+        <item quantity="other">%d kiválasztott alkalmazás vagy parancsikon eltávolítása?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Eltávolítja az alábbi %1$d parancsikont?</item>
+        <item quantity="other">Eltávolítja az alábbi %1$d parancsikont?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Távolítsa el a %1$d parancsikont</item>
+        <item quantity="other">Távolítsa el a %1$d parancsikonokat</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d kiválasztva</item>
+        <item quantity="other">%1$d kiválasztva</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d nap</item>
+        <item quantity="other">%1$d nap</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d új értesítés</item>
+        <item quantity="other">%d új értesítés</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d oszlop</item>
+        <item quantity="other">%1$d oszlop</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Eltávolítja az alábbi %1$d alkalmazást?</item>
+        <item quantity="other">Eltávolítja az alábbi %1$d alkalmazásokat?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Távolítson el %1$d alkalmazást (beleértve a klónt is), és törölje az adatokat.</item>
+        <item quantity="other">Távolítson el %1$d alkalmazást (beleértve a klónokat is), és törölje az adatokat.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d alkalmazás eltávolítása és adatainak törlése</item>
+        <item quantity="other">%1$d alkalmazás eltávolítása és adataik törlése</item>
+    </plurals>
+</resources>

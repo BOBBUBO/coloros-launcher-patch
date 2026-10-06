@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">acum %d zi</item>
+        <item quantity="few">acum %d zile</item>
+        <item quantity="other">acum %d de zile</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">acum %d min.</item>
+        <item quantity="few">acum %d min.</item>
+        <item quantity="other">acum %d de min.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">acum %d an</item>
+        <item quantity="few">acum %d ani</item>
+        <item quantity="other">acum %d de ani</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Nu poate fi adăugat mai mult de %1$d widget identic.</item>
+        <item quantity="few">Nu pot fi adăugate mai mult de %1$d widgeturi identice.</item>
+        <item quantity="other">Nu pot fi adăugate mai mult de %1$d de widgeturi identice.</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Pagina %1$d din %2$d</item>
+        <item quantity="few">Pagina %1$d din %2$d</item>
+        <item quantity="other">Pagina %1$d din %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Această aplicație va dispărea de pe Ecranul principal, dar va fi păstrată în sertarul de aplicații.</item>
+        <item quantity="few">Aplicațiile selectate vor dispărea de pe Ecranul principal, dar vor fi păstrate în sertarul de aplicații.</item>
+        <item quantity="other">Aplicațiile selectate vor dispărea de pe Ecranul principal, dar vor fi păstrate în sertarul de aplicații.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Eliminați %d aplicație?</item>
+        <item quantity="few">Eliminați %d aplicații?</item>
+        <item quantity="other">Eliminați %d de aplicații?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Aplicațiile selectate vor dispărea de pe Ecranul principal, dar vor fi păstrate în sertarul de aplicații. Scurtăturile selectate vor fi eliminate.</item>
+        <item quantity="few">Aplicațiile vor dispărea de pe Ecranul principal, dar vor fi păstrate în sertarul de aplicații. Comenzile rapide vor fi eliminate.</item>
+        <item quantity="other">Aplicațiile selectate vor dispărea de pe Ecranul principal, dar vor fi păstrate în sertarul de aplicații. Scurtăturile selectate vor fi eliminate.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Eliminați %d aplicația sau comanda rapidă selectată?</item>
+        <item quantity="few">Eliminați cele %d aplicații sau comenzi rapide selectate?</item>
+        <item quantity="other">Eliminați cele %d de aplicații sau comenzi rapide selectate?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Eliminați %1$d scurtătură de mai jos?</item>
+        <item quantity="few">Eliminați cele %1$d scurtături de mai jos?</item>
+        <item quantity="other">Eliminați cele %1$d de scurtături de mai jos?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Eliminați %1$d scurtătură</item>
+        <item quantity="few">Eliminați %1$d scurtături</item>
+        <item quantity="other">Eliminați %1$d scurtături</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d de notificări noi</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d selectat</item>
+        <item quantity="few">%1$d elemente selectate</item>
+        <item quantity="other">%1$d selectat</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d zi</item>
+        <item quantity="few">%1$d zile</item>
+        <item quantity="other">%1$d de zile</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+        <item quantity="other">%d notificări noi</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d coloană</item>
+        <item quantity="few">%1$d coloane</item>
+        <item quantity="other">%1$d coloane</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Dezinstalați %1$d aplicație de mai jos?</item>
+        <item quantity="few">Dezinstalați cele %1$d aplicații de mai jos?</item>
+        <item quantity="other">Dezinstalați cele %1$d de aplicații de mai jos?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Dezinstalați %1$d aplicație (inclusiv clona ei) și ștergeți datele acesteia.</item>
+        <item quantity="few">Dezinstalați %1$d aplicații (inclusiv clonele lor) și ștergeți datele lor.</item>
+        <item quantity="other">Dezinstalați %1$d aplicații (inclusiv clonele lor) și ștergeți datele lor.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Dezinstalați %1$d aplicație și ștergeți datele acesteia.</item>
+        <item quantity="few">Dezinstalați %1$d aplicații și ștergeți datele acestora.</item>
+        <item quantity="other">Dezinstalați %1$d aplicații și ștergeți datele acestora.</item>
+    </plurals>
+</resources>

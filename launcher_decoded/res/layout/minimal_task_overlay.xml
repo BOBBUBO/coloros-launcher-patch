@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/split_app_icon" android:background="@null" android:layout_width="@dimen/minimal_task_overlay_icon_size" android:layout_height="@dimen/minimal_task_overlay_icon_size" />
+    <ImageView android:id="@id/swap_split_btn" android:background="@null" android:layout_width="@dimen/minimal_task_overlay_btn_size" android:layout_height="@dimen/minimal_task_overlay_btn_size" android:contentDescription="@string/oplus_swap_split_screen_ratio" />
+</RelativeLayout>

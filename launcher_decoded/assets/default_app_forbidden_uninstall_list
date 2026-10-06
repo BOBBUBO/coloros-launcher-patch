@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>2019073018</version>
+    <isOpen>1</isOpen>
+    <filter-name>apps_launcher_cannot_uninstall_pkgs</filter-name>
+
+    <string-array name="local_forbidden_uninstall_pkg">
+         <item>com.kddi.familysmile.mvno</item>
+         <item>com.heytap.book</item>
+         <item>com.oppo.book</item>
+         <item>com.oppo.reader</item>
+         <item>com.heytap.reader</item>
+         <item>com.nearme.gamecenter</item>
+         <item>com.heytap.gamecenter</item>
+         <item>com.oppo.community</item>
+         <item>com.redteamobile.roaming</item>
+         <item>com.coloros.yoli</item>
+         <item>com.heytap.yoli</item>
+         <item>com.oppo.store</item>
+         <item>com.coloros.flowmarket</item>
+         <item>com.oppo.ohome</item>
+         <item>com.heytap.smarthome</item>
+         <item>com.nearme.play</item>
+         <item>com.heytap.play</item>
+         <item>com.chaozh.xincao.reader</item>
+         <item>com.oppo.marketingmachine</item>
+         <item>com.oplus.games</item>
+         <item>com.finshell.wallet</item>
+         <item>com.realme.storecn</item>
+         <item>com.oplus.play</item>
+    </string-array>
+
+</filter-conf>

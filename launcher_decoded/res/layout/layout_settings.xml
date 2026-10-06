@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/activity_set_launcher_model" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/gridView" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@android:color/transparent" android:numColumns="2" android:paddingStart="@dimen/layout_gridview_item_preview_image_margin_start" android:paddingEnd="@dimen/layout_gridview_item_preview_image_margin_end" />
+    <include layout="@layout/appbar_with_divider_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

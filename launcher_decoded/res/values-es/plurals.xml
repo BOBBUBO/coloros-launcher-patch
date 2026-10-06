@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">hace %d día</item>
+        <item quantity="other">hace %d días</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">hace %d minuto</item>
+        <item quantity="other">hace %d minutos</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">hace %d año</item>
+        <item quantity="other">hace %d años</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">No se puede añadir más de %1$d widget idéntico</item>
+        <item quantity="other">No se pueden añadir más de %1$d widgets idénticos</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Página %1$d de %2$d</item>
+        <item quantity="other">Página %1$d de %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Esta aplicación desaparecerá de la pantalla de inicio, pero se conservará en el panel de aplicaciones.</item>
+        <item quantity="other">Las aplicaciones seleccionadas desaparecerán de la pantalla de inicio, pero se conservarán en el panel de aplicaciones.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">¿Quieres quitar %d aplicación?</item>
+        <item quantity="other">¿Quieres quitar %d aplicaciones?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Las aplicaciones seleccionadas desaparecerán de la pantalla de inicio, pero se conservarán en el panel de aplicaciones. Se eliminarán los accesos directos seleccionados.</item>
+        <item quantity="other">Las aplicaciones seleccionadas desaparecerán de la pantalla de inicio, pero se conservarán en el panel de aplicaciones. Se eliminarán los accesos directos seleccionados.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">¿Quitar %d aplicación o acceso directo seleccionado?</item>
+        <item quantity="other">¿Quitar %d aplicaciones o accesos directos seleccionados?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">¿Eliminar el atajo de %1$d de abajo?</item>
+        <item quantity="other">¿Eliminar los atajos de %1$d de abajo?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Eliminar %1$d atajo</item>
+        <item quantity="other">Eliminar %1$d atajos</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d notificación nueva</item>
+        <item quantity="other">%d notificaciones nuevas</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d seleccionado</item>
+        <item quantity="other">%1$d seleccionados</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d día</item>
+        <item quantity="other">%1$d días</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d notificación nueva</item>
+        <item quantity="other">%d notificaciones nuevas</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d columna</item>
+        <item quantity="other">%1$d columnas</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">¿Desinstalar la aplicación %1$d de abajo?</item>
+        <item quantity="other">¿Desinstalar las aplicaciones %1$d de abajo?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Desinstalar %1$d aplicación (incluido su clon) y borrar sus datos.</item>
+        <item quantity="other">Desinstalar %1$d aplicaciones (incluidos sus clones) y borrar sus datos.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Desinstala %1$d aplicación y elimina sus datos.</item>
+        <item quantity="other">Desinstala %1$d aplicaciones y elimina sus datos.</item>
+    </plurals>
+</resources>

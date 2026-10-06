@@ -1,0 +1,15 @@
+{
+  "version":"2025100100",
+  "enabled":true,
+  "defaultApps":[
+    {
+      "packageName":"com.tencent.mm",
+      "shortcutIds":["launch_type_scan_qrcode","launch_type_offline_wallet","launch_type_my_qrcode"]
+    },
+    {
+      "packageName":"com.eg.android.AlipayGphone",
+      "shortcutIds":["1001","1002","1003"]
+    }
+  ]
+}
+

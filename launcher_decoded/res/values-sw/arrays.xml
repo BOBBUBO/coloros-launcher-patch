@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="chinese_other_feast">
+        <item>植树节</item>
+        <item>愚人节</item>
+        <item>青年节</item>
+        <item>护士节</item>
+        <item>建党节</item>
+        <item>建军节</item>
+    </string-array>
+    <string-array name="lunar_feast">
+        <item>除夕</item>
+        <item>春节</item>
+        <item>元宵节</item>
+        <item>端午节</item>
+        <item>七夕</item>
+        <item>中元节</item>
+        <item>中秋节</item>
+        <item>重阳节</item>
+        <item>腊八节</item>
+        <item>小年(北)</item>
+        <item>小年(南)</item>
+    </string-array>
+    <string-array name="solar_feast">
+        <item>Mwaka mpya</item>
+        <item>Siku ya Wapendanao</item>
+        <item>Siku ya Wanawake</item>
+        <item>Siku ya Wafanyakazi ya Kimataifa</item>
+        <item>Siku ya wamama</item>
+        <item>Siku ya Watoto</item>
+        <item>Siku ya Akina baba</item>
+        <item>Siku ya Waalimu</item>
+        <item>Siku ya Kitaifa</item>
+        <item>Siku ya Kutoa Shukrani</item>
+        <item>Krisimasi</item>
+    </string-array>
+    <string-array name="solar_term">
+        <item>小寒</item>
+        <item>大寒</item>
+        <item>立春</item>
+        <item>雨水</item>
+        <item>惊蛰</item>
+        <item>春分</item>
+        <item>清明</item>
+        <item>谷雨</item>
+        <item>立夏</item>
+        <item>小满</item>
+        <item>芒种</item>
+        <item>夏至</item>
+        <item>小暑</item>
+        <item>大暑</item>
+        <item>立秋</item>
+        <item>处暑</item>
+        <item>白露</item>
+        <item>秋分</item>
+        <item>寒露</item>
+        <item>霜降</item>
+        <item>立冬</item>
+        <item>小雪</item>
+        <item>大雪</item>
+        <item>冬至</item>
+    </string-array>
+</resources>

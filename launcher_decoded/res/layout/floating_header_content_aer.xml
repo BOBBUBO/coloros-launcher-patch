@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.launcher.views.AerPredictionDividerView android:id="@id/aer_prediction_apps_divider" android:paddingTop="@dimen/all_apps_prediction_container_margin_top" android:paddingBottom="@dimen/all_apps_divider_margin_bottom" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/all_apps_padding_start">
+        <ImageView android:id="@id/aer_prediction_apps_header_divider" android:background="@drawable/all_apps_divider_bg" android:focusable="false" android:layout_width="match_parent" android:layout_height="@dimen/all_apps_divider_height" android:scaleType="fitXY" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/all_apps_divider_title_size" android:textColor="@color/launcher_all_apps_divider_title_text_color" android:id="@id/aer_prediction_apps_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/all_apps_divider_margin" android:text="@string/title_app_suggestions" android:layout_below="@id/aer_prediction_apps_header_divider" />
+    </com.android.launcher.views.AerPredictionDividerView>
+    <com.android.launcher3.appprediction.PredictionRowView android:id="@id/prediction_row" android:layout_width="match_parent" android:layout_height="wrap_content" android:accessibilityPaneTitle="@string/title_app_suggestions" />
+    <com.android.launcher.views.AerAppsDividerView android:id="@id/aer_all_apps_divider" android:paddingTop="@dimen/all_apps_prediction_container_margin_top" android:paddingBottom="@dimen/all_apps_divider_margin_bottom" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/all_apps_padding_start">
+        <ImageView android:id="@id/aer_all_apps_header_divider" android:background="@drawable/all_apps_divider_bg" android:focusable="false" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/all_apps_divider_height" android:scaleType="fitXY" android:importantForAccessibility="no" />
+        <TextView android:textSize="@dimen/all_apps_divider_title_size" android:textColor="@color/launcher_all_apps_divider_title_text_color" android:id="@id/aer_all_apps_header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/all_apps_divider_margin" android:text="@string/all_apps_all_apps_title" android:layout_below="@id/aer_all_apps_header_divider" />
+    </com.android.launcher.views.AerAppsDividerView>
+</merge>

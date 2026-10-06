@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d થી વધુ સમાન વિજેટો ઉમેરી શકાતી નથી</item>
+        <item quantity="other">%1$d થી વધુ સમાન વિજેટો ઉમેરી શકાતી નથી</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">પૃષ્ઠ %1$d નું %2$d</item>
+        <item quantity="other">પૃષ્ઠ %1$d નું %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">આ એપ હોમ સ્ક્રીનમાંથી અદૃશ્ય થઈ જશે પરંતુ એપ ડ્રોવરમાં રાખવામાં આવશે.</item>
+        <item quantity="other">પસંદ કરેલા એપ્સ હોમ સ્ક્રીનમાંથી અદૃશ્ય થઈ જશે પરંતુ એપ ડ્રોવરમાં રાખવામાં આવશે.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d એપને કાઢી નાખીએ?</item>
+        <item quantity="other">%d એપ્સને કાઢી નાખીએ?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">પસંદ કરેલી એપ્સ હોમ સ્ક્રીન પરથી અદૃશ્ય થઈ જશે પણ એપ ડ્રોવરમાં રાખવામાં આવશે. પસંદ કર્યું શૉર્ટકટ્સ દૂર કરવામાં આવશે.</item>
+        <item quantity="other">પસંદ કરેલી એપ્સ હોમ સ્ક્રીન પરથી અદૃશ્ય થઈ જશે પણ એપ ડ્રોવરમાં રાખવામાં આવશે. પસંદ કર્યું શૉર્ટકટ્સ દૂર કરવામાં આવશે.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">પસંદ કરેલ %d એપ અથવા શોર્ટકટ કાઢી કરીએ?</item>
+        <item quantity="other">પસંદ કરેલા %d એપ્સ અથવા શોર્ટકટ્સ કાઢી કરીએ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">નીચેનો %1$d શોર્ટકટ દૂર કરીએ?</item>
+        <item quantity="other">નીચેના %1$d શોર્ટકટ્સ દૂર કરીએ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d શૉર્ટકટ્સ કાઢી નાખો</item>
+        <item quantity="other">%1$d શૉર્ટકટ્સ કાઢી નાખો</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d પસંદ કરેલ</item>
+        <item quantity="other">%1$d પસંદ કરેલ</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d દિવસ</item>
+        <item quantity="other">%1$d દિવસો</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d નવા નોટીફીકેશન</item>
+        <item quantity="other">%d નવા નોટીફીકેશન્સ</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d કૉલમ</item>
+        <item quantity="other">%1$d કૉલમ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">નીચેની %1$d એપને અનઇન્સ્ટોલ કરીએ?</item>
+        <item quantity="other">નીચેના %1$d એપ્સને અનઇન્સ્ટોલ કરીએ?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d એપને અનઇન્સ્ટોલ કરો (તેના ક્લોન સહિત) અને તેનો ડેટા સાફ કરો.</item>
+        <item quantity="other">%1$d એપ્સને અનઇન્સ્ટોલ કરો (તેમના ક્લોન્સ સહિત) અને તેમનો ડેટા સાફ કરો.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d એપને અનઇન્સ્ટોલ કરો અને તેનો ડેટા સાફ કરો.</item>
+        <item quantity="other">%1$d એપ્સને અનઇન્સ્ટોલ કરો અને તેમનો ડેટા સાફ કરો.</item>
+    </plurals>
+</resources>

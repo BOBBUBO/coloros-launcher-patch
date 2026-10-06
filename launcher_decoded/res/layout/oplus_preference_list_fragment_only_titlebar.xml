@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:background="@color/coui_color_background_with_card" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.coui.appcompat.grid.COUIPercentWidthFrameLayout android:layout_gravity="center_horizontal" android:id="@android:id/list_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" app:gridNumber="@integer/grid_guide_column_preference" app:paddingType="listType" app:percentMode="reMeasureMode" app:underParent="true" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@android:id/empty" android:padding="8.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/appbar_with_divider_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

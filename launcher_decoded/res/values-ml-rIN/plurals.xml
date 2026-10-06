@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d-ലധികം ഒരേപോലുള്ള വിജറ്റ് ചേർക്കാൻ കഴിയില്ല</item>
+        <item quantity="other">ഒരേപോലുള്ള %1$d വിജറ്റുകളിൽ കൂടുതൽ ചേർക്കാൻ കഴിയില്ല</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">പേജ് %2$d-ൽ %1$d</item>
+        <item quantity="other">പേജ് %2$d-ൽ %1$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">ഈ ആപ്പ് ഹോം സ്ക്രീനിൽ നിന്ന് അപ്രത്യക്ഷമാകുമെങ്കിലും ആപ്പ് ഡ്രോയറിൽ സൂക്ഷിക്കും.</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത ആപ്പുകൾ ഹോം സ്ക്രീനിൽ നിന്ന് അപ്രത്യക്ഷമാകുമെങ്കിലും ആപ്പ് ഡ്രോയറിൽ സൂക്ഷിക്കും.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d ആപ്പ് നീക്കംചെയ്യണോ?</item>
+        <item quantity="other">%d ആപ്പുകൾ നീക്കംചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">ഹോം സ്ക്രീനിൽ നിന്ന് തിരഞ്ഞെടുത്ത ആപ്പുകൾ അപ്രത്യക്ഷമാകുമെങ്കിലും അവ ആപ്പ് ഡ്രോയറിൽ സൂക്ഷിക്കും. തിരഞ്ഞെടുത്ത എളുപ്പവഴികൾ നീക്കം ചെയ്യപ്പെടും.</item>
+        <item quantity="other">ഹോം സ്ക്രീനിൽ നിന്ന് തിരഞ്ഞെടുത്ത ആപ്പുകൾ അപ്രത്യക്ഷമാകുമെങ്കിലും അവ ആപ്പ് ഡ്രോയറിൽ സൂക്ഷിക്കും. തിരഞ്ഞെടുത്ത ളുപ്പവഴികൾ നീക്കം ചെയ്യപ്പെടും.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">തിരഞ്ഞെടുത്ത %d ആപ്പ് അല്ലെങ്കിൽ എളുപ്പവഴി നീക്കംചെയ്യണോ?</item>
+        <item quantity="other">തിരഞ്ഞെടുത്ത %d ആപ്പുകൾ അല്ലെങ്കിൽ എളുപ്പവഴികൾ നീക്കംചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">താഴെയുള്ള %1$d എളുപ്പവഴി നീക്കംചെയ്യണോ?</item>
+        <item quantity="other">താഴെയുള്ള %1$d എളുപ്പവഴികൾ നീക്കംചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d എളുപ്പവഴി നീക്കംചെയ്യുക</item>
+        <item quantity="other">%1$d എളുപ്പവഴികൾ നീക്കംചെയ്യുക</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d തിരഞ്ഞെടുത്തു</item>
+        <item quantity="other">%1$d തിരഞ്ഞെടുത്തു</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d ദിവസം</item>
+        <item quantity="other">%1$d ദിവസങ്ങൾ</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d പുതിയ അറിയിപ്പ്</item>
+        <item quantity="other">%d പുതിയ അറിയിപ്പുകൾ</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d നിര</item>
+        <item quantity="other">%1$d നിരകൾ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">താഴെയുള്ള %1$d ആപ്പ് അണ്‍ഇൻസ്റ്റാൾ ചെയ്യണോ?</item>
+        <item quantity="other">താഴെയുള്ള %1$d ആപ്പുകൾ അണ്‍ഇൻസ്റ്റാൾ ചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d ആപ്പ് അൺ‌ഇൻ‌സ്റ്റാൾ‌ ചെയ്ത് (അവയുടെ ക്ലോണുകൾ ഉൾപ്പെടെ) അതിന്റെ ഡാറ്റ ക്ലിയർ ചെയ്യുക.</item>
+        <item quantity="other">%1$d ആപ്പുകൾ അൺ‌ഇൻ‌സ്റ്റാൾ‌ ചെയ്ത് (അവയുടെ ക്ലോണുകൾ ഉൾപ്പെടെ) അവയുടെ ഡാറ്റ ക്ലിയർ ചെയ്യുക.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d ആപ്പ് അൺ‌ഇൻ‌സ്റ്റാൾ‌ ചെയ്ത് അതിന്റെ ഡാറ്റ ക്ലിയർ ചെയ്യുക.</item>
+        <item quantity="other">%1$d ആപ്പുകൾ അൺ‌ഇൻ‌സ്റ്റാൾ‌ ചെയ്ത് അവയുടെ ഡാറ്റ ക്ലിയർ ചെയ്യുക.</item>
+    </plurals>
+</resources>

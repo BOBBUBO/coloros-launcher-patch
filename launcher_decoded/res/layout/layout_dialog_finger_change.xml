@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/content_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginStart="@dimen/split_screen_notice_dialog_text_margin_size" android:layout_marginEnd="@dimen/split_screen_notice_dialog_text_margin_size">
+        <com.oplus.anim.EffectiveAnimationView android:id="@id/effect_view" android:background="@drawable/rounded_background_effect_view" android:layout_width="match_parent" android:layout_height="300.0dp" android:forceDarkAllowed="false" app:anim_autoPlay="true" app:anim_loop="true" app:anim_rawRes="@raw/swipe_up_split_screen_tip" />
+        <TextView android:id="@id/tv_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/split_screen_anim_text_margin_size" android:text="@string/three_finger_not_support_split_screen" android:paddingStart="@dimen/notice_text_padding_size" android:paddingEnd="@dimen/notice_text_padding_size" android:breakStrategy="high_quality" android:hyphenationFrequency="full" android:justificationMode="inter_word" style="@style/COUIAlertDialogTitleStyle" />
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/split_screen_notice_dialog_text_margin_top_size" android:layout_marginBottom="@dimen/split_screen_notice_dialog_text_margin_top_size">
+            <TextView android:textSize="14.0sp" android:ellipsize="none" android:gravity="start" android:id="@id/tv_content" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/split_screen_gesture_change_swipe_up" android:singleLine="false" android:lineSpacingMultiplier="1.2" android:textAlignment="viewStart" />
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

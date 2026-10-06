@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/launcher_super_power_save_bg_transparent_color" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.anim.EffectiveAnimationView android:id="@id/eav_icon" android:layout_width="@dimen/open_super_power_icon_size" android:layout_height="@dimen/open_super_power_icon_size" />
+    <TextView android:textSize="@dimen/open_super_power_text_size" android:textColor="@color/white" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/open_super_power_title_margin_top" android:text="@string/super_power_save_mode" android:alpha="0.0" />
+    <TextView android:textSize="@dimen/open_super_power_text_size" android:textColor="@color/white" android:gravity="center" android:id="@id/available_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/open_super_power_time_margin_top" android:alpha="0.0" android:layout_marginStart="@dimen/open_super_power_time_margin" android:layout_marginEnd="@dimen/open_super_power_time_margin" />
+</LinearLayout>

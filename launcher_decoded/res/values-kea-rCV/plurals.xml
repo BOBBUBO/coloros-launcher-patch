@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="zero">892825_No more than %1$d identical widgets can be added</item>
+        <item quantity="one">892823_No more than %1$d identical widget can be added</item>
+        <item quantity="two">892827_No more than %1$d identical widgets can be added</item>
+        <item quantity="few">892826_No more than %1$d identical widgets can be added</item>
+        <item quantity="many">892828_No more than %1$d identical widgets can be added</item>
+        <item quantity="other">892824_No more than %1$d identical widgets can be added</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="zero">1057060_Page %1$d of %2$d</item>
+        <item quantity="one">1057058_Page %1$d of %2$d</item>
+        <item quantity="two">1057062_Page %1$d of %2$d</item>
+        <item quantity="few">1057061_Page %1$d of %2$d</item>
+        <item quantity="many">1057063_Page %1$d of %2$d</item>
+        <item quantity="other">1057059_Page %1$d of %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="zero">984247_The selected apps will disappear from the Home screen but will be kept in the app drawer.</item>
+        <item quantity="one">984246_This app will disappear from the Home screen but will be kept in the app drawer.</item>
+        <item quantity="two">984249_The selected apps will disappear from the Home screen but will be kept in the app drawer.</item>
+        <item quantity="few">984248_The selected apps will disappear from the Home screen but will be kept in the app drawer.</item>
+        <item quantity="many">984250_The selected apps will disappear from the Home screen but will be kept in the app drawer.</item>
+        <item quantity="other">984245_The selected apps will disappear from the Home screen but will be kept in the app drawer.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="zero">984241_Remove %d apps?</item>
+        <item quantity="one">984240_Remove %d app?</item>
+        <item quantity="two">984243_Remove %d apps?</item>
+        <item quantity="few">984242_Remove %d apps?</item>
+        <item quantity="many">984244_Remove %d apps?</item>
+        <item quantity="other">984239_Remove %d apps?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="zero">987645_Apps will disappear from the Home screen but will be kept in the app drawer. Shortcuts will be removed.</item>
+        <item quantity="one">987643_Selected apps will disappear from the Home screen but will be kept in the app drawer. Selected shortcuts will be removed.</item>
+        <item quantity="two">987647_Apps will disappear from the Home screen but will be kept in the app drawer. Shortcuts will be removed.</item>
+        <item quantity="few">987646_Apps will disappear from the Home screen but will be kept in the app drawer. Shortcuts will be removed.</item>
+        <item quantity="many">987648_Apps will disappear from the Home screen but will be kept in the app drawer. Shortcuts will be removed.</item>
+        <item quantity="other">987644_Selected apps will disappear from the Home screen but will be kept in the app drawer. Selected shortcuts will be removed.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="zero">987651_Remove %d selected apps or shortcuts?</item>
+        <item quantity="one">987650_Remove %d selected app or shortcut?</item>
+        <item quantity="two">987653_Remove %d selected apps or shortcuts?</item>
+        <item quantity="few">987652_Remove %d selected apps or shortcuts?</item>
+        <item quantity="many">987654_Remove %d selected apps or shortcuts?</item>
+        <item quantity="other">987649_Remove %d selected apps or shortcuts?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="zero">907830_Remove the %1$d shortcuts below?</item>
+        <item quantity="one">907829_Remove the %1$d shortcut below?</item>
+        <item quantity="two">907832_Remove the %1$d shortcuts below?</item>
+        <item quantity="few">907831_Remove the %1$d shortcuts below?</item>
+        <item quantity="many">907833_Remove the %1$d shortcuts below?</item>
+        <item quantity="other">907828_Remove the %1$d shortcuts below?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="zero">877157_Remove %1$d shortcuts</item>
+        <item quantity="one">864032_Remove %1$d shortcut</item>
+        <item quantity="two">877160_Remove %1$d shortcuts</item>
+        <item quantity="few">877158_Remove %1$d shortcuts</item>
+        <item quantity="many">877159_Remove %1$d shortcuts</item>
+        <item quantity="other">864031_Remove %1$d shortcuts</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="zero">877165_%1$d items selected</item>
+        <item quantity="one">864036_%1$d selected</item>
+        <item quantity="two">877168_%1$d items selected</item>
+        <item quantity="few">877166_%1$d items selected</item>
+        <item quantity="many">877167_%1$d items selected</item>
+        <item quantity="other">864035_%1$d selected</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="zero">961591_%1$d days</item>
+        <item quantity="one">961589_%1$d day</item>
+        <item quantity="two">961593_%1$d days</item>
+        <item quantity="few">961592_%1$d days</item>
+        <item quantity="many">961594_%1$d days</item>
+        <item quantity="other">961590_%1$d days</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="zero">1125812_%d new notifications</item>
+        <item quantity="one">1125811_%d new notification</item>
+        <item quantity="two">1125814_%d new notifications</item>
+        <item quantity="few">1125813_%d new notifications</item>
+        <item quantity="many">1125815_%d new notifications</item>
+        <item quantity="other">1125810_%d new notifications</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="zero">1080397_%1$d columns</item>
+        <item quantity="one">1080396_%1$d column</item>
+        <item quantity="two">1080399_%1$d columns</item>
+        <item quantity="few">1080398_%1$d columns</item>
+        <item quantity="many">1080400_%1$d columns</item>
+        <item quantity="other">1080395_%1$d columns</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="zero">907836_Uninstall the %1$d apps below?</item>
+        <item quantity="one">907835_Uninstall the %1$d app below?</item>
+        <item quantity="two">907838_Uninstall the %1$d apps below?</item>
+        <item quantity="few">907837_Uninstall the %1$d apps below?</item>
+        <item quantity="many">907839_Uninstall the %1$d apps below?</item>
+        <item quantity="other">907834_Uninstall the %1$d apps below?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="zero">881760_Uninstall %1$d apps (including their clones) and clear their data.</item>
+        <item quantity="one">881758_Uninstall %1$d app (including its clone) and clear its data.</item>
+        <item quantity="two">881762_Uninstall %1$d apps (including their clones) and clear their data.</item>
+        <item quantity="few">881761_Uninstall %1$d apps (including their clones) and clear their data.</item>
+        <item quantity="many">881763_Uninstall %1$d apps (including their clones) and clear their data.</item>
+        <item quantity="other">881759_Uninstall %1$d apps (including their clones) and clear their data.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="zero">877161_Uninstall %1$d apps and clear their data.</item>
+        <item quantity="one">864034_Uninstall %1$d app and clear its data.</item>
+        <item quantity="two">877164_Uninstall %1$d apps and clear their data.</item>
+        <item quantity="few">877162_Uninstall %1$d apps and clear their data.</item>
+        <item quantity="many">877163_Uninstall %1$d apps and clear their data.</item>
+        <item quantity="other">864033_Uninstall %1$d apps and clear their data.</item>
+    </plurals>
+</resources>

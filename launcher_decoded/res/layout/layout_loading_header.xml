@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/assistant_identifier_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:layoutDirection="ltr" android:layout_marginStart="@dimen/dp_16"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/identifier_icon" android:layout_width="@dimen/dp_18" android:layout_height="@dimen/dp_18" app:shapeAppearance="@style/RoundedStyle" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/dp_12" android:textStyle="normal" android:textColor="@color/loading_title_color" android:gravity="center_vertical" android:id="@id/identifier_title" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/dp_8" />
+</LinearLayout>

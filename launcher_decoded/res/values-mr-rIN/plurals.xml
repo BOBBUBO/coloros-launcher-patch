@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d पेक्षा जास्त समान विजेट जोडले जाऊ शकत नाहीत</item>
+        <item quantity="other">%1$d पेक्षा जास्त समान विजेट्स जोडले जाऊ शकत नाहीत</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%2$d पैकी %1$d पृष्ठ</item>
+        <item quantity="other">%2$d पैकी %1$d पृष्ठ</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">हे अ‍ॅप मुख्यपृष्ठ स्क्रीनवरून नाहीसे होईल परंतु अ‍ॅप ड्रॉवरमध्ये ठेवले जाईल.</item>
+        <item quantity="other">निवडलेले अ‍ॅप्स मुख्यपृष्ठ स्क्रीनवरून नाहीसे होतील परंतु अ‍ॅप ड्रॉवरमध्ये ठेवले जातील.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d अ‍ॅप काढायचे?</item>
+        <item quantity="other">%d अ‍ॅप्स काढायचे?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">निवडलेले अ‍ॅप्स होम स्क्रीनवरून नाहीसे होतील परंतु अ‍ॅप ड्रॉवरमध्ये ठेवले जातील. निवडलेले शॉर्टकट्स काढले जातील.</item>
+        <item quantity="other">निवडलेले अ‍ॅप्स होम स्क्रीनवरून नाहीसे होतील परंतु अ‍ॅप ड्रॉवरमध्ये ठेवले जातील. निवडलेले शॉर्टकट्स काढले जातील.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d निवडलेले अ‍ॅप किंवा शॉर्टकट काढायचे का?</item>
+        <item quantity="other">%d निवडलेले अ‍ॅप्स किंवा शॉर्टकट्स काढायचे का?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">%1$d चे शॉर्टकट खाली काढायचे?</item>
+        <item quantity="other">%1$d चे शॉर्टकट्स खाली काढायचे?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d शॉर्टकट काढा</item>
+        <item quantity="other">%1$d शॉर्टकट्स काढा</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d निवडले</item>
+        <item quantity="other">%1$d निवडले</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d दिवस</item>
+        <item quantity="other">%1$d दिवस</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d नवीन सूचना</item>
+        <item quantity="other">%d नवीन सूचना</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d स्तंभ</item>
+        <item quantity="other">%1$d स्तंभ</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">%1$d अ‍ॅप खाली विस्थापित करायचे?</item>
+        <item quantity="other">%1$d अ‍ॅप्स खाली विस्थापित करायचे?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d अ‍ॅप विस्थापित करा (त्याच्या क्लोनसह) आणि त्याचा डेटा साफ करा.</item>
+        <item quantity="other">%1$d अ‍ॅप्स विस्थापित करा (त्यांच्या क्लोन्ससह) आणि त्यांचा डेटा साफ करा.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d अ‍ॅप विस्थापित करा आणि त्याचा डेटा साफ करा.</item>
+        <item quantity="other">%1$d अ‍ॅप्स विस्थापित करा आणि त्यांचा डेटा साफ करा.</item>
+    </plurals>
+</resources>

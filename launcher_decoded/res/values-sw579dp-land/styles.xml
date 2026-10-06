@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GuidePanelConstraintLayoutStyle">
+        <item name="android:background">@drawable/coui_panel_bg_with_corner</item>
+        <item name="android:backgroundTint">@color/panel_guide_layout_bg_color</item>
+    </style>
+    <style name="PanelGuideConstraintLayoutStyle">
+        <item name="android:background">@drawable/coui_panel_bg_without_shadow</item>
+        <item name="android:backgroundTint">@color/panel_guide_layout_bg_color</item>
+    </style>
+</resources>

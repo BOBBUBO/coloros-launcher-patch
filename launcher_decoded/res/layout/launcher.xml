@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.OplusLauncherRootView android:id="@id/launcher" android:fitsSystemWindows="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/task_view_container_stub" android:layout="@layout/oplus_task_view_container" android:inflatedId="@id/task_view_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.android.launcher3.OplusDragLayer android:id="@id/drag_layer" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+        <com.android.launcher3.OplusWorkspace android:theme="@style/HomeScreenElementTheme" android:layout_gravity="center" android:id="@id/workspace" android:layout_width="match_parent" android:layout_height="match_parent" launcher:pageIndicator="@id/page_indicator" />
+        <include android:id="@id/drop_target_bar" layout="@layout/drop_target_bar" />
+        <com.android.launcher3.views.ScrimView android:id="@id/scrim_view" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <include layout="@layout/toggle_bar_root_layout" />
+        <include layout="@layout/page_preview_layout" />
+        <com.android.launcher.pageindicators.OplusPageIndicator android:layout_gravity="center|bottom" android:id="@id/page_indicator" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/workspace_page_indicator_height" android:paddingHorizontal="@dimen/workspace_page_indicator_horizontal_padding" android:paddingVertical="@dimen/workspace_page_indicator_vertical_padding" android:forceDarkAllowed="false" launcher:indicatorType="launcher" launcher:selectIndicatorColor="@color/launcher_page_indicator_select_color" launcher:unSelectIndicatorColor="@color/launcher_page_indicator_unselect_color" />
+        <com.android.launcher3.OplusHotseat android:theme="@style/HomeScreenElementTheme" android:layout_gravity="bottom" android:id="@id/hotseat" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" android:elevation="0.0dp" launcher:containerType="hotseat" />
+        <include android:id="@id/apps_view" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/all_apps" />
+        <com.android.launcher.togglebar.views.ToggleStateToolbar android:id="@id/toggle_state_toolbar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/toggle_tool_bar_height" android:layout_marginTop="36.0dp" android:paddingStart="@dimen/layout_grid_margin_small" android:paddingEnd="@dimen/layout_grid_margin_small" launcher:layout_ignoreInsets="true" />
+    </com.android.launcher3.OplusDragLayer>
+    <com.android.launcher3.views.WorkSpaceScrimView android:id="@id/workspace_scrim" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <com.android.launcher3.views.FloatingIconViewContainer android:id="@id/floating_icon_container" android:visibility="gone" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" launcher:layout_ignoreInsets="true" />
+    <com.android.launcher3.RecentContainerView android:id="@id/recent_container" android:background="@android:color/transparent" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false">
+        <include android:id="@id/overview_panel" android:visibility="gone" layout="@layout/oplus_overview_panel" />
+        <include android:id="@id/dockview_panel" android:visibility="gone" layout="@layout/dockview_panel" />
+        <include android:id="@id/oplus_clear_all_panel" android:visibility="gone" layout="@layout/oplus_clear_all_panel" />
+    </com.android.launcher3.RecentContainerView>
+</com.android.launcher3.OplusLauncherRootView>

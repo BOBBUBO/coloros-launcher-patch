@@ -1,0 +1,18 @@
+{
+  "identifier": {
+    "url": "com.android.launcher.536877767",
+    "id": "536877767",
+    "type": "apk",
+    "name": "双击桌面锁屏",
+    "version": "1.0.0",
+    "versionCode": 1000000,
+    "description": "我是一个APK软件包，提供不可见的服务。包含【双击桌面锁屏】属于【开关】类设置项，用户可以通过双击桌面空白区域，快速锁屏。的能力，适用于语音类的入口。"
+  },
+  "intent": {},
+  "runtime": {
+    "type": "background"
+  },
+  "meta-data": {
+    "capabilities": "breenoconfig/double_click_lock_screen_capabilities.json"
+  }
+}

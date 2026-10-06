@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-files-path name="HLog_file" path="HeyTap/HLog_file" />
+    <external-cache-path name="external_cache_HLog_file" path="HeyTap/HLog_file" />
+    <cache-path name="cache_HLog_file" path="HeyTap/HLog_file" />
+    <files-path name="files_HLog_file" path="HeyTap/HLog_file" />
+</paths>

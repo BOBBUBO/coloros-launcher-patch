@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/batch_app_drawer_tips_add" android:enabled="false" android:id="@id/add_tips" android:title="@string/drawer_add_app_to_launcher" />
+    <item android:icon="@drawable/batch_app_drawer_tips_delete" android:id="@id/uninstall_tips" android:title="@string/uninstall_action" />
+</menu>

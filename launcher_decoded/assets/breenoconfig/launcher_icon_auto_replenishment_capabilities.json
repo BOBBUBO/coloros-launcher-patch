@@ -1,0 +1,141 @@
+{
+  "invokeCaps": [
+    {
+      "id": "1001006",
+      "key": "com.android.launcher.open_launcher_icon_auto_replenishment",
+      "packageName": "com.android.launcher",
+      "name": "打开图标自动补位",
+      "version": "1.0.2",
+      "versionCode": "1000002",
+      "tags": [
+        "设置",
+        "图标自动补位"
+      ],
+      "description": "图标自动补位属于开关类设置项，主要功能是当桌面图标出现空缺位置时，图标会自动补齐空缺位置。打开图标自动补位是图标自动补位设置项的一个具体操作指令，主要用于打开图标补位功能后，桌面可以自动当前页面的空格。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_MESSENGER",
+          "attributes": {
+            "msgWhat": "2",
+            "packageName": "com.android.launcher",
+            "className": "com.android.launcher.breeno.LauncherBreenoService",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "1"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你打开图标自动补位开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你打开图标自动补位开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001010",
+      "key": "com.android.launcher.close_launcher_icon_auto_replenishment",
+      "packageName": "com.android.launcher",
+      "name": "关闭图标自动补位",
+      "version": "1.0.2",
+      "versionCode": "1000002",
+      "tags": [
+        "设置",
+        "图标自动补位"
+      ],
+      "description": "图标自动补位属于开关类设置项，主要功能是桌面有空白区域时，桌面不会自动填充空缺位置，维持原样。关闭图标自动补位是图标自动补位设置项的一个具体操作指令，主要用于关闭图标自动补位功能时，桌面当前页面的空格不会自动补齐。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_MESSENGER",
+          "attributes": {
+            "msgWhat": "2",
+            "packageName": "com.android.launcher",
+            "className": "com.android.launcher.breeno.LauncherBreenoService",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "2"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你关闭锁定桌面开关。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你关闭锁定桌面开关。"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "1001011",
+      "key": "com.android.launcher.set_launcher_icon_auto_replenishment",
+      "packageName": "com.android.launcher",
+      "name": "设置图标自动补位",
+      "version": "1.0.2",
+      "versionCode": "1000002",
+      "tags": [
+        "设置",
+        "图标自动补位"
+      ],
+      "description": "图标自动补位属于页面类设置项，主要功能是当开关开启时桌面有空白区域时，桌面不会自动填充空缺位置，维持原样。设置图标自动补位是图标自动补位设置项的一个具体操作指令，主要用于跳转到图标自动补位设置页面，帮助用户调整功能开启或关闭。",
+      "invoke": {
+        "protocol": {
+          "type": "ApiProxy",
+          "apiType": "ANDROID_MESSENGER",
+          "attributes": {
+            "msgWhat": "2",
+            "packageName": "com.android.launcher",
+            "className": "com.android.launcher.breeno.LauncherBreenoService",
+            "extras": [
+              {
+                "key": "switch_action_value",
+                "type": "int32",
+                "value": "3"
+              }
+            ],
+            "permission": "com.oplus.permission.safe.ASSISTANT",
+            "response": [
+              {
+                "key": "apiproxy_biz_text",
+                "type": "string",
+                "value": "好的，已为你跳转锁定桌面设置项。"
+              },
+              {
+                "key": "apiproxy_biz_tts",
+                "type": "string",
+                "value": "好的，已为你跳转锁定桌面设置项。"
+              },
+              {
+                "key": "deep_link",
+                "type": "string",
+                "value": "launcher://LauncherSettings"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

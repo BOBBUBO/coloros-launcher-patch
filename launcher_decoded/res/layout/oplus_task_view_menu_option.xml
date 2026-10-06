@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@style/PopupItem" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/oplus_system_shortcut_background_selector" android:layout_width="match_parent" android:layout_height="@dimen/color_task_view_menu_option_item_height" android:maxWidth="@dimen/color_menu_option_max_width" android:minWidth="@dimen/color_menu_option_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/color_menu_option_text_size" android:textColor="@color/menu_item_content_normal" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/color_menu_option_text_max_width" android:singleLine="true" android:includeFontPadding="true" android:shadowRadius="0.0" android:textAlignment="viewStart" android:layout_marginStart="@dimen/color_menu_option_text_margin_start" android:layout_marginEnd="@dimen/color_menu_option_text_margin_end" android:defaultFocusHighlightEnabled="false" />
+</LinearLayout>

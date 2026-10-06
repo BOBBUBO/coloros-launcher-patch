@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/art_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/art_layout1" android:background="@drawable/coui_list_selector_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="75.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingEnd="16.0dp">
+            <TextView android:textSize="16.0sp" android:textColor="@color/ux_txt_black" android:ellipsize="end" android:id="@id/art_text" android:layout_width="222.32999dp" android:layout_height="wrap_content" android:text="@string/icon_art_plus" android:maxLines="2" android:fontFamily="sans-serif-medium" android:textDirection="locale" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/ux_text_black_alpha_55" android:ellipsize="end" android:id="@id/art_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.5dp" android:text="@string/icon_art_plus_description" android:textDirection="locale" android:layout_marginEnd="40.0dp" />
+        </LinearLayout>
+        <com.coui.appcompat.couiswitch.COUISwitch android:id="@id/art_switch" android:focusable="true" android:clickable="true" android:layout_width="36.0dp" android:layout_height="22.0dp" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="@color/ux_oplus_preference_divider" android:layout_width="match_parent" android:layout_height="0.33000004dp" android:layout_marginTop="1.0dp" android:layout_marginHorizontal="@dimen/ux_panel_margin_horizontal" android:forceDarkAllowed="false" />
+</LinearLayout>

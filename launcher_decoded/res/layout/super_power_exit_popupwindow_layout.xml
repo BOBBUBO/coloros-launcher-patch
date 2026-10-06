@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/power_dialog_background_color" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/view_exit_lowBattery_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg_super_power_exit_popupwindow" android:paddingTop="@dimen/dp_24" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_16" android:layout_marginRight="@dimen/dp_16">
+        <TextView android:textSize="@dimen/dp_16" android:textStyle="bold" android:textColor="@color/power_dialog_text_color" android:gravity="center_horizontal" android:paddingLeft="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/super_power_save_lowBattary_exit_mode" />
+        <TextView android:textSize="@dimen/dp_14" android:textColor="@color/power_dialog_text_color" android:gravity="start" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_16" android:text="@string/super_power_save_lowBattary_exit_tips" android:textDirection="anyRtl" />
+        <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dp" android:paddingRight="10.0dp" android:layout_width="match_parent" android:layout_height="@dimen/dp_50" android:layout_marginTop="@dimen/dp_10">
+            <TextView android:textSize="@dimen/dp_14" android:textStyle="bold" android:textColor="@color/power_dialog_button_color" android:gravity="center_horizontal" android:id="@id/lowBattery_cancel" android:paddingTop="10.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/deep_clear_dialog_cancel" android:layout_weight="1.0" />
+            <View android:id="@id/divider" android:background="@color/power_dialog_line_color" android:layout_width="0.5dp" android:layout_height="20.0dp" android:layout_marginTop="10.0dp" />
+            <TextView android:textSize="@dimen/dp_14" android:textStyle="bold" android:textColor="@color/power_dialog_button_color" android:gravity="center_horizontal" android:id="@id/lowBattery_exit" android:paddingTop="10.0dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/super_power_save_exit" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view_exit_lowBattery_cancel1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>

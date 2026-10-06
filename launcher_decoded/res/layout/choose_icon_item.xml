@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@null" android:paddingLeft="@dimen/choose_icon_padding_leftright" android:paddingTop="@dimen/choose_icon_padding_topbottom" android:paddingRight="@dimen/choose_icon_padding_leftright" android:paddingBottom="@dimen/choose_icon_padding_topbottom" android:layout_width="@dimen/choose_icon_layout_width" android:layout_height="@dimen/choose_icon_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.uxicon.ui.ui.UxSelectableView android:layout_gravity="center_horizontal" android:id="@id/iv_selectable_icon" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

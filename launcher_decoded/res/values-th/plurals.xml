@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d วันที่แล้ว</item>
+        <item quantity="other">%d วันที่แล้ว</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d นาทีที่แล้ว</item>
+        <item quantity="other">%d นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d ปีที่แล้ว</item>
+        <item quantity="other">%d ปีที่แล้ว</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">สามารถเพิ่มวิดเจ็ตที่เหมือนกันได้ไม่เกิน %1$d รายการ</item>
+        <item quantity="other">สามารถเพิ่มวิดเจ็ตที่เหมือนกันได้ไม่เกิน %1$d รายการ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">หน้า %1$d จาก %2$d</item>
+        <item quantity="other">หน้า %1$d จาก %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">แอปนี้จะหายไปจากหน้าจอหลัก แต่จะเก็บไว้ในแถบรายการแอป</item>
+        <item quantity="other">แอปที่เลือกไว้จะหายไปจากหน้าจอหลัก แต่จะเก็บไว้ในแถบรายการแอป</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">ต้องการลบ %d แอปใช่หรือไม่</item>
+        <item quantity="other">ต้องการลบ %d แอปใช่หรือไม่</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">แอปที่เลือกไว้จะหายไปจากหน้าจอหลัก แต่จะเก็บไว้ในแถบรายการแอป ระบบจะลบทางลัดที่เลือกออก</item>
+        <item quantity="other">แอปที่เลือกไว้จะหายไปจากหน้าจอหลัก แต่จะเก็บไว้ในแถบรายการแอป ระบบจะลบทางลัดที่เลือกออก</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">ลบแอปหรือทางลัดที่เลือกไว้ออก %d รายการใช่หรือไม่</item>
+        <item quantity="other">ลบแอปหรือทางลัดที่เลือกไว้ออก %d รายการใช่หรือไม่</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">ลบทางลัด %1$d รายการด้านล่างหรือไม่</item>
+        <item quantity="other">ลบทางลัด %1$d รายการด้านล่างหรือไม่</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">ลบทางลัด %1$d รายการ</item>
+        <item quantity="other">ลบทางลัด %1$d รายการ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">การแจ้งเตือนใหม่ %d รายการ</item>
+        <item quantity="other">การแจ้งเตือนใหม่ %d รายการ</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d รายการ เลือกไว้</item>
+        <item quantity="other">เลือกไว้ %1$d รายการ</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d วัน</item>
+        <item quantity="other">%1$d วัน</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d การแจ้งเตือนรายการใหม่</item>
+        <item quantity="other">%d การแจ้งเตือนรายการใหม่</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d คอลัมน์</item>
+        <item quantity="other">%1$d คอลัมน์</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">ถอนการติดตั้งแอป %1$d รายการด้านล่างหรือไม่</item>
+        <item quantity="other">ถอนการติดตั้งแอป %1$d รายการด้านล่างหรือไม่</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">ถอนการติดตั้ง %1$d แอพ (รวมทั้งโคลนของแอพด้วย) แล้วล้างข้อมูลของแอพ</item>
+        <item quantity="other">ถอนการติดตั้ง %1$d แอพ (รวมทั้งโคลนของแอพด้วย) แล้วล้างข้อมูลของแอพเหล่านั้น</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">ถอนการติดตั้ง %1$d แอพแล้วล้างข้อมูลในแอพ</item>
+        <item quantity="other">ถอนการติดตั้ง %1$d แอพแล้วล้างข้อมูลในแอพ</item>
+    </plurals>
+</resources>

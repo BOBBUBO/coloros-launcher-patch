@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="26.0dp" android:width="100.0dp" android:viewportWidth="100.0" android:viewportHeight="26.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="dotParent" android:pivotX="50.0" android:pivotY="13.0">
+        <group android:name="leftDot">
+            <path android:fillColor="#000000" android:pathData="M50,10.5L50,10.5A2.5,2.5 0,0 1,52.5 13L52.5,13A2.5,2.5 0,0 1,50 15.5L50,15.5A2.5,2.5 0,0 1,47.5 13L47.5,13A2.5,2.5 0,0 1,50 10.5z" />
+        </group>
+        <group android:name="middleDot">
+            <path android:fillColor="#000000" android:pathData="M50,10.5L50,10.5A2.5,2.5 0,0 1,52.5 13L52.5,13A2.5,2.5 0,0 1,50 15.5L50,15.5A2.5,2.5 0,0 1,47.5 13L47.5,13A2.5,2.5 0,0 1,50 10.5z" />
+        </group>
+        <group android:name="rightDot">
+            <path android:fillColor="#000000" android:pathData="M50,10.5L50,10.5A2.5,2.5 0,0 1,52.5 13L52.5,13A2.5,2.5 0,0 1,50 15.5L50,15.5A2.5,2.5 0,0 1,47.5 13L47.5,13A2.5,2.5 0,0 1,50 10.5z" />
+        </group>
+    </group>
+</vector>

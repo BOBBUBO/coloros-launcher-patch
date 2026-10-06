@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d दिन पहले</item>
+        <item quantity="other">%d दिन पहले</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d मिनट पहले</item>
+        <item quantity="other">%d मिनट पहले</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d साल पहले</item>
+        <item quantity="other">%d साल पहले</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d से अधिक, एक जैसा विजेट नहीं जोड़ा जा सकता है</item>
+        <item quantity="other">%1$d से अधिक, एक जैसे विजेट नहीं जोड़े जा सकते हैं</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%2$d का %1$d पेज</item>
+        <item quantity="other">%2$d का %1$d पेज</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">यह ऐप होम स्क्रीन से गायब हो जाएगा, लेकिन ऐप दराज में रखा जाएगा।</item>
+        <item quantity="other">चयनित ऐप होम स्क्रीन से गायब हो जाएंगे, लेकिन ऐप दराज में रखे जाएंगे।</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d ऐप निकालें?</item>
+        <item quantity="other">%d ऐप निकालें?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">चयनित ऐप होम स्क्रीन से गायब हो जाएंगे, लेकिन ऐप दराज में रखे जाएंगे। चयनित शॉर्टकट्स हटा दिए जाएंगे।</item>
+        <item quantity="other">चयनित ऐप होम स्क्रीन से गायब हो जाएंगे, लेकिन ऐप दराज में रखे जाएंगे। चयनित शॉर्टकट्स हटा दिए जाएंगे।</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">चुना गया %d ऐप या शॉर्टकट निकालें?</item>
+        <item quantity="other">चुना गये %d ऐप या शॉर्टकट निकालें?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">नीचे दिया %1$d शॉर्टकट निकालें?</item>
+        <item quantity="other">नीचे दिए %1$d शॉर्टकट निकालें?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d शॉर्टकट निकालें</item>
+        <item quantity="other">%1$d शॉर्टकट निकालें</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d नई सूचनाएं</item>
+        <item quantity="other">%d नई सूचनाएं</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d चयनित</item>
+        <item quantity="other">%1$d चयनित</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d दिन</item>
+        <item quantity="other">%1$d दिन</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d नई सूचना</item>
+        <item quantity="other">%d नई सूचनाएँ</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d कॉलम</item>
+        <item quantity="other">%1$d कॉलम</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">नीचे दिया %1$d ऐप अनइंस्टॉल करें?</item>
+        <item quantity="other">नीचे दिए %1$d ऐप अनइंस्टॉल करें?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d ऐप (उसके क्लोन सहित) को अनइंस्टॉल करें और उसका डेटा साफ करें।</item>
+        <item quantity="other">%1$d ऐप (उनके क्लोनों सहित) को अनइंस्टॉल करें और उनका डेटा साफ करें।</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d ऐप को अनइंस्टॉल करके उसका डेटा साफ करें।</item>
+        <item quantity="other">%1$d ऐप को अनइंस्टॉल करके उनका डेटा साफ करें।</item>
+    </plurals>
+</resources>

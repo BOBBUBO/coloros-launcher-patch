@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/img" android:layout_width="@dimen/drawer_search_empty_img_width" android:layout_height="@dimen/drawer_search_empty_img_height" android:forceDarkAllowed="false" />
+    <TextView android:textSize="@dimen/drawer_app_guide_card_summary_text_size" android:textColor="@color/drawer_search_empty_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_text" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:fontFamily="OPPOSans 2.14 NoVF" />
+</LinearLayout>

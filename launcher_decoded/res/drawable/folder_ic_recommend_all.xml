@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="25.0dp" android:width="25.0dp" android:viewportWidth="25.0" android:viewportHeight="25.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/recommend_dialog_icon_color" android:pathData="M14.733,9.193H19.085C20.463,9.193 21.428,10.555 20.972,11.855L18.777,18.107C18.355,19.309 17.22,20.113 15.946,20.113H8.19V9.016L11.598,4.045C11.935,3.554 12.491,3.261 13.086,3.261C14.11,3.261 14.929,4.111 14.889,5.134L14.733,9.193ZM7.2,9.193H5.932C4.827,9.193 3.932,10.088 3.932,11.193V18.113C3.932,19.218 4.827,20.113 5.932,20.113H7.2V9.193Z" android:fillType="evenOdd" />
+</vector>

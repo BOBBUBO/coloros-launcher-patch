@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/add_item_panel_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_horizontal" android:id="@id/widget_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/add_item_description_text_size" android:textColor="@color/coui_color_label_primary" android:gravity="center_horizontal" android:id="@id/text_add_item" android:paddingLeft="@dimen/add_item_description_text_padding" android:paddingRight="@dimen/add_item_description_text_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/add_item_request_drag_hint" />
+        <com.android.launcher3.dragndrop.LivePreviewWidgetCell android:gravity="center" android:orientation="horizontal" android:id="@id/widget_cell" android:focusable="true" android:layout_width="wrap_content" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/text_add_item" app:layout_constraintVertical_bias="1.0">
+            <include layout="@layout/add_item_widget_cell_content" />
+        </com.android.launcher3.dragndrop.LivePreviewWidgetCell>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d కంటే ఎక్కువ గుర్తింపు విడ్జెట్‌ని జోడించలేరు</item>
+        <item quantity="other">%1$d కంటే ఎక్కువ గుర్తింపు విడ్జెట్‌లను జోడించలేరు</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">పేజీ %1$d లో %2$d</item>
+        <item quantity="other">పేజీ %1$d లో %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">ఈ యాప్ హోమ్ స్క్రీన్‌లో కనిపించదు కాని యాప్ డ్రాయర్‌లో ఉంటుంది.</item>
+        <item quantity="other">ఎంచుకున్న యాప్‌లు హోమ్ స్క్రీన్‌లో కనిపించవు కాని యాప్ డ్రాయర్‌లో ఉంటాయి.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d యాప్‌ను తీసివేయాలా?</item>
+        <item quantity="other">%d యాప్‌లను తీసివేయాలా?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">ఎంపిక చేసిన యాప్‌లు హోమ్ స్క్రీన్ నుండి అదృశ్యమవుతాయి కాని యాప్ డ్రాయర్‌లో ఉంటాయి. ఎంపిక చేసిన సత్వరమార్గాలు తీసివేయబడతాయి.</item>
+        <item quantity="other">ఎంపిక చేసిన యాప్‌లు హోమ్ స్క్రీన్ నుండి అదృశ్యమవుతాయి కాని యాప్ డ్రాయర్‌లో ఉంటాయి. ఎంపిక చేసిన సత్వరమార్గాలు తీసివేయబడతాయి.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">%d ఎంచుకున్న యాప్ మరియు సత్వరమార్గాన్ని తీసివేయాలా?</item>
+        <item quantity="other">%d ఎంచుకున్న యాప్‌లు మరియు సత్వరమార్గాలను తీసివేయాలా?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">దిగువ %1$d షార్ట్‌కట్‌ను తీసివేయాలా?</item>
+        <item quantity="other">దిగువ %1$d షార్ట్‌కట్‌లను తీసివేయాలా?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d షార్ట్‌కట్‌ని తీసివేయండి</item>
+        <item quantity="other">%1$d షార్ట్‌కట్‌లను తీసివేయండి</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d ఎంచుకోబడింది</item>
+        <item quantity="other">%1$d ఎంచుకోబడింది</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d రోజు</item>
+        <item quantity="other">%1$d రోజులు</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d కొత్త నోటిఫికేషన్</item>
+        <item quantity="other">%d కొత్త నోటిఫికేషన్‌లు</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d నిలువు వరుస</item>
+        <item quantity="other">%1$d నిలువు వరుసలు</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">దిగువ %1$d యాప్‌ని అన్ఇన్‌స్టాల్ చేయాలా?</item>
+        <item quantity="other">దిగువ %1$d యాప్‌లను అన్ఇన్‌స్టాల్ చేయాలా?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d యాప్‌ను అన్‌ఇన్‌స్టాల్ చేయండి (దాని క్లోన్‌తో సహా) మరియు దాని డేటాను క్లియర్ చేయండి.</item>
+        <item quantity="other">%1$d యాప్‌లను అన్‌ఇన్‌స్టాల్ చేయండి (వాటి క్లోన్‌లతో సహా) మరియు వాటి డేటాను క్లియర్ చేయండి.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d యాప్‌ని అన్‌ఇన్‌స్టాల్ చేసి, అందులోని డేటాను క్లియర్ చేయండి.</item>
+        <item quantity="other">%1$d యాప్‌లను అన్‌ఇన్‌స్టాల్ చేసి, వాటిలోని డేటాను క్లియర్ చేయండి.</item>
+    </plurals>
+</resources>

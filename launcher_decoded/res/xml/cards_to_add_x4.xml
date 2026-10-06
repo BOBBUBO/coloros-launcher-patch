@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<favorites
+  xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+    <card launcher:cardType="2" launcher:className="com.oplus.assistantscreen.card.weather.WeatherCardWidgetProvider" launcher:packageName="com.coloros.assistantscreen" launcher:screen="-2" launcher:spanX="2" launcher:spanY="2" launcher:x="0" launcher:y="0" />
+    <card launcher:cardType="7" launcher:className="com.oplus.assistantscreen.stepprovider.provider.StepCardProvider" launcher:packageName="com.coloros.assistantscreen" launcher:screen="-2" launcher:spanX="2" launcher:spanY="2" launcher:x="2" launcher:y="0" />
+</favorites>

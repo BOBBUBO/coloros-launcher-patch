@@ -1,0 +1,488 @@
+.class public abstract Lcom/android/quickstep/SwipeUpAnimationLogic$HomeAnimationFactory;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/android/quickstep/SwipeUpAnimationLogic;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x401
+    name = "HomeAnimationFactory"
+.end annotation
+
+
+# instance fields
+.field protected mAnimType:I
+
+.field final synthetic this$0:Lcom/android/quickstep/SwipeUpAnimationLogic;
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/quickstep/SwipeUpAnimationLogic;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/android/quickstep/SwipeUpAnimationLogic$HomeAnimationFactory;->this$0:Lcom/android/quickstep/SwipeUpAnimationLogic;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 p1, 0x0
+
+    iput p1, p0, Lcom/android/quickstep/SwipeUpAnimationLogic$HomeAnimationFactory;->mAnimType:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public applyTaskFullRect(Landroid/graphics/Matrix;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public calculateDrawerScrollX()I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public calculateScrollX(F)I
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public canUseWorkspaceItemView()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public abstract createActivityAnimationToHome()Lcom/android/launcher3/anim/AnimatorPlaybackController;
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+.end method
+
+.method public createToHomeAnimRecord([Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;Lcom/android/quickstep/util/animation/AnimationRecord;ZZLcom/oplus/quickstep/integration/IconSurfaceInfoWrapper;)Lcom/android/quickstep/util/animation/AnimationRecord;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public forceEndAnim()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public getAnimRecord()Lcom/android/quickstep/util/animation/AnimationRecord;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public getCardAnimRadius(Landroid/content/res/Resources;)I
+    .locals 0
+
+    iget-object p0, p0, Lcom/android/quickstep/SwipeUpAnimationLogic$HomeAnimationFactory;->this$0:Lcom/android/quickstep/SwipeUpAnimationLogic;
+
+    iget-object p1, p0, Lcom/android/quickstep/SwipeUpAnimationLogic;->mContext:Landroid/content/Context;
+
+    iget-object p0, p0, Lcom/android/quickstep/SwipeUpAnimationLogic;->mDp:Lcom/android/launcher3/DeviceProfile;
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->icon()Lcom/android/launcher/layoutparam/IconParam;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lcom/android/launcher/layoutparam/IconParam;->getIconSizePx()I
+
+    move-result p0
+
+    int-to-float p0, p0
+
+    invoke-static {p1, p0}, Lcom/android/common/util/IconUtils;->getBigFolderOrCardRadius(Landroid/content/Context;F)F
+
+    move-result p0
+
+    float-to-int p0, p0
+
+    return p0
+.end method
+
+.method public getEndRadius(Landroid/graphics/RectF;)F
+    .locals 0
+
+    invoke-virtual {p1}, Landroid/graphics/RectF;->width()F
+
+    move-result p0
+
+    const/high16 p1, 0x40000000    # 2.0f
+
+    div-float/2addr p0, p1
+
+    return p0
+.end method
+
+.method public getIsDisappear()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public getWindowAlpha(F)F
+    .locals 7
+
+    const/4 p0, 0x0
+
+    cmpg-float v0, p1, p0
+
+    if-gtz v0, :cond_0
+
+    const/high16 p0, 0x3f800000    # 1.0f
+
+    return p0
+
+    :cond_0
+    const v0, 0x3f59999a    # 0.85f
+
+    cmpl-float v0, p1, v0
+
+    if-ltz v0, :cond_1
+
+    return p0
+
+    :cond_1
+    const/4 v5, 0x0
+
+    sget-object v6, Lcom/android/launcher3/anim/Interpolators;->ACCEL_1_5:Landroid/view/animation/Interpolator;
+
+    const/4 v2, 0x0
+
+    const v3, 0x3f59999a    # 0.85f
+
+    const/high16 v4, 0x3f800000    # 1.0f
+
+    move v1, p1
+
+    invoke-static/range {v1 .. v6}, Lcom/android/launcher3/Utilities;->mapToRange(FFFFFLandroid/view/animation/Interpolator;)F
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public getWindowTargetRect()Landroid/graphics/RectF;
+    .locals 5
+    .annotation build Landroidx/annotation/NonNull;
+    .end annotation
+
+    iget-object v0, p0, Lcom/android/quickstep/SwipeUpAnimationLogic$HomeAnimationFactory;->this$0:Lcom/android/quickstep/SwipeUpAnimationLogic;
+
+    invoke-virtual {v0}, Lcom/android/quickstep/SwipeUpAnimationLogic;->getOrientationHandler()Lcom/android/launcher3/touch/PagedOrientationHandler;
+
+    move-result-object v0
+
+    iget-object p0, p0, Lcom/android/quickstep/SwipeUpAnimationLogic$HomeAnimationFactory;->this$0:Lcom/android/quickstep/SwipeUpAnimationLogic;
+
+    iget-object p0, p0, Lcom/android/quickstep/SwipeUpAnimationLogic;->mDp:Lcom/android/launcher3/DeviceProfile;
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->icon()Lcom/android/launcher/layoutparam/IconParam;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lcom/android/launcher/layoutparam/IconParam;->getIconSizePx()I
+
+    move-result v1
+
+    div-int/lit8 v1, v1, 0x2
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->config()Lcom/android/launcher/layoutparam/ConfigParam;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Lcom/android/launcher/layoutparam/ConfigParam;->getAvailableWidthPx()I
+
+    move-result v2
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->config()Lcom/android/launcher/layoutparam/ConfigParam;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/android/launcher/layoutparam/ConfigParam;->getAvailableHeightPx()I
+
+    move-result v3
+
+    invoke-interface {v0, v2, v3}, Lcom/android/launcher3/touch/PagedOrientationHandler;->getPrimaryValue(II)I
+
+    move-result v2
+
+    int-to-float v2, v2
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->config()Lcom/android/launcher/layoutparam/ConfigParam;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lcom/android/launcher/layoutparam/ConfigParam;->getAvailableWidthPx()I
+
+    move-result v3
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->config()Lcom/android/launcher/layoutparam/ConfigParam;
+
+    move-result-object v4
+
+    invoke-virtual {v4}, Lcom/android/launcher/layoutparam/ConfigParam;->getAvailableHeightPx()I
+
+    move-result v4
+
+    invoke-interface {v0, v3, v4}, Lcom/android/launcher3/touch/PagedOrientationHandler;->getSecondaryValue(II)I
+
+    move-result v0
+
+    int-to-float v0, v0
+
+    const/high16 v3, 0x40000000    # 2.0f
+
+    div-float/2addr v2, v3
+
+    invoke-virtual {p0}, Lcom/android/launcher3/DeviceProfile;->hotseat()Lcom/android/launcher/layoutparam/HotseatParam;
+
+    move-result-object p0
+
+    invoke-virtual {p0}, Lcom/android/launcher/layoutparam/HotseatParam;->getHotseatBarSizePx()I
+
+    move-result p0
+
+    int-to-float p0, p0
+
+    sub-float/2addr v0, p0
+
+    new-instance p0, Landroid/graphics/RectF;
+
+    int-to-float v1, v1
+
+    sub-float v3, v2, v1
+
+    sub-float v4, v0, v1
+
+    add-float/2addr v2, v1
+
+    add-float/2addr v0, v1
+
+    invoke-direct {p0, v3, v4, v2, v0}, Landroid/graphics/RectF;-><init>(FFFF)V
+
+    return-object p0
+.end method
+
+.method public getWorkspaceView()Landroid/view/View;
+    .locals 0
+    .annotation runtime Ljavax/annotation/Nullable;
+    .end annotation
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public isAS1x2QueryCard()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isBreenoIndicator()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isCard()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isDisableReturnToViewPosition()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isDrawerIcon()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isFolder()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isMorphIcon()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isOnePlusTwoCard()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isReverseEnable()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isViewSupportAsync()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public isWidget()Z
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public onCancel(I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onEnd(I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public onStart()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public playAtomicAnimation(F)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public playClientContentAnim([Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setAnimType(I)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setAnimation(Lcom/android/quickstep/util/RectFSpringAnim;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public setAnimation(Lcom/android/quickstep/util/animation/CustomRectFSpringAnim;)V
+    .locals 0
+
+    .line 2
+    return-void
+.end method
+
+.method public setDisableReturnToViewPosition(Z)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setHotseatClosingAppForTaskbar()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public setReverseDisable(Z)V
+    .locals 0
+
+    return-void
+.end method
+
+.method public update(FFLandroid/graphics/RectF;FFLjava/util/function/Supplier;Ljava/util/function/Supplier;Z)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(FF",
+            "Landroid/graphics/RectF;",
+            "FF",
+            "Ljava/util/function/Supplier<",
+            "Ljava/lang/Boolean;",
+            ">;",
+            "Ljava/util/function/Supplier<",
+            "Ljava/lang/Boolean;",
+            ">;Z)V"
+        }
+    .end annotation
+
+    .line 1
+    return-void
+.end method
+
+.method public update(Landroid/graphics/RectF;FF)V
+    .locals 0
+
+    .line 2
+    return-void
+.end method
+
+.method public updateIconLayer(Landroid/graphics/RectF;Lcom/android/quickstep/util/animation/RectTransformHelper$TransformParams;Lcom/android/quickstep/util/SurfaceTransaction;)V
+    .locals 0
+
+    return-void
+.end method

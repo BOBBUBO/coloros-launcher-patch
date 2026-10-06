@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.coui.appcompat.cardlist.COUICardListSelectedItemLayout android:orientation="vertical" android:paddingTop="@dimen/dp_32" android:paddingBottom="@dimen/dp_24" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/launcher_setting_start_up_speed_introduction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_32" android:layout_marginEnd="@dimen/dp_32">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/comfortable_speed_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0">
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/start_up_speed_guide_comfortable_animation" android:layout_width="match_parent" android:layout_height="@dimen/launcher_model_anim_height" android:scaleType="fitCenter" android:adjustViewBounds="true" android:forceDarkAllowed="false" />
+            <TextView android:textSize="@dimen/mode_title_size" android:textColor="@color/mode_common_description" android:gravity="center_horizontal" android:id="@id/tv_comfortable_speed" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_marginTop="@dimen/dp_24" android:text="@string/moderate" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/checkbox_comfortable" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/efficiency_speed_layout" android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/dp_24">
+            <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center_horizontal" android:id="@id/start_up_speed_guide_efficiency_animation" android:layout_width="match_parent" android:layout_height="@dimen/launcher_model_anim_height" android:scaleType="fitCenter" android:adjustViewBounds="true" android:forceDarkAllowed="false" />
+            <TextView android:textSize="@dimen/mode_title_size" android:textColor="@color/mode_common_description" android:gravity="center_horizontal" android:id="@id/tv_efficiency_speed" android:layout_width="wrap_content" android:layout_height="0.0dp" android:layout_marginTop="@dimen/dp_24" android:text="@string/enhance" android:layout_weight="1.0" />
+            <RadioButton android:id="@id/checkbox_efficiency" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_8" />
+        </LinearLayout>
+    </LinearLayout>
+</com.coui.appcompat.cardlist.COUICardListSelectedItemLayout>

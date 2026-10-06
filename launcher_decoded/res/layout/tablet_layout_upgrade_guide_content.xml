@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/coui_transparence" android:paddingBottom="@dimen/dp_24" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tablet_upgrade_imageview" android:layout_width="match_parent" android:layout_height="@dimen/tablet_upgrade_guide_container_imageview_height10x6" android:layout_marginLeft="63.0dp" android:layout_marginTop="27.0dp" android:layout_marginRight="63.0dp" android:scaleType="fitXY" />
+    <com.coui.appcompat.dialog.widget.COUIDialogTitle android:id="@id/tablet_upgrade_title" android:layout_marginLeft="@dimen/dp_24" android:layout_marginTop="51.0dp" android:layout_marginRight="@dimen/dp_24" style="@style/COUIAlertDialogTitleStyle" />
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/dp_12" android:fillViewport="true">
+        <com.coui.appcompat.dialog.widget.COUIAlertDialogMessageView android:textColor="?couiColorSecondNeutral" android:id="@id/tablet_upgrade_message" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/COUIAlertDialogMessageStyle" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

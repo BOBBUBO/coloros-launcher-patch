@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d일 전</item>
+        <item quantity="other">%d일 전</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d분 전</item>
+        <item quantity="other">%d분 전</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d년 전</item>
+        <item quantity="other">%d년 전</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="other">동일한 위젯을 %1$d개 이상 추가할 수 없습니다</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="other">%1$d/%2$d페이지</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="other">선택한 앱은 홈 화면에서는 사라지지만 앱 서랍에는 보관됩니다.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="other">%d개 앱을 제거할까요?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="other">선택한 앱은 홈 화면에서는 사라지지만 앱 서랍에는 보관됩니다. 선택한 바로가기는 제거됩니다.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="other">%d 선택한 앱 또는 단축키를 제거할까요?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="other">아래 %1$d 단축키를 제거하시겠습니까?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="other">%1$d개 단축키 제거</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">새 알림 %d개</item>
+        <item quantity="other">새 알림 %d개</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="other">%1$d개 선택됨</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="other">%1$d일</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="other">%d개 새 알림</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="other">%1$d열</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="other">아래 %1$d 앱을 제거하시겠습니까?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="other">%1$d개의 앱(앱 복제본 포함)을 제거하고 해당 데이터를 지웁니다.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="other">%1$d개 앱을 제거하고 해당 데이터를 지웁니다.</item>
+    </plurals>
+</resources>

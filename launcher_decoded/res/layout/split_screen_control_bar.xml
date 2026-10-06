@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="top" android:orientation="horizontal" android:id="@id/split_screen_control_container" android:focusable="false" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent" android:forceDarkAllowed="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/split_screen_control_bar_bg" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/split_screen_control_bar_bg" android:scaleType="fitXY" android:alpha="0.0" />
+    <ImageButton android:layout_gravity="center_horizontal" android:id="@id/split_screen_control_bar" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/split_screen_control_bar_icon" android:contentDescription="@string/oplus_split_control_bar_hint" />
+</FrameLayout>

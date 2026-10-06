@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">ေရွာ့ကတ္ %1$d ခုကို ဖယ္ရွားရန္</item>
+        <item quantity="other">ေရွာ့ကတ္ %1$d ခုကို ဖယ္ရွားရန္</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d ခု ေရြးထား</item>
+        <item quantity="other">%1$d ခု ေရြးထား</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">အက္ပ္ %1$d ခု (၎၏ ကလုန္းမ်ား အပါအဝင္) ကို ျဖဳတ္ခ်ၿပီး ၎၏ ေဒတာကို ရွင္းလင္းပါ။</item>
+        <item quantity="other">အက္ပ္ %1$d ခု (၎တို႔၏ ကလုန္းမ်ား အပါအဝင္) ကို ျဖဳတ္ခ်ၿပီး ၎တို႔၏ ေဒတာကို ရွင္းလင္းပါ။</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">အက္ပ္ %1$d ခုကို ျဖဳတ္ခ်၍ ၎၏ ေဒတာကို ရွင္းလင္းပါ။</item>
+        <item quantity="other">အက္ပ္ %1$d ခုကို ျဖဳတ္ခ်၍ ၎၏ ေဒတာကို ရွင္းလင္းပါ။</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center" android:id="@id/img" android:layout_width="@dimen/super_power_empty_img_size" android:layout_height="@dimen/super_power_empty_img_size" android:layout_marginTop="@dimen/super_power_empty_img_margin_top" />
+    <TextView android:textSize="@dimen/app_guide_card_summary_text_size" android:textColor="@color/search_empty_text_color" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/all_apps_no_search_results" android:layout_centerHorizontal="true" android:fontFamily="OPPOSans 2.14 NoVF" />
+</LinearLayout>

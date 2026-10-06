@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">%1$d ಗಿಂತ ಹೆಚ್ಚಿನ ಒಂದೇ ರೀತಿಯ ವಿಜೆಟ್ ಅನ್ನು ಸೇರಿಸಲಾಗುವುದಿಲ್ಲ</item>
+        <item quantity="other">%1$d ಗಿಂತ ಹೆಚ್ಚಿನ ಒಂದೇ ರೀತಿಯ ವಿಜೆಟ್‍ಗಳನ್ನು ಸೇರಿಸಲಾಗುವುದಿಲ್ಲ</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">ಪುಟ %2$d ರಲ್ಲಿ %1$d</item>
+        <item quantity="other">ಪುಟ %2$d ರಲ್ಲಿ %1$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">ಈ ಆ್ಯಪ್ ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನಿಂದ ಕಣ್ಮರೆಯಾಗುತ್ತದೆ ಆದರೆ ಆ್ಯಪ್ ಡ್ರಾಯರ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತದೆ.</item>
+        <item quantity="other">ಆಯ್ಕೆಮಾಡಿದ ಆ್ಯಪ್‌ಗಳು ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನಿಂದ ಕಣ್ಮರೆಯಾಗುತ್ತವೆ ಆದರೆ ಆ್ಯಪ್ ಡ್ರಾಯರ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತವೆ.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d ಆ್ಯಪ್ ಅನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</item>
+        <item quantity="other">%d ಆ್ಯಪ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">ಆಯ್ಕೆಮಾಡಿದ ಆ್ಯಪ್‌ಗಳು ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನಿಂದ ಕಣ್ಮರೆಯಾಗುತ್ತವೆ ಆದರೆ ಆ್ಯಪ್ ಡ್ರಾಯರ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತವೆ. ಆಯ್ಕೆಮಾಡಿದ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.</item>
+        <item quantity="other">ಆಯ್ಕೆಮಾಡಿದ ಆ್ಯಪ್‌ಗಳು ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ನಿಂದ ಕಣ್ಮರೆಯಾಗುತ್ತವೆ ಆದರೆ ಆ್ಯಪ್ ಡ್ರಾಯರ್‌ನಲ್ಲಿ ಇರಿಸಲಾಗುತ್ತವೆ. ಆಯ್ಕೆಮಾಡಿದ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">ಆಯ್ಕೆಮಾಡಿದ %d ಆ್ಯಪ್ ಅಥವಾ ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</item>
+        <item quantity="other">ಆಯ್ಕೆಮಾಡಿದ %d ಆ್ಯಪ್‌ಗಳು ಅಥವಾ ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">ಕೆಳಗಿನ %1$d ಶಾರ್ಟ್‌ಕಟ್ ಅನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</item>
+        <item quantity="other">ಕೆಳಗಿನ %1$d ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</item>
+        <item quantity="other">%1$d ಶಾರ್ಟ್‌ಕಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕಿ</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+        <item quantity="other">%1$d ಆಯ್ಕೆಮಾಡಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d ದಿನ</item>
+        <item quantity="other">%1$d ದಿನಗಳು</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d ಹೊಸ ಅಧಿಸೂಚನೆ</item>
+        <item quantity="other">%d ಹೊಸ ಅಧಿಸೂಚನೆಗಳು</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d ಕಾಲಂ</item>
+        <item quantity="other">%1$d ಕಾಲಂಗಳು</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">ಕೆಳಗಿನ %1$d ಅಪ್ಲಿಯನ್ನು ಅಸ್ಥಾಪಿಸುವುದೇ?</item>
+        <item quantity="other">ಕೆಳಗಿನ %1$d ಅಪ್ಲಿಗಳನ್ನು ಅಸ್ಥಾಪಿಸುವುದೇ?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d ಅಪ್ಲಿಯನ್ನು ಅಸ್ಥಾಪಿಸಿ (ಅದರ ಕ್ಲೋನ್ ಸೇರಿದಂತೆ) ಮತ್ತು ಅದರ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ.</item>
+        <item quantity="other">%1$d ಅಪ್ಲಿಗಳನ್ನು ಅಸ್ಥಾಪಿಸಿ (ಅವುಗಳ ಕ್ಲೋನ್‌ಗಳು ಸೇರಿದಂತೆ) ಮತ್ತು ಅವುಗಳ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d ಅಪ್ಲಿಯನ್ನು ಅಸ್ಥಾಪಿಸಿ ಮತ್ತು ಅದರ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ.</item>
+        <item quantity="other">%1$d ಅಪ್ಲಿಗಳನ್ನು ಅಸ್ಥಾಪಿಸಿ ಮತ್ತು ಅವುಗಳ ಡೇಟಾವನ್ನು ತೆರವುಗೊಳಿಸಿ.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Gehienez %1$d widget berdin gehi daiteke</item>
+        <item quantity="other">Gehienez %1$d widget berdin gehi daitezke</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">%1$d/%2$d orria</item>
+        <item quantity="other">%1$d/%2$d orria</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Aplikazio hau hasierako pantailatik desagertuko da, baina aplikazioen panel lerrakorrean mantenduko da.</item>
+        <item quantity="other">Hautatutako aplikazioak hasierako pantailatik desagertuko dira, baina aplikazioen panel lerrakorrean mantenduko dira.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d aplikazio kendu?</item>
+        <item quantity="other">%d aplikazio kendu?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Hautatutako aplikazioak hasierako pantailatik desagertuko dira, baina aplikazioen panel lerrakorrean mantenduko dira. Hautatutako lasterbideak kenduko dira.</item>
+        <item quantity="other">Hautatutako aplikazioak hasierako pantailatik desagertuko dira, baina aplikazioen panel lerrakorrean mantenduko dira. Hautatutako lasterbideak kenduko dira.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Kendu hautatutako %d aplikazio edo lasterbide?</item>
+        <item quantity="other">Kendu hautatutako %d aplikazio edo lasterbide?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Beheko %1$d lasterbide kendu nahi duzu?</item>
+        <item quantity="other">Beheko %1$d lasterbideak kendu nahi dituzu?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Kendu %1$d lasterbide</item>
+        <item quantity="other">Kendu %1$d lasterbide</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d hautatuta</item>
+        <item quantity="other">%1$d hautatuta</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d egun</item>
+        <item quantity="other">%1$d egun</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d jakinarazpen berri</item>
+        <item quantity="other">%d jakinarazpen berri</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d zutabe</item>
+        <item quantity="other">%1$d zutabe</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Beheko %1$d aplikazio desinstalatu nahi duzu?</item>
+        <item quantity="other">Beheko %1$d aplikazio desinstalatu nahi dituzu?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Desinstalatu %1$d aplikazio (haren klona barne) eta garbitu haren datuak.</item>
+        <item quantity="other">Desinstalatu %1$d aplikazio (haien klonak barne) eta garbitu haien datuak.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Desinstalatu %1$d aplikazio eta garbitu haren datuak.</item>
+        <item quantity="other">Desinstalatu %1$d aplikazio eta garbitu haien datuak.</item>
+    </plurals>
+</resources>

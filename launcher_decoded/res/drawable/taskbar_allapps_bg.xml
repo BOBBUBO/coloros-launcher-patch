@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/taskbar_all_apps_container_background_color" />
+    <corners android:radius="@dimen/oplus_taskbar_allapps_panel_radius" />
+    <smooth-weight android:gradientRadius="@dimen/radius_weight" />
+</shape>

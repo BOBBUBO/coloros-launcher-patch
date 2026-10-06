@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.coui.appcompat.scrollview.COUINestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.oplus.uxicon.ui.view.MeasureMultiLineWidthTextView android:textSize="12.0sp" android:layout_gravity="center_horizontal" android:paddingBottom="12.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ux_edit_panel_content" android:layout_marginStart="@dimen/panel_content_margin_start" android:layout_marginEnd="@dimen/panel_content_margin_start" />
+            <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/edit_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/panel_image_margin_top" android:layout_marginStart="@dimen/panel_content_margin_start" android:layout_marginEnd="@dimen/panel_content_margin_start">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/preview_change_icon" android:background="@drawable/panel_preview_icon" android:layout_width="@dimen/panel_image_width" android:layout_height="@dimen/panel_image_width" />
+                <ImageView android:id="@id/edit_icon_button" android:background="@drawable/ic_edit_icon" android:layout_width="@dimen/edit_image_width" android:layout_height="@dimen/edit_image_width" android:layout_marginTop="@dimen/edit_icon_margin" android:layout_marginStart="@dimen/edit_icon_margin" android:forceDarkAllowed="false" />
+            </FrameLayout>
+            <com.coui.appcompat.edittext.COUIInputView android:textSize="16.0sp" android:id="@id/edit_app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginBottom="16.0dp" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="24.0dp" android:layout_marginEnd="24.0dp" app:couiEditLineColor="true" app:couiEnableInputCount="true" app:couiTitle="@string/ux_app_name" />
+        </LinearLayout>
+    </com.coui.appcompat.scrollview.COUINestedScrollView>
+</LinearLayout>

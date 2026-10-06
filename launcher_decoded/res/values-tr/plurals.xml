@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d gün önce</item>
+        <item quantity="other">%d gün önce</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d dk. önce</item>
+        <item quantity="other">%d dk. önce</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d yıl önce</item>
+        <item quantity="other">%d yıl önce</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">En fazla %1$d aynı widget eklenebilir</item>
+        <item quantity="other">En fazla %1$d aynı widget eklenebilir</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Sayfa %1$d / %2$d</item>
+        <item quantity="other">Sayfa %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Bu uygulama Ana ekranda görünmeyecek ancak uygulama çekmecesinde tutulacaktır.</item>
+        <item quantity="other">Seçilen uygulamalar Ana ekranda görünmeyecek ancak uygulama çekmecesinde tutulacaktır.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">%d uygulama kaldırılsın mı?</item>
+        <item quantity="other">%d uygulama kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Seçilen uygulamalar Ana ekrandan kaybolacak ancak uygulama çekmecesinde tutulacaktır. Seçilen kısayollar çıkarılacak.</item>
+        <item quantity="other">Seçilen uygulamalar Ana ekrandan kaybolacak ancak uygulama çekmecesinde tutulacaktır. Seçilen kısayollar çıkarılacak.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Seçilen %d uygulama ya da kısayol kaldırılsın mı?</item>
+        <item quantity="other">Seçilen %d uygulama ya da kısayol kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Aşağıdaki %1$d kısayol kaldırılsın mı?</item>
+        <item quantity="other">Aşağıdaki %1$d kısayol kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">%1$d kısayolu kaldır</item>
+        <item quantity="other">%1$d kısayolu kaldır</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">%1$d seçili</item>
+        <item quantity="other">%1$d seçili</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d gün</item>
+        <item quantity="other">%1$d gün</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d yeni bildirim</item>
+        <item quantity="other">%d yeni bildirim</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d sütun</item>
+        <item quantity="other">%1$d sütun</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Aşağıdaki %1$d uygulama kaldırılsın mı?</item>
+        <item quantity="other">Aşağıdaki %1$d uygulama kaldırılsın mı?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">%1$d uygulamayı (kopyası dahil) kaldırın ve verilerini temizleyin.</item>
+        <item quantity="other">%1$d uygulamayı (kopyaları dahil) kaldırın ve verilerini temizleyin.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">%1$d uygulamayı kaldır ve verisini temizle.</item>
+        <item quantity="other">%1$d uygulamayı kaldır ve verilerini temizle.</item>
+    </plurals>
+</resources>

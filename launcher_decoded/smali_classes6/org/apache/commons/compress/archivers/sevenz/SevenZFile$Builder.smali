@@ -1,0 +1,343 @@
+.class public Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+.super Lt9/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lt9/d<",
+        "Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;",
+        "Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field static final MEMORY_LIMIT_IN_KB:I = 0x7fffffff
+
+.field static final TRY_TO_RECOVER_BROKEN_ARCHIVES:Z = false
+
+.field static final USE_DEFAULTNAME_FOR_UNNAMED_ENTRIES:Z = false
+
+
+# instance fields
+.field private defaultName:Ljava/lang/String;
+
+.field private maxMemoryLimitKb:I
+
+.field private password:[B
+
+.field private seekableByteChannel:Ljava/nio/channels/SeekableByteChannel;
+
+.field private tryToRecoverBrokenArchives:Z
+
+.field private useDefaultNameForUnnamedEntries:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    invoke-direct {p0}, Lt9/d;-><init>()V
+
+    const-string v0, "unknown archive"
+
+    iput-object v0, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->defaultName:Ljava/lang/String;
+
+    const v0, 0x7fffffff
+
+    iput v0, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->maxMemoryLimitKb:I
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->useDefaultNameForUnnamedEntries:Z
+
+    iput-boolean v0, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->tryToRecoverBrokenArchives:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public asSupplier()Ljava/util/function/Supplier;
+    .locals 2
+
+    new-instance v0, Lcom/android/wm/shell/back/a;
+
+    const/4 v1, 0x1
+
+    invoke-direct {v0, p0, v1}, Lcom/android/wm/shell/back/a;-><init>(Ljava/lang/Object;I)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic get()Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p0}, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->get()Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public get()Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;
+    .locals 13
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->seekableByteChannel:Ljava/nio/channels/SeekableByteChannel;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    iget-object v3, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->defaultName:Ljava/lang/String;
+
+    :goto_0
+    move-object v5, v0
+
+    move-object v6, v3
+
+    goto :goto_1
+
+    .line 4
+    :cond_0
+    invoke-virtual {p0}, Lt9/b;->checkOrigin()Lt9/a;
+
+    move-result-object v0
+
+    instance-of v0, v0, Lt9/a$a;
+
+    if-eqz v0, :cond_1
+
+    .line 5
+    new-instance v0, Lr9/o;
+
+    invoke-virtual {p0}, Lt9/b;->checkOrigin()Lt9/a;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Lt9/a;->a()[B
+
+    move-result-object v3
+
+    invoke-direct {v0, v3}, Lr9/o;-><init>([B)V
+
+    .line 6
+    iget-object v3, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->defaultName:Ljava/lang/String;
+
+    goto :goto_0
+
+    .line 7
+    :cond_1
+    invoke-virtual {p0}, Lt9/d;->getOpenOptions()[Ljava/nio/file/OpenOption;
+
+    move-result-object v0
+
+    .line 8
+    array-length v3, v0
+
+    if-nez v3, :cond_2
+
+    .line 9
+    new-array v0, v2, [Ljava/nio/file/OpenOption;
+
+    sget-object v3, Ljava/nio/file/StandardOpenOption;->READ:Ljava/nio/file/StandardOpenOption;
+
+    aput-object v3, v0, v1
+
+    .line 10
+    :cond_2
+    invoke-virtual {p0}, Lt9/d;->getPath()Ljava/nio/file/Path;
+
+    move-result-object v3
+
+    .line 11
+    invoke-static {v3, v0}, Ljava/nio/file/Files;->newByteChannel(Ljava/nio/file/Path;[Ljava/nio/file/OpenOption;)Ljava/nio/channels/SeekableByteChannel;
+
+    move-result-object v0
+
+    .line 12
+    invoke-interface {v3}, Ljava/nio/file/Path;->toAbsolutePath()Ljava/nio/file/Path;
+
+    move-result-object v3
+
+    invoke-interface {v3}, Ljava/nio/file/Path;->toString()Ljava/lang/String;
+
+    move-result-object v3
+
+    goto :goto_0
+
+    .line 13
+    :goto_1
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->seekableByteChannel:Ljava/nio/channels/SeekableByteChannel;
+
+    if-eqz v0, :cond_3
+
+    move v8, v2
+
+    goto :goto_2
+
+    :cond_3
+    move v8, v1
+
+    .line 14
+    :goto_2
+    new-instance v0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;
+
+    iget-object v7, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->password:[B
+
+    iget v9, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->maxMemoryLimitKb:I
+
+    iget-boolean v10, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->useDefaultNameForUnnamedEntries:Z
+
+    iget-boolean v11, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->tryToRecoverBrokenArchives:Z
+
+    const/4 v12, 0x0
+
+    move-object v4, v0
+
+    invoke-direct/range {v4 .. v12}, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;-><init>(Ljava/nio/channels/SeekableByteChannel;Ljava/lang/String;[BZIZZLorg/apache/commons/compress/archivers/sevenz/SevenZFile$1;)V
+
+    return-object v0
+.end method
+
+.method public setDefaultName(Ljava/lang/String;)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    iput-object p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->defaultName:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public setMaxMemoryLimitKb(I)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    iput p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->maxMemoryLimitKb:I
+
+    return-object p0
+.end method
+
+.method public setPassword(Ljava/lang/String;)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    if-eqz p1, :cond_0
+
+    .line 3
+    invoke-virtual {p1}, Ljava/lang/String;->toCharArray()[C
+
+    move-result-object p1
+
+    invoke-static {p1}, Lorg/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder;->utf16Decode([C)[B
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    iput-object p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->password:[B
+
+    return-object p0
+.end method
+
+.method public setPassword([B)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    invoke-virtual {p1}, [B->clone()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, [B
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    iput-object p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->password:[B
+
+    return-object p0
+.end method
+
+.method public setPassword([C)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    if-eqz p1, :cond_0
+
+    .line 2
+    invoke-virtual {p1}, [C->clone()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, [C
+
+    invoke-static {p1}, Lorg/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder;->utf16Decode([C)[B
+
+    move-result-object p1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    iput-object p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->password:[B
+
+    return-object p0
+.end method
+
+.method public setSeekableByteChannel(Ljava/nio/channels/SeekableByteChannel;)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    iput-object p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->seekableByteChannel:Ljava/nio/channels/SeekableByteChannel;
+
+    return-object p0
+.end method
+
+.method public setTryToRecoverBrokenArchives(Z)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    iput-boolean p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->tryToRecoverBrokenArchives:Z
+
+    return-object p0
+.end method
+
+.method public setUseDefaultNameForUnnamedEntries(Z)Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;
+    .locals 0
+
+    iput-boolean p1, p0, Lorg/apache/commons/compress/archivers/sevenz/SevenZFile$Builder;->useDefaultNameForUnnamedEntries:Z
+
+    return-object p0
+.end method

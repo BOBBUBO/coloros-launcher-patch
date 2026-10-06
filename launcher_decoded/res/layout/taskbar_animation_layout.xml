@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.oplus.anim.EffectiveAnimationView android:layout_gravity="center|bottom" android:id="@id/animation_view" android:layout_width="@dimen/taskbar_setting_animation_view_width" android:layout_height="@dimen/taskbar_setting_animation_view_height" android:layout_marginTop="32.0dp" android:layout_marginBottom="@dimen/taskbar_setting_introduction_viewpager_margin_bottom" android:forceDarkAllowed="false" app:anim_cacheComposition="false" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/taskbar_setting_introduction_text_size" android:textStyle="normal" android:textColor="@color/layout_upgrade_guide_message_text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/guide_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dp_16" android:layout_marginEnd="@dimen/dp_16" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.views.VHRecyclerPageItemLayout android:layout_width="match_parent" android:layout_height="match_parent" launcher:screenLandScape_dividerWidth="5.0dp" launcher:screenLandScape_paddingBottom="@dimen/page_preview_item_gap" launcher:screenLandScape_paddingTop="@dimen/page_preview_item_gap" launcher:screenPortrait_dividerWidth="8.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto" />

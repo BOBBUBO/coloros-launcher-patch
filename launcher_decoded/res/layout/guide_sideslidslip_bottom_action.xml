@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher.guide.side.SideSlipGesturesGuideBottomActionPage android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:launcher="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.android.launcher.views.RoundImageView android:id="@id/side_gestures_guide_left_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_toLeftOf="@id/side_gestures_guide_image" launcher:couiHasDefaultPic="false" launcher:couiType="round" />
+        <com.android.launcher.views.RoundImageView android:id="@id/side_gestures_guide_icon" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/side_gesture_guide_back_icon" android:scaleType="centerCrop" android:alpha="0.0" launcher:couiHasDefaultPic="false" launcher:couiType="round" />
+        <com.android.launcher.views.RoundImageView android:id="@id/side_gestures_guide_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" launcher:couiHasDefaultPic="false" launcher:couiType="round" />
+        <com.android.launcher.views.RoundImageView android:id="@id/side_gestures_guide_right_image" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_toRightOf="@id/side_gestures_guide_image" launcher:couiHasDefaultPic="false" launcher:couiType="round" />
+        <com.oplus.anim.EffectiveAnimationView android:id="@id/actionGuideAnimation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:forceDarkAllowed="false" />
+    </RelativeLayout>
+</com.android.launcher.guide.side.SideSlipGesturesGuideBottomActionPage>

@@ -1,0 +1,681 @@
+.class public Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field private final backingStoreSupplier:Lq9/d;
+
+.field private compressionDoneAt:J
+
+.field private final compressionLevel:I
+
+.field private final executorService:Ljava/util/concurrent/ExecutorService;
+
+.field private final futures:Ljava/util/Deque;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Deque<",
+            "Ljava/util/concurrent/Future<",
+            "+",
+            "Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field private scatterDoneAt:J
+
+.field private final startedAt:J
+
+.field private final streams:Ljava/util/Deque;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Deque<",
+            "Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private final tlScatterStreams:Ljava/lang/ThreadLocal;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/lang/ThreadLocal<",
+            "Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Runtime;->availableProcessors()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/util/concurrent/Executors;->newFixedThreadPool(I)Ljava/util/concurrent/ExecutorService;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;-><init>(Ljava/util/concurrent/ExecutorService;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/concurrent/ExecutorService;)V
+    .locals 2
+
+    .line 2
+    new-instance v0, Lorg/apache/commons/compress/archivers/zip/DefaultBackingStoreSupplier;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lorg/apache/commons/compress/archivers/zip/DefaultBackingStoreSupplier;-><init>(Ljava/nio/file/Path;)V
+
+    invoke-direct {p0, p1, v0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;-><init>(Ljava/util/concurrent/ExecutorService;Lq9/d;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/concurrent/ExecutorService;Lq9/d;)V
+    .locals 1
+
+    const/4 v0, -0x1
+
+    .line 3
+    invoke-direct {p0, p1, p2, v0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;-><init>(Ljava/util/concurrent/ExecutorService;Lq9/d;I)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/util/concurrent/ExecutorService;Lq9/d;I)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/IllegalArgumentException;
+        }
+    .end annotation
+
+    .line 4
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 5
+    new-instance v0, Ljava/util/concurrent/ConcurrentLinkedDeque;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;-><init>()V
+
+    iput-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->streams:Ljava/util/Deque;
+
+    .line 6
+    new-instance v0, Ljava/util/concurrent/ConcurrentLinkedDeque;
+
+    invoke-direct {v0}, Ljava/util/concurrent/ConcurrentLinkedDeque;-><init>()V
+
+    iput-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->futures:Ljava/util/Deque;
+
+    .line 7
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->startedAt:J
+
+    .line 8
+    new-instance v0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$1;
+
+    invoke-direct {v0, p0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$1;-><init>(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;)V
+
+    iput-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->tlScatterStreams:Ljava/lang/ThreadLocal;
+
+    if-ltz p3, :cond_0
+
+    const/16 v0, 0x9
+
+    if-le p3, v0, :cond_1
+
+    :cond_0
+    const/4 v0, -0x1
+
+    if-ne p3, v0, :cond_2
+
+    .line 9
+    :cond_1
+    iput-object p2, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->backingStoreSupplier:Lq9/d;
+
+    .line 10
+    iput-object p1, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->executorService:Ljava/util/concurrent/ExecutorService;
+
+    .line 11
+    iput p3, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->compressionLevel:I
+
+    return-void
+
+    .line 12
+    :cond_2
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string p1, "Compression level is expected between -1~9"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public static synthetic a(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+
+    invoke-direct {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->lambda$createCallable$1(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic access$000(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;)Lq9/d;
+    .locals 0
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->backingStoreSupplier:Lq9/d;
+
+    return-object p0
+.end method
+
+.method public static synthetic access$100(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Lq9/d;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    invoke-direct {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->createDeferred(Lq9/d;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic access$200(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;)Ljava/util/Deque;
+    .locals 0
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->streams:Ljava/util/Deque;
+
+    return-object p0
+.end method
+
+.method public static synthetic b(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+
+    invoke-direct {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->lambda$createCallable$0(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static synthetic c(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Ljava/util/concurrent/Callable;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+
+    invoke-direct {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->lambda$submit$2(Ljava/util/concurrent/Callable;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method private closeAll()V
+    .locals 1
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->streams:Ljava/util/Deque;
+
+    invoke-interface {p0}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :catch_0
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    :try_start_0
+    invoke-virtual {v0}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;->close()V
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method private createDeferred(Lq9/d;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    invoke-interface {p1}, Lq9/d;->get()Lq9/c;
+
+    move-result-object p1
+
+    iget p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->compressionLevel:I
+
+    invoke-static {p0, p1}, Lorg/apache/commons/compress/archivers/zip/StreamCompressor;->create(ILq9/c;)Lorg/apache/commons/compress/archivers/zip/StreamCompressor;
+
+    move-result-object p0
+
+    new-instance v0, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    invoke-direct {v0, p1, p0}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;-><init>(Lq9/c;Lorg/apache/commons/compress/archivers/zip/StreamCompressor;)V
+
+    return-object v0
+.end method
+
+.method private synthetic lambda$createCallable$0(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->tlScatterStreams:Ljava/lang/ThreadLocal;
+
+    invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    invoke-virtual {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;->addArchiveEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;)V
+
+    return-object p0
+.end method
+
+.method private synthetic lambda$createCallable$1(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->tlScatterStreams:Ljava/lang/ThreadLocal;
+
+    invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    invoke-interface {p1}, Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;->get()Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;->addArchiveEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;)V
+
+    return-object p0
+.end method
+
+.method private synthetic lambda$submit$2(Ljava/util/concurrent/Callable;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    invoke-interface {p1}, Ljava/util/concurrent/Callable;->call()Ljava/lang/Object;
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->tlScatterStreams:Ljava/lang/ThreadLocal;
+
+    invoke-virtual {p0}, Ljava/lang/ThreadLocal;->get()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public addArchiveEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lq9/b;)V
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->createCallable(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lq9/b;)Ljava/util/concurrent/Callable;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->submitStreamAwareCallable(Ljava/util/concurrent/Callable;)V
+
+    return-void
+.end method
+
+.method public addArchiveEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)V
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->createCallable(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)Ljava/util/concurrent/Callable;
+
+    move-result-object p1
+
+    invoke-virtual {p0, p1}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->submitStreamAwareCallable(Ljava/util/concurrent/Callable;)V
+
+    return-void
+.end method
+
+.method public final createCallable(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lq9/b;)Ljava/util/concurrent/Callable;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;",
+            "Lq9/b;",
+            ")",
+            "Ljava/util/concurrent/Callable<",
+            "Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+            ">;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-virtual {p1}, Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;->getMethod()I
+
+    move-result v0
+
+    const/4 v1, -0x1
+
+    if-eq v0, v1, :cond_0
+
+    .line 2
+    invoke-static {p1, p2}, Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;->createZipArchiveEntryRequest(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lq9/b;)Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;
+
+    move-result-object p1
+
+    .line 3
+    new-instance p2, Lorg/apache/commons/compress/archivers/zip/o;
+
+    invoke-direct {p2, p0, p1}, Lorg/apache/commons/compress/archivers/zip/o;-><init>(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest;)V
+
+    return-object p2
+
+    .line 4
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    new-instance p2, Ljava/lang/StringBuilder;
+
+    const-string v0, "Method must be set on zipArchiveEntry: "
+
+    invoke-direct {p2, v0}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final createCallable(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)Ljava/util/concurrent/Callable;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;",
+            ")",
+            "Ljava/util/concurrent/Callable<",
+            "Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+            ">;"
+        }
+    .end annotation
+
+    .line 5
+    new-instance v0, Lorg/apache/commons/compress/archivers/zip/m;
+
+    invoke-direct {v0, p0, p1}, Lorg/apache/commons/compress/archivers/zip/m;-><init>(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)V
+
+    return-object v0
+.end method
+
+.method public getStatisticsMessage()Lorg/apache/commons/compress/archivers/zip/ScatterStatistics;
+    .locals 7
+
+    new-instance v0, Lorg/apache/commons/compress/archivers/zip/ScatterStatistics;
+
+    iget-wide v1, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->compressionDoneAt:J
+
+    iget-wide v3, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->startedAt:J
+
+    sub-long v3, v1, v3
+
+    iget-wide v5, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->scatterDoneAt:J
+
+    sub-long/2addr v5, v1
+
+    invoke-direct {v0, v3, v4, v5, v6}, Lorg/apache/commons/compress/archivers/zip/ScatterStatistics;-><init>(JJ)V
+
+    return-object v0
+.end method
+
+.method public final submit(Ljava/util/concurrent/Callable;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Callable<",
+            "+",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    new-instance v0, Lorg/apache/commons/compress/archivers/zip/n;
+
+    invoke-direct {v0, p0, p1}, Lorg/apache/commons/compress/archivers/zip/n;-><init>(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;Ljava/util/concurrent/Callable;)V
+
+    invoke-virtual {p0, v0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->submitStreamAwareCallable(Ljava/util/concurrent/Callable;)V
+
+    return-void
+.end method
+
+.method public final submitStreamAwareCallable(Ljava/util/concurrent/Callable;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/Callable<",
+            "+",
+            "Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+            ">;)V"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->futures:Ljava/util/Deque;
+
+    iget-object p0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->executorService:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {p0, p1}, Ljava/util/concurrent/ExecutorService;->submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+
+    move-result-object p0
+
+    invoke-interface {v0, p0}, Ljava/util/Deque;->add(Ljava/lang/Object;)Z
+
+    return-void
+.end method
+
+.method public writeTo(Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V
+    .locals 4
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;,
+            Ljava/lang/InterruptedException;,
+            Ljava/util/concurrent/ExecutionException;
+        }
+    .end annotation
+
+    :try_start_0
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->futures:Ljava/util/Deque;
+
+    invoke-interface {v0}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_0
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/concurrent/Future;
+
+    invoke-interface {v1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    goto :goto_3
+
+    :cond_0
+    :try_start_1
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->executorService:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
+
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->executorService:Ljava/util/concurrent/ExecutorService;
+
+    sget-object v1, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    const-wide/32 v2, 0xea60
+
+    invoke-interface {v0, v2, v3, v1}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->compressionDoneAt:J
+
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->futures:Ljava/util/Deque;
+
+    invoke-interface {v0}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    :goto_1
+    invoke-interface {v0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Ljava/util/concurrent/Future;
+
+    invoke-interface {v1}, Ljava/util/concurrent/Future;->get()Ljava/lang/Object;
+
+    move-result-object v1
+
+    check-cast v1, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    invoke-virtual {v1}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;->zipEntryWriter()Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream$ZipEntryWriter;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p1}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream$ZipEntryWriter;->writeNextZipEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V
+
+    goto :goto_1
+
+    :catchall_1
+    move-exception p1
+
+    goto :goto_4
+
+    :cond_1
+    iget-object p1, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->streams:Ljava/util/Deque;
+
+    invoke-interface {p1}, Ljava/util/Deque;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_2
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;
+
+    invoke-virtual {v0}, Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;->close()V
+
+    goto :goto_2
+
+    :cond_2
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->scatterDoneAt:J
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_1
+
+    invoke-direct {p0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->closeAll()V
+
+    return-void
+
+    :goto_3
+    :try_start_2
+    iget-object v0, p0, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->executorService:Ljava/util/concurrent/ExecutorService;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->shutdown()V
+
+    throw p1
+    :try_end_2
+    .catchall {:try_start_2 .. :try_end_2} :catchall_1
+
+    :goto_4
+    invoke-direct {p0}, Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;->closeAll()V
+
+    throw p1
+.end method

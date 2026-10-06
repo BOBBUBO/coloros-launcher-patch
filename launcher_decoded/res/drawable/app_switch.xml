@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="67" android:drawable="@drawable/app_switch_000" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_001" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_002" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_003" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_004" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_005" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_006" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_007" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_008" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_009" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_010" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_011" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_012" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_013" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_014" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_015" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_016" />
+    <item android:duration="67" android:drawable="@drawable/app_switch_017" />
+</animation-list>

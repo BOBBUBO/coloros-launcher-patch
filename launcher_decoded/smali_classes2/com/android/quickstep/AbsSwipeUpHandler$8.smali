@@ -1,0 +1,50 @@
+.class Lcom/android/quickstep/AbsSwipeUpHandler$8;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/android/quickstep/AbsSwipeUpHandler;->animateToProgressInternal(FFJLandroid/view/animation/Interpolator;Lcom/android/quickstep/GestureState$GestureEndTarget;Landroid/graphics/PointF;ZZ)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic this$0:Lcom/android/quickstep/AbsSwipeUpHandler;
+
+
+# direct methods
+.method public constructor <init>(Lcom/android/quickstep/AbsSwipeUpHandler;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/android/quickstep/AbsSwipeUpHandler$8;->this$0:Lcom/android/quickstep/AbsSwipeUpHandler;
+
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 0
+
+    iget-object p0, p0, Lcom/android/quickstep/AbsSwipeUpHandler$8;->this$0:Lcom/android/quickstep/AbsSwipeUpHandler;
+
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lcom/android/quickstep/AbsSwipeUpHandler;->mParallelRunningAnim:Landroid/animation/Animator;
+
+    iget-object p0, p0, Lcom/android/quickstep/AbsSwipeUpHandler;->mStateCallback:Lcom/android/quickstep/MultiStateCallback;
+
+    sget p1, Lcom/android/quickstep/AbsSwipeUpHandler;->STATE_PARALLEL_ANIM_FINISHED:I
+
+    invoke-virtual {p0, p1}, Lcom/android/quickstep/MultiStateCallback;->setStateOnUiThread(I)V
+
+    return-void
+.end method

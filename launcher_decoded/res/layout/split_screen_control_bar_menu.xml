@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="12.0dp" android:outlineSpotShadowColor="#14000000"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="16.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="112.0dp">
+        <TextView android:textSize="14.0sp" android:textColor="@color/divider_meun_item_title_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/full_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/oplus_split_full_screen" android:drawableLeft="@drawable/split_screen_full_icon" android:drawablePadding="4.0dp" android:lineSpacingExtra="0.0sp" />
+        <View android:background="@drawable/split_screen_menu_divider" android:layout_width="match_parent" android:layout_height="0.33000004dp" android:layout_marginTop="16.0dp" android:layout_marginBottom="16.0dp" />
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@id/iconList" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

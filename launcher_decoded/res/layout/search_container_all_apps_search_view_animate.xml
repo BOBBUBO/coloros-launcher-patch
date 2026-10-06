@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.launcher3.allapps.search.AllAppsSearchBar android:id="@id/search_box_input" android:layout_width="match_parent" android:layout_height="@dimen/all_apps_search_content_height" app:couiHideFunctionalButton="true" app:inputHintTextColor="@color/launcher_all_apps_search_view_text_color" app:normalHintColor="@color/all_app_search_input_hint_text_color" app:searchHint="@string/all_apps_search_bar_hint_domestic"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

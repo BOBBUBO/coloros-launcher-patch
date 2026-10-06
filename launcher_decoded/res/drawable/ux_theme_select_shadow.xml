@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/ux_theme_select_radius" />
+    <size android:height="@dimen/ux_theme_select_bg_size" android:width="@dimen/ux_theme_select_bg_size" />
+    <solid android:color="#ffffffff" />
+    <stroke android:width="@dimen/ux_theme_shadow_stroke" android:color="?couiColorPrimary" />
+</shape>

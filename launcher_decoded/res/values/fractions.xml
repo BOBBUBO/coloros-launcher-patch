@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="color_damping_gradients_area_fraction">28.999996%</fraction>
+    <fraction name="color_task_thumbnail_corner_radius_fraction">8.749998%</fraction>
+    <fraction name="config_one_handed_offset">39.999996%</fraction>
+    <fraction name="config_pipShortestEdgePercent">39.999996%</fraction>
+    <fraction name="landscape_icon_show_slop">33.299995%</fraction>
+    <fraction name="portrait_icon_show_slop">20.000004%</fraction>
+    <fraction name="rapid_reaction_background_scale">111.42883%</fraction>
+    <fraction name="rapid_reaction_window_clip_ratio">53.999996%</fraction>
+    <fraction name="rapid_reaction_window_portrait_scale">33.299995%</fraction>
+    <fraction name="rapid_reaction_window_scale_ratio">79.99999%</fraction>
+</resources>

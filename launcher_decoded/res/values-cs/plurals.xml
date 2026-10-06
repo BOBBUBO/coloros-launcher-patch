@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">před %d dnem</item>
+        <item quantity="few">před %d dny</item>
+        <item quantity="many">před %d dne</item>
+        <item quantity="other">před %d dny</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">před %d min</item>
+        <item quantity="few">před %d min</item>
+        <item quantity="many">před %d min</item>
+        <item quantity="other">před %d min</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">před %d rokem</item>
+        <item quantity="few">před %d lety</item>
+        <item quantity="many">před %d roku</item>
+        <item quantity="other">před %d lety</item>
+    </plurals>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">Nelze přidat více než %1$d stejný widget</item>
+        <item quantity="few">Nelze přidat více než %1$d stejné widgety</item>
+        <item quantity="many">Nelze přidat více než %1$d stejných widgetů</item>
+        <item quantity="other">Nelze přidat více než %1$d stejných widgetů</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">Strana %1$d / %2$d</item>
+        <item quantity="few">Strana %1$d / %2$d</item>
+        <item quantity="many">Strana %1$d / %2$d</item>
+        <item quantity="other">Strana %1$d / %2$d</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">Tato aplikace zmizí z domovské obrazovky, ale bude uchována v seznamu aplikací.</item>
+        <item quantity="few">Vybrané aplikace zmizí z domovské obrazovky, ale budou uchovány v seznamu aplikací.</item>
+        <item quantity="many">Vybrané aplikace zmizí z domovské obrazovky, ale budou uchovány v seznamu aplikací.</item>
+        <item quantity="other">Vybrané aplikace zmizí z domovské obrazovky, ale budou uchovány v seznamu aplikací.</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">Odstranit %d aplikaci?</item>
+        <item quantity="few">Odstranit %d aplikace?</item>
+        <item quantity="many">Odstranit %d aplikací?</item>
+        <item quantity="other">Odstranit %d aplikací?</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">Vybrané aplikace již nebudou na domovské obrazovce, ale v seznamu aplikací se zachovají. Vybrané zkratky budou odstraněny.</item>
+        <item quantity="few">Aplikace již nebudou na domovské obrazovce, ale v seznamu aplikací se zachovají. Zkratky budou odstraněny.</item>
+        <item quantity="many">Aplikace již nebudou na domovské obrazovce, ale v seznamu aplikací se zachovají. Zkratky budou odstraněny.</item>
+        <item quantity="other">Vybrané aplikace již nebudou na domovské obrazovce, ale v seznamu aplikací se zachovají. Vybrané zkratky budou odstraněny.</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">Odstranit %d vybranou aplikaci nebo zkratku?</item>
+        <item quantity="few">Odstranit %d vybrané aplikace nebo zkratky?</item>
+        <item quantity="many">Odstranit %d vybraných aplikací nebo zkratek?</item>
+        <item quantity="other">Odstranit %d vybraných aplikací nebo zkratek?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">Odstranit %1$d níže uvedenou zkratku?</item>
+        <item quantity="few">Odstranit %1$d níže uvedené zkratky?</item>
+        <item quantity="many">Odstranit %1$d níže uvedených zkratek?</item>
+        <item quantity="other">Odstranit %1$d níže uvedených zkratek?</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">Odstranit %1$d zkratku</item>
+        <item quantity="few">Odstranit %1$d zkratky</item>
+        <item quantity="many">Odstranit %1$d zkratek</item>
+        <item quantity="other">Odstranit zkratky (%1$d)</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+        <item quantity="other">%d nových oznámení</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">Vybráno: %1$d</item>
+        <item quantity="few">Vybrány %1$d položky</item>
+        <item quantity="many">Vybráno %1$d položek</item>
+        <item quantity="other">Vybráno: %1$d</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">%1$d den</item>
+        <item quantity="few">%1$d dny</item>
+        <item quantity="many">%1$d dní</item>
+        <item quantity="other">%1$d dní</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nových oznámení</item>
+        <item quantity="other">Nových oznámení: %d</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">%1$d sloupec</item>
+        <item quantity="few">%1$d sloupce</item>
+        <item quantity="many">%1$d sloupců</item>
+        <item quantity="other">%1$d sloupců</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">Odinstalovat %1$d níže uvedenou aplikaci?</item>
+        <item quantity="few">Odinstalovat %1$d níže uvedené aplikace?</item>
+        <item quantity="many">Odinstalovat %1$d níže uvedených aplikací?</item>
+        <item quantity="other">Odinstalovat %1$d níže uvedených aplikací?</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">Odinstalovat %1$d aplikaci (včetně klonu) a vymazat její data.</item>
+        <item quantity="few">Odinstalovat %1$d aplikace (včetně klonů) a vymazat jejich data.</item>
+        <item quantity="many">Odinstalovat %1$d aplikací (včetně klonů) a vymazat jejich data.</item>
+        <item quantity="other">Odinstalovat %1$d aplikací (včetně klonů) a vymazat jejich data.</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">Odinstalovat %1$d aplikaci a vymazat její data.</item>
+        <item quantity="few">Odinstalovat %1$d aplikace a vymazat jejich data.</item>
+        <item quantity="many">Odinstalovat %1$d aplikací a vymazat jejich data.</item>
+        <item quantity="other">Odinstalovat více aplikací (%1$d) a vymazat jejich data.</item>
+    </plurals>
+</resources>

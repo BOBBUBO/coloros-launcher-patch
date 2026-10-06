@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <!-- 每次推送时需要增加这个版本号才会有效 -->
+    <version>2024011020</version>
+    <isOpen>1</isOpen>
+    <filter-name>launcher_dynamic_breeno_indicator_entry_support_rus_list</filter-name>
+
+    <disable_dynamic_breeno_indicator_entry>0</disable_dynamic_breeno_indicator_entry>
+</filter-conf>

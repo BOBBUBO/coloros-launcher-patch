@@ -1,0 +1,64 @@
+.class public final synthetic Lcom/android/launcher3/y6;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/android/launcher3/QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner;
+
+.field public final synthetic b:I
+
+.field public final synthetic c:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+.field public final synthetic d:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+.field public final synthetic e:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+.field public final synthetic f:Lcom/android/launcher3/LauncherAnimationRunner$AnimationResult;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/android/launcher3/QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner;I[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;Lcom/android/launcher3/LauncherAnimationRunner$AnimationResult;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/android/launcher3/y6;->a:Lcom/android/launcher3/QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner;
+
+    iput p2, p0, Lcom/android/launcher3/y6;->b:I
+
+    iput-object p3, p0, Lcom/android/launcher3/y6;->c:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+    iput-object p4, p0, Lcom/android/launcher3/y6;->d:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+    iput-object p5, p0, Lcom/android/launcher3/y6;->e:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+    iput-object p6, p0, Lcom/android/launcher3/y6;->f:Lcom/android/launcher3/LauncherAnimationRunner$AnimationResult;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 6
+
+    iget-object v4, p0, Lcom/android/launcher3/y6;->e:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+    iget-object v5, p0, Lcom/android/launcher3/y6;->f:Lcom/android/launcher3/LauncherAnimationRunner$AnimationResult;
+
+    iget-object v0, p0, Lcom/android/launcher3/y6;->a:Lcom/android/launcher3/QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner;
+
+    iget v1, p0, Lcom/android/launcher3/y6;->b:I
+
+    iget-object v2, p0, Lcom/android/launcher3/y6;->c:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+    iget-object v3, p0, Lcom/android/launcher3/y6;->d:[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;
+
+    invoke-static/range {v0 .. v5}, Lcom/android/launcher3/QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner;->a(Lcom/android/launcher3/QuickstepTransitionManager$WallpaperOpenLauncherAnimationRunner;I[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;[Lcom/android/systemui/shared/system/RemoteAnimationTargetCompat;Lcom/android/launcher3/LauncherAnimationRunner$AnimationResult;)V
+
+    return-void
+.end method

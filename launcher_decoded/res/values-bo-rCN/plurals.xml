@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="card_drag_sufficient_tip_plurals">
+        <item quantity="one">ཅོག་ངོས་སུ་ཆེས་མང་ན་བྱང་བུ་གཅིག་འདྲ་ %1$d འཇོག་ཆོག</item>
+        <item quantity="other">ཅོག་ངོས་སུ་ཆེས་མང་ན་བྱང་བུ་གཅིག་འདྲ་ %1$d འཇོག་ཆོག</item>
+    </plurals>
+    <plurals name="coui_page_indicator_description">
+        <item quantity="one">ཤོག་ངོས་%1$d དང་ཁྱོན་ཤོག་ངོས་ %2$d ཡོད།</item>
+        <item quantity="other">ཤོག་ངོས་%1$d དང་ཁྱོན་ཤོག་ངོས་ %2$d ཡོད།</item>
+    </plurals>
+    <plurals name="delet_alert_popup_message">
+        <item quantity="one">ཉེར་སྤྱོད་ཅོག་ངོས་སུ་མི་འཆར་ལ། འཐེན་སྒམ་དུ་ཉར་འཇོག་བྱ་སྲིད།</item>
+        <item quantity="other">ཉེར་སྤྱོད་ཅོག་ངོས་སུ་མི་འཆར་ལ། འཐེན་སྒམ་དུ་ཉར་འཇོག་བྱ་སྲིད།</item>
+    </plurals>
+    <plurals name="delet_multi_alert_popup_title">
+        <item quantity="one">ཉེར་སྤྱོད་ %d སྤོ་འབུད་བྱ་དགོས་སམ།</item>
+        <item quantity="other">ཉེར་སྤྱོད་ %d སྤོ་འབུད་བྱ་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_message">
+        <item quantity="one">ཉེར་སྤྱོད་ཅོག་ངོས་སུ་མི་འཆར་ལ། འཐེན་སྒམ་དུ་ཉར་འཇོག་བྱེད་ཅིང་། མྱུར་སྟབས་བྱ་ཐབས་སྤོ་འབུད་བྱ་སྲིད།</item>
+        <item quantity="other">ཉེར་སྤྱོད་ཅོག་ངོས་སུ་མི་འཆར་ལ། འཐེན་སྒམ་དུ་ཉར་འཇོག་བྱེད་ཅིང་། མྱུར་སྟབས་བྱ་ཐབས་སྤོ་འབུད་བྱ་སྲིད།</item>
+    </plurals>
+    <plurals name="delet_multi_apps_and_deep_shortcuts_alert_popup_title">
+        <item quantity="one">གཤམ་གྱི་ཉེར་སྤྱོད་དང་མྱུར་སྟབས་བྱ་ཐབས་ %d སྤོ་འབུད་བྱ་དགོས་སམ།</item>
+        <item quantity="other">གཤམ་གྱི་ཉེར་སྤྱོད་དང་མྱུར་སྟབས་བྱ་ཐབས་ %d སྤོ་འབུད་བྱ་དགོས་སམ།</item>
+    </plurals>
+    <plurals name="delete_icon_panel_main_title_plurals">
+        <item quantity="one">གཤམ་གྱི་མྱུར་སྟབས་བྱ་ཐབས་ %1$d སྤོ་འབུད་བྱེད་དམ།</item>
+        <item quantity="other">གཤམ་གྱི་མྱུར་སྟབས་བྱ་ཐབས་ %1$d སྤོ་འབུད་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="delete_icon_panel_sub_title_plurals">
+        <item quantity="one">མྱུར་སྟབས་བྱ་ཐབས་ %1$d སྤོ་འབུད་བྱེད།</item>
+        <item quantity="other">མྱུར་སྟབས་བྱ་ཐབས་ %1$d སྤོ་འབུད་བྱེད།</item>
+    </plurals>
+    <plurals name="page_preview_title_plurals">
+        <item quantity="one">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+        <item quantity="other">རྣམ་གྲངས་ %1$d བདམས་ཟིན།</item>
+    </plurals>
+    <plurals name="powers_day">
+        <item quantity="one">ཉིན་ %1$d</item>
+        <item quantity="other">ཉིན་ %1$d</item>
+    </plurals>
+    <plurals name="red_dot_with_number_description">
+        <item quantity="one">བརྡ་ཐོ་གསར་བ་%dཡོད།</item>
+        <item quantity="other">བརྡ་ཐོ་གསར་བ་%dཡོད།</item>
+    </plurals>
+    <plurals name="toggle_bar_layout_dialog_rv_item_title">
+        <item quantity="one">ལྟ་བཀོད་གཞུང་བསྟར་%1$d །</item>
+        <item quantity="other">ལྟ་བཀོད་གཞུང་བསྟར་%1$d །</item>
+    </plurals>
+    <plurals name="uninstall_panel_apps_title_plurals">
+        <item quantity="one">གཤམ་གྱི་ཉེར་སྤྱོད་ %1$d བཤིག་ཕབ་བྱེད་དམ།</item>
+        <item quantity="other">གཤམ་གྱི་ཉེར་སྤྱོད་ %1$d བཤིག་ཕབ་བྱེད་དམ།</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_for_multi_app_plurals">
+        <item quantity="one">ཉེར་སྤྱོད་ (དང་དེའི་ཁག་བགོ) %1$d བཤིག་ཕབ་བྱེད། དུས་མཚུངས་སུ་གཞི་གྲངས་སྟོང་སེལ་བྱེད།</item>
+        <item quantity="other">ཉེར་སྤྱོད་ (དང་དེའི་ཁག་བགོ) %1$d བཤིག་ཕབ་བྱེད། དུས་མཚུངས་སུ་གཞི་གྲངས་སྟོང་སེལ་བྱེད།</item>
+    </plurals>
+    <plurals name="uninstall_panel_sub_title_plurals">
+        <item quantity="one">ཉེར་སྤྱོད་ %1$d བཤིག་ཕབ་བྱེད། དུས་མཚུངས་སུ་གཞི་གྲངས་སྟོང་སེལ་བྱེད།</item>
+        <item quantity="other">ཉེར་སྤྱོད་ %1$d བཤིག་ཕབ་བྱེད། དུས་མཚུངས་སུ་གཞི་གྲངས་སྟོང་སེལ་བྱེད།</item>
+    </plurals>
+</resources>
