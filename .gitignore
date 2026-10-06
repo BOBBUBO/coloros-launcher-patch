@@ -1,0 +1,44 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# apktool output
+launcher_decoded/build/
+launcher_decoded/*.apk
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+build.log
+
+# Download artifacts
+build-log-download/
+
+# Temporary files
+*.tmp
+*.temp

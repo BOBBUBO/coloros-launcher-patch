@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
-    <item android:state_pressed="true" android:color="?android:^attr-private/colorAccentPrimary" />
-    <item android:state_focused="true" android:color="?android:^attr-private/colorAccentPrimary" />
-    <item android:state_selected="true" android:color="?android:^attr-private/colorAccentPrimary" />
-    <item android:color="@android:color/materialColorOnTertiaryContainer" />
+    <item android:state_pressed="true" android:color="@color/design_default_color_AccentPrimary" />
+    <item android:state_focused="true" android:color="@color/design_default_color_AccentPrimary" />
+    <item android:state_selected="true" android:color="@color/design_default_color_AccentPrimary" />
+    <item android:color="@color/design_default_color_on_tertiaryContainer" />
 </selector>

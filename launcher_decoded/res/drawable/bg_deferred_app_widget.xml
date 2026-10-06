@@ -2,7 +2,7 @@
 <inset android:inset="8.0dp"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <shape android:shape="rectangle">
-        <corners android:radius="@android:dimen/system_app_widget_background_radius" />
+        <corners android:radius="@dimen/system_app_widget_background_radius" />
         <solid android:color="#77000000" />
     </shape>
 </inset>
