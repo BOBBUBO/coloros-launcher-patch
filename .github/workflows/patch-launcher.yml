@@ -49,17 +49,17 @@ jobs:
       - name: Build patched APK with apktool
         id: build
         run: |
-          cd launcher_decoded && apktool b . -o ../patched.apk 2>&1 | tee ../build.log
-          if [ ${PIPESTATUS[0]} -eq 0 ]; then
-            echo "✅ APK built successfully!"
+          cd launcher_decoded
+          if apktool b . -o ../patched.apk 2>&1 | tee ../build.log; then
             echo "BUILD_SUCCESS=true" >> $GITHUB_OUTPUT
+            echo "✅ APK built successfully!"
           else
+            echo "BUILD_SUCCESS=false" >> $GITHUB_OUTPUT
             echo "⚠️ Build had warnings/errors (expected for ColorOS system apps)"
             echo "The key fixes are applied in the source:"
             echo "  - sharedUserId removed from manifest"
             echo "  - Oplus service calls patched to safe defaults"
             echo "  - Private framework resources replaced with public equivalents"
-            echo "BUILD_SUCCESS=false" >> $GITHUB_OUTPUT
           fi
         working-directory: ${{ github.workspace }}
 
