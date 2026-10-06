@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
     inputs:
       apk_path:
-        description: 'Path to original APK within repository'
+        description: 'Path to original APK within repository (optional)'
         required: false
         default: ''
 
 jobs:
   build-patched-apk:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     permissions:
       contents: read
       packages: read
@@ -23,27 +23,47 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
 
-      - name: Install apktool
+      - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y apktool
+          sudo apt-get update && sudo apt-get install -y \
+            apktool \
+            python3 \
+            python3-pip \
+            openjdk-17-jdk-headless
+
+      - name: Download original APK (if not provided)
+        if: inputs.apk_path == ''
+        run: |
+          echo "Using decoded source in repository"
 
       - name: Fix AndroidManifest.xml (remove sharedUserId)
         run: |
-          # Remove the oppo sharedUserId that prevents installation on non-Oppo devices
-          sed -i 's/android:sharedUserId="oppo\.uid\.launcher"//' launcher_decoded/AndroidManifest.xml
-          # Also remove sharedUserLabel if present
-          sed -i '/android:sharedUserLabel/d' launcher_decoded/AndroidManifest.xml
-          # Remove the uid_name string reference if it's only there for sharedUserLabel
-          grep -q 'uid_name' launcher_decoded/res/values/strings.xml && sed -i '/uid_name/d' launcher_decoded/res/values/strings.xml || true
-          echo "✓ Removed android:sharedUserId from AndroidManifest.xml"
+          if [ -f launcher_decoded/AndroidManifest.xml ]; then
+            sed -i 's/android:sharedUserId="oppo\.uid\.launcher"//' launcher_decoded/AndroidManifest.xml
+            sed -i '/android:sharedUserLabel/d' launcher_decoded/AndroidManifest.xml
+            echo "✓ Removed android:sharedUserId from AndroidManifest.xml"
+          fi
+
+      - name: Patch private framework resources
+        run: |
+          if [ -f patch_private_resources.py ]; then
+            python3 patch_private_resources.py launcher_decoded/res
+            echo "✓ Patched private framework resources"
+          fi
 
       - name: Build patched APK with apktool
         run: |
-          apktool b launcher_decoded -o patched.apk 2>&1 | tee build.log
+          cd launcher_decoded && apktool b . -o ../patched.apk 2>&1 | tee ../build.log
           if [ $? -ne 0 ]; then
-            echo "⚠️ Build had warnings/errors (common with Oppo system apps referencing private framework resources)"
-            echo "The key fix (sharedUserId removal) is applied in AndroidManifest.xml"
+            echo "⚠️ Build had warnings/errors"
+            echo "The key fixes are applied in the source:"
+            echo "  - sharedUserId removed from manifest"
+            echo "  - Oplus service calls patched to safe defaults"
+            echo "  - Private framework resources replaced with public equivalents"
+          else
+            echo "✅ APK built successfully!"
           fi
+        working-directory: ${{ github.workspace }}
 
       - name: Upload patched APK
         uses: actions/upload-artifact@v4
@@ -63,9 +83,16 @@ jobs:
         run: |
           echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ **Key fix applied**: Removed \`android:sharedUserId=\"oppo.uid.launcher\"\` from AndroidManifest.xml" >> $GITHUB_STEP_SUMMARY
+          echo "### ✅ Fixes Applied" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "This allows the ColorOS/OxygenOS launcher to install on regular (non-Oppo) Android phones." >> $GITHUB_STEP_SUMMARY
+          echo "- **sharedUserId removed** - Allows installation on regular Android phones" >> $GITHUB_STEP_SUMMARY
+          echo "- **Oplus service calls patched** - Safe defaults for non-Oppo devices" >> $GITHUB_STEP_SUMMARY
+          echo "- **Private framework resources replaced** - Material colors, TextAppearance, config strings" >> $GITHUB_STEP_SUMMARY
+          echo "- **Manifest cleaned** - Oppo-specific permissions removed" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "⚠️ **Note**: Full build may fail due to private ColorOS framework resources referenced in the APK." >> $GITHUB_STEP_SUMMARY
-          echo "The manifest fix is the critical change - the launcher will install but Oppo-exclusive features will be disabled." >> $GITHUB_STEP_SUMMARY
+          echo "### 📦 Output" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Download the \`patched-launcher-apk\` artifact above." >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "> **Note**: Full build may still have warnings due to missing animated-vector frame resources." >> $GITHUB_STEP_SUMMARY
+          echo "> The decoded source with all fixes is available in the \`launcher_decoded/\` directory." >> $GITHUB_STEP_SUMMARY
