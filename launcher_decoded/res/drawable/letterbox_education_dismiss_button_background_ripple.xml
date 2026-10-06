@@ -15,7 +15,7 @@
         </item>
         <item>
             <shape android:shape="rectangle">
-                <solid android:color="@android:color/materialColorPaletteKeyColorNeutral" />
+                <solid android:color="@color/design_default_color_background" />
                 <corners android:radius="@dimen/letterbox_education_dialog_button_radius" />
                 <padding android:left="@dimen/letterbox_education_dialog_horizontal_padding" android:top="@dimen/letterbox_education_dialog_vertical_padding" android:right="@dimen/letterbox_education_dialog_horizontal_padding" android:bottom="@dimen/letterbox_education_dialog_vertical_padding" />
             </shape>

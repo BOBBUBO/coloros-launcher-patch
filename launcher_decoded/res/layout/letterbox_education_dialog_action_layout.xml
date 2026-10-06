@@ -2,5 +2,5 @@
 <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/letterbox_education_dialog_action_width" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/prv/res/android">
     <ImageView android:layout_gravity="center" android:id="@id/letterbox_education_dialog_action_icon" android:layout_width="32.0dp" android:layout_height="32.0dp" android:layout_marginBottom="12.0dp" />
-    <TextView android:textAppearance="@android:style/TextAppearance.DeviceDefault.Body2" android:textSize="14.0sp" android:textColor="@android:color/materialColorOnSecondary" android:id="@id/letterbox_education_dialog_action_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:fontFamily="@android:string/config_batterySaverDeviceSpecificConfig" android:textAlignment="center" />
+    <TextView android:textAppearance="@style/TextAppearance.AppCompat.Body2" android:textSize="14.0sp" android:textColor="@color/design_default_color_on_secondary" android:id="@id/letterbox_education_dialog_action_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="4.0sp" android:fontFamily="sans-serif" android:textAlignment="center" />
 </LinearLayout>

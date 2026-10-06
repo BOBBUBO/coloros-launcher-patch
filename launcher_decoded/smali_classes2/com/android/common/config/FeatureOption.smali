@@ -2913,14 +2913,8 @@
 
     sput-boolean v1, Lcom/android/common/config/FeatureOption;->isSupportAnimSpeedQuickDefault:Z
 
-    invoke-static {}, Lcom/oplus/multiapp/OplusMultiAppManager;->getInstance()Lcom/oplus/multiapp/OplusMultiAppManager;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Lcom/oplus/multiapp/OplusMultiAppManager;->isMultiAppSupport()Z
-
-    move-result v1
-
+    # Patched: OplusMultiAppManager not available on non-Oppo devices
+    const/4 v1, 0x0
     sput-boolean v1, Lcom/android/common/config/FeatureOption;->isSupportMultiApp:Z
 
     sget-boolean v1, Lcom/android/common/config/FeatureOption;->isExp:Z
@@ -2935,40 +2929,16 @@
 
     sput-boolean v1, Lcom/android/common/config/FeatureOption;->isSupportChangeStklableNew:Z
 
-    invoke-static {}, Lcom/oplus/content/OplusFeatureConfigManager;->getInstance()Lcom/oplus/content/OplusFeatureConfigManager;
-
-    move-result-object v1
-
-    const-string/jumbo v4, "oplus.software.pms_app_frozen"
-
-    invoke-virtual {v1, v4}, Lcom/oplus/content/OplusFeatureConfigManager;->hasFeature(Ljava/lang/String;)Z
-
-    move-result v1
-
+    # Patched: OplusFeatureConfigManager not available on non-Oppo devices
+    const/4 v1, 0x0
     sput-boolean v1, Lcom/android/common/config/FeatureOption;->isSupportFreezeApp:Z
 
-    invoke-static {}, Lcom/oplus/content/OplusFeatureConfigManager;->getInstance()Lcom/oplus/content/OplusFeatureConfigManager;
-
-    move-result-object v1
-
-    const-string/jumbo v4, "oplus.software.display.aod_support"
-
-    invoke-virtual {v1, v4}, Lcom/oplus/content/OplusFeatureConfigManager;->hasFeature(Ljava/lang/String;)Z
-
-    move-result v1
-
+    # Patched: OplusFeatureConfigManager not available on non-Oppo devices
+    const/4 v1, 0x0
     sput-boolean v1, Lcom/android/common/config/FeatureOption;->isSupportAod:Z
 
-    invoke-static {}, Lcom/oplus/content/OplusFeatureConfigManager;->getInstance()Lcom/oplus/content/OplusFeatureConfigManager;
-
-    move-result-object v1
-
-    const-string/jumbo v4, "oplus.software.pms_sellmode"
-
-    invoke-virtual {v1, v4}, Lcom/oplus/content/OplusFeatureConfigManager;->hasFeature(Ljava/lang/String;)Z
-
-    move-result v1
-
+    # Patched: OplusFeatureConfigManager not available on non-Oppo devices
+    const/4 v1, 0x0
     sput-boolean v1, Lcom/android/common/config/FeatureOption;->isSellMode:Z
 
     invoke-virtual {v3}, Lcom/android/common/util/AppFeatureUtils;->isAutoNameFolderDisabled()Z
@@ -3028,16 +2998,8 @@
 
     sput-boolean v5, Lcom/android/common/config/FeatureOption;->isSupportIconShimmer:Z
 
-    invoke-static {}, Lcom/oplus/content/OplusFeatureConfigManager;->getInstance()Lcom/oplus/content/OplusFeatureConfigManager;
-
-    move-result-object v4
-
-    const-string/jumbo v6, "oplus.software.vibrator_lmvibrator"
-
-    invoke-virtual {v4, v6}, Lcom/oplus/content/OplusFeatureConfigManager;->hasFeature(Ljava/lang/String;)Z
-
-    move-result v4
-
+    # Patched: OplusFeatureConfigManager not available on non-Oppo devices
+    const/4 v4, 0x0
     sput-boolean v4, Lcom/android/common/config/FeatureOption;->sIsLinearVibratorSupport:Z
 
     const-string/jumbo v4, "persist.sys.wallpaperanimation.enable"

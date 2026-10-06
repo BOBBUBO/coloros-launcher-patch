@@ -1845,7 +1845,7 @@
     <color name="layout_upgrade_guide_bg_color">#fafafa</color>
     <color name="layout_upgrade_guide_message_text_color">#8c000000</color>
     <color name="legacy_icon_background">#ffffff</color>
-    <color name="letterbox_dialog_background">@android:color/system_neutral1_900</color>
+    <color name="letterbox_dialog_background">#1F1B24</color>
     <color name="letterbox_education_text_secondary">#575e71</color>
     <color name="light_morph_bg">#f5f6f7</color>
     <color name="light_weight_os_launcher_deep_shortcut_bg_color">#f1f1f1</color>
@@ -1869,7 +1869,7 @@
     <color name="long_press_hot_area_color">#59007bff</color>
     <color name="m3_ref_palette_black">#ff000000</color>
     <color name="m3_ref_palette_dynamic_neutral0">@android:color/system_neutral1_1000</color>
-    <color name="m3_ref_palette_dynamic_neutral10">@android:color/system_neutral1_900</color>
+    <color name="m3_ref_palette_dynamic_neutral10">#1F1B24</color>
     <color name="m3_ref_palette_dynamic_neutral100">@android:color/system_neutral1_0</color>
     <color name="m3_ref_palette_dynamic_neutral20">@android:color/system_neutral1_800</color>
     <color name="m3_ref_palette_dynamic_neutral30">@android:color/system_neutral1_700</color>
@@ -2411,7 +2411,7 @@
     <color name="popup_color_neutral_dark">@android:color/system_neutral1_1000</color>
     <color name="popup_color_primary_dark">@android:color/system_neutral2_800</color>
     <color name="popup_color_primary_light">@android:color/system_accent2_50</color>
-    <color name="popup_color_secondary_dark">@android:color/system_neutral1_900</color>
+    <color name="popup_color_secondary_dark">#1F1B24</color>
     <color name="popup_color_secondary_light">@android:color/system_neutral2_100</color>
     <color name="popup_color_tertiary_dark">@android:color/system_neutral2_700</color>
     <color name="popup_color_tertiary_light">@android:color/system_neutral2_300</color>
@@ -2624,7 +2624,7 @@
     <color name="ux_text_black_alpha_55">#8c000000</color>
     <color name="ux_text_white">#ffffffff</color>
     <color name="ux_txt_black">#e6000000</color>
-    <color name="wallpaper_popup_scrim">@android:color/system_neutral1_900</color>
+    <color name="wallpaper_popup_scrim">#1F1B24</color>
     <color name="wallpaper_popup_scrim_overview">#ff000000</color>
     <color name="wallpaper_recommended_recycler_view_bg">#fff7f7f7</color>
     <color name="wallpaper_recommended_recycler_view_item_text_color">#ff000000</color>

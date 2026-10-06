@@ -3285,7 +3285,7 @@
     <style name="BaseIcon.Workspace.Taskbar" parent="@style/BaseIcon.Workspace">
         <item name="iconDisplay">taskbar</item>
     </style>
-    <style name="BaseIconRoot" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
+    <style name="BaseIconRoot" parent="@style/TextAppearance.AppCompat.Title" />
     <style name="BaseIconUnBounded" parent="@style/BaseIconRoot">
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:gravity">center_horizontal</item>
@@ -4978,7 +4978,7 @@
         <item name="android:layout_height">32.0dp</item>
     </style>
     <style name="DropTargetButton" parent="@style/DropTargetButtonBase" />
-    <style name="DropTargetButtonBase" parent="@android:style/TextAppearance.DeviceDefault">
+    <style name="DropTargetButtonBase" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/drop_target_text_size</item>
         <item name="android:textColor">@color/drop_target_text</item>
         <item name="android:ellipsize">end</item>
@@ -5000,7 +5000,7 @@
     <style name="EdgeToEdgeFloatingDialogWindowTheme">
         <item name="android:dialogTheme">@style/EdgeToEdgeFloatingDialogTheme</item>
     </style>
-    <style name="FastScrollerPopup" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle">
+    <style name="FastScrollerPopup" parent="@style/TextAppearance.AppCompat.Title">
         <item name="android:textSize">@dimen/fastscroll_popup_text_size</item>
         <item name="android:textColor">?android:textColorPrimaryInverse</item>
         <item name="android:gravity">center</item>
@@ -5107,7 +5107,7 @@
     <style name="HomeSettings.CategoryTitle" parent="@android:style/TextAppearance.Material.Body2">
         <item name="android:fontFamily">google-sans-text-medium</item>
     </style>
-    <style name="HomeSettings.CollapsedToolbarTitle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+    <style name="HomeSettings.CollapsedToolbarTitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textSize">20.0sp</item>
         <item name="android:fontFamily">google-sans</item>
     </style>
@@ -5988,7 +5988,7 @@
         <item name="drawable_color">@color/toggle_bar_apply_btn_enabled_color</item>
         <item name="drawable_radius">@dimen/press_feedback_button_radius</item>
     </style>
-    <style name="PrimaryHeadline" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
+    <style name="PrimaryHeadline" parent="@style/TextAppearance.AppCompat.Title" />
     <style name="RapidReaction.Text" parent="@android:style/TextAppearance.Material.Body1">
         <item name="android:textSize">@dimen/rapid_reaction_title_size</item>
         <item name="android:textColor">@color/rapid_reaction_title_icon_normal_color</item>
@@ -6874,7 +6874,7 @@
     <style name="TextAppearance.MaterialComponents.Tooltip" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="android:textColor">?colorOnPrimary</item>
     </style>
-    <style name="TextAppearance.TaskbarEdu.Title" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle">
+    <style name="TextAppearance.TaskbarEdu.Title" parent="@style/TextAppearance.AppCompat.Title">
         <item name="android:textSize">24.0sp</item>
         <item name="android:textColor">?android:textColorPrimary</item>
         <item name="android:gravity">center_horizontal</item>
@@ -6885,8 +6885,8 @@
     <style name="TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@style/Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" />
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" />
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title" />
-    <style name="TextHeadline" parent="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
-    <style name="TextTitle" parent="@android:style/TextAppearance.DeviceDefault" />
+    <style name="TextHeadline" parent="@style/TextAppearance.AppCompat.Title" />
+    <style name="TextTitle" parent="@style/TextAppearance.AppCompat" />
     <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
     <style name="Theme.AppCompat.CompactMenu" parent="@style/Base.Theme.AppCompat.CompactMenu" />
     <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat.Light" />
@@ -12135,4 +12135,15 @@
         <item name="android:tint">@color/ux_custom_shape_tint</item>
         <item name="android:forceDarkAllowed">false</item>
     </style>
+
+
+    <style name="LauncherSettingsTheme" parent="@style/LauncherTheme">
+        <item name="android:windowBackground">@color/background_material_light</item>
+    </style>
+
+    <style name="WallpaperChooserTheme" parent="@style/LauncherTheme">
+        <item name="android:windowBackground">@color/background_material_dark</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
 </resources>
