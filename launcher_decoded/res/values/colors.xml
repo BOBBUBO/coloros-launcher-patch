@@ -1868,9 +1868,8 @@
     <color name="lock_setting_notice">#4d000000</color>
     <color name="long_press_hot_area_color">#59007bff</color>
     <color name="m3_ref_palette_black">#ff000000</color>
-    <color name="m3_ref_palette_dynamic_neutral0">#B7B1C50</color>
+    <color name="m3_ref_palette_dynamic_neutral0">#FFB7B1C5</color>
     <color name="m3_ref_palette_dynamic_neutral10">#1F1B24</color>
-    <color name="m3_ref_palette_dynamic_neutral100">@color/design_default_color_neutral_0</color>
     <color name="m3_ref_palette_dynamic_neutral20">#2D2933</color>
     <color name="m3_ref_palette_dynamic_neutral30">#3E3A47</color>
     <color name="m3_ref_palette_dynamic_neutral40">#504C5B</color>
@@ -1880,7 +1879,6 @@
     <color name="m3_ref_palette_dynamic_neutral80">#A19BAE</color>
     <color name="m3_ref_palette_dynamic_neutral90">#B7B1C5</color>
     <color name="m3_ref_palette_dynamic_neutral95">#CEC8DC</color>
-    <color name="m3_ref_palette_dynamic_neutral99">@color/design_default_color_neutral_10</color>
     <color name="m3_ref_palette_dynamic_neutral_variant0">@android:color/system_neutral2_1000</color>
     <color name="m3_ref_palette_dynamic_neutral_variant10">@android:color/system_neutral2_900</color>
     <color name="m3_ref_palette_dynamic_neutral_variant100">@android:color/system_neutral2_0</color>
@@ -1894,9 +1892,8 @@
     <color name="m3_ref_palette_dynamic_neutral_variant90">@android:color/system_neutral2_100</color>
     <color name="m3_ref_palette_dynamic_neutral_variant95">@android:color/system_neutral2_50</color>
     <color name="m3_ref_palette_dynamic_neutral_variant99">@android:color/system_neutral2_10</color>
-    <color name="m3_ref_palette_dynamic_primary0">#F8BBD00</color>
+    <color name="m3_ref_palette_dynamic_primary0">#F8BBD000</color>
     <color name="m3_ref_palette_dynamic_primary10">#880E4F</color>
-    <color name="m3_ref_palette_dynamic_primary100">@color/design_default_color_accent_0</color>
     <color name="m3_ref_palette_dynamic_primary20">#AD1457</color>
     <color name="m3_ref_palette_dynamic_primary30">#C2185B</color>
     <color name="m3_ref_palette_dynamic_primary40">#D81B60</color>
@@ -1906,7 +1903,6 @@
     <color name="m3_ref_palette_dynamic_primary80">#F48FB1</color>
     <color name="m3_ref_palette_dynamic_primary90">#F8BBD0</color>
     <color name="m3_ref_palette_dynamic_primary95">#FCE4EC</color>
-    <color name="m3_ref_palette_dynamic_primary99">@color/design_default_color_accent_10</color>
     <color name="m3_ref_palette_dynamic_secondary0">@android:color/system_accent2_1000</color>
     <color name="m3_ref_palette_dynamic_secondary10">@android:color/system_accent2_900</color>
     <color name="m3_ref_palette_dynamic_secondary100">@android:color/system_accent2_0</color>
@@ -2408,7 +2404,7 @@
     <color name="popup_background_color">#ffffff</color>
     <color name="popup_blur_blend_color">#4d1c2634</color>
     <color name="popup_blur_scrim_color">#1affffff</color>
-    <color name="popup_color_neutral_dark">#B7B1C50</color>
+    <color name="popup_color_neutral_dark">#FFB7B1C5</color>
     <color name="popup_color_primary_dark">@android:color/system_neutral2_800</color>
     <color name="popup_color_primary_light">@android:color/system_accent2_50</color>
     <color name="popup_color_secondary_dark">#1F1B24</color>
@@ -2643,9 +2639,34 @@
     <color name="work_tab_unselected_text_color">#89000000</color>
     <color name="workspace_accent_color_dark">@android:color/system_accent2_600</color>
     <color name="workspace_accent_color_light">#F8BBD0</color>
-    <color name="workspace_text_color_dark">#B7B1C50</color>
-    <color name="workspace_text_color_light">@color/design_default_color_neutral_0</color>
+    <color name="workspace_text_color_dark">#FFB7B1C5</color>
     <color name="xiaobu_advice_button_bg_color">#8cffffff</color>
     <color name="xiaobu_advice_button_text_color">#2d40e9</color>
     <color name="xiaobu_advice_sub_title_text_color">#8c000000</color>
+
+    <!-- Added by patch script for missing design_default_color references -->
+
+
+    <!-- Added by patch script for missing design_default_color references -->
+
+
+    <!-- Added by patch script for missing design_default_color references -->
+    <color name="design_default_color_neutral_0">#FFB7B1C5</color>
+    <color name="design_default_color_neutral_10">#FFCEC8DC</color>
+    <color name="design_default_color_accent_0">#FF880E4F</color>
+    <color name="design_default_color_accent_10">#FFFCE4EC</color>
+
+
+    <!-- Added by patch script for missing m3_ref colors -->
+    <color name="m3_ref_palette_dynamic_neutral99">#FFB7B1C5</color>
+    <color name="m3_ref_palette_dynamic_primary100">#FF880E4F</color>
+    <color name="m3_ref_palette_dynamic_primary99">#FFFCE4EC</color>
+
+    <!-- workspace_text_color_light referenced in styles -->
+    <color name="workspace_text_color_light">#FFB7B1C5</color>
+
+
+    <!-- Added by patch script for missing m3_ref colors -->
+    <color name="m3_ref_palette_dynamic_neutral100">#FFB7B1C5</color>
+
 </resources>

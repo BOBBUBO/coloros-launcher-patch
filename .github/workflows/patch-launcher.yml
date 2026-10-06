@@ -31,11 +31,6 @@ jobs:
             python3-pip \
             openjdk-17-jdk-headless
 
-      - name: Download original APK (if not provided)
-        if: inputs.apk_path == ''
-        run: |
-          echo "Using decoded source in repository"
-
       - name: Fix AndroidManifest.xml (remove sharedUserId)
         run: |
           if [ -f launcher_decoded/AndroidManifest.xml ]; then
@@ -52,20 +47,24 @@ jobs:
           fi
 
       - name: Build patched APK with apktool
+        id: build
         run: |
           cd launcher_decoded && apktool b . -o ../patched.apk 2>&1 | tee ../build.log
-          if [ $? -ne 0 ]; then
-            echo "⚠️ Build had warnings/errors"
+          if [ ${PIPESTATUS[0]} -eq 0 ]; then
+            echo "✅ APK built successfully!"
+            echo "BUILD_SUCCESS=true" >> $GITHUB_OUTPUT
+          else
+            echo "⚠️ Build had warnings/errors (expected for ColorOS system apps)"
             echo "The key fixes are applied in the source:"
             echo "  - sharedUserId removed from manifest"
             echo "  - Oplus service calls patched to safe defaults"
             echo "  - Private framework resources replaced with public equivalents"
-          else
-            echo "✅ APK built successfully!"
+            echo "BUILD_SUCCESS=false" >> $GITHUB_OUTPUT
           fi
         working-directory: ${{ github.workspace }}
 
       - name: Upload patched APK
+        if: steps.build.outputs.BUILD_SUCCESS == 'true'
         uses: actions/upload-artifact@v4
         with:
           name: patched-launcher-apk
@@ -92,7 +91,13 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📦 Output" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Download the \`patched-launcher-apk\` artifact above." >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.build.outputs.BUILD_SUCCESS }}" == "true" ]; then
+            echo "✅ APK built successfully - download the \`patched-launcher-apk\` artifact above." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ APK build incomplete (missing ColorOS framework resources)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "The decoded source with all fixes is in \`launcher_decoded/\`." >> $GITHUB_STEP_SUMMARY
+            echo "Full build requires ColorOS framework SDK (~100 missing generated resources)." >> $GITHUB_STEP_SUMMARY
+          fi
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "> **Note**: Full build may still have warnings due to missing animated-vector frame resources." >> $GITHUB_STEP_SUMMARY
-          echo "> The decoded source with all fixes is available in the \`launcher_decoded/\` directory." >> $GITHUB_STEP_SUMMARY
+          echo "> **Note**: The critical fix (sharedUserId removal) allows installation on regular Android." >> $GITHUB_STEP_SUMMARY
