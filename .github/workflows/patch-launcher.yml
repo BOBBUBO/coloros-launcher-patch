@@ -50,12 +50,14 @@ jobs:
         id: build
         run: |
           cd launcher_decoded
-          if apktool b . -o ../patched.apk 2>&1 | tee ../build.log; then
+          apktool b . -o ../patched.apk 2>&1 | tee ../build.log
+          APKTOOL_EXIT=${PIPESTATUS[0]}
+          if [ $APKTOOL_EXIT -eq 0 ]; then
             echo "BUILD_SUCCESS=true" >> $GITHUB_OUTPUT
             echo "✅ APK built successfully!"
           else
             echo "BUILD_SUCCESS=false" >> $GITHUB_OUTPUT
-            echo "⚠️ Build had warnings/errors (expected for ColorOS system apps)"
+            echo "⚠️ Build failed with exit code $APKTOOL_EXIT (expected for ColorOS system apps)"
             echo "The key fixes are applied in the source:"
             echo "  - sharedUserId removed from manifest"
             echo "  - Oplus service calls patched to safe defaults"
