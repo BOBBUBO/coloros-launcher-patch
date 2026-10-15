@@ -1,3 +1,0 @@
-.class interface abstract synthetic Lorg/apache/commons/codec/net/package-info;
-.super Ljava/lang/Object;
-.source "SourceFile"
